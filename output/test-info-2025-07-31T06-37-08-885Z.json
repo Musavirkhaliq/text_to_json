@@ -1,0 +1,11 @@
+{
+  "title": "Brain Boost: From Paris to Photosynthesis!",
+  "description": "Test your knowledge on a mix of geography, science, and basic math! This quick quiz covers everything from capital cities to the wonders of plant life.  How many can you get right?",
+  "totalQuestions": 4,
+  "createdAt": "2025-07-31T06:37:08.885Z",
+  "questionTypes": {
+    "multiple_choice": 2,
+    "true_false": 1,
+    "essay": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Brain Boost: Test Your Trivia Smarts!",
+  "description": "Put your knowledge to the test with this quick quiz covering geography, science, and basic math!  From Parisian landmarks to plant processes, see how much you really know.",
+  "totalQuestions": 4,
+  "createdAt": "2025-07-31T06:22:21.111Z",
+  "questionTypes": {
+    "multiple_choice": 2,
+    "true_false": 1,
+    "essay": 1
+  }
+}

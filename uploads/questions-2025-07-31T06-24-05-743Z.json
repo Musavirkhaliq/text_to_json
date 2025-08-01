@@ -1,0 +1,482 @@
+[
+  {
+    "text": "Which of the following phyla has a closed circulatory system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Arthropods",
+        "isCorrect": false
+      },
+      {
+        "text": "Platyhelminthes",
+        "isCorrect": false
+      },
+      {
+        "text": "Annelids",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctenophora",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Annelids possess a closed circulatory system, meaning the blood is always contained within vessels.  Arthropods have an open circulatory system, while Platyhelminthes and Ctenophora lack a circulatory system altogether."
+  },
+  {
+    "text": "What is the characteristic arrangement of mouths and exits in sponges?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "One mouth, innumerable exits",
+        "isCorrect": true
+      },
+      {
+        "text": "Innumerable mouths, one exit",
+        "isCorrect": false
+      },
+      {
+        "text": "Large spacious stomach",
+        "isCorrect": false
+      },
+      {
+        "text": "Spicules are composed of chitin",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Sponges have numerous pores (ostia) for water intake and a single opening (osculum) for water expulsion. They lack a centralized mouth or stomach."
+  },
+  {
+    "text": "What is the name of the dried skeleton of the 'Venus flower basket'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Euplectella",
+        "isCorrect": true
+      },
+      {
+        "text": "Euspongia",
+        "isCorrect": false
+      },
+      {
+        "text": "Leucosolenia",
+        "isCorrect": false
+      },
+      {
+        "text": "Spongilla",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Euplectella is the scientific name for the Venus flower basket, a type of glass sponge known for its beautiful, siliceous skeleton."
+  },
+  {
+    "text": "Where are most poriferans found?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Mostly freshwater, but some are marine",
+        "isCorrect": false
+      },
+      {
+        "text": "Mostly marine, but some are freshwater",
+        "isCorrect": true
+      },
+      {
+        "text": "Exclusively freshwater",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusively marine",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The majority of sponges are marine organisms, although a small number of species inhabit freshwater environments."
+  },
+  {
+    "text": "Which of the following is NOT considered a multicellular organism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Vertebrates",
+        "isCorrect": false
+      },
+      {
+        "text": "Sponges",
+        "isCorrect": false
+      },
+      {
+        "text": "Prokaryotes",
+        "isCorrect": true
+      },
+      {
+        "text": "Coelenterates",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Prokaryotes are single-celled organisms lacking a membrane-bound nucleus and other organelles.  Vertebrates, sponges, and coelenterates are all multicellular."
+  },
+  {
+    "text": "What are the collared, flagellated cells that line the inner chambers of sponges?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Porocytes",
+        "isCorrect": false
+      },
+      {
+        "text": "Choanocytes",
+        "isCorrect": true
+      },
+      {
+        "text": "Amoebocytes",
+        "isCorrect": false
+      },
+      {
+        "text": "Pinacocytes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Choanocytes, also known as collar cells, are responsible for generating water currents and filtering food particles in sponges."
+  },
+  {
+    "text": "Which coelenterate is commonly known as the 'freshwater polyp'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Obelia",
+        "isCorrect": false
+      },
+      {
+        "text": "Physalia",
+        "isCorrect": false
+      },
+      {
+        "text": "Hydra",
+        "isCorrect": true
+      },
+      {
+        "text": "Aurelia",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Hydra is a genus of small, freshwater cnidarians that are commonly referred to as freshwater polyps."
+  },
+  {
+    "text": "What is another name for Gorgonia?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sea pen",
+        "isCorrect": false
+      },
+      {
+        "text": "Brain coral",
+        "isCorrect": false
+      },
+      {
+        "text": "Sea fan",
+        "isCorrect": true
+      },
+      {
+        "text": "Sea urchin",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Gorgonia is a genus of sea fans, a type of coral."
+  },
+  {
+    "text": "What is the pathway of water flow in a sponge?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Water vascular system",
+        "isCorrect": false
+      },
+      {
+        "text": "Canal system",
+        "isCorrect": true
+      },
+      {
+        "text": "Feeding current",
+        "isCorrect": false
+      },
+      {
+        "text": "Circulating current",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Sponges utilize a canal system for water flow, which includes ostia (incurrent pores), spongocoel (central cavity), and osculum (excurrent pore)."
+  },
+  {
+    "text": "Identify the correct arrangement of Sycon, Euspongia, and Spongilla.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sycon, Euspongia, Spongilla",
+        "isCorrect": true
+      },
+      {
+        "text": "Euspongia, Spongilla, Sycon",
+        "isCorrect": false
+      },
+      {
+        "text": "Spongilla, Sycon, Euspongia",
+        "isCorrect": false
+      },
+      {
+        "text": "Euspongia, Sycon, Spongilla",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "This question requires visual interpretation of a diagram (not provided here).  The correct answer depends on the specific images shown in (a), (b), and (c).  Assuming the correct order in the key is accurate, this is the explanation."
+  },
+  {
+    "text": "Which of the following exhibits a polyp body form and is sessile?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hydra",
+        "isCorrect": true
+      },
+      {
+        "text": "Adamsia",
+        "isCorrect": true
+      },
+      {
+        "text": "Aurelia",
+        "isCorrect": false
+      },
+      {
+        "text": "Both Hydra and Adamsia",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Both Hydra and Adamsia are polyps and are sessile (attached to a substrate)."
+  },
+  {
+    "text": "What is the function of the water pathway: Water → Ostia → Spongocoel → Osculum?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Food gathering",
+        "isCorrect": true
+      },
+      {
+        "text": "Respiratory exchange",
+        "isCorrect": true
+      },
+      {
+        "text": "Removal of waste",
+        "isCorrect": true
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "This water flow facilitates all three processes: filter feeding (food gathering), gas exchange (respiration), and waste removal."
+  },
+  {
+    "text": "What constitutes the skeletal support system in poriferans?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Spicules",
+        "isCorrect": false
+      },
+      {
+        "text": "Spongin fibers",
+        "isCorrect": false
+      },
+      {
+        "text": "Choanocytes",
+        "isCorrect": false
+      },
+      {
+        "text": "Both spicules and spongin fibers",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Sponges have a skeleton made up of either calcareous or siliceous spicules, spongin fibers, or a combination of both."
+  },
+  {
+    "text": "Which of the following statements accurately describes cnidoblasts/cnidocytes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "They are present on tentacles and the body",
+        "isCorrect": false
+      },
+      {
+        "text": "They are used for anchorage, defense, and prey capture",
+        "isCorrect": false
+      },
+      {
+        "text": "They contain stinging capsules or nematocysts",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Cnidocytes are specialized cells containing nematocysts used for defense, prey capture, and sometimes anchoring."
+  },
+  {
+    "text": "Which phylum is characterized by tissue-level organization, diploblastic nature, a calcium carbonate skeleton, and alternation of generations?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Cnidaria",
+        "isCorrect": true
+      },
+      {
+        "text": "Porifera",
+        "isCorrect": false
+      },
+      {
+        "text": "Platyhelminthes",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctenophora",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "These characteristics are all descriptive of the phylum Cnidaria (e.g., jellyfish, corals).  Note that not all Cnidarians have a calcium carbonate skeleton; this is true of some."
+  },
+  {
+    "text": "What is the characteristic feature of the gastrovascular cavity in the specified phylum?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctenophora",
+        "isCorrect": false
+      },
+      {
+        "text": "Coelenterata",
+        "isCorrect": true
+      },
+      {
+        "text": "Porifera",
+        "isCorrect": false
+      },
+      {
+        "text": "Both Ctenophora and Coelenterata",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Coelenterates (also known as Cnidarians) have a gastrovascular cavity with a single opening that serves as both mouth and anus."
+  },
+  {
+    "text": "Describe the process of digestion in sponges.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Extracellular",
+        "isCorrect": false
+      },
+      {
+        "text": "Intracellular",
+        "isCorrect": true
+      },
+      {
+        "text": "First extracellular then intracellular",
+        "isCorrect": false
+      },
+      {
+        "text": "First intracellular then extracellular",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Digestion in sponges occurs intracellularly within amoebocytes after phagocytosis of food particles."
+  },
+  {
+    "text": "What is the most appropriate term to describe Obelia's life cycle?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Metamorphosis",
+        "isCorrect": false
+      },
+      {
+        "text": "Neoteny",
+        "isCorrect": false
+      },
+      {
+        "text": "Metagenesis",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Obelia exhibits metagenesis, an alternation of generations between polyp and medusa forms."
+  },
+  {
+    "text": "What is another name for the Portuguese man of war?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Physalia",
+        "isCorrect": true
+      },
+      {
+        "text": "Adamsia",
+        "isCorrect": false
+      },
+      {
+        "text": "Pennatula",
+        "isCorrect": false
+      },
+      {
+        "text": "Gorgonia",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Physalia physalis is the scientific name for the Portuguese man of war."
+  },
+  {
+    "text": "What is the name of the central cavity in a sponge?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Spongocoel",
+        "isCorrect": true
+      },
+      {
+        "text": "Ostia",
+        "isCorrect": false
+      },
+      {
+        "text": "Osculum",
+        "isCorrect": false
+      },
+      {
+        "text": "Gastro-vascular cavity",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The spongocoel is the central cavity of a sponge where water flows through."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "title": "Dive into the Depths: A Sponge-tacular Invertebrate Quiz!",
+  "description": "Test your knowledge of fascinating invertebrates! This quiz covers the anatomy, physiology, and life cycles of sponges and cnidarians, exploring their unique characteristics and diverse forms.  From water flow in sponges to the life cycle of Obelia, get ready to explore the underwater world!",
+  "totalQuestions": 20,
+  "createdAt": "2025-07-31T06:24:05.743Z",
+  "questionTypes": {
+    "multiple_choice": 20
+  }
+}

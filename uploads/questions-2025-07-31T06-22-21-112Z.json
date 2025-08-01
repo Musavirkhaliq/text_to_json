@@ -1,0 +1,73 @@
+[
+  {
+    "text": "What is the capital city of France?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "London",
+        "isCorrect": false
+      },
+      {
+        "text": "Berlin",
+        "isCorrect": false
+      },
+      {
+        "text": "Paris",
+        "isCorrect": true
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Paris is the capital city of France.  It is a major European city known for its culture, history, and landmarks like the Eiffel Tower and the Louvre Museum."
+  },
+  {
+    "text": "The Earth is a sphere (round).",
+    "type": "true_false",
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": true
+      },
+      {
+        "text": "False",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The statement is true.  Extensive scientific evidence, including satellite imagery and observations of ships disappearing hull first over the horizon, proves that the Earth is a sphere (more accurately, an oblate spheroid)."
+  },
+  {
+    "text": "Explain the process of photosynthesis in plants.",
+    "type": "essay",
+    "options": [],
+    "points": 4,
+    "explanation": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll.  Chlorophyll absorbs light energy, which is then used to convert carbon dioxide and water into glucose (a sugar) and oxygen.  This process occurs in chloroplasts within plant cells. The overall equation is: 6CO2 + 6H2O + Light Energy → C6H12O6 + 6O2.  The glucose serves as food for the plant, providing energy for growth and other metabolic processes, while oxygen is released as a byproduct."
+  },
+  {
+    "text": "What is the sum of 2 and 2?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "2 + 2 = 4. This is a fundamental addition problem."
+  }
+]

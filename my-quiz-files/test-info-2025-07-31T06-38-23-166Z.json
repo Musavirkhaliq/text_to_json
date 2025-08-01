@@ -1,0 +1,11 @@
+{
+  "title": "Brain Blitz: Fact or Fiction?",
+  "description": "Test your knowledge with this quick quiz covering geography, science, and a dash of common sense! From capital cities to photosynthesis, can you separate fact from fiction?",
+  "totalQuestions": 4,
+  "createdAt": "2025-07-31T06:38:23.166Z",
+  "questionTypes": {
+    "multiple_choice": 2,
+    "true_false": 1,
+    "essay": 1
+  }
+}

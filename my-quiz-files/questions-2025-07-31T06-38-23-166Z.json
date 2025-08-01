@@ -1,0 +1,73 @@
+[
+  {
+    "text": "What is the capital city of France?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "London",
+        "isCorrect": false
+      },
+      {
+        "text": "Berlin",
+        "isCorrect": false
+      },
+      {
+        "text": "Paris",
+        "isCorrect": true
+      },
+      {
+        "text": "Madrid",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Paris is the capital city of France.  It is a major European center for culture, fashion, gastronomy, and art."
+  },
+  {
+    "text": "The Earth is flat.",
+    "type": "true_false",
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "This statement is false.  The Earth is an oblate spheroid; it is approximately spherical but slightly flattened at the poles and bulging at the equator."
+  },
+  {
+    "text": "Explain the concept of photosynthesis in plants.",
+    "type": "essay",
+    "options": [],
+    "points": 4,
+    "explanation": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll.  It involves the conversion of light energy into chemical energy in the form of glucose.  The process requires carbon dioxide, water, and light, producing glucose (a sugar) and oxygen as byproducts.  This glucose is used for energy and growth by the plant."
+  },
+  {
+    "text": "What is the sum of 2 and 2?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "2 + 2 = 4. This is a basic addition problem."
+  }
+]
