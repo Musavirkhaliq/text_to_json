@@ -1,11 +1,12 @@
 const fs = require('fs-extra');
 const path = require('path');
+const pdfParse = require('pdf-parse');
 const GeminiClient = require('./geminiClient');
 
 class QuestionProcessor {
     constructor() {
         this.geminiClient = new GeminiClient();
-        this.supportedFormats = ['.txt', '.md', '.json'];
+        this.supportedFormats = ['.txt', '.md', '.json', '.pdf'];
     }
 
     /**
@@ -21,20 +22,33 @@ class QuestionProcessor {
                 throw new Error(`Unsupported file format: ${fileExtension}. Supported formats: ${this.supportedFormats.join(', ')}`);
             }
 
-            // Read file content
-            const fileContent = await fs.readFile(filePath, 'utf8');
-            
+            // Read file content based on file type
+            let fileContent;
+            if (fileExtension === '.pdf') {
+                fileContent = await this.extractTextFromPDF(filePath);
+            } else {
+                fileContent = await fs.readFile(filePath, 'utf8');
+            }
+
             // Extract questions from content
             const questionsText = this.extractQuestions(fileContent, fileExtension);
-            
+
             if (!questionsText.trim()) {
                 throw new Error('No questions found in the file');
             }
 
             // Process questions with Gemini API
+            console.log('Sending questions to Gemini API...');
             const processedQuestions = await this.geminiClient.processQuestions(questionsText);
-            
+
+            if (!processedQuestions || !Array.isArray(processedQuestions) || processedQuestions.length === 0) {
+                throw new Error('No valid questions were processed by Gemini API');
+            }
+
+            console.log(`Successfully processed ${processedQuestions.length} questions`);
+
             // Generate title and description
+            console.log('Generating title and description...');
             const titleAndDescription = await this.geminiClient.generateTitleAndDescription(processedQuestions);
 
             // Keep questions clean without title/description in each question
@@ -90,6 +104,8 @@ class QuestionProcessor {
                 return this.extractFromText(content);
             case '.json':
                 return this.extractFromJSON(content);
+            case '.pdf':
+                return this.extractFromText(content); // PDF text is already extracted
             default:
                 return content;
         }
@@ -135,7 +151,7 @@ class QuestionProcessor {
     extractFromJSON(content) {
         try {
             const data = JSON.parse(content);
-            
+
             if (Array.isArray(data)) {
                 // Array of questions
                 return data.map((item, index) => {
@@ -221,6 +237,21 @@ class QuestionProcessor {
             errors,
             warnings
         };
+    }
+
+    /**
+     * Extract text from PDF file
+     * @param {string} pdfPath - Path to the PDF file
+     * @returns {Promise<string>} - Extracted text content
+     */
+    async extractTextFromPDF(pdfPath) {
+        try {
+            const dataBuffer = await fs.readFile(pdfPath);
+            const data = await pdfParse(dataBuffer);
+            return data.text;
+        } catch (error) {
+            throw new Error(`Failed to extract text from PDF: ${error.message}`);
+        }
     }
 }
 

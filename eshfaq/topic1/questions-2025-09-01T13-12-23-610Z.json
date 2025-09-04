@@ -1,0 +1,1202 @@
+[
+  {
+    "text": "What is the primary meaning of liberty?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Absolute control by the state",
+        "isCorrect": false
+      },
+      {
+        "text": "Freedom to act without constraints",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic equality among citizens",
+        "isCorrect": false
+      },
+      {
+        "text": "Enforced obedience to laws",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Liberty refers to the state of being free within society from oppressive restrictions imposed by authority on one's way of life, behavior, or political views. It emphasizes individual freedom to make choices, provided they do not harm others."
+  },
+  {
+    "text": "Which philosopher is most closely associated with the concept of 'negative liberty'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "John Locke",
+        "isCorrect": false
+      },
+      {
+        "text": "Isaiah Berlin",
+        "isCorrect": true
+      },
+      {
+        "text": "Karl Marx",
+        "isCorrect": false
+      },
+      {
+        "text": "Jean-Jacques Rousseau",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Isaiah Berlin distinguished between negative liberty (freedom from interference) and positive liberty (freedom to achieve one's potential). Negative liberty focuses on the absence of external constraints."
+  },
+  {
+    "text": "Which of the following best exemplifies positive liberty?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Freedom from government intervention",
+        "isCorrect": false
+      },
+      {
+        "text": "Freedom to participate in democratic processes",
+        "isCorrect": true
+      },
+      {
+        "text": "Freedom from economic exploitation",
+        "isCorrect": false
+      },
+      {
+        "text": "Freedom to disobey laws",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Positive liberty involves the ability to act upon one's free will, often through participation in self-governance or achieving personal development, such as through democratic engagement."
+  },
+  {
+    "text": "The concept of liberty is often in conflict with which of the following?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Authority",
+        "isCorrect": true
+      },
+      {
+        "text": "Justice",
+        "isCorrect": false
+      },
+      {
+        "text": "Rights",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Liberty emphasizes individual freedom, which can conflict with authority when the state imposes restrictions to maintain order or security, creating a tension between freedom and control."
+  },
+  {
+    "text": "Which document is a landmark in promoting individual liberty?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Magna Carta",
+        "isCorrect": true
+      },
+      {
+        "text": "Communist Manifesto",
+        "isCorrect": false
+      },
+      {
+        "text": "Social Contract",
+        "isCorrect": false
+      },
+      {
+        "text": "Wealth of Nations",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Magna Carta (1215) is a foundational document that limited the power of the monarchy and established certain individual liberties, such as the right to a fair trial."
+  },
+  {
+    "text": "Equality as a political concept primarily emphasizes:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Identical treatment of all individuals",
+        "isCorrect": false
+      },
+      {
+        "text": "Equal wealth distribution",
+        "isCorrect": false
+      },
+      {
+        "text": "Fair opportunities and treatment",
+        "isCorrect": true
+      },
+      {
+        "text": "Uniform laws for all",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Equality in political theory focuses on providing fair opportunities and treatment to all individuals, regardless of background, rather than identical outcomes or wealth."
+  },
+  {
+    "text": "Which type of equality ensures everyone has access to the same opportunities?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Political equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Social equality",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Equality of outcome",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Social equality ensures that individuals have equal access to opportunities, resources, and rights, eliminating barriers based on class, caste, or gender."
+  },
+  {
+    "text": "The principle of equality is most closely associated with which political ideology?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fascism",
+        "isCorrect": false
+      },
+      {
+        "text": "Liberalism",
+        "isCorrect": true
+      },
+      {
+        "text": "Anarchism",
+        "isCorrect": false
+      },
+      {
+        "text": "Monarchism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Liberalism advocates for equality before the law, equal rights, and equal opportunities, emphasizing fairness and justice in societal structures."
+  },
+  {
+    "text": "Which Indian constitutional article promotes equality before the law?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 14",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 32",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Article 14 of the Indian Constitution guarantees equality before the law and equal protection of the laws within the territory of India."
+  },
+  {
+    "text": "How does equality of outcome differ from equality of opportunity?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ensures everyone starts with the same resources",
+        "isCorrect": false
+      },
+      {
+        "text": "Guarantees the same end results for all",
+        "isCorrect": true
+      },
+      {
+        "text": "Focuses on legal protections",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminates social hierarchies",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Equality of outcome aims for identical results for all individuals, whereas equality of opportunity focuses on providing everyone with the same starting point."
+  },
+  {
+    "text": "Which philosopher's theory of justice emphasizes fairness through the 'veil of ignorance'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "John Rawls",
+        "isCorrect": true
+      },
+      {
+        "text": "Plato",
+        "isCorrect": false
+      },
+      {
+        "text": "Aristotle",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Hobbes",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "John Rawls’ \"A Theory of Justice\" introduces the veil of ignorance, where individuals design a just society without knowing their own position, ensuring fairness."
+  },
+  {
+    "text": "Distributive justice primarily deals with:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Punishment for crimes",
+        "isCorrect": false
+      },
+      {
+        "text": "Fair allocation of resources",
+        "isCorrect": true
+      },
+      {
+        "text": "Legal procedures",
+        "isCorrect": false
+      },
+      {
+        "text": "Political power distribution",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Distributive justice concerns the equitable distribution of resources, wealth, and opportunities among members of society."
+  },
+  {
+    "text": "Which type of justice focuses on correcting past wrongs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Retributive justice",
+        "isCorrect": false
+      },
+      {
+        "text": "Restorative justice",
+        "isCorrect": true
+      },
+      {
+        "text": "Distributive justice",
+        "isCorrect": false
+      },
+      {
+        "text": "Procedural justice",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Restorative justice seeks to repair harm caused by wrongdoing, often through reconciliation and restitution, rather than just punishment."
+  },
+  {
+    "text": "The Indian Constitution ensures justice through:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Preamble",
+        "isCorrect": false
+      },
+      {
+        "text": "Fundamental Rights",
+        "isCorrect": false
+      },
+      {
+        "text": "Directive Principles",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "The Preamble declares justice as a core objective, Fundamental Rights protect individual justice, and Directive Principles guide the state toward social and economic justice."
+  },
+  {
+    "text": "Which concept of justice emphasizes 'to each according to his needs'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Liberal justice",
+        "isCorrect": false
+      },
+      {
+        "text": "Marxist justice",
+        "isCorrect": true
+      },
+      {
+        "text": "Utilitarian justice",
+        "isCorrect": false
+      },
+      {
+        "text": "Libertarian justice",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Marxist justice, derived from Karl Marx’s philosophy, emphasizes distributing resources based on individual needs to achieve equality."
+  },
+  {
+    "text": "According to John Locke, which of the following is a natural right?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right to education",
+        "isCorrect": false
+      },
+      {
+        "text": "Right to property",
+        "isCorrect": true
+      },
+      {
+        "text": "Right to vote",
+        "isCorrect": false
+      },
+      {
+        "text": "Right to free healthcare",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "John Locke identified life, liberty, and property as natural rights inherent to individuals, independent of government."
+  },
+  {
+    "text": "In the Indian Constitution, Fundamental Rights are enshrined in:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Part III",
+        "isCorrect": true
+      },
+      {
+        "text": "Part IV",
+        "isCorrect": false
+      },
+      {
+        "text": "Part V",
+        "isCorrect": false
+      },
+      {
+        "text": "Part VI",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Part III of the Indian Constitution (Articles 12–35) outlines Fundamental Rights, such as the right to equality, freedom, and protection against exploitation."
+  },
+  {
+    "text": "Which right is considered inalienable?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right to vote",
+        "isCorrect": false
+      },
+      {
+        "text": "Right to life",
+        "isCorrect": true
+      },
+      {
+        "text": "Right to employment",
+        "isCorrect": false
+      },
+      {
+        "text": "Right to free education",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Inalienable rights, like the right to life, cannot be taken away or surrendered, as they are inherent to human existence."
+  },
+  {
+    "text": "In India, the right to freedom of speech is subject to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Absolute freedom",
+        "isCorrect": false
+      },
+      {
+        "text": "Reasonable restrictions",
+        "isCorrect": true
+      },
+      {
+        "text": "No restrictions",
+        "isCorrect": false
+      },
+      {
+        "text": "Judicial approval",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 19(2) of the Indian Constitution allows reasonable restrictions on freedom of speech for reasons like public order, decency, or national security."
+  },
+  {
+    "text": "Which international document outlines universal human rights?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Geneva Convention",
+        "isCorrect": false
+      },
+      {
+        "text": "Universal Declaration of Human Rights",
+        "isCorrect": true
+      },
+      {
+        "text": "Kyoto Protocol",
+        "isCorrect": false
+      },
+      {
+        "text": "Paris Agreement",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Universal Declaration of Human Rights (1948) by the United Nations outlines fundamental human rights to be universally protected."
+  },
+  {
+    "text": "Democracy is best defined as a system where:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Power is concentrated in one leader",
+        "isCorrect": false
+      },
+      {
+        "text": "People participate in governance",
+        "isCorrect": true
+      },
+      {
+        "text": "Military controls the state",
+        "isCorrect": false
+      },
+      {
+        "text": "Wealth determines rule",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Democracy is derived from the Greek words \"demos\" (people) and \"kratos\" (rule), meaning rule by the people, typically through elected representatives."
+  },
+  {
+    "text": "Which form of democracy involves direct citizen participation in decision-making?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Representative democracy",
+        "isCorrect": false
+      },
+      {
+        "text": "Direct democracy",
+        "isCorrect": true
+      },
+      {
+        "text": "Constitutional democracy",
+        "isCorrect": false
+      },
+      {
+        "text": "Parliamentary democracy",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Direct democracy allows citizens to directly vote on laws and policies, as seen in ancient Athens or modern referendums."
+  },
+  {
+    "text": "What type of democracy is India?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Direct democracy",
+        "isCorrect": false
+      },
+      {
+        "text": "Representative democracy",
+        "isCorrect": true
+      },
+      {
+        "text": "Monarchical democracy",
+        "isCorrect": false
+      },
+      {
+        "text": "Theocratic democracy",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "India operates as a representative democracy, where citizens elect representatives to make decisions on their behalf."
+  },
+  {
+    "text": "Which of the following is a key feature of democracy?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Censorship of media",
+        "isCorrect": false
+      },
+      {
+        "text": "Free and fair elections",
+        "isCorrect": true
+      },
+      {
+        "text": "Single-party rule",
+        "isCorrect": false
+      },
+      {
+        "text": "Suppression of dissent",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Free and fair elections are a cornerstone of democracy, ensuring that citizens can choose their leaders without coercion."
+  },
+  {
+    "text": "The concept of democracy is most closely associated with which philosopher?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Plato",
+        "isCorrect": false
+      },
+      {
+        "text": "John Stuart Mill",
+        "isCorrect": true
+      },
+      {
+        "text": "Karl Marx",
+        "isCorrect": false
+      },
+      {
+        "text": "Thomas Hobbes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "John Stuart Mill advocated for representative democracy and individual liberties, emphasizing the importance of public participation and freedom."
+  },
+  {
+    "text": "In political science, power is best defined as:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The ability to influence others’ behavior",
+        "isCorrect": true
+      },
+      {
+        "text": "Physical strength of the state",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic wealth of a nation",
+        "isCorrect": false
+      },
+      {
+        "text": "Moral authority of leaders",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Power is the capacity to affect others’ actions or decisions, whether through coercion, persuasion, or authority."
+  },
+  {
+    "text": "Which type of power is exercised through consent and respect?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Coercive power",
+        "isCorrect": false
+      },
+      {
+        "text": "Legitimate power",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic power",
+        "isCorrect": false
+      },
+      {
+        "text": "Military power",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Legitimate power is derived from the belief that the authority is rightful, such as in a democratically elected government."
+  },
+  {
+    "text": "How many types of authority did Max Weber classify?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Two",
+        "isCorrect": false
+      },
+      {
+        "text": "Three",
+        "isCorrect": true
+      },
+      {
+        "text": "Four",
+        "isCorrect": false
+      },
+      {
+        "text": "Five",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Max Weber identified three types of authority: traditional, charismatic, and rational-legal, each based on different sources of legitimacy."
+  },
+  {
+    "text": "Which of the following is an example of coercive power?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A teacher inspiring students",
+        "isCorrect": false
+      },
+      {
+        "text": "A government enforcing laws",
+        "isCorrect": true
+      },
+      {
+        "text": "A leader gaining trust",
+        "isCorrect": false
+      },
+      {
+        "text": "A charity raising funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Coercive power involves the use of force or threats to compel compliance, such as a government enforcing laws through penalties."
+  },
+  {
+    "text": "Who introduced the concept of 'soft power'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Joseph Nye",
+        "isCorrect": true
+      },
+      {
+        "text": "Karl Marx",
+        "isCorrect": false
+      },
+      {
+        "text": "Niccolò Machiavelli",
+        "isCorrect": false
+      },
+      {
+        "text": "John Locke",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Joseph Nye coined the term \"soft power\" to describe the ability to influence others through attraction and persuasion, rather than coercion."
+  },
+  {
+    "text": "Citizenship primarily refers to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Membership in a political community",
+        "isCorrect": true
+      },
+      {
+        "text": "Ownership of property",
+        "isCorrect": false
+      },
+      {
+        "text": "Participation in economic activities",
+        "isCorrect": false
+      },
+      {
+        "text": "Adherence to cultural norms",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Citizenship denotes membership in a political community, entailing rights, duties, and responsibilities within a state."
+  },
+  {
+    "text": "Which article of the Indian Constitution deals with citizenship?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 5–11",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 12–18",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 19–22",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 23–30",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Articles 5 to 11 of the Indian Constitution outline provisions related to citizenship, including acquisition and termination."
+  },
+  {
+    "text": "Which of the following is a duty of Indian citizens?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paying taxes",
+        "isCorrect": true
+      },
+      {
+        "text": "Voting in elections",
+        "isCorrect": false
+      },
+      {
+        "text": "Attending public rallies",
+        "isCorrect": false
+      },
+      {
+        "text": "Joining political parties",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Paying taxes is a legal duty of citizens to contribute to the state’s functioning, as outlined in various laws."
+  },
+  {
+    "text": "The concept of global citizenship emphasizes:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Loyalty to one’s nation",
+        "isCorrect": false
+      },
+      {
+        "text": "Responsibility toward global issues",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic self-sufficiency",
+        "isCorrect": false
+      },
+      {
+        "text": "Cultural isolation",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Global citizenship involves recognizing one’s role in addressing global challenges, such as climate change or human rights, beyond national boundaries."
+  },
+  {
+    "text": "Which philosopher emphasized active citizenship through participation?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Aristotle",
+        "isCorrect": true
+      },
+      {
+        "text": "Thomas Hobbes",
+        "isCorrect": false
+      },
+      {
+        "text": "Karl Marx",
+        "isCorrect": false
+      },
+      {
+        "text": "Friedrich Nietzsche",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Aristotle viewed citizens as active participants in the governance of the polis, emphasizing civic engagement and public deliberation."
+  },
+  {
+    "text": "Nationalism is best defined as:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Loyalty to one’s religion",
+        "isCorrect": false
+      },
+      {
+        "text": "Devotion to one’s nation and its interests",
+        "isCorrect": true
+      },
+      {
+        "text": "Support for global unity",
+        "isCorrect": false
+      },
+      {
+        "text": "Promotion of individual liberty",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Nationalism is a political ideology that emphasizes loyalty, devotion, and pride in one’s nation, often prioritizing its interests above others."
+  },
+  {
+    "text": "Which of the following is a characteristic of nationalism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Cultural diversity",
+        "isCorrect": false
+      },
+      {
+        "text": "Shared identity and culture",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Universal human rights",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Nationalism often revolves around a shared sense of identity, culture, language, or history that unites a group of people as a nation."
+  },
+  {
+    "text": "Who is considered the father of Indian nationalism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Mahatma Gandhi",
+        "isCorrect": false
+      },
+      {
+        "text": "Bal Gangadhar Tilak",
+        "isCorrect": true
+      },
+      {
+        "text": "Raja Ram Mohan Roy",
+        "isCorrect": false
+      },
+      {
+        "text": "Jawaharlal Nehru",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Bal Gangadhar Tilak is often regarded as the father of Indian nationalism for his role in mobilizing mass movements and promoting \"Swaraj\" (self-rule)."
+  },
+  {
+    "text": "Which event significantly boosted Indian nationalism in the early 20th century?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Partition of Bengal (1905)",
+        "isCorrect": false
+      },
+      {
+        "text": "Jallianwala Bagh Massacre (1919)",
+        "isCorrect": false
+      },
+      {
+        "text": "Non-Cooperation Movement (1920)",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "These events galvanized Indian nationalism by highlighting British oppression and uniting people in the struggle for independence."
+  },
+  {
+    "text": "How does civic nationalism differ from ethnic nationalism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Shared culture and ethnicity",
+        "isCorrect": false
+      },
+      {
+        "text": "Common political values and citizenship",
+        "isCorrect": true
+      },
+      {
+        "text": "Religious unity",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic prosperity",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Civic nationalism is based on shared political values, citizenship, and loyalty to the state, rather than ethnicity or culture."
+  },
+  {
+    "text": "Which concept links liberty and justice?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Rights",
+        "isCorrect": true
+      },
+      {
+        "text": "Power",
+        "isCorrect": false
+      },
+      {
+        "text": "Democracy",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Rights bridge liberty (freedom to act) and justice (fair treatment), as they ensure individuals have freedoms that are protected equitably."
+  },
+  {
+    "text": "The concept of equality is most essential to which system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Monarchy",
+        "isCorrect": false
+      },
+      {
+        "text": "Democracy",
+        "isCorrect": true
+      },
+      {
+        "text": "Oligarchy",
+        "isCorrect": false
+      },
+      {
+        "text": "Theocracy",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Democracy relies on equality to ensure all citizens have an equal voice in governance, typically through equal voting rights."
+  },
+  {
+    "text": "In a democracy, which of the following ensures both liberty and equality?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rule of law",
+        "isCorrect": true
+      },
+      {
+        "text": "Military rule",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic control",
+        "isCorrect": false
+      },
+      {
+        "text": "Religious authority",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The rule of law ensures that everyone is subject to the same laws, protecting both individual liberty and equality before the law."
+  },
+  {
+    "text": "In a democracy, power is primarily derived from:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Wealth",
+        "isCorrect": false
+      },
+      {
+        "text": "Military strength",
+        "isCorrect": false
+      },
+      {
+        "text": "Consent of the governed",
+        "isCorrect": true
+      },
+      {
+        "text": "Religious authority",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "In a democracy, power is legitimate when it comes from the consent of the people, typically through elections."
+  },
+  {
+    "text": "Which concept is most closely tied to the duties of citizenship?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Liberty",
+        "isCorrect": false
+      },
+      {
+        "text": "Justice",
+        "isCorrect": false
+      },
+      {
+        "text": "Responsibility",
+        "isCorrect": true
+      },
+      {
+        "text": "Equality",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Citizenship involves responsibilities, such as obeying laws and participating in civic duties, alongside enjoying rights."
+  },
+  {
+    "text": "Nationalism can sometimes conflict with which concept?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Liberty",
+        "isCorrect": false
+      },
+      {
+        "text": "Global citizenship",
+        "isCorrect": true
+      },
+      {
+        "text": "Power",
+        "isCorrect": false
+      },
+      {
+        "text": "Justice",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Nationalism prioritizes national identity and interests, which can conflict with the global citizenship focus on universal responsibility and cooperation."
+  },
+  {
+    "text": "In a democracy, the concept of justice ensures:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Absolute freedom",
+        "isCorrect": false
+      },
+      {
+        "text": "Fair treatment under the law",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic prosperity",
+        "isCorrect": false
+      },
+      {
+        "text": "Military dominance",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Justice in a democracy ensures that all citizens are treated fairly and equitably under the legal system."
+  },
+  {
+    "text": "Which of the following is a feature of liberal democracy?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Single-party rule",
+        "isCorrect": false
+      },
+      {
+        "text": "Protection of individual rights",
+        "isCorrect": true
+      },
+      {
+        "text": "Centralized power",
+        "isCorrect": false
+      },
+      {
+        "text": "Suppression of dissent",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Liberal democracy combines democratic governance with the protection of individual rights and liberties."
+  },
+  {
+    "text": "The right to vote is an example of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Natural right",
+        "isCorrect": false
+      },
+      {
+        "text": "Legal right",
+        "isCorrect": true
+      },
+      {
+        "text": "Moral right",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic right",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The right to vote is a legal right granted by the state, typically enshrined in a constitution or law, rather than an inherent natural right."
+  },
+  {
+    "text": "Which concept is essential for balancing liberty and power in a state?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Justice",
+        "isCorrect": true
+      },
+      {
+        "text": "Equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Nationalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Citizenship",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Justice ensures that power is exercised fairly and that liberty is protected without allowing unchecked authority, maintaining a balance in governance."
+  }
+]

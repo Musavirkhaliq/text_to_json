@@ -1,0 +1,482 @@
+[
+  {
+    "text": "What type of fertilization does Porifera exhibit?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Internal",
+        "isCorrect": true
+      },
+      {
+        "text": "External",
+        "isCorrect": false
+      },
+      {
+        "text": "Both internal and external",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Porifera, or sponges, primarily exhibit internal fertilization.  Sperm is released into the water and taken up by the sponge, where fertilization occurs within the sponge's body."
+  },
+  {
+    "text": "Which of the following statements about sponges is FALSE?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sponges are hermaphroditic.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fertilization is internal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Development is direct.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sponges are primitive multicellular animals.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While sponges are hermaphroditic and have internal fertilization, their development is indirect, involving a larval stage."
+  },
+  {
+    "text": "To which phylum do corals belong?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Porifera",
+        "isCorrect": false
+      },
+      {
+        "text": "Cnidaria",
+        "isCorrect": true
+      },
+      {
+        "text": "Mollusca",
+        "isCorrect": false
+      },
+      {
+        "text": "Echinodermata",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Corals belong to the phylum Cnidaria, which also includes jellyfish, sea anemones, and hydroids."
+  },
+  {
+    "text": "Which of the following animals is radially symmetrical and diploblastic?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ascaris (roundworm)",
+        "isCorrect": false
+      },
+      {
+        "text": "Earthworm",
+        "isCorrect": false
+      },
+      {
+        "text": "Liver Fluke",
+        "isCorrect": false
+      },
+      {
+        "text": "Hydra",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Hydra is radially symmetrical and has two germ layers (ectoderm and endoderm), making it diploblastic.  The other options are either bilaterally symmetrical or triploblastic."
+  },
+  {
+    "text": "What is the scientific name for Brain coral?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Obelia",
+        "isCorrect": false
+      },
+      {
+        "text": "Physalia",
+        "isCorrect": false
+      },
+      {
+        "text": "Eupectella",
+        "isCorrect": false
+      },
+      {
+        "text": "Meandrina",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Meandrina is the genus that includes brain corals."
+  },
+  {
+    "text": "What is the exoskeleton of corals like Meandrina (Brain Coral) composed of?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Silica",
+        "isCorrect": false
+      },
+      {
+        "text": "Calcium carbonate (CaCO3)",
+        "isCorrect": true
+      },
+      {
+        "text": "Chitin",
+        "isCorrect": false
+      },
+      {
+        "text": "Protein",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Coral exoskeletons are primarily composed of calcium carbonate, a hard, durable material that contributes to the structure of coral reefs."
+  },
+  {
+    "text": "Which of the following is a coelenterate (cnidarian)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sea cow",
+        "isCorrect": false
+      },
+      {
+        "text": "Sea cucumber",
+        "isCorrect": false
+      },
+      {
+        "text": "Sea fan",
+        "isCorrect": true
+      },
+      {
+        "text": "Sea horse",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Sea fans are cnidarians belonging to the class Anthozoa.  The other options belong to different phyla."
+  },
+  {
+    "text": "Cnidocytes are characteristic features of which phylum?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Cnidaria",
+        "isCorrect": false
+      },
+      {
+        "text": "Coelenterata (synonym for Cnidaria)",
+        "isCorrect": false
+      },
+      {
+        "text": "Porifera",
+        "isCorrect": false
+      },
+      {
+        "text": "Both Cnidaria and Coelenterata",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Cnidocytes, stinging cells, are unique to the phylum Cnidaria (also known as Coelenterata)."
+  },
+  {
+    "text": "Describe the type of digestion in Adamsia (sea anemone).",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Intracellular",
+        "isCorrect": false
+      },
+      {
+        "text": "Extracellular",
+        "isCorrect": false
+      },
+      {
+        "text": "Both intracellular and extracellular",
+        "isCorrect": true
+      },
+      {
+        "text": "Digestive system is absent",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Sea anemones utilize both intracellular and extracellular digestion.  Extracellular digestion occurs in the gastrovascular cavity, while intracellular digestion occurs within cells."
+  },
+  {
+    "text": "Which statement regarding Phylum Cnidarians is incorrect?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Cnidarians exhibit two basic body forms: polyp and medusa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Polyps produce medusa sexually, and medusae form polyps asexually.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cnidoblast cells aid in defense.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pennatula is also known as Sea pen.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The incorrect statement is that polyps produce medusae sexually and medusae form polyps asexually.  The process is often the reverse; polyps reproduce asexually to produce medusae, and medusae reproduce sexually to produce polyps."
+  },
+  {
+    "text": "What are the functions of cnidoblasts?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Anchorage and defense",
+        "isCorrect": false
+      },
+      {
+        "text": "Anchorage, defense, and reproduction",
+        "isCorrect": false
+      },
+      {
+        "text": "Anchorage, defense, reproduction, and prey capture",
+        "isCorrect": false
+      },
+      {
+        "text": "Anchorage, defense, and prey capture",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Cnidoblasts are primarily used for anchorage, defense, and capturing prey.  Reproduction is not a direct function of cnidoblasts."
+  },
+  {
+    "text": "How many of the following statements about polyps and medusae are incorrect?\nI. Polyp is sessile and cylindrical.\nII. Medusa is free-swimming and umbrella-shaped.\nIII. Medusae are produced sexually by polyps.\nIV. Polyps are produced asexually by medusae.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "One",
+        "isCorrect": false
+      },
+      {
+        "text": "Two",
+        "isCorrect": true
+      },
+      {
+        "text": "Three",
+        "isCorrect": false
+      },
+      {
+        "text": "Four",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Statements III and IV are incorrect.  Polyps usually reproduce asexually to produce medusae, and medusae reproduce sexually to produce polyps."
+  },
+  {
+    "text": "Provide an example of an animal from the phylum Ctenophora.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Physalia",
+        "isCorrect": false
+      },
+      {
+        "text": "Adamsia",
+        "isCorrect": false
+      },
+      {
+        "text": "Pennatula",
+        "isCorrect": false
+      },
+      {
+        "text": "Pleurobrachia",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Pleurobrachia is a common example of a comb jelly, belonging to the phylum Ctenophora."
+  },
+  {
+    "text": "How many rows of cilia are present in comb jellies?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Comb jellies possess eight rows of cilia, which are used for locomotion."
+  },
+  {
+    "text": "What type of symmetry do ctenophores exhibit?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Radial symmetry",
+        "isCorrect": true
+      },
+      {
+        "text": "Bilateral symmetry",
+        "isCorrect": false
+      },
+      {
+        "text": "Biradial symmetry",
+        "isCorrect": false
+      },
+      {
+        "text": "Asymmetry",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Ctenophores exhibit radial symmetry, although it can be modified to biradial in some species."
+  },
+  {
+    "text": "Bioluminescence is a characteristic of which phylum?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Porifera",
+        "isCorrect": false
+      },
+      {
+        "text": "Echinodermata",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctenophora",
+        "isCorrect": true
+      },
+      {
+        "text": "Annelida",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Many ctenophores exhibit bioluminescence, the production and emission of light."
+  },
+  {
+    "text": "Identify the animal shown in the image.  (Image would be provided in the original context)",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sycon",
+        "isCorrect": false
+      },
+      {
+        "text": "Aurelia",
+        "isCorrect": false
+      },
+      {
+        "text": "Pleurobrachia",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The correct answer depends on the image.  This example assumes the image shows a comb jelly (Pleurobrachia)."
+  },
+  {
+    "text": "Ctenoplana is an example of which phylum?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Platyhelminthes",
+        "isCorrect": false
+      },
+      {
+        "text": "Nematoda (Aschelminthes)",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctenophora",
+        "isCorrect": true
+      },
+      {
+        "text": "Cnidaria (Coelenterata)",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Ctenoplana is a genus of ctenophores."
+  },
+  {
+    "text": "Which statements about the phylum Ctenophora are true?\nA: Sexes are separate.\nB: Fertilization is external.\nC: Development is indirect.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "All statements are correct.",
+        "isCorrect": false
+      },
+      {
+        "text": "Only statement A is incorrect.",
+        "isCorrect": true
+      },
+      {
+        "text": "Statements B and C are incorrect.",
+        "isCorrect": false
+      },
+      {
+        "text": "Only statement B is correct.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "While most ctenophores have separate sexes and external fertilization, their development is direct, not indirect.  Therefore, only statement A (sexes are separate) is true."
+  },
+  {
+    "text": "What characteristics does Ctenoplana possess?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "External fertilization",
+        "isCorrect": false
+      },
+      {
+        "text": "Indirect development",
+        "isCorrect": false
+      },
+      {
+        "text": "Both external fertilization and indirect development",
+        "isCorrect": true
+      },
+      {
+        "text": "Hypostome",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctenoplana exhibits external fertilization and indirect development."
+  }
+]

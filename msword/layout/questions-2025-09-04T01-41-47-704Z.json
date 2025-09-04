@@ -1,0 +1,1250 @@
+[
+  {
+    "text": "In Microsoft Word, which margin option under the Layout tab allows for alternating left and right margins, typically used in book binding?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Normal",
+        "isCorrect": false
+      },
+      {
+        "text": "Narrow",
+        "isCorrect": false
+      },
+      {
+        "text": "Mirrored",
+        "isCorrect": true
+      },
+      {
+        "text": "Moderate",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Mirrored\" margin option automatically adjusts the left and right margins on each page to accommodate the binding, ensuring consistent text placement relative to the spine."
+  },
+  {
+    "text": "When customizing margins in the Page Setup dialog (accessed via Layout > Custom Margins), which setting applies changes only to the currently selected section?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Whole document",
+        "isCorrect": false
+      },
+      {
+        "text": "This section",
+        "isCorrect": true
+      },
+      {
+        "text": "From this point forward",
+        "isCorrect": false
+      },
+      {
+        "text": "This point forward only",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Selecting \"This section\" ensures that margin changes are confined to the specific section where the edits are made, leaving other sections unaffected."
+  },
+  {
+    "text": "In a multi-section Word document, if no specific section is selected when changing margins via the Layout tab, which part of the document is affected?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The entire document",
+        "isCorrect": false
+      },
+      {
+        "text": "Only the current page",
+        "isCorrect": false
+      },
+      {
+        "text": "The current section",
+        "isCorrect": true
+      },
+      {
+        "text": "All sections after the current one",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "By default, margin changes from the Layout tab apply only to the currently selected section in a multi-section document. This allows for granular control over page formatting."
+  },
+  {
+    "text": "What is the effect of selecting \"Mirrored\" margins from the Layout tab's Margins drop-down and then adjusting the inside margin in a double-sided document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It sets equal left and right margins.",
+        "isCorrect": false
+      },
+      {
+        "text": "It alternates left/right margins to create binding space.",
+        "isCorrect": true
+      },
+      {
+        "text": "It applies only to odd pages.",
+        "isCorrect": false
+      },
+      {
+        "text": "It ignores orientation settings.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Mirrored margins automatically create space for binding by alternating wider left and right margins on facing pages, crucial for double-sided printing."
+  },
+  {
+    "text": "In a sectioned Word document, changing the page orientation from Portrait to Landscape in the Layout tab affects which part of the document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "All pages in the document",
+        "isCorrect": false
+      },
+      {
+        "text": "Only the current section",
+        "isCorrect": true
+      },
+      {
+        "text": "Pages after the cursor",
+        "isCorrect": false
+      },
+      {
+        "text": "Only the selected text",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Orientation changes made through the Layout tab are localized to the currently selected section, preserving the formatting of other sections."
+  },
+  {
+    "text": "After inserting a section break, how do you ensure that an orientation change (made via the Layout tab) applies only from that point forward?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Page Setup > Apply to > This section",
+        "isCorrect": true
+      },
+      {
+        "text": "Orientation > Custom",
+        "isCorrect": false
+      },
+      {
+        "text": "Breaks > Continuous",
+        "isCorrect": false
+      },
+      {
+        "text": "Page Setup > Apply to > Whole document",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The \"Apply to\" setting within the Page Setup dialog allows precise control over the scope of formatting changes, ensuring that the orientation change is applied only to the current section and those following it."
+  },
+  {
+    "text": "Selecting Landscape orientation in the Layout tab for a page with many tables might cause problems with:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Line numbering continuity",
+        "isCorrect": false
+      },
+      {
+        "text": "Existing column layouts resetting",
+        "isCorrect": false
+      },
+      {
+        "text": "Header/footer alignment across sections",
+        "isCorrect": true
+      },
+      {
+        "text": "Paragraph indents",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Changing orientation can disrupt the layout of headers and footers, especially across section breaks, requiring potential adjustments to maintain alignment and visual consistency."
+  },
+  {
+    "text": "In a document with mixed content, changing the paper size from Letter to A4 in the Layout tab is most likely to affect:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only font sizes",
+        "isCorrect": false
+      },
+      {
+        "text": "Page breaks and content reflow",
+        "isCorrect": true
+      },
+      {
+        "text": "Color profiles",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyphenation rules",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Altering the paper size directly impacts the physical space available on each page, resulting in adjustments to page breaks and a potential reflow of content to fit the new dimensions."
+  },
+  {
+    "text": "Where in the Page Setup dialog (accessed from Layout > Size > More Paper Sizes) can you define custom paper dimensions for envelopes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paper tab > Width and Height",
+        "isCorrect": true
+      },
+      {
+        "text": "Margins tab > Custom",
+        "isCorrect": false
+      },
+      {
+        "text": "Layout tab > Headers",
+        "isCorrect": false
+      },
+      {
+        "text": "Print tab > Scale",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The \"Paper\" tab in the Page Setup dialog provides fields for specifying custom paper width and height, allowing for precise sizing of envelopes and other non-standard paper types."
+  },
+  {
+    "text": "If a document is set to Legal size in the Layout tab but is being printed on Letter-sized paper, how can users prevent content overflow?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Change the orientation to match.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjust the scaling in the Print dialog.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reduce the number of columns to one.",
+        "isCorrect": false
+      },
+      {
+        "text": "Turn off line numbers.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Scaling options within the Print dialog allow you to reduce the document's size to fit the available Letter-sized paper, preventing content from being cut off."
+  },
+  {
+    "text": "The \"More Columns\" dialog (accessed via the Layout tab's Columns drop-down) allows setting unequal column widths, which is particularly useful for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Newspaper-style layouts",
+        "isCorrect": true
+      },
+      {
+        "text": "Standard reports",
+        "isCorrect": false
+      },
+      {
+        "text": "Single-column resets",
+        "isCorrect": false
+      },
+      {
+        "text": "Page orientation changes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Unequal column widths are a defining characteristic of newspaper layouts, where columns have varying widths to accommodate different content elements (e.g., headlines, articles, ads)."
+  },
+  {
+    "text": "When using two columns in a Word section (via the Layout tab), continuous text flow is interrupted by:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A column break",
+        "isCorrect": true
+      },
+      {
+        "text": "Line numbering",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyphenation",
+        "isCorrect": false
+      },
+      {
+        "text": "Paragraph spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A column break explicitly forces text to move to the next column, interrupting the continuous flow. Other options do not inherently stop the flow."
+  },
+  {
+    "text": "In the Columns dialog (from the Layout tab), checking \"Line between\" adds:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A vertical rule between columns",
+        "isCorrect": true
+      },
+      {
+        "text": "Horizontal lines at breaks",
+        "isCorrect": false
+      },
+      {
+        "text": "Numbering to columns",
+        "isCorrect": false
+      },
+      {
+        "text": "Indents to text",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Line between\" option inserts a visual separator, a vertical line, between the columns, improving readability and organization."
+  },
+  {
+    "text": "If a document has three columns but you want a title to span all three, the best approach is to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert continuous section breaks before and after the title.",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert a column break after the title.",
+        "isCorrect": false
+      },
+      {
+        "text": "Create a single-column section for the title.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the \"Wrap text\" feature around the title.",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "Creating a separate section with a single column for the title ensures it spans the entire page width, neatly managing the three-column layout for the rest of the content."
+  },
+  {
+    "text": "When inserting a picture into a columnar document, what adjustments might be needed to maintain balanced columns?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Adjusting text wrapping to balance columns",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjusting line numbers per column",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjusting hyphenation for even flow",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 4,
+    "explanation": "Pictures can disrupt column balance.  Text wrapping needs to be set appropriately, line numbers might need adjustment to prevent disruption, and hyphenation might be necessary for even text distribution."
+  },
+  {
+    "text": "In the Layout tab's Breaks menu, a \"Next Page\" section break is used to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Start a new page with the possibility of format changes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Continue text without a page change.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reset line numbers only.",
+        "isCorrect": false
+      },
+      {
+        "text": "Add columns mid-page.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A \"Next Page\" break forces a new page and allows for changes in page formatting without affecting preceding content. It's distinct from other types of breaks."
+  },
+  {
+    "text": "An \"Even Page\" section break (Layout tab) ensures the next section begins on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The next even-numbered page.",
+        "isCorrect": true
+      },
+      {
+        "text": "The immediate next page.",
+        "isCorrect": false
+      },
+      {
+        "text": "An odd-numbered page only.",
+        "isCorrect": false
+      },
+      {
+        "text": "The same page if space allows.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "This break forces the start of the next section on an even-numbered page, useful for double-sided documents where sections should begin on the right-hand page."
+  },
+  {
+    "text": "To prevent a heading from appearing alone at the bottom of a page (an orphan), you should use:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A page break before the heading.",
+        "isCorrect": false
+      },
+      {
+        "text": "\"Keep with next\" in the Paragraph dialog.",
+        "isCorrect": true
+      },
+      {
+        "text": "A column break.",
+        "isCorrect": false
+      },
+      {
+        "text": "A continuous break.",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "The \"Keep with next\" option in the paragraph settings links the heading to the following paragraph, preventing them from being separated across pages."
+  },
+  {
+    "text": "The \"Text Wrapping\" break in the Layout tab's Breaks menu is specifically for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Web documents to wrap text around objects.",
+        "isCorrect": true
+      },
+      {
+        "text": "Tables spanning pages.",
+        "isCorrect": false
+      },
+      {
+        "text": "Forcing text to a new line without a paragraph break.",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML export.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "This break is designed for web layouts, allowing text to flow around images or other objects.  It's not a general-purpose text flow control."
+  },
+  {
+    "text": "Combining a \"Continuous\" section break with columns allows for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Changing columns mid-page without starting a new page.",
+        "isCorrect": false
+      },
+      {
+        "text": "Changing orientation mid-page.",
+        "isCorrect": false
+      },
+      {
+        "text": "Changing margins on the same page.",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "points": 4,
+    "explanation": "A continuous section break allows for seamless transitions between different layout settings (columns, orientation, margins) within a single page."
+  },
+  {
+    "text": "In the Layout tab's Line Numbers drop-down, \"Restart Each Section\" is most useful for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Legal documents with chapters.",
+        "isCorrect": true
+      },
+      {
+        "text": "Continuous novels.",
+        "isCorrect": false
+      },
+      {
+        "text": "Single-page memos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Web layouts.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Restarting line numbers at each section provides clear numbering within each chapter or section of a document, improving readability and organization."
+  },
+  {
+    "text": "Accessing Line Numbering Options in the Layout tab opens the Page Setup dialog.  What can you control there?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Starting number and increment.",
+        "isCorrect": false
+      },
+      {
+        "text": "Distance from text.",
+        "isCorrect": false
+      },
+      {
+        "text": "Count by (e.g., every 5 lines).",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "The Page Setup dialog provides comprehensive control over line numbering, allowing customization of starting number, increment, alignment, and more."
+  },
+  {
+    "text": "To suppress line numbers for a single paragraph, use:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select the paragraph and choose \"Suppress for Current Paragraph\".",
+        "isCorrect": true
+      },
+      {
+        "text": "Use Hyphenation instead.",
+        "isCorrect": false
+      },
+      {
+        "text": "Indent the paragraph.",
+        "isCorrect": false
+      },
+      {
+        "text": "Wrap text around it.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "\"Suppress for Current Paragraph\" allows precise control over line numbering, selectively excluding specific portions of text."
+  },
+  {
+    "text": "Setting Hyphenation to Automatic in the Layout tab helps with:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Justified text ragged edges.",
+        "isCorrect": true
+      },
+      {
+        "text": "Line breaks at word ends.",
+        "isCorrect": false
+      },
+      {
+        "text": "Column balancing.",
+        "isCorrect": false
+      },
+      {
+        "text": "Paragraph spacing.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Automatic hyphenation helps improve the appearance of justified text by reducing gaps and uneven spacing at the ends of lines."
+  },
+  {
+    "text": "In the Hyphenation Options dialog (accessed from the Layout tab), the \"Hyphenation zone\" controls:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Area at the line end considered for hyphenation.",
+        "isCorrect": false
+      },
+      {
+        "text": "Number of consecutive hyphens allowed.",
+        "isCorrect": false
+      },
+      {
+        "text": "Capitalized word hyphenation.",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "points": 4,
+    "explanation": "The hyphenation zone, along with other settings, allows fine-tuning of hyphenation to achieve the desired balance between even line lengths and visual appeal."
+  },
+  {
+    "text": "Manual Hyphenation in the Layout tab allows users to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert hyphens at specific points within words.",
+        "isCorrect": true
+      },
+      {
+        "text": "Auto-apply hyphenation to a selected range.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reset all hyphens in a document.",
+        "isCorrect": false
+      },
+      {
+        "text": "Change margins.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Manual hyphenation gives you granular control over where hyphens are placed, letting you override automatic suggestions for better visual balance."
+  },
+  {
+    "text": "In the Paragraph group of the Layout tab, increasing the Left Indent affects:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The paragraph's left margin relative to the page.",
+        "isCorrect": true
+      },
+      {
+        "text": "Only the first line of the paragraph.",
+        "isCorrect": false
+      },
+      {
+        "text": "The right-side spacing of the paragraph.",
+        "isCorrect": false
+      },
+      {
+        "text": "The line numbers of the paragraph.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Left Indent setting controls the overall indentation of the entire paragraph from the left edge of the page."
+  },
+  {
+    "text": "In the Paragraph dialog (from the Layout tab), the \"Hanging\" indent is used for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Bulleted lists or bibliographies.",
+        "isCorrect": true
+      },
+      {
+        "text": "Block quotes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Indenting only the first line.",
+        "isCorrect": false
+      },
+      {
+        "text": "Creating mirrored margins.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A hanging indent indents all lines except the first, creating the typical format of a bulleted or numbered list."
+  },
+  {
+    "text": "Setting the Right Indent in the Layout tab's Paragraph group is useful for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Creating narrow text blocks.",
+        "isCorrect": false
+      },
+      {
+        "text": "Making fine adjustments to justified alignment.",
+        "isCorrect": false
+      },
+      {
+        "text": "Formatting quotes.",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Right indent, in combination with other settings, offers flexibility for controlling text block width, refining justified text, and formatting quotes."
+  },
+  {
+    "text": "In the Paragraph dialog, the \"Mirror indents\" checkbox (when using mirrored margins) swaps:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Left and right indents to inside and outside.",
+        "isCorrect": true
+      },
+      {
+        "text": "Spacing to indents.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alignment to justification.",
+        "isCorrect": false
+      },
+      {
+        "text": "Breaks to indents.",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "With mirrored margins, this option ensures consistent indentation relative to the binding, adjusting indents to match the inside and outside margins."
+  },
+  {
+    "text": "How do you create a first-line indent in a paragraph without affecting the rest of the text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paragraph dialog > Special > First line",
+        "isCorrect": true
+      },
+      {
+        "text": "Left Indent textbox",
+        "isCorrect": false
+      },
+      {
+        "text": "Spacing Before",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyphenation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Paragraph dialog > Special > First line' option allows you to indent only the first line of a paragraph, leaving the rest unaffected.  Other options affect the entire paragraph's indentation or other formatting aspects."
+  },
+  {
+    "text": "Where does 'Spacing Before' in the Paragraph group of the Layout tab add space?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Above the paragraph",
+        "isCorrect": true
+      },
+      {
+        "text": "Below the paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "Between lines within the paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "In columns",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Spacing Before' adds space *above* the selected paragraph, providing visual separation from the preceding content."
+  },
+  {
+    "text": "In advanced formatting, how do you prevent extra gaps between paragraphs of the same style?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Set Spacing After to 0 and use \"Don't add space between paragraphs of the same style\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Use a different style for each paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjust line spacing within the paragraphs",
+        "isCorrect": false
+      },
+      {
+        "text": "Increase the spacing before each paragraph",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Setting 'Spacing After' to 0 and activating \"Don't add space between paragraphs of the same style\" prevents unnecessary space between consecutive paragraphs formatted with the same style. This is particularly useful for eliminating extra space in lists."
+  },
+  {
+    "text": "What is the purpose of setting Line spacing to \"Exactly\" in the Paragraph dialog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Precise control over line spacing, often needed in legal documents",
+        "isCorrect": true
+      },
+      {
+        "text": "Automatic adjustment of line spacing based on content",
+        "isCorrect": false
+      },
+      {
+        "text": "Setting line spacing as a multiple of single spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Ensuring at least the minimum line spacing is maintained",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "\"Exactly\" allows you to specify the precise amount of space between lines, providing fine-grained control over the document's appearance, crucial for applications like legal documents where precise formatting is essential."
+  },
+  {
+    "text": "Which Paragraph dialog option ensures paragraphs stay together across pages?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Keep lines together",
+        "isCorrect": false
+      },
+      {
+        "text": "Widow/Orphan control",
+        "isCorrect": false
+      },
+      {
+        "text": "Keep with next",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "All three options ('Keep lines together', 'Widow/Orphan control', and 'Keep with next') within the Line and Page Breaks tab of the Paragraph dialog contribute to keeping paragraphs together across page breaks.  Each addresses different aspects of line and paragraph breaks."
+  },
+  {
+    "text": "How can combining 'Spacing After' with columns in the Layout tab be helpful?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Balance column heights",
+        "isCorrect": false
+      },
+      {
+        "text": "Add gaps between sections or columns for better readability",
+        "isCorrect": true
+      },
+      {
+        "text": "Affect text wrapping within columns",
+        "isCorrect": false
+      },
+      {
+        "text": "Change page orientation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Using 'Spacing After' with columns allows you to insert space between sections, which enhances visual organization and readability by separating distinct parts of the document presented across multiple columns."
+  },
+  {
+    "text": "In the Arrange group of the Layout tab, what does the Position drop-down for an image control?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sets the absolute position of the image relative to the page or margins",
+        "isCorrect": true
+      },
+      {
+        "text": "Restricts the image to inline placement only",
+        "isCorrect": false
+      },
+      {
+        "text": "Sets the rotation angle of the image",
+        "isCorrect": false
+      },
+      {
+        "text": "Determines the image's group membership",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Position drop-down allows for precise control over the placement of an image by specifying its absolute coordinates relative to the page's margins or the surrounding content, unlike the other options that deal with different image properties."
+  },
+  {
+    "text": "In the Layout Options dialog, what does the \"Move object with text\" checkbox control?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Determines whether the object moves when the surrounding text is edited",
+        "isCorrect": true
+      },
+      {
+        "text": "Controls the text wrapping style around the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Determines the object's layering order",
+        "isCorrect": false
+      },
+      {
+        "text": "Affects the alignment grid for the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Move object with text\" checkbox determines whether an object's position updates automatically when surrounding text is added, deleted, or modified. This is crucial for maintaining visual consistency in dynamic content."
+  },
+  {
+    "text": "Selecting \"In Front of Text\" in the Position options affects what?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The object's z-order and how it overlaps with text",
+        "isCorrect": true
+      },
+      {
+        "text": "The object's inline placement",
+        "isCorrect": false
+      },
+      {
+        "text": "Page breaks around the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Indents around the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Choosing \"In Front of Text\" controls the layering (z-order) of the object, ensuring it appears on top of any overlapping text. This determines which elements are visible in areas of overlap."
+  },
+  {
+    "text": "How can you achieve precise positioning of an object?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Using Position > More Layout Options to set horizontal and vertical absolute values",
+        "isCorrect": false
+      },
+      {
+        "text": "Positioning relative to a column or paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "Locking the object's anchor point",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Precise positioning requires a combination of setting absolute horizontal/vertical coordinates, relative positioning options, and anchor point locking for the greatest control and flexibility."
+  },
+  {
+    "text": "When is the \"Tight\" Wrap Text option most suitable?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "For irregular shapes such as logos",
+        "isCorrect": true
+      },
+      {
+        "text": "Only for square boxes",
+        "isCorrect": false
+      },
+      {
+        "text": "For tables",
+        "isCorrect": false
+      },
+      {
+        "text": "For headers",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "\"Tight\" wrapping follows the exact contours of an object, making it ideal for irregular shapes like logos or complex graphics where precise text flow around the object is necessary."
+  },
+  {
+    "text": "What does \"Edit Wrap Points\" in advanced wrapping allow?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Customizing the contour for text flow around an object",
+        "isCorrect": true
+      },
+      {
+        "text": "Changing the object's color",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjusting the object's size",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotating the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "\"Edit Wrap Points\" enables manual adjustment of the text wrapping path, providing fine-grained control over how text flows around an object, especially complex shapes."
+  },
+  {
+    "text": "How does \"Through\" Wrap Text differ from \"Tight\" Wrap Text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It allows text to flow through transparent areas of the object",
+        "isCorrect": true
+      },
+      {
+        "text": "It places the text behind the object",
+        "isCorrect": false
+      },
+      {
+        "text": "It only works with inline objects",
+        "isCorrect": false
+      },
+      {
+        "text": "There is no difference",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "\"Through\" wrapping allows text to flow through transparent portions of an object, unlike \"Tight\" which only wraps around the object's opaque areas.  This is useful for objects with transparency."
+  },
+  {
+    "text": "What does the \"Top and Bottom\" Wrap Text option prevent?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Text from flowing beside the object",
+        "isCorrect": true
+      },
+      {
+        "text": "Text from overlapping the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotation of the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Grouping of the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "\"Top and Bottom\" wrapping restricts text flow to above and below the object, preventing text from appearing to the sides, which can be useful for maintaining a clear visual separation."
+  },
+  {
+    "text": "What does the 'Bring Forward' command in the Arrange group do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Moves the selected object one layer forward in the stacking order",
+        "isCorrect": true
+      },
+      {
+        "text": "Sends the object to the back",
+        "isCorrect": false
+      },
+      {
+        "text": "Moves the object horizontally",
+        "isCorrect": false
+      },
+      {
+        "text": "Moves the object to the page margin",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Bring Forward' increases the z-index of the selected object, moving it one layer in front of other overlapping objects."
+  },
+  {
+    "text": "What does the 'Send to Back' command in the Send Backward drop-down do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Moves the object behind all other objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Moves the object one layer backward",
+        "isCorrect": false
+      },
+      {
+        "text": "Moves the object to the front",
+        "isCorrect": false
+      },
+      {
+        "text": "Groups the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Send to Back' sets the object's z-index to the lowest value, placing it behind all other objects on the page."
+  },
+  {
+    "text": "For overlapping shapes, what do the 'Bring Forward'/'Send Backward' commands help manage?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The stacking order of objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Object alignment",
+        "isCorrect": false
+      },
+      {
+        "text": "Text wrapping",
+        "isCorrect": false
+      },
+      {
+        "text": "Indentation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "These commands directly control the layering (z-order) of objects, determining which objects are visible on top when shapes overlap."
+  },
+  {
+    "text": "What is the Selection Pane in the Layout tab used for?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Renaming, hiding, and reordering objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Setting page margins",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding page breaks",
+        "isCorrect": false
+      },
+      {
+        "text": "Changing spacing between objects",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Selection Pane provides a centralized view of all objects on the page, allowing you to manage their names, visibility, and stacking order easily, especially useful with many overlapping objects."
+  },
+  {
+    "text": "When is the Selection Pane particularly useful?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "In complex documents with many layered objects",
+        "isCorrect": true
+      },
+      {
+        "text": "For simple text documents",
+        "isCorrect": false
+      },
+      {
+        "text": "Only when working with columns",
+        "isCorrect": false
+      },
+      {
+        "text": "For hyphenation settings",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Selection Pane's advantage is most apparent in complex layouts with multiple overlapping objects, where managing their individual properties and order becomes challenging otherwise."
+  },
+  {
+    "text": "What does the \"Distribute Horizontally\" option in the Align drop-down do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Evenly spaces selected objects horizontally",
+        "isCorrect": true
+      },
+      {
+        "text": "Aligns objects vertically",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotates objects",
+        "isCorrect": false
+      },
+      {
+        "text": "Controls text wrapping around objects",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "\"Distribute Horizontally\" evenly distributes the selected objects along the horizontal axis, creating equal spacing between them."
+  },
+  {
+    "text": "How do you align objects to the page?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Align > Align to Page",
+        "isCorrect": true
+      },
+      {
+        "text": "Group the objects first",
+        "isCorrect": false
+      },
+      {
+        "text": "Turn off text wrapping",
+        "isCorrect": false
+      },
+      {
+        "text": "Position the objects inline",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Align > Align to Page' command directly aligns selected objects to the edges of the page."
+  },
+  {
+    "text": "What is the purpose of the 'Regroup' command in the Group drop-down?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rejoins previously grouped objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Ungroups objects",
+        "isCorrect": false
+      },
+      {
+        "text": "Aligns objects",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotates objects",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Regroup' recombines objects that were previously grouped but subsequently ungrouped, restoring their group status and linked behavior."
+  }
+]

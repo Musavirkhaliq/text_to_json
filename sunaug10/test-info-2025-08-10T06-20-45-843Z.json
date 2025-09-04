@@ -1,0 +1,9 @@
+{
+  "title": "Dive into the Depths: Invertebrate Challenge!",
+  "description": "Test your knowledge of fascinating invertebrates! This quiz covers the anatomy, reproduction, and classification of sponges, corals, cnidarians, and comb jellies.  Prepare to explore the wonders of the underwater world!",
+  "totalQuestions": 20,
+  "createdAt": "2025-08-10T06:20:45.841Z",
+  "questionTypes": {
+    "multiple_choice": 20
+  }
+}

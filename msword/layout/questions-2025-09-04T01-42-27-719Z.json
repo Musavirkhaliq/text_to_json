@@ -1,0 +1,530 @@
+[
+  {
+    "text": "How do you create a first-line indent in a paragraph without affecting the rest of the text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paragraph dialog > Special > First line",
+        "isCorrect": true
+      },
+      {
+        "text": "Left Indent textbox",
+        "isCorrect": false
+      },
+      {
+        "text": "Spacing Before",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyphenation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Paragraph dialog > Special > First line' option allows you to indent only the first line of a paragraph, leaving the rest unaffected.  Other options affect the entire paragraph's indentation or other formatting aspects."
+  },
+  {
+    "text": "Where does 'Spacing Before' in the Paragraph group of the Layout tab add space?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Above the paragraph",
+        "isCorrect": true
+      },
+      {
+        "text": "Below the paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "Between lines within the paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "In columns",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Spacing Before' adds space *above* the selected paragraph, providing visual separation from the preceding content."
+  },
+  {
+    "text": "In advanced formatting, how do you prevent extra gaps between paragraphs of the same style?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Set Spacing After to 0 and use \"Don't add space between paragraphs of the same style\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Use a different style for each paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjust line spacing within the paragraphs",
+        "isCorrect": false
+      },
+      {
+        "text": "Increase the spacing before each paragraph",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Setting 'Spacing After' to 0 and activating \"Don't add space between paragraphs of the same style\" prevents unnecessary space between consecutive paragraphs formatted with the same style. This is particularly useful for eliminating extra space in lists."
+  },
+  {
+    "text": "What is the purpose of setting Line spacing to \"Exactly\" in the Paragraph dialog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Precise control over line spacing, often needed in legal documents",
+        "isCorrect": true
+      },
+      {
+        "text": "Automatic adjustment of line spacing based on content",
+        "isCorrect": false
+      },
+      {
+        "text": "Setting line spacing as a multiple of single spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Ensuring at least the minimum line spacing is maintained",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "\"Exactly\" allows you to specify the precise amount of space between lines, providing fine-grained control over the document's appearance, crucial for applications like legal documents where precise formatting is essential."
+  },
+  {
+    "text": "Which Paragraph dialog option ensures paragraphs stay together across pages?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Keep lines together",
+        "isCorrect": false
+      },
+      {
+        "text": "Widow/Orphan control",
+        "isCorrect": false
+      },
+      {
+        "text": "Keep with next",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "All three options ('Keep lines together', 'Widow/Orphan control', and 'Keep with next') within the Line and Page Breaks tab of the Paragraph dialog contribute to keeping paragraphs together across page breaks.  Each addresses different aspects of line and paragraph breaks."
+  },
+  {
+    "text": "How can combining 'Spacing After' with columns in the Layout tab be helpful?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Balance column heights",
+        "isCorrect": false
+      },
+      {
+        "text": "Add gaps between sections or columns for better readability",
+        "isCorrect": true
+      },
+      {
+        "text": "Affect text wrapping within columns",
+        "isCorrect": false
+      },
+      {
+        "text": "Change page orientation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Using 'Spacing After' with columns allows you to insert space between sections, which enhances visual organization and readability by separating distinct parts of the document presented across multiple columns."
+  },
+  {
+    "text": "In the Arrange group of the Layout tab, what does the Position drop-down for an image control?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sets the absolute position of the image relative to the page or margins",
+        "isCorrect": true
+      },
+      {
+        "text": "Restricts the image to inline placement only",
+        "isCorrect": false
+      },
+      {
+        "text": "Sets the rotation angle of the image",
+        "isCorrect": false
+      },
+      {
+        "text": "Determines the image's group membership",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Position drop-down allows for precise control over the placement of an image by specifying its absolute coordinates relative to the page's margins or the surrounding content, unlike the other options that deal with different image properties."
+  },
+  {
+    "text": "In the Layout Options dialog, what does the \"Move object with text\" checkbox control?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Determines whether the object moves when the surrounding text is edited",
+        "isCorrect": true
+      },
+      {
+        "text": "Controls the text wrapping style around the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Determines the object's layering order",
+        "isCorrect": false
+      },
+      {
+        "text": "Affects the alignment grid for the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Move object with text\" checkbox determines whether an object's position updates automatically when surrounding text is added, deleted, or modified. This is crucial for maintaining visual consistency in dynamic content."
+  },
+  {
+    "text": "Selecting \"In Front of Text\" in the Position options affects what?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The object's z-order and how it overlaps with text",
+        "isCorrect": true
+      },
+      {
+        "text": "The object's inline placement",
+        "isCorrect": false
+      },
+      {
+        "text": "Page breaks around the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Indents around the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Choosing \"In Front of Text\" controls the layering (z-order) of the object, ensuring it appears on top of any overlapping text. This determines which elements are visible in areas of overlap."
+  },
+  {
+    "text": "How can you achieve precise positioning of an object?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Using Position > More Layout Options to set horizontal and vertical absolute values",
+        "isCorrect": false
+      },
+      {
+        "text": "Positioning relative to a column or paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "Locking the object's anchor point",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Precise positioning requires a combination of setting absolute horizontal/vertical coordinates, relative positioning options, and anchor point locking for the greatest control and flexibility."
+  },
+  {
+    "text": "When is the \"Tight\" Wrap Text option most suitable?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "For irregular shapes such as logos",
+        "isCorrect": true
+      },
+      {
+        "text": "Only for square boxes",
+        "isCorrect": false
+      },
+      {
+        "text": "For tables",
+        "isCorrect": false
+      },
+      {
+        "text": "For headers",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "\"Tight\" wrapping follows the exact contours of an object, making it ideal for irregular shapes like logos or complex graphics where precise text flow around the object is necessary."
+  },
+  {
+    "text": "What does \"Edit Wrap Points\" in advanced wrapping allow?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Customizing the contour for text flow around an object",
+        "isCorrect": true
+      },
+      {
+        "text": "Changing the object's color",
+        "isCorrect": false
+      },
+      {
+        "text": "Adjusting the object's size",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotating the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "\"Edit Wrap Points\" enables manual adjustment of the text wrapping path, providing fine-grained control over how text flows around an object, especially complex shapes."
+  },
+  {
+    "text": "How does \"Through\" Wrap Text differ from \"Tight\" Wrap Text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It allows text to flow through transparent areas of the object",
+        "isCorrect": true
+      },
+      {
+        "text": "It places the text behind the object",
+        "isCorrect": false
+      },
+      {
+        "text": "It only works with inline objects",
+        "isCorrect": false
+      },
+      {
+        "text": "There is no difference",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "\"Through\" wrapping allows text to flow through transparent portions of an object, unlike \"Tight\" which only wraps around the object's opaque areas.  This is useful for objects with transparency."
+  },
+  {
+    "text": "What does the \"Top and Bottom\" Wrap Text option prevent?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Text from flowing beside the object",
+        "isCorrect": true
+      },
+      {
+        "text": "Text from overlapping the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotation of the object",
+        "isCorrect": false
+      },
+      {
+        "text": "Grouping of the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "\"Top and Bottom\" wrapping restricts text flow to above and below the object, preventing text from appearing to the sides, which can be useful for maintaining a clear visual separation."
+  },
+  {
+    "text": "What does the 'Bring Forward' command in the Arrange group do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Moves the selected object one layer forward in the stacking order",
+        "isCorrect": true
+      },
+      {
+        "text": "Sends the object to the back",
+        "isCorrect": false
+      },
+      {
+        "text": "Moves the object horizontally",
+        "isCorrect": false
+      },
+      {
+        "text": "Moves the object to the page margin",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Bring Forward' increases the z-index of the selected object, moving it one layer in front of other overlapping objects."
+  },
+  {
+    "text": "What does the 'Send to Back' command in the Send Backward drop-down do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Moves the object behind all other objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Moves the object one layer backward",
+        "isCorrect": false
+      },
+      {
+        "text": "Moves the object to the front",
+        "isCorrect": false
+      },
+      {
+        "text": "Groups the object",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Send to Back' sets the object's z-index to the lowest value, placing it behind all other objects on the page."
+  },
+  {
+    "text": "For overlapping shapes, what do the 'Bring Forward'/'Send Backward' commands help manage?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The stacking order of objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Object alignment",
+        "isCorrect": false
+      },
+      {
+        "text": "Text wrapping",
+        "isCorrect": false
+      },
+      {
+        "text": "Indentation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "These commands directly control the layering (z-order) of objects, determining which objects are visible on top when shapes overlap."
+  },
+  {
+    "text": "What is the Selection Pane in the Layout tab used for?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Renaming, hiding, and reordering objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Setting page margins",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding page breaks",
+        "isCorrect": false
+      },
+      {
+        "text": "Changing spacing between objects",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Selection Pane provides a centralized view of all objects on the page, allowing you to manage their names, visibility, and stacking order easily, especially useful with many overlapping objects."
+  },
+  {
+    "text": "When is the Selection Pane particularly useful?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "In complex documents with many layered objects",
+        "isCorrect": true
+      },
+      {
+        "text": "For simple text documents",
+        "isCorrect": false
+      },
+      {
+        "text": "Only when working with columns",
+        "isCorrect": false
+      },
+      {
+        "text": "For hyphenation settings",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Selection Pane's advantage is most apparent in complex layouts with multiple overlapping objects, where managing their individual properties and order becomes challenging otherwise."
+  },
+  {
+    "text": "What does the \"Distribute Horizontally\" option in the Align drop-down do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Evenly spaces selected objects horizontally",
+        "isCorrect": true
+      },
+      {
+        "text": "Aligns objects vertically",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotates objects",
+        "isCorrect": false
+      },
+      {
+        "text": "Controls text wrapping around objects",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "\"Distribute Horizontally\" evenly distributes the selected objects along the horizontal axis, creating equal spacing between them."
+  },
+  {
+    "text": "How do you align objects to the page?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Align > Align to Page",
+        "isCorrect": true
+      },
+      {
+        "text": "Group the objects first",
+        "isCorrect": false
+      },
+      {
+        "text": "Turn off text wrapping",
+        "isCorrect": false
+      },
+      {
+        "text": "Position the objects inline",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Align > Align to Page' command directly aligns selected objects to the edges of the page."
+  },
+  {
+    "text": "What is the purpose of the 'Regroup' command in the Group drop-down?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rejoins previously grouped objects",
+        "isCorrect": true
+      },
+      {
+        "text": "Ungroups objects",
+        "isCorrect": false
+      },
+      {
+        "text": "Aligns objects",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotates objects",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Regroup' recombines objects that were previously grouped but subsequently ungrouped, restoring their group status and linked behavior."
+  }
+]

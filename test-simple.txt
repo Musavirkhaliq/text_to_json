@@ -1,15 +1,177 @@
-1. What is the capital of France?
-   a) London
-   b) Berlin
-   c) Paris
-   d) Madrid
+31. To create a first-line indent without affecting the rest, use:
+    - A) Paragraph dialog > Special > First line
+    - B) Left Indent textbox
+    - C) Spacing Before
+    - D) Hyphenation
 
-2. True or False: The Earth is flat.
+    Correct: A
 
-3. Explain the concept of photosynthesis in plants.
+32. Spacing Before in Layout tab's Paragraph group adds space:
+    - A) Above the paragraph
+    - B) Below the paragraph
+    - C) Between lines
+    - D) In columns
 
-4. What is 2 + 2?
-   a) 3
-   b) 4
-   c) 5
-   d) 6
+    Correct: A
+
+33. In advanced formatting, setting Spacing After to 0 and using "Don't add space between paragraphs of the same style" prevents:
+    - A) Extra gaps in lists
+    - B) Indent changes
+    - C) Column breaks
+    - D) Line number skips
+
+    Correct: A
+
+34. Paragraph dialog from Layout tab allows setting Line spacing to "Exactly" for:
+    - A) Precise control in legal docs
+    - B) Auto-adjustment
+    - C) Multiple of single
+    - D) At least minimum
+
+    Correct: A
+
+35. To keep paragraphs together across pages, use Paragraph dialog > Line and Page Breaks tab for:
+    - A) Keep lines together
+    - B) Widow/Orphan control
+    - C) Keep with next
+    - D) All of the above
+
+    Correct: D
+
+36. Spacing After combined with columns in Layout tab can help:
+    - A) Balance column heights
+    - B) Add gaps between sections
+    - C) Affect wrap text
+    - D) Change orientation
+
+    Correct: B
+
+37. In Arrange group of Layout tab, Position drop-down for an image sets:
+    - A) Absolute position relative to page/margin
+    - B) Inline only
+    - C) Rotation angle
+    - D) Group membership
+
+    Correct: A
+
+38. Advanced Position: In Layout Options dialog, "Move object with text" checkbox controls:
+    - A) If object shifts with edits
+    - B) Wrapping style
+    - C) Layering order
+    - D) Alignment grid
+
+    Correct: A
+
+39. Selecting "In Front of Text" in Position affects:
+    - A) Z-order and text overlap
+    - B) Inline placement
+    - C) Page breaks
+    - D) Indents
+
+    Correct: A
+
+40. For precise positioning, use Position > More Layout Options to set:
+    - A) Horizontal/Vertical absolute values
+    - B) Relative to column/paragraph
+    - C) Lock anchor
+    - D) All of the above
+
+    Correct: D
+
+41. Wrap Text "Tight" in Layout tab is best for:
+    - A) Irregular shapes like logos
+    - B) Square boxes only
+    - C) Tables
+    - D) Headers
+
+    Correct: A
+
+42. Advanced Wrap: "Edit Wrap Points" allows:
+    - A) Custom contour for text flow
+    - B) Color changes
+    - C) Size adjustments
+    - D) Rotation
+
+    Correct: A
+
+43. "Through" Wrap Text differs from "Tight" by:
+    - A) Allowing text in transparent areas
+    - B) Being behind text
+    - C) Inline only
+    - D) No difference
+
+    Correct: A
+
+44. In Wrap Text, "Top and Bottom" prevents:
+    - A) Text beside the object
+    - B) Overlap
+    - C) Rotation
+    - D) Grouping
+
+    Correct: A
+
+45. Bring Forward in Arrange group moves an object:
+    - A) One layer up
+    - B) To back
+    - C) Horizontally
+    - D) To margin
+
+    Correct: A
+
+46. Send Backward drop-down's "Send to Back" places object:
+    - A) Behind all others
+    - B) One layer down
+    - C) In front
+    - D) Grouped
+
+    Correct: A
+
+47. For overlapping shapes, Bring Forward/Send Backward helps manage:
+    - A) Stacking order
+    - B) Alignment
+    - C) Wrap
+    - D) Indents
+
+    Correct: A
+
+48. Selection Pane in Layout tab is used to:
+    - A) Rename, hide, or reorder objects
+    - B) Set margins
+    - C) Add breaks
+    - D) Change spacing
+
+    Correct: A
+
+49. Advanced use of Selection Pane: It's essential for:
+    - A) Complex documents with many layered objects
+    - B) Simple text
+    - C) Columns only
+    - D) Hyphenation
+
+    Correct: A
+
+50. Align drop-down in Arrange includes "Distribute Horizontally" for:
+    - A) Even spacing between multiple objects
+    - B) Vertical alignment
+    - C) Rotation
+    - D) Wrapping
+
+    Correct: A
+
+51. To align objects to the page in Layout tab:
+    - A) Align > Align to Page
+    - B) Group first
+    - C) Wrap Text off
+    - D) Position inline
+
+    Correct: A 
+
+
+
+50. Group drop-down's "Regroup" is for:
+    - A) Rejoining previously grouped objects
+    - B) Ungrouping
+    - C) Aligning
+    - D) Rotating
+
+    Correct: A

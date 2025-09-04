@@ -17,29 +17,95 @@ class GeminiClient {
      * @returns {Promise<Array>} - Array of processed questions in JSON format
      */
     async processQuestions(questionsText) {
-        try {
-            const prompt = this.buildPrompt(questionsText);
-            const result = await this.model.generateContent(prompt);
-            const response = await result.response;
-            const text = response.text();
-            
-            // Parse the JSON response
-            const jsonMatch = text.match(/```json\n([\s\S]*?)\n```/);
-            if (jsonMatch) {
-                return JSON.parse(jsonMatch[1]);
-            }
-            
-            // Fallback: try to parse the entire response as JSON
+        const maxRetries = 3;
+        let lastError = null;
+        
+        for (let attempt = 1; attempt <= maxRetries; attempt++) {
             try {
-                return JSON.parse(text);
-            } catch (parseError) {
-                console.error('Failed to parse JSON response:', text);
-                throw new Error('Invalid JSON response from Gemini API');
+                console.log(`Processing questions (attempt ${attempt}/${maxRetries})...`);
+                const prompt = this.buildPrompt(questionsText);
+                const result = await this.model.generateContent(prompt);
+                const response = await result.response;
+                const text = response.text();
+            
+            console.log('Raw Gemini response:', text.substring(0, 500) + '...');
+            
+            // Try multiple JSON extraction methods
+            let jsonData = null;
+            
+            // Method 1: Look for JSON code blocks
+            const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/);
+            if (jsonMatch) {
+                try {
+                    jsonData = JSON.parse(jsonMatch[1].trim());
+                } catch (e) {
+                    console.log('Failed to parse JSON from code block, trying other methods...');
+                }
             }
+            
+            // Method 2: Look for array pattern in the text
+            if (!jsonData) {
+                const arrayMatch = text.match(/\[\s*\{[\s\S]*\}\s*\]/);
+                if (arrayMatch) {
+                    try {
+                        jsonData = JSON.parse(arrayMatch[0]);
+                    } catch (e) {
+                        console.log('Failed to parse JSON array pattern, trying other methods...');
+                    }
+                }
+            }
+            
+            // Method 3: Try to parse the entire response as JSON
+            if (!jsonData) {
+                try {
+                    jsonData = JSON.parse(text.trim());
+                } catch (e) {
+                    console.log('Failed to parse entire response as JSON, trying cleanup...');
+                }
+            }
+            
+            // Method 4: Clean up common issues and try again
+            if (!jsonData) {
+                let cleanedText = text
+                    .replace(/```json/g, '')
+                    .replace(/```/g, '')
+                    .replace(/^\s*[\w\s]*?(\[)/m, '$1') // Remove text before array
+                    .replace(/(\])\s*[\w\s]*?$/m, '$1') // Remove text after array
+                    .trim();
+                
+                try {
+                    jsonData = JSON.parse(cleanedText);
+                } catch (e) {
+                    console.log('All JSON parsing methods failed');
+                }
+            }
+            
+            if (!jsonData) {
+                console.error('Failed to parse JSON response. Raw response:', text);
+                throw new Error('Invalid JSON response from Gemini API. Please check the API response format.');
+            }
+            
+            // Validate that we got an array
+            if (!Array.isArray(jsonData)) {
+                console.error('Response is not an array:', jsonData);
+                throw new Error('Expected JSON array of questions from Gemini API');
+            }
+            
+            return jsonData;
+            
         } catch (error) {
-            console.error('Error processing questions with Gemini:', error);
-            throw error;
+            console.error(`Attempt ${attempt} failed:`, error.message);
+            lastError = error;
+            
+            if (attempt < maxRetries) {
+                console.log(`Retrying in 2 seconds...`);
+                await new Promise(resolve => setTimeout(resolve, 2000));
+            }
         }
+        }
+        
+        console.error('All attempts failed. Last error:', lastError);
+        throw lastError;
     }
 
     /**
@@ -63,27 +129,59 @@ Please respond with a JSON object containing:
 }
 
 Make the title creative and the description informative but concise.
+Respond only with the JSON object, wrapped in \`\`\`json code blocks.
 `;
 
             const result = await this.model.generateContent(prompt);
             const response = await result.response;
             const text = response.text();
             
-            // Parse the JSON response
-            const jsonMatch = text.match(/```json\n([\s\S]*?)\n```/);
+            // Try multiple JSON extraction methods
+            let jsonData = null;
+            
+            // Method 1: Look for JSON code blocks
+            const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/);
             if (jsonMatch) {
-                return JSON.parse(jsonMatch[1]);
+                try {
+                    jsonData = JSON.parse(jsonMatch[1].trim());
+                } catch (e) {
+                    console.log('Failed to parse title/description JSON from code block');
+                }
             }
             
-            try {
-                return JSON.parse(text);
-            } catch (parseError) {
-                // Fallback title and description
-                return {
-                    title: "Knowledge Quiz",
-                    description: "Test your knowledge with these carefully crafted questions"
-                };
+            // Method 2: Look for object pattern in the text
+            if (!jsonData) {
+                const objectMatch = text.match(/\{\s*"title"[\s\S]*?\}/);
+                if (objectMatch) {
+                    try {
+                        jsonData = JSON.parse(objectMatch[0]);
+                    } catch (e) {
+                        console.log('Failed to parse title/description object pattern');
+                    }
+                }
             }
+            
+            // Method 3: Try to parse the entire response as JSON
+            if (!jsonData) {
+                try {
+                    jsonData = JSON.parse(text.trim());
+                } catch (e) {
+                    console.log('Failed to parse entire title/description response as JSON');
+                }
+            }
+            
+            // Validate the response has required fields
+            if (jsonData && jsonData.title && jsonData.description) {
+                return jsonData;
+            }
+            
+            // Fallback title and description
+            console.log('Using fallback title and description');
+            return {
+                title: "Knowledge Quiz",
+                description: "Test your knowledge with these carefully crafted questions"
+            };
+            
         } catch (error) {
             console.error('Error generating title and description:', error);
             return {
