@@ -232,7 +232,7 @@ Important guidelines:
 - Points should be 1-5 based on question difficulty
 - Explanations should be educational and informative
 - Ensure all questions are clear and grammatically correct
-
+- For questions that include a diagram or figure. The diagram will be provided separately later in the test.
 Respond only with the JSON array, wrapped in \`\`\`json code blocks.
 `;
     }

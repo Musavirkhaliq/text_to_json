@@ -1,0 +1,722 @@
+[
+  {
+    "text": "How many hepatic caecae are present at the junction of the cockroach's foregut and midgut?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "4-6",
+        "isCorrect": false
+      },
+      {
+        "text": "2-4",
+        "isCorrect": false
+      },
+      {
+        "text": "6-8",
+        "isCorrect": true
+      },
+      {
+        "text": "10-12",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The cockroach alimentary canal has 6-8 hepatic caecae at the junction of the foregut and midgut. These blind pouches secrete digestive enzymes and increase the surface area for digestion."
+  },
+  {
+    "text": "In a cockroach, the esophagus leads directly into which structure?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Crop",
+        "isCorrect": true
+      },
+      {
+        "text": "Gizzard",
+        "isCorrect": false
+      },
+      {
+        "text": "Midgut",
+        "isCorrect": false
+      },
+      {
+        "text": "Pharynx",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The esophagus in a cockroach connects directly to the crop, which serves as a temporary food storage area."
+  },
+  {
+    "text": "In a cockroach, where does food get crushed?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Gizzard",
+        "isCorrect": true
+      },
+      {
+        "text": "Crop",
+        "isCorrect": false
+      },
+      {
+        "text": "Midgut",
+        "isCorrect": false
+      },
+      {
+        "text": "Pharynx",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The gizzard, with its thick muscular walls and internal chitinous plates, is responsible for grinding and crushing the food in a cockroach."
+  },
+  {
+    "text": "In a cockroach, where does the absorption of digested food occur?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Gizzard and crop",
+        "isCorrect": false
+      },
+      {
+        "text": "Crop",
+        "isCorrect": false
+      },
+      {
+        "text": "Ileum",
+        "isCorrect": true
+      },
+      {
+        "text": "Ileum and colon",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The ileum is the primary site of nutrient absorption in the cockroach's alimentary canal.  The ileum has a large surface area due to the presence of microvilli."
+  },
+  {
+    "text": "How many chambers are present in the heart of a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "4 chambers",
+        "isCorrect": false
+      },
+      {
+        "text": "2 chambers",
+        "isCorrect": false
+      },
+      {
+        "text": "8 chambers",
+        "isCorrect": false
+      },
+      {
+        "text": "13 chambers",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "The cockroach heart is a long, tubular structure consisting of 13 chambers."
+  },
+  {
+    "text": "Which component is absent in the haemolymph of a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Plasma",
+        "isCorrect": false
+      },
+      {
+        "text": "Haemocytes",
+        "isCorrect": false
+      },
+      {
+        "text": "Amino acids",
+        "isCorrect": false
+      },
+      {
+        "text": "Respiratory pigment",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Cockroach haemolymph lacks respiratory pigments; oxygen transport is achieved via the tracheal system."
+  },
+  {
+    "text": "Through which structures does the cockroach heart receive blood from the sinuses?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Haemocoel",
+        "isCorrect": false
+      },
+      {
+        "text": "Alary muscles",
+        "isCorrect": false
+      },
+      {
+        "text": "Ostia",
+        "isCorrect": true
+      },
+      {
+        "text": "Aorta",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ostia are small openings in the heart that allow haemolymph to enter from the sinuses."
+  },
+  {
+    "text": "What is the primary function of alary muscles in a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Circulation of blood",
+        "isCorrect": true
+      },
+      {
+        "text": "Respiration",
+        "isCorrect": false
+      },
+      {
+        "text": "Body movement",
+        "isCorrect": false
+      },
+      {
+        "text": "Peristalsis",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Alary muscles help in the rhythmic contraction and expansion of the heart, aiding blood circulation."
+  },
+  {
+    "text": "How does air enter the cockroach's body from the atmosphere?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Trachea",
+        "isCorrect": false
+      },
+      {
+        "text": "Tracheoles",
+        "isCorrect": false
+      },
+      {
+        "text": "Spiracles",
+        "isCorrect": true
+      },
+      {
+        "text": "Stomata",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Spiracles are external openings of the tracheal system, allowing air to enter the cockroach's body."
+  },
+  {
+    "text": "How many pairs of spiracles are found in a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "25",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A cockroach possesses 10 pairs of spiracles, two pairs on the thorax and eight pairs on the abdomen."
+  },
+  {
+    "text": "What regulates the opening of spiracles in a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ostia",
+        "isCorrect": false
+      },
+      {
+        "text": "Bristles",
+        "isCorrect": false
+      },
+      {
+        "text": "Sphincters",
+        "isCorrect": true
+      },
+      {
+        "text": "Valves",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Sphincter muscles control the opening and closing of spiracles, regulating gas exchange."
+  },
+  {
+    "text": "At the junction of which gut sections are the Malpighian tubules located in a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Foregut and midgut",
+        "isCorrect": false
+      },
+      {
+        "text": "Midgut and hindgut",
+        "isCorrect": true
+      },
+      {
+        "text": "Midgut",
+        "isCorrect": false
+      },
+      {
+        "text": "Hindgut",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Malpighian tubules, responsible for excretion, are found at the junction of the midgut and hindgut."
+  },
+  {
+    "text": "Which one is correct option for given diagram?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": true
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The correct answer will depend on the provided diagram. The explanation will be provided with the diagram."
+  },
+  {
+    "text": "Which section of the cockroach's alimentary canal is divided into the ileum, colon, and rectum?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Caecum",
+        "isCorrect": false
+      },
+      {
+        "text": "Foregut",
+        "isCorrect": false
+      },
+      {
+        "text": "Midgut",
+        "isCorrect": false
+      },
+      {
+        "text": "Hindgut",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "The hindgut of a cockroach is differentiated into the ileum, colon, and rectum."
+  },
+  {
+    "text": "What is the correct sequence of organs in the cockroach's alimentary canal, starting from the mouth?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pharynx → Oesophagus → Crop → Gizzard → Ileum → Colon → Rectum",
+        "isCorrect": true
+      },
+      {
+        "text": "Pharynx → Oesophagus → Gizzard → Crop → Ileum → Colon → Rectum",
+        "isCorrect": false
+      },
+      {
+        "text": "Pharynx → Oesophagus → Gizzard → Ileum → Crop → Colon → Rectum",
+        "isCorrect": false
+      },
+      {
+        "text": "Pharynx → Oesophagus → Ileum → Crop → Gizzard → Colon → Rectum",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "This is the correct order of the alimentary canal structures through which food passes in a cockroach."
+  },
+  {
+    "text": " Identify structures A to F in the given diagram of the cockroach head.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A-Maxilla, B-Compound eye, C-Ocellus, D-Labrum, E-Labium, F-Mandible",
+        "isCorrect": false
+      },
+      {
+        "text": "A-Ocellus, B-Compound eye, C-Maxilla, D-Labium, E-Labrum, F-Mandible",
+        "isCorrect": true
+      },
+      {
+        "text": "A-Ocellus, B-Compound eye, C-Maxilla, D-Labrum, E-Labium, F-Mandible",
+        "isCorrect": false
+      },
+      {
+        "text": "A-Mandible, B-Compound eye, C-Maxilla, D-Ocellus, E-Labrum, F-Labium",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The correct answer will depend on the provided diagram. The explanation will be provided with the diagram."
+  },
+  {
+    "text": "Identify structures A to E in the given diagram of the cockroach alimentary canal. ",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A-Salivary gland, B-Gizzard, C-Crop, D-Villi, E-Caecum",
+        "isCorrect": false
+      },
+      {
+        "text": "A-Salivary gland, B-Crop, C-Gizzard, D-Malpighian tubules, E-Ileum",
+        "isCorrect": true
+      },
+      {
+        "text": "A-Salivary gland, B-Gizzard, C-Malpighian tubule, D-Cilia, E-Ileum",
+        "isCorrect": false
+      },
+      {
+        "text": "A-Salivary gland, B-Crop, C-Malpighian tubule, D-Gizzard, E-Ileum",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The correct answer will depend on the provided diagram. The explanation will be provided with the diagram."
+  },
+  {
+    "text": "Which wings of the cockroach are used for flying?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fore wings",
+        "isCorrect": false
+      },
+      {
+        "text": "Mesothoracic wings",
+        "isCorrect": true
+      },
+      {
+        "text": "Hind wings",
+        "isCorrect": false
+      },
+      {
+        "text": "Tegmina",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The mesothoracic wings, also known as hindwings, are the functional flight wings in the cockroach."
+  },
+  {
+    "text": "In male cockroaches, where are sperms stored?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Seminal vesicles",
+        "isCorrect": true
+      },
+      {
+        "text": "Mushroom glands",
+        "isCorrect": false
+      },
+      {
+        "text": "Testes",
+        "isCorrect": false
+      },
+      {
+        "text": "Vas deferens",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Seminal vesicles are the storage sites for mature sperms in male cockroaches."
+  },
+  {
+    "text": "Which of the following statements about cockroaches is incorrect?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Female cockroach possesses sixteen ovarioles in the ovaries",
+        "isCorrect": false
+      },
+      {
+        "text": "Cockroaches exhibit mosaic vision with less sensitivity and more resolution",
+        "isCorrect": true
+      },
+      {
+        "text": "A mushroom-shaped gland is present in the 6th-7th abdominal segments of male cockroach",
+        "isCorrect": false
+      },
+      {
+        "text": "A pair of spermatheca is present in the 6th segment of female cockroach",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Cockroaches have mosaic vision, which provides better resolution but less sensitivity compared to apposition eyes."
+  },
+  {
+    "text": "Which statement about Periplaneta americana is correct?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Grinding of food is carried out only by the mouth parts",
+        "isCorrect": false
+      },
+      {
+        "text": "Nervous system located dorsally, consists of segmentally arranged ganglia joined by a pair of longitudinal connectives",
+        "isCorrect": false
+      },
+      {
+        "text": "Males bear a pair of short thread-like anal styles",
+        "isCorrect": true
+      },
+      {
+        "text": "There are 16 very long Malpighian tubules present at the junctions of midgut and hindgut",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Male cockroaches possess a pair of short, thread-like anal styles, a characteristic feature used in distinguishing sexes."
+  },
+  {
+    "text": "Diagram-based question. Identify A, B, and C in the given diagram of the open circulatory system of a cockroach. [Diagram will be provided separately]",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A-Lateral aorta,B-Ciliary muscles,C- Chambers of heart",
+        "isCorrect": false
+      },
+      {
+        "text": "A-Internal aorta, B-Alary muscles, C-Chambers of heart",
+        "isCorrect": false
+      },
+      {
+        "text": "A-Anterior aorta, B-Alary muscles, C-Chambers of heart",
+        "isCorrect": true
+      },
+      {
+        "text": "A-Posterior aorta, B-Fibrous muscles, C-Chambers of heart",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": ""
+  },
+  {
+    "text": "In both sexes of cockroaches, what is the name of the paired, jointed, filamentous structure found on the 10th segment?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Anal style",
+        "isCorrect": false
+      },
+      {
+        "text": "Anal cerci",
+        "isCorrect": true
+      },
+      {
+        "text": "Gonapophysis",
+        "isCorrect": false
+      },
+      {
+        "text": "Spermathecal pores",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Anal cerci are paired, jointed, filamentous appendages found on the 10th abdominal segment of both male and female cockroaches."
+  },
+  {
+    "text": "Describe the lining of Malpighian tubules in a cockroach.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Glandular, ciliated",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuboidal, ciliated",
+        "isCorrect": false
+      },
+      {
+        "text": "Squamous, Glandular",
+        "isCorrect": false
+      },
+      {
+        "text": "Glandular, cuboidal",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "The Malpighian tubules are lined by glandular, cuboidal epithelial cells."
+  },
+  {
+    "text": "Besides the Malpighian tubules, what other structures contribute to waste excretion in a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fat bodies",
+        "isCorrect": false
+      },
+      {
+        "text": "Nephrocytes",
+        "isCorrect": false
+      },
+      {
+        "text": "Urecose glands",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Fat bodies, nephrocytes, and urecose glands all play a role in excretory processes in the cockroach, supplementing the function of the Malpighian tubules."
+  },
+  {
+    "text": "Approximately how many hexagonal ommatidia make up the compound eyes of a cockroach?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "200 hexagonal ommatidia",
+        "isCorrect": false
+      },
+      {
+        "text": "2000 hexagonal ommatidia",
+        "isCorrect": true
+      },
+      {
+        "text": "20 hexagonal ommatidia",
+        "isCorrect": false
+      },
+      {
+        "text": "20000 hexagonal ommatidia",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Each compound eye of a cockroach is composed of approximately 2000 hexagonal ommatidia."
+  },
+  {
+    "text": "Which of the following statements is unusual concerning the male cockroach reproductive system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A pair of testes lying one on each lateral side in 4th-6th abdominal segment",
+        "isCorrect": false
+      },
+      {
+        "text": "A characteristic mushroom-shaped gland is present in 6th-7th abdominal segments",
+        "isCorrect": false
+      },
+      {
+        "text": "The ejaculatory duct opens into the male gonopore situated dorsal to the anus",
+        "isCorrect": true
+      },
+      {
+        "text": "Sperms are stored in seminal vesicles",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The ejaculatory duct actually opens into the male gonopore, which is ventral to the anus, not dorsal."
+  },
+  {
+    "text": "What terms best describe the reproductive characteristics of cockroaches?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Dioecious and without sexual dimorphism",
+        "isCorrect": false
+      },
+      {
+        "text": "Monoecious and without sexual dimorphism",
+        "isCorrect": false
+      },
+      {
+        "text": "Monoecious and with sexual dimorphism",
+        "isCorrect": false
+      },
+      {
+        "text": "Dioecious with sexual dimorphism",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Cockroaches are dioecious (having separate sexes) and exhibit sexual dimorphism (males and females have different physical characteristics)."
+  },
+  {
+    "text": "Describe the nervous system of a cockroach.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Is spread throughout the body",
+        "isCorrect": false
+      },
+      {
+        "text": "Is represented by segmentally arranged ganglia and ventral nerve cord",
+        "isCorrect": true
+      },
+      {
+        "text": "Both (A) and (B) are correct",
+        "isCorrect": false
+      },
+      {
+        "text": "Consists of supra-oesopharyngeal ganglia in head and dorsal nerve cord",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The cockroach nervous system consists of a ventral nerve cord with segmentally arranged ganglia."
+  },
+  {
+    "text": "The absence of respiratory pigment in cockroach blood implies what about its respiration?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Respiration is anaerobic",
+        "isCorrect": false
+      },
+      {
+        "text": "Cockroach has no respiration",
+        "isCorrect": false
+      },
+      {
+        "text": "Oxygen goes into tissues with H2O from outside",
+        "isCorrect": false
+      },
+      {
+        "text": "Oxygen goes directly into tissues through tracheal system",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Since there's no respiratory pigment in the blood, oxygen is directly delivered to tissues via the tracheal system."
+  }
+]

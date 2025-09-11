@@ -1,0 +1,722 @@
+[
+  {
+    "text": "What is the term for a frog's ability to change its body color to blend with its surroundings, according to the NCERT text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Mimesis",
+        "isCorrect": false
+      },
+      {
+        "text": "Mimicry (protective coloration)",
+        "isCorrect": true
+      },
+      {
+        "text": "Countershading",
+        "isCorrect": false
+      },
+      {
+        "text": "Disruptive patterning",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The NCERT text explicitly equates protective coloration with mimicry in frogs."
+  },
+  {
+    "text": "During aestivation and hibernation, how does gas exchange primarily occur in frogs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Lungs only",
+        "isCorrect": false
+      },
+      {
+        "text": "Buccal cavity only",
+        "isCorrect": false
+      },
+      {
+        "text": "Skin (cutaneous respiration)",
+        "isCorrect": true
+      },
+      {
+        "text": "Gills",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "During aestivation and hibernation, gas exchange in frogs primarily occurs through cutaneous respiration (skin)."
+  },
+  {
+    "text": "Which of the following features is absent in an adult frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Neck and tail",
+        "isCorrect": true
+      },
+      {
+        "text": "Nostrils",
+        "isCorrect": false
+      },
+      {
+        "text": "Tympanum",
+        "isCorrect": false
+      },
+      {
+        "text": "Webbed digits",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Adult frogs lack a neck and tail. Nostrils, tympanum, and webbed digits are present."
+  },
+  {
+    "text": "Which features indicate sexual dimorphism in male frogs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Enlarged eyes and thick skin",
+        "isCorrect": false
+      },
+      {
+        "text": "Vocal sacs and a copulatory (nuptial) pad on the first digit of the forelimb",
+        "isCorrect": true
+      },
+      {
+        "text": "Ovipositor and larger abdomen",
+        "isCorrect": false
+      },
+      {
+        "text": "Poison glands and brighter color",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Male frogs exhibit sexual dimorphism through the presence of vocal sacs and a copulatory pad on the first digit of their forelimb."
+  },
+  {
+    "text": "What is the function of the frog's nictitating membrane?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Aids in olfaction",
+        "isCorrect": false
+      },
+      {
+        "text": "Protects eyes while in water",
+        "isCorrect": true
+      },
+      {
+        "text": "Amplifies sound",
+        "isCorrect": false
+      },
+      {
+        "text": "Helps in thermoregulation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The nictitating membrane protects the frog's eyes while submerged in water."
+  },
+  {
+    "text": "How do frogs primarily maintain water balance?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Drinking via mouth",
+        "isCorrect": false
+      },
+      {
+        "text": "Absorbing water through the skin",
+        "isCorrect": true
+      },
+      {
+        "text": "Storing water in the gall bladder",
+        "isCorrect": false
+      },
+      {
+        "text": "Urea reabsorption in the rectum",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Frogs absorb water through their skin; they do not drink water through their mouths."
+  },
+  {
+    "text": "How many digits are on the forelimbs and hindlimbs of a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Forelimb 5; Hindlimb 4",
+        "isCorrect": false
+      },
+      {
+        "text": "Forelimb 4; Hindlimb 5",
+        "isCorrect": true
+      },
+      {
+        "text": "Forelimb 3; Hindlimb 3",
+        "isCorrect": false
+      },
+      {
+        "text": "Forelimb 5; Hindlimb 5",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Frogs have four digits on their forelimbs and five digits on their hindlimbs."
+  },
+  {
+    "text": "Why is the alimentary canal of a frog shorter?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Herbivores",
+        "isCorrect": false
+      },
+      {
+        "text": "Omnivores",
+        "isCorrect": false
+      },
+      {
+        "text": "Carnivores",
+        "isCorrect": true
+      },
+      {
+        "text": "Detritivores",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The short alimentary canal reflects the carnivorous diet of frogs."
+  },
+  {
+    "text": "Describe the characteristics of a frog's tongue that aid in food capture.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Keratinized and immobile",
+        "isCorrect": false
+      },
+      {
+        "text": "Bilobed at the tip and used to flick prey",
+        "isCorrect": true
+      },
+      {
+        "text": "Grooved with barbs",
+        "isCorrect": false
+      },
+      {
+        "text": "Posteriorly attached and non-protrusible",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The frog's tongue is bilobed at the tip and is used to flick prey for capture."
+  },
+  {
+    "text": "What substances does the duodenum of a frog receive?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only bile via bile duct",
+        "isCorrect": false
+      },
+      {
+        "text": "Only pancreatic juice via pancreatic duct",
+        "isCorrect": false
+      },
+      {
+        "text": "Bile and pancreatic juice through a common bile duct",
+        "isCorrect": true
+      },
+      {
+        "text": "Intestinal juice only",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The frog's duodenum receives both bile and pancreatic juice through a common bile duct."
+  },
+  {
+    "text": "What serves as the common chamber for waste disposal in a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only digestive wastes",
+        "isCorrect": false
+      },
+      {
+        "text": "Only urine and eggs/sperms",
+        "isCorrect": false
+      },
+      {
+        "text": "Faeces, urine, and gametes",
+        "isCorrect": true
+      },
+      {
+        "text": "Only faeces and urine (gametes excluded)",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The cloaca serves as a common chamber for the expulsion of faeces, urine, and gametes."
+  },
+  {
+    "text": "What membrane covers the frog's heart?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Peritoneum",
+        "isCorrect": false
+      },
+      {
+        "text": "Pericardium",
+        "isCorrect": true
+      },
+      {
+        "text": "Pleura",
+        "isCorrect": false
+      },
+      {
+        "text": "Perichondrium",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The pericardium is the membrane that encloses the frog's heart."
+  },
+  {
+    "text": "Which statement accurately describes the structure of a frog's heart?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Two ventricles, one atrium, no sinus venosus",
+        "isCorrect": false
+      },
+      {
+        "text": "Two atria, one ventricle; sinus venosus joins right atrium",
+        "isCorrect": true
+      },
+      {
+        "text": "Two atria, two ventricles; no conus arteriosus",
+        "isCorrect": false
+      },
+      {
+        "text": "One atrium, one ventricle; no pericardium",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A frog's heart has two atria, one ventricle, and a sinus venosus that joins the right atrium."
+  },
+  {
+    "text": "Into what structure does the ventricle of a frog's heart open?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Truncus arteriosus",
+        "isCorrect": false
+      },
+      {
+        "text": "Conus arteriosus",
+        "isCorrect": true
+      },
+      {
+        "text": "Bulbus arteriosus",
+        "isCorrect": false
+      },
+      {
+        "text": "Aorta",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The ventricle of a frog's heart opens into the conus arteriosus."
+  },
+  {
+    "text": "Which special venous connections are found in frogs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hepatic portal and pulmonary portal systems",
+        "isCorrect": false
+      },
+      {
+        "text": "Renal portal and coronary portal systems",
+        "isCorrect": false
+      },
+      {
+        "text": "Hepatic portal (intestine → liver) and renal portal (hind body → kidney) systems",
+        "isCorrect": true
+      },
+      {
+        "text": "Only hepatic portal system",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Frogs possess both hepatic portal and renal portal systems."
+  },
+  {
+    "text": "Describe the typical characteristics of a frog's red blood cells.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Non-nucleated and biconcave",
+        "isCorrect": false
+      },
+      {
+        "text": "Nucleated and contain haemoglobin",
+        "isCorrect": true
+      },
+      {
+        "text": "Avascular and anucleate",
+        "isCorrect": false
+      },
+      {
+        "text": "Nucleated but without haemoglobin",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Frog red blood cells are nucleated and contain haemoglobin."
+  },
+  {
+    "text": "What components make up the lymphatic system in frogs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Lymph, lymph channels, and lymph nodes",
+        "isCorrect": true
+      },
+      {
+        "text": "Only lymph and spleen",
+        "isCorrect": false
+      },
+      {
+        "text": "Lymph capillaries only",
+        "isCorrect": false
+      },
+      {
+        "text": "Lymph nodes only",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The frog's lymphatic system comprises lymph, lymph channels, and lymph nodes."
+  },
+  {
+    "text": "Which of the following is NOT an excretory organ of a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Kidneys",
+        "isCorrect": false
+      },
+      {
+        "text": "Ureters",
+        "isCorrect": false
+      },
+      {
+        "text": "Urinary bladder",
+        "isCorrect": false
+      },
+      {
+        "text": "Malpighian tubules",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Malpighian tubules are excretory organs found in arthropods, not frogs. Frogs have kidneys, ureters, and a urinary bladder."
+  },
+  {
+    "text": "What is the main form of nitrogenous waste excreted by an adult frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ammonia (ammonotelic)",
+        "isCorrect": false
+      },
+      {
+        "text": "Uric acid (uricotelic)",
+        "isCorrect": false
+      },
+      {
+        "text": "Urea (ureotelic)",
+        "isCorrect": true
+      },
+      {
+        "text": "Creatinine",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Adult frogs are ureotelic, excreting urea as their primary nitrogenous waste."
+  },
+  {
+    "text": "What is the function of the ureters in male frogs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only urine carriers to the urinary bladder",
+        "isCorrect": false
+      },
+      {
+        "text": "Urinogenital ducts opening into the cloaca",
+        "isCorrect": true
+      },
+      {
+        "text": "Separate sperm ducts opening outside directly",
+        "isCorrect": false
+      },
+      {
+        "text": "Only sperm ducts; urine passes via the cloaca independently",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "In male frogs, the ureters function as urinogenital ducts, carrying both urine and sperm to the cloaca."
+  },
+  {
+    "text": "Which structures open separately into the cloaca in female frogs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ureters and oviducts",
+        "isCorrect": true
+      },
+      {
+        "text": "Only ureters (oviducts open into bladder)",
+        "isCorrect": false
+      },
+      {
+        "text": "Only oviducts (ureters open into bladder)",
+        "isCorrect": false
+      },
+      {
+        "text": "Neither; both open outside via anus",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "In female frogs, the ureters and oviducts open separately into the cloaca."
+  },
+  {
+    "text": "Approximately how many eggs does a mature female frog typically lay?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "200–300 eggs",
+        "isCorrect": false
+      },
+      {
+        "text": "700–1000 eggs",
+        "isCorrect": false
+      },
+      {
+        "text": "2500–3000 eggs",
+        "isCorrect": true
+      },
+      {
+        "text": "5000–8000 eggs",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A mature female frog typically lays around 2500–3000 eggs."
+  },
+  {
+    "text": "Describe the fertilization and development processes in frogs.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Internal; direct",
+        "isCorrect": false
+      },
+      {
+        "text": "External; direct",
+        "isCorrect": false
+      },
+      {
+        "text": "External; indirect via tadpole",
+        "isCorrect": true
+      },
+      {
+        "text": "Internal; indirect",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Fertilization in frogs is external, occurring in water, and development is indirect, involving a tadpole stage."
+  },
+  {
+    "text": "How many vasa efferentia are present in each testis of a frog, and where do they open?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "2–3 in number; open into ureter directly",
+        "isCorrect": false
+      },
+      {
+        "text": "10–12 in number; enter kidney and open into Bidder’s canal",
+        "isCorrect": true
+      },
+      {
+        "text": "20–25 in number; open into urinary bladder",
+        "isCorrect": false
+      },
+      {
+        "text": "30–35 in number; merge into vas deferens outside kidney",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Each testis in a frog has 10–12 vasa efferentia that enter the kidney and open into Bidder's canal."
+  },
+  {
+    "text": "What is the name of the double fold of peritoneum that suspends each testis in a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Mesorchium",
+        "isCorrect": true
+      },
+      {
+        "text": "Mesovarium",
+        "isCorrect": false
+      },
+      {
+        "text": "Mesentery",
+        "isCorrect": false
+      },
+      {
+        "text": "Mesocolon",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The mesorchium is the double fold of peritoneum that suspends each testis."
+  },
+  {
+    "text": "Which of the following correctly lists the prominent endocrine glands of a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pituitary, thyroid, parathyroid, thymus, pineal, pancreatic islets, adrenals, gonads",
+        "isCorrect": true
+      },
+      {
+        "text": "Only pituitary and thyroid",
+        "isCorrect": false
+      },
+      {
+        "text": "Thyroid, adrenal medulla, corpus luteum, placenta",
+        "isCorrect": false
+      },
+      {
+        "text": "Pineal, thymus, parotid, prostate",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The list includes all the major endocrine glands present in a frog."
+  },
+  {
+    "text": "How many pairs of cranial nerves arise from the frog brain?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "isCorrect": true
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "14",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Ten pairs of cranial nerves originate from the brain of a frog."
+  },
+  {
+    "text": "Which option correctly matches the brain regions of a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Forebrain—optic lobes; Midbrain—diencephalon",
+        "isCorrect": false
+      },
+      {
+        "text": "Forebrain—olfactory lobes, cerebral hemispheres, diencephalon; Midbrain—optic lobes; Hindbrain—cerebellum & medulla",
+        "isCorrect": true
+      },
+      {
+        "text": "Forebrain—cerebellum; Hindbrain—olfactory lobes",
+        "isCorrect": false
+      },
+      {
+        "text": "Midbrain—pons and medulla",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The correct mapping of brain regions in a frog is as described in option B."
+  },
+  {
+    "text": "Which statement correctly describes the sense organs of a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "External ear present with pinna",
+        "isCorrect": false
+      },
+      {
+        "text": "Tympanum is visible externally; ear functions in hearing and equilibrium",
+        "isCorrect": true
+      },
+      {
+        "text": "Compound eyes present",
+        "isCorrect": false
+      },
+      {
+        "text": "Lateral line organ present in adult",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Frogs have a visible tympanum, and their ears function in both hearing and maintaining equilibrium.  They do not possess an external ear with a pinna, compound eyes, or a lateral line organ as adults."
+  },
+  {
+    "text": "Which statement is true regarding the morphology of a frog?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Drinks water frequently; dry, scaly skin",
+        "isCorrect": false
+      },
+      {
+        "text": "Skin smooth, mucous-covered, and moist; frog absorbs water through skin",
+        "isCorrect": true
+      },
+      {
+        "text": "Hindlimb with four digits; forelimb with five",
+        "isCorrect": false
+      },
+      {
+        "text": "No webbing in digits; only claws help in swimming",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Frogs have smooth, moist skin that aids in water absorption.  They do not drink water frequently."
+  }
+]

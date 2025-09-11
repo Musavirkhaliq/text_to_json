@@ -1,0 +1,9 @@
+{
+  "title": "Leap into Frog Anatomy: A Hopping Good Quiz!",
+  "description": "Test your knowledge of frog biology! This quiz covers everything from camouflage and respiration to reproduction and the unique features of the frog's circulatory, digestive, and excretory systems.  How well do you know this amazing amphibian?",
+  "totalQuestions": 30,
+  "createdAt": "2025-09-07T01:35:27.403Z",
+  "questionTypes": {
+    "multiple_choice": 30
+  }
+}

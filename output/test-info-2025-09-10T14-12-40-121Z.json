@@ -1,0 +1,15 @@
+{
+  "title": "JKPSC 10+2 Lecturer Recruitment - Advanced Practice Test",
+  "description": "Comprehensive practice test for JKPSC 10+2 Lecturer Recruitment covering 2 key topics. Features postgraduate-level MCQs designed to test conceptual understanding, analytical thinking, and application of knowledge as per JKPSC examination standards.",
+  "totalQuestions": 5,
+  "topics": [
+    "Photosynthesis: Light and Dark Reactions, C3, C4, and CAM Pathways",
+    "Cellular Respiration: Glycolysis, Krebs Cycle, and Electron Transport Chain"
+  ],
+  "examType": "JKPSC 10+2 Lecturer Recruitment",
+  "difficulty": "Advanced/Postgraduate Level",
+  "createdAt": "2025-09-10T14:12:40.131Z",
+  "questionTypes": {
+    "multiple_choice": 5
+  }
+}

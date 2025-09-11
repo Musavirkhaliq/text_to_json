@@ -1,177 +1,270 @@
-31. To create a first-line indent without affecting the rest, use:
-    - A) Paragraph dialog > Special > First line
-    - B) Left Indent textbox
-    - C) Spacing Before
-    - D) Hyphenation
+1. The ability of frogs to change body colour to blend with surroundings is called (as per NCERT text):
+A. Mimesis
+B. Mimicry (protective colouration)
+C. Countershading
+D. Disruptive patterning
 
-    Correct: A
+2. During aestivation and hibernation, gaseous exchange in frogs occurs primarily through:
+A. Lungs only
+B. Buccal cavity only
+C. Skin (cutaneous respiration)
+D. Gills
 
-32. Spacing Before in Layout tab's Paragraph group adds space:
-    - A) Above the paragraph
-    - B) Below the paragraph
-    - C) Between lines
-    - D) In columns
+3. Which of the following is absent in an adult frog?
+A. Neck and tail
+B. Nostrils
+C. Tympanum
+D. Webbed digits
 
-    Correct: A
+4. Sexual dimorphism in frogs is shown by the presence of which features in males?
+A. Enlarged eyes and thick skin
+B. Vocal sacs and a copulatory (nuptial) pad on first digit of forelimb
+C. Ovipositor and larger abdomen
+D. Poison glands and brighter colour
 
-33. In advanced formatting, setting Spacing After to 0 and using "Don't add space between paragraphs of the same style" prevents:
-    - A) Extra gaps in lists
-    - B) Indent changes
-    - C) Column breaks
-    - D) Line number skips
+5. The nictitating membrane of frog:
+A. Aids in olfaction
+B. Protects eyes while in water
+C. Amplifies sound
+D. Helps in thermoregulation
 
-    Correct: A
+6. Frogs maintain water balance mainly by:
+A. Drinking via mouth
+B. Absorbing water through the skin
+C. Storing water in gall bladder
+D. Urea reabsorption in rectum
 
-34. Paragraph dialog from Layout tab allows setting Line spacing to "Exactly" for:
-    - A) Precise control in legal docs
-    - B) Auto-adjustment
-    - C) Multiple of single
-    - D) At least minimum
+7. Match the digits on limbs of frog:
+A. Forelimb 5; Hindlimb 4
+B. Forelimb 4; Hindlimb 5
+C. Forelimb 3; Hindlimb 3
+D. Forelimb 5; Hindlimb 5
 
-    Correct: A
+8. The alimentary canal of frog is shorter because frogs are:
+A. Herbivores
+B. Omnivores
+C. Carnivores
+D. Detritivores
 
-35. To keep paragraphs together across pages, use Paragraph dialog > Line and Page Breaks tab for:
-    - A) Keep lines together
-    - B) Widow/Orphan control
-    - C) Keep with next
-    - D) All of the above
+9. Food capture in frogs is aided by a tongue that is:
+A. Keratinised and immobile
+B. Bilobed at tip and used to flick prey
+C. Grooved with barbs
+D. Posteriorly attached and non-protrusible
 
-    Correct: D
+10. The duodenum of frog receives:
+A. Only bile via bile duct
+B. Only pancreatic juice via pancreatic duct
+C. Bile and pancreatic juice through a common bile duct
+D. Intestinal juice only
 
-36. Spacing After combined with columns in Layout tab can help:
-    - A) Balance column heights
-    - B) Add gaps between sections
-    - C) Affect wrap text
-    - D) Change orientation
+11. The cloaca in frog serves as a common chamber for:
+A. Only digestive wastes
+B. Only urine and eggs/sperms
+C. Faeces, urine and gametes
+D. Only faeces and urine (gametes excluded)
 
-    Correct: B
+12. The heart of frog is covered by:
+A. Peritoneum
+B. Pericardium
+C. Pleura
+D. Perichondrium
 
-37. In Arrange group of Layout tab, Position drop-down for an image sets:
-    - A) Absolute position relative to page/margin
-    - B) Inline only
-    - C) Rotation angle
-    - D) Group membership
+13. Which statement is correct for the frog heart?
+A. Two ventricles, one atrium, no sinus venosus
+B. Two atria, one ventricle; sinus venosus joins right atrium
+C. Two atria, two ventricles; no conus arteriosus
+D. One atrium, one ventricle; no pericardium
 
-    Correct: A
+14. The ventricle of frog opens into a ventral, sac-like structure called:
+A. Truncus arteriosus
+B. Conus arteriosus
+C. Bulbus arteriosus
+D. Aorta
 
-38. Advanced Position: In Layout Options dialog, "Move object with text" checkbox controls:
-    - A) If object shifts with edits
-    - B) Wrapping style
-    - C) Layering order
-    - D) Alignment grid
+15. Special venous connections in frogs include:
+A. Hepatic portal and pulmonary portal systems
+B. Renal portal and coronary portal systems
+C. Hepatic portal (intestine → liver) and renal portal (hind body → kidney) systems
+D. Only hepatic portal system
 
-    Correct: A
+16. The blood of frog contains RBCs that are typically:
+A. Non-nucleated and biconcave
+B. Nucleated and contain haemoglobin
+C. Avascular and anucleate
+D. Nucleated but without haemoglobin
 
-39. Selecting "In Front of Text" in Position affects:
-    - A) Z-order and text overlap
-    - B) Inline placement
-    - C) Page breaks
-    - D) Indents
+17. The lymphatic system in frogs includes:
+A. Lymph, lymph channels and lymph nodes
+B. Only lymph and spleen
+C. Lymph capillaries only
+D. Lymph nodes only
 
-    Correct: A
+18. The excretory organs of frog include all except:
+A. Kidneys
+B. Ureters
+C. Urinary bladder
+D. Malpighian tubules
 
-40. For precise positioning, use Position > More Layout Options to set:
-    - A) Horizontal/Vertical absolute values
-    - B) Relative to column/paragraph
-    - C) Lock anchor
-    - D) All of the above
+19. Nitrogenous waste excretion in adult frog is mainly as:
+A. Ammonia (ammonotelic)
+B. Uric acid (uricotelic)
+C. Urea (ureotelic)
+D. Creatinine
 
-    Correct: D
+20. In male frogs, the ureters function as:
+A. Only urine carriers to urinary bladder
+B. Urinogenital ducts opening into cloaca
+C. Separate sperm ducts opening outside directly
+D. Only sperm ducts; urine passes via cloaca independently
 
-41. Wrap Text "Tight" in Layout tab is best for:
-    - A) Irregular shapes like logos
-    - B) Square boxes only
-    - C) Tables
-    - D) Headers
+21. In female frogs, which of the following opens separately into the cloaca?
+A. Ureters and oviducts
+B. Only ureters (oviducts open into bladder)
+C. Only oviducts (ureters open into bladder)
+D. Neither; both open outside via anus
 
-    Correct: A
+22. A mature female frog typically lays about:
+A. 200–300 eggs
+B. 700–1000 eggs
+C. 2500–3000 eggs
+D. 5000–8000 eggs
 
-42. Advanced Wrap: "Edit Wrap Points" allows:
-    - A) Custom contour for text flow
-    - B) Color changes
-    - C) Size adjustments
-    - D) Rotation
+23. Fertilisation and development in frogs are:
+A. Internal; direct
+B. External; direct
+C. External; indirect via tadpole
+D. Internal; indirect
 
-    Correct: A
+24. The vasa efferentia from each testis are about:
+A. 2–3 in number; open into ureter directly
+B. 10–12 in number; enter kidney and open into Bidder’s canal
+C. 20–25 in number; open into urinary bladder
+D. 30–35 in number; merge into vas deferens outside kidney
 
-43. "Through" Wrap Text differs from "Tight" by:
-    - A) Allowing text in transparent areas
-    - B) Being behind text
-    - C) Inline only
-    - D) No difference
+25. The double fold of peritoneum that suspends each testis is the:
+A. Mesorchium
+B. Mesovarium
+C. Mesentery
+D. Mesocolon
 
-    Correct: A
+26. Which set correctly lists prominent endocrine glands of frog?
+A. Pituitary, thyroid, parathyroid, thymus, pineal, pancreatic islets, adrenals, gonads
+B. Only pituitary and thyroid
+C. Thyroid, adrenal medulla, corpus luteum, placenta
+D. Pineal, thymus, parotid, prostate
 
-44. In Wrap Text, "Top and Bottom" prevents:
-    - A) Text beside the object
-    - B) Overlap
-    - C) Rotation
-    - D) Grouping
+27. Number of cranial nerve pairs arising from frog brain:
+A. 8
+B. 10
+C. 12
+D. 14
 
-    Correct: A
+28. Which option correctly matches brain regions of frog?
+A. Forebrain—optic lobes; Midbrain—diencephalon
+B. Forebrain—olfactory lobes, cerebral hemispheres, diencephalon; Midbrain—optic lobes; Hindbrain—cerebellum & medulla
+C. Forebrain—cerebellum; Hindbrain—olfactory lobes
+D. Midbrain—pons and medulla
 
-45. Bring Forward in Arrange group moves an object:
-    - A) One layer up
-    - B) To back
-    - C) Horizontally
-    - D) To margin
+29. Regarding frog sense organs, choose the correct statement:
+A. External ear present with pinna
+B. Tympanum is visible externally; ear functions in hearing and equilibrium
+C. Compound eyes present
+D. Lateral line organ present in adult
 
-    Correct: A
+30. Which statement is true for frog morphology?
+A. Drinks water frequently; dry, scaly skin
+B. Skin smooth, mucous-covered and moist; frog absorbs water through skin
+C. Hindlimb with four digits; forelimb with five
+D. No webbing in digits; only claws help in swimming
 
-46. Send Backward drop-down's "Send to Back" places object:
-    - A) Behind all others
-    - B) One layer down
-    - C) In front
-    - D) Grouped
+Answer Key with Explanations (NCERT-aligned)
 
-    Correct: A
+B. NCERT explicitly equates protective coloration with mimicry in frogs. 
+NCERT
 
-47. For overlapping shapes, Bring Forward/Send Backward helps manage:
-    - A) Stacking order
-    - B) Alignment
-    - C) Wrap
-    - D) Indents
+C. During aestivation/hibernation, exchange is cutaneous (skin). 
+NCERT
 
-    Correct: A
+A. Adult frogs lack neck and tail; nostrils, tympanum, webbed digits present. 
+NCERT
 
-48. Selection Pane in Layout tab is used to:
-    - A) Rename, hide, or reorder objects
-    - B) Set margins
-    - C) Add breaks
-    - D) Change spacing
+B. Males: vocal sacs + copulatory (nuptial) pad on first fore-digit. 
+NCERT
 
-    Correct: A
+B. Nictitating membrane protects eyes in water. 
+NCERT
 
-49. Advanced use of Selection Pane: It's essential for:
-    - A) Complex documents with many layered objects
-    - B) Simple text
-    - C) Columns only
-    - D) Hyphenation
+B. “Frog never drinks water but absorbs it through the skin.” 
+NCERT
 
-    Correct: A
+B. Forelimb 4 digits; hindlimb 5 digits; digits are webbed. 
+NCERT
 
-50. Align drop-down in Arrange includes "Distribute Horizontally" for:
-    - A) Even spacing between multiple objects
-    - B) Vertical alignment
-    - C) Rotation
-    - D) Wrapping
+C. Short gut reflects carnivory in frog. 
+NCERT
 
-    Correct: A
+B. Food is captured by the bilobed tongue (flicking prey). 
+NCERT
 
-51. To align objects to the page in Layout tab:
-    - A) Align > Align to Page
-    - B) Group first
-    - C) Wrap Text off
-    - D) Position inline
+C. Duodenum receives bile and pancreatic juice via a common bile duct. 
+NCERT
 
-    Correct: A 
+C. Cloaca passes faeces, urine and sperms/eggs to exterior. 
+NCERT
 
+B. Heart is covered by pericardium. 
+NCERT
 
+B. Frog heart: 2 atria + 1 ventricle; sinus venosus joins right atrium. 
+NCERT
 
-50. Group drop-down's "Regroup" is for:
-    - A) Rejoining previously grouped objects
-    - B) Ungrouping
-    - C) Aligning
-    - D) Rotating
+B. Ventricle opens into conus arteriosus ventrally. 
+NCERT
 
-    Correct: A
+C. Hepatic and renal portal systems present in frogs. 
+NCERT
+
+B. Amphibian RBCs are nucleated and contain haemoglobin. 
+NCERT
+
+A. Lymphatic system = lymph, lymph channels, lymph nodes. 
+NCERT
+
+D. Malpighian tubules are arthropod excretory organs, not frog’s. (Contrast concept; frog has kidneys, ureters, bladder, cloaca.) 
+NCERT
+
+C. Adult frog is ureotelic. 
+NCERT
+
+B. In males, ureters act as urinogenital ducts opening into cloaca. 
+NCERT
+
+A. In females, ureters and oviducts open separately into cloaca. 
+NCERT
+
+C. Female lays ~2500–3000 ova at a time. 
+NCERT
+
+C. External fertilisation in water; indirect development via tadpole. 
+NCERT
+
+B. 10–12 vasa efferentia enter kidney and open into Bidder’s canal, then into urinogenital duct. 
+NCERT
+
+A. Testis suspended by mesorchium (double peritoneal fold). 
+NCERT
+
+A. NCERT list includes all mentioned endocrine glands. 
+NCERT
+
+B. Ten pairs of cranial nerves arise from the brain in frogs. 
+NCERT
+
+B. Forebrain: olfactory lobes, cerebral hemispheres, diencephalon; midbrain: optic lobes; hindbrain: cerebellum & medulla. 
+NCERT
+
+B. External ear absent; tympanum visible; ear aids hearing & equilibrium. 
+NCERT
+
+B. Skin smooth, mucous-coated, moist; water absorbed via skin.

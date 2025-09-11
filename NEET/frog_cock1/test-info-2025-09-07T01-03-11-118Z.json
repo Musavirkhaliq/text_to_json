@@ -1,0 +1,10 @@
+{
+  "title": "Cockroach Chronicles:  A Bug's Life Quiz!",
+  "description": "Test your knowledge of the amazing Periplaneta americana! This quiz dives deep into the anatomy, physiology, and reproductive strategies of the cockroach, covering everything from its digestive system and circulatory system to its respiratory system and sensory organs.  Prepare for detailed questions on its internal structures and functions!",
+  "totalQuestions": 31,
+  "createdAt": "2025-09-07T01:03:11.117Z",
+  "questionTypes": {
+    "multiple_choice": 30,
+    "short_answer": 1
+  }
+}
