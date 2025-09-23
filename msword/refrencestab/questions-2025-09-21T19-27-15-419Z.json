@@ -1,0 +1,1170 @@
+[
+  {
+    "text": "What is the main purpose of the Table of Contents group in the References tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To insert images and charts",
+        "isCorrect": false
+      },
+      {
+        "text": "To generate a navigable list of document headings based on styles",
+        "isCorrect": true
+      },
+      {
+        "text": "To manage endnotes only",
+        "isCorrect": false
+      },
+      {
+        "text": "To create hyperlinks to external sources",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Table of Contents group's primary function is to create and manage a table of contents, automatically generating a list of headings and their corresponding page numbers based on the styles applied to those headings."
+  },
+  {
+    "text": "How do you insert a custom table of contents in Microsoft Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Automatic Table 1",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert Table of Contents",
+        "isCorrect": true
+      },
+      {
+        "text": "Update Table",
+        "isCorrect": false
+      },
+      {
+        "text": "Add Text",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Insert Table of Contents' command allows you to customize various aspects of your table of contents, unlike the automatic options which offer less control."
+  },
+  {
+    "text": "After making edits, how do you refresh the page numbers in your Table of Contents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click the TOC and select \"Rebuild\"",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Update Table command",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl + Shift + 8",
+        "isCorrect": false
+      },
+      {
+        "text": "Go to the Home tab and refresh styles",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Update Table' command ensures that your table of contents accurately reflects the latest page numbers after any changes to the document."
+  },
+  {
+    "text": "What function does the \"Add Text\" drop-down in the Table of Contents group serve?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Assign heading levels to selected text for TOC inclusion",
+        "isCorrect": true
+      },
+      {
+        "text": "Delete entire sections from the TOC",
+        "isCorrect": false
+      },
+      {
+        "text": "Change the font size of TOC entries",
+        "isCorrect": false
+      },
+      {
+        "text": "Export the TOC to a separate file",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Add Text' drop-down allows you to manually assign heading levels to text, thereby controlling which parts of your document appear in the table of contents and at what level."
+  },
+  {
+    "text": "In the Table of Contents dialog's \"Options,\" which setting allows inclusion of non-heading styles?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Show page numbers",
+        "isCorrect": false
+      },
+      {
+        "text": "TOC levels",
+        "isCorrect": false
+      },
+      {
+        "text": "Styles dialog",
+        "isCorrect": true
+      },
+      {
+        "text": "Right align page numbers",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "The 'Styles dialog' option within the Table of Contents dialog lets you specify which styles, beyond the standard heading styles, should be included in the generated table of contents."
+  },
+  {
+    "text": "Is there a keyboard shortcut to directly insert a Table of Contents?",
+    "type": "true_false",
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "No, there isn't a single keyboard shortcut.  You must use the ribbon or right-click to access the Table of Contents options."
+  },
+  {
+    "text": "What is the effect of selecting \"Do Not Show in Table of Contents\" from the Add Text drop-down?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It removes the entire TOC",
+        "isCorrect": false
+      },
+      {
+        "text": "It excludes the selected paragraph from future TOC updates",
+        "isCorrect": true
+      },
+      {
+        "text": "It converts the text to a footnote",
+        "isCorrect": false
+      },
+      {
+        "text": "It hyperlinks the text externally",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "This option prevents the selected text from being included in the table of contents, ensuring it won't be displayed when the TOC is updated."
+  },
+  {
+    "text": "By default, where do footnotes appear in a Word document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "At the end of the document",
+        "isCorrect": false
+      },
+      {
+        "text": "At the bottom of the page where they are referenced",
+        "isCorrect": true
+      },
+      {
+        "text": "In a separate pane on the side",
+        "isCorrect": false
+      },
+      {
+        "text": "Inline with the text",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Footnotes are placed at the bottom of the page containing the footnote reference to maintain proximity and readability."
+  },
+  {
+    "text": "What is the keyboard shortcut to insert a new footnote?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl + Alt + F",
+        "isCorrect": true
+      },
+      {
+        "text": "Alt + Shift + F",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl + F",
+        "isCorrect": false
+      },
+      {
+        "text": "F7",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Ctrl + Alt + F is the efficient keyboard shortcut for inserting a new footnote directly."
+  },
+  {
+    "text": "How are footnotes converted to endnotes within the Footnotes dialog box?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select \"Convert to Endnotes\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Delete and reinsert as endnotes",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Captions group",
+        "isCorrect": false
+      },
+      {
+        "text": "Manually move them",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Footnotes dialog provides a direct option to convert footnotes to endnotes, streamlining the process."
+  },
+  {
+    "text": "What numbering formats are available for footnotes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only sequential numbers",
+        "isCorrect": false
+      },
+      {
+        "text": "Custom symbols or formats via the Footnotes dialog",
+        "isCorrect": true
+      },
+      {
+        "text": "Hyperlinks only",
+        "isCorrect": false
+      },
+      {
+        "text": "Bold italics",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Footnotes dialog allows for flexible customization of footnote numbering, including using Roman numerals, letters, or other custom formats."
+  },
+  {
+    "text": "How do you restart footnote numbering at the beginning of each section?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Set \"Restart each section\" in the Footnotes dialog",
+        "isCorrect": true
+      },
+      {
+        "text": "Use section breaks and apply numbering manually",
+        "isCorrect": false
+      },
+      {
+        "text": "Convert to endnotes",
+        "isCorrect": false
+      },
+      {
+        "text": "Update via Table of Contents",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Footnotes dialog offers a setting to automatically restart footnote numbering with each new section, providing consistent and organized numbering."
+  },
+  {
+    "text": "What is the function of the \"Next Footnote\" command in the Footnotes group?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Jumps to the next footnote for editing",
+        "isCorrect": true
+      },
+      {
+        "text": "Inserts a new one",
+        "isCorrect": false
+      },
+      {
+        "text": "Deletes the current one",
+        "isCorrect": false
+      },
+      {
+        "text": "Converts to endnote",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Next Footnote\" command allows for quick navigation between footnotes, facilitating efficient editing and review."
+  },
+  {
+    "text": "Which Word view displays all footnotes in a single location for easy editing?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Print Layout",
+        "isCorrect": false
+      },
+      {
+        "text": "Draft view",
+        "isCorrect": true
+      },
+      {
+        "text": "Reading view",
+        "isCorrect": false
+      },
+      {
+        "text": "Outline view",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Draft view provides a consolidated view of all footnotes, making it easier to manage and edit them simultaneously."
+  },
+  {
+    "text": "Which styles control the appearance of footnote text and reference marks?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Normal style",
+        "isCorrect": false
+      },
+      {
+        "text": "Footnote Text and Footnote Reference styles",
+        "isCorrect": true
+      },
+      {
+        "text": "Heading 1",
+        "isCorrect": false
+      },
+      {
+        "text": "Caption style",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Word uses dedicated styles, 'Footnote Text' and 'Footnote Reference,' to control the formatting of the footnote text and the numerical markers respectively."
+  },
+  {
+    "text": "What is the primary function of the Research group in the References tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To insert citations",
+        "isCorrect": false
+      },
+      {
+        "text": "To perform Smart Lookup for definitions and online info",
+        "isCorrect": true
+      },
+      {
+        "text": "To create indexes",
+        "isCorrect": false
+      },
+      {
+        "text": "To manage footnotes",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Research group's core feature is Smart Lookup, which allows users to quickly find definitions and other online information for selected words or phrases."
+  },
+  {
+    "text": "How do you initiate Smart Lookup for a highlighted word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click and select Search",
+        "isCorrect": false
+      },
+      {
+        "text": "Click the Smart Lookup icon in the Research group",
+        "isCorrect": true
+      },
+      {
+        "text": "Use Ctrl + F",
+        "isCorrect": false
+      },
+      {
+        "text": "Go to File > Info",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The dedicated Smart Lookup icon in the Research group provides the most direct and efficient way to activate this feature."
+  },
+  {
+    "text": "What kinds of information does Smart Lookup provide?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only dictionary definitions",
+        "isCorrect": false
+      },
+      {
+        "text": "Definitions, web info, images, and phonetic spelling",
+        "isCorrect": true
+      },
+      {
+        "text": "Citation styles only",
+        "isCorrect": false
+      },
+      {
+        "text": "Footnote templates",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Smart Lookup offers a comprehensive range of information, including definitions, related web results, images, and even phonetic pronunciations, providing a rich context for the selected term."
+  },
+  {
+    "text": "What conditions must be met for Smart Lookup to access online data?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Internet connection and Bing services",
+        "isCorrect": true
+      },
+      {
+        "text": "A premium subscription",
+        "isCorrect": false
+      },
+      {
+        "text": "Manual source entry",
+        "isCorrect": false
+      },
+      {
+        "text": "Offline mode only",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Smart Lookup requires an active internet connection and relies on Bing's search services to retrieve online information."
+  },
+  {
+    "text": "Which group manages in-text citations and source management?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Footnotes",
+        "isCorrect": false
+      },
+      {
+        "text": "Citations & Bibliography",
+        "isCorrect": true
+      },
+      {
+        "text": "Captions",
+        "isCorrect": false
+      },
+      {
+        "text": "Index",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Citations & Bibliography' group is specifically designed for managing citations and creating bibliographies."
+  },
+  {
+    "text": "How is a citation style (like APA or MLA) selected?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "From the Style drop-down in Citations & Bibliography",
+        "isCorrect": true
+      },
+      {
+        "text": "Via the Home tab",
+        "isCorrect": false
+      },
+      {
+        "text": "In the Footnotes dialog",
+        "isCorrect": false
+      },
+      {
+        "text": "Through Smart Lookup",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Style drop-down within the Citations & Bibliography group provides a convenient list of citation styles to choose from."
+  },
+  {
+    "text": "How do you add a new source to your Word document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert Citation > Add New Source",
+        "isCorrect": true
+      },
+      {
+        "text": "Manage Sources",
+        "isCorrect": false
+      },
+      {
+        "text": "Bibliography",
+        "isCorrect": false
+      },
+      {
+        "text": "Update Table",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Insert Citation > Add New Source' pathway is the correct method for adding a new source to your citation library."
+  },
+  {
+    "text": "What is the Source Manager used for?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To edit, add, or delete sources from Master or Current List",
+        "isCorrect": true
+      },
+      {
+        "text": "To insert footnotes",
+        "isCorrect": false
+      },
+      {
+        "text": "To create a TOC",
+        "isCorrect": false
+      },
+      {
+        "text": "To label captions",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Source Manager is a centralized tool for managing all your sources, allowing you to edit, add, and delete entries in both the current document's list and the master list for future reuse."
+  },
+  {
+    "text": "How do you update a bibliography after incorporating new citations?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click the bibliography and select Update Citations and Bibliography",
+        "isCorrect": true
+      },
+      {
+        "text": "Reinsert it entirely",
+        "isCorrect": false
+      },
+      {
+        "text": "Use Manage Sources only",
+        "isCorrect": false
+      },
+      {
+        "text": "Convert to endnotes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The right-click context menu on the bibliography offers a direct 'Update Citations and Bibliography' option for updating the bibliography to include new citations."
+  },
+  {
+    "text": "What indicator appears next to placeholder sources in the Source Manager?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A green checkmark",
+        "isCorrect": false
+      },
+      {
+        "text": "A question mark",
+        "isCorrect": true
+      },
+      {
+        "text": "An exclamation point",
+        "isCorrect": false
+      },
+      {
+        "text": "Nothing",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A question mark signifies incomplete or placeholder sources that need additional information before they can be fully utilized in citations."
+  },
+  {
+    "text": "How do you add a custom citation style (like Vancouver) in advanced citation management?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Download and install via Style drop-down",
+        "isCorrect": true
+      },
+      {
+        "text": "Manually type it in Source Manager",
+        "isCorrect": false
+      },
+      {
+        "text": "Use only built-in styles",
+        "isCorrect": false
+      },
+      {
+        "text": "Convert from APA",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "You typically download and install custom citation styles through the Style drop-down menu in the Citations & Bibliography group."
+  },
+  {
+    "text": "What is the difference between \"Bibliography\" and \"Works Cited\" when inserting them?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The title only; content is the same",
+        "isCorrect": true
+      },
+      {
+        "text": "Bibliography includes uncited sources",
+        "isCorrect": false
+      },
+      {
+        "text": "Works Cited is for images only",
+        "isCorrect": false
+      },
+      {
+        "text": "No difference in output",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Both terms refer to the same type of list of sources; the only difference lies in the label used."
+  },
+  {
+    "text": "How do you edit an in-text citation (e.g., add page numbers)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Citation Options > Edit Citation",
+        "isCorrect": true
+      },
+      {
+        "text": "Manage Sources globally",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert new one",
+        "isCorrect": false
+      },
+      {
+        "text": "Delete and re-add",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Citation Options > Edit Citation' menu provides the most efficient and precise method for making changes to individual citations."
+  },
+  {
+    "text": "What information is stored in the Master List?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only current document sources",
+        "isCorrect": false
+      },
+      {
+        "text": "All sources ever created on your computer",
+        "isCorrect": true
+      },
+      {
+        "text": "Footnotes only",
+        "isCorrect": false
+      },
+      {
+        "text": "TOC entries",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Master List serves as a central repository for all sources you have ever added in Word, making them readily available for reuse in different documents."
+  },
+  {
+    "text": "How do you efficiently locate a source from a previous document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Open Source Manager and browse Master List",
+        "isCorrect": true
+      },
+      {
+        "text": "Re-type it",
+        "isCorrect": false
+      },
+      {
+        "text": "Use Smart Lookup",
+        "isCorrect": false
+      },
+      {
+        "text": "Import via email",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Master List in the Source Manager is the most direct and efficient way to find and reuse sources from previous documents."
+  },
+  {
+    "text": "What happens when a source is cited multiple times in a document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Word automatically shortens subsequent citations based on style",
+        "isCorrect": true
+      },
+      {
+        "text": "It duplicates fully each time",
+        "isCorrect": false
+      },
+      {
+        "text": "It converts to a footnote",
+        "isCorrect": false
+      },
+      {
+        "text": "It requires manual shortening",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Word automatically applies the style's rules for shortening repeated citations, avoiding redundancy and maintaining consistency."
+  },
+  {
+    "text": "How can advanced users integrate Zotero with Word's citation tool?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Install Zotero plugin; it adds a tab for seamless import",
+        "isCorrect": true
+      },
+      {
+        "text": "Manual copy-paste only",
+        "isCorrect": false
+      },
+      {
+        "text": "Not possible",
+        "isCorrect": false
+      },
+      {
+        "text": "Use EndNote instead",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "A Zotero plugin allows seamless integration, providing a dedicated interface for importing and managing citations directly within Word."
+  },
+  {
+    "text": "Which checkbox in Add New Source displays all bibliography fields?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Show All Bibliography Fields",
+        "isCorrect": true
+      },
+      {
+        "text": "Include Page Numbers",
+        "isCorrect": false
+      },
+      {
+        "text": "Master List",
+        "isCorrect": false
+      },
+      {
+        "text": "Current List",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Show All Bibliography Fields\" checkbox ensures that all relevant information for the bibliography entry is visible and accessible."
+  },
+  {
+    "text": "To generate a bibliography, what should you do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Bibliography > Insert Bibliography",
+        "isCorrect": true
+      },
+      {
+        "text": "Insert Citation",
+        "isCorrect": false
+      },
+      {
+        "text": "Manage Sources",
+        "isCorrect": false
+      },
+      {
+        "text": "Update Table",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Insert Bibliography' command generates a formatted list of all cited sources in the document, adhering to the selected citation style."
+  },
+  {
+    "text": "What does the Insert Caption command add to selected objects?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A numbered label like \"Figure 1\"",
+        "isCorrect": true
+      },
+      {
+        "text": "A footnote",
+        "isCorrect": false
+      },
+      {
+        "text": "A citation",
+        "isCorrect": false
+      },
+      {
+        "text": "An index entry",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Insert Caption' command adds a numbered label (e.g., 'Figure 1', 'Table 1') to help identify and reference figures and tables within the document."
+  },
+  {
+    "text": "Where can captions be positioned relative to an item?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only below",
+        "isCorrect": false
+      },
+      {
+        "text": "Only above",
+        "isCorrect": false
+      },
+      {
+        "text": "Either, via the Caption dialog",
+        "isCorrect": true
+      },
+      {
+        "text": "Inline only",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Caption dialog box provides options to place captions either above or below the corresponding object."
+  },
+  {
+    "text": "How is a Table of Figures created?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert Table of Figures in the Captions group",
+        "isCorrect": true
+      },
+      {
+        "text": "Use Bibliography",
+        "isCorrect": false
+      },
+      {
+        "text": "Mark Entry",
+        "isCorrect": false
+      },
+      {
+        "text": "Smart Lookup",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Insert Table of Figures' command directly generates a table listing all figures with captions and their page numbers."
+  },
+  {
+    "text": "How do you add a custom label (like \"Equation\") in advanced captioning?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "New Label button in Caption dialog",
+        "isCorrect": true
+      },
+      {
+        "text": "Styles group",
+        "isCorrect": false
+      },
+      {
+        "text": "Source Manager",
+        "isCorrect": false
+      },
+      {
+        "text": "Footnotes dialog",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'New Label' button within the Caption dialog allows you to define and add custom labels for different types of objects."
+  },
+  {
+    "text": "How do you update a Table of Figures after adding new captions?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click and select Update Field",
+        "isCorrect": true
+      },
+      {
+        "text": "Reinsert Caption",
+        "isCorrect": false
+      },
+      {
+        "text": "Use Manage Sources",
+        "isCorrect": false
+      },
+      {
+        "text": "Convert to TOC",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Right-clicking and selecting 'Update Field' refreshes the Table of Figures to reflect the latest captions and page numbers."
+  },
+  {
+    "text": "What must pre-exist to cross-reference a caption?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The captioned item",
+        "isCorrect": true
+      },
+      {
+        "text": "A bibliography entry",
+        "isCorrect": false
+      },
+      {
+        "text": "An index mark",
+        "isCorrect": false
+      },
+      {
+        "text": "A footnote",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The captioned item must already exist in order to create a cross-reference to it.  The caption itself acts as a point of reference."
+  },
+  {
+    "text": "What is the initial step in index creation?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Mark Entry for key terms",
+        "isCorrect": true
+      },
+      {
+        "text": "Insert Index",
+        "isCorrect": false
+      },
+      {
+        "text": "Update Table",
+        "isCorrect": false
+      },
+      {
+        "text": "Add Caption",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Before generating an index, you must first mark the key terms or entries that you want to include in the index using the 'Mark Entry' feature."
+  },
+  {
+    "text": "Where does an index typically appear in a document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "At the beginning",
+        "isCorrect": false
+      },
+      {
+        "text": "At the end",
+        "isCorrect": true
+      },
+      {
+        "text": "Inline with text",
+        "isCorrect": false
+      },
+      {
+        "text": "In footnotes",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Indexes are conventionally placed at the end of a document to provide a comprehensive alphabetical listing of terms and their page references."
+  },
+  {
+    "text": "What keyboard shortcut marks text for the index?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Alt + Shift + X",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl + Alt + I",
+        "isCorrect": false
+      },
+      {
+        "text": "F11",
+        "isCorrect": false
+      },
+      {
+        "text": "No shortcut",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Alt + Shift + X is a quick way to mark selected text for index inclusion."
+  },
+  {
+    "text": "How are subentries included in advanced indexing?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "In the Mark Entry dialog, add under \"Subentry\"",
+        "isCorrect": true
+      },
+      {
+        "text": "Manually type after marking",
+        "isCorrect": false
+      },
+      {
+        "text": "Use cross-references only",
+        "isCorrect": false
+      },
+      {
+        "text": "Convert to TOC",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Mark Entry' dialog box allows you to specify subentries under the main index entry, creating a hierarchical structure within the index."
+  },
+  {
+    "text": "What is the main purpose of a Table of Authorities?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Listing legal citations like cases and statutes",
+        "isCorrect": true
+      },
+      {
+        "text": "Creating a TOC for figures",
+        "isCorrect": false
+      },
+      {
+        "text": "Managing footnotes",
+        "isCorrect": false
+      },
+      {
+        "text": "Indexing keywords",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Tables of Authorities are specifically used in legal writing to list and reference legal sources such as cases, statutes, and regulations."
+  },
+  {
+    "text": "How do you mark a legal reference for inclusion in a Table of Authorities?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use Mark Citation in the Table of Authorities group",
+        "isCorrect": true
+      },
+      {
+        "text": "Insert Caption",
+        "isCorrect": false
+      },
+      {
+        "text": "Add New Source",
+        "isCorrect": false
+      },
+      {
+        "text": "Smart Lookup",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Mark Citation' command within the Table of Authorities group is used to designate legal references for inclusion in the table."
+  },
+  {
+    "text": "What does \"Insert Table of Authorities\" generate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A list of marked authorities with page numbers",
+        "isCorrect": true
+      },
+      {
+        "text": "A bibliography",
+        "isCorrect": false
+      },
+      {
+        "text": "An index of images",
+        "isCorrect": false
+      },
+      {
+        "text": "Endnotes",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Insert Table of Authorities' command creates a list of all marked legal citations along with their corresponding page numbers."
+  },
+  {
+    "text": "In advanced use, how are categories assigned to authorities (e.g., Cases, Statutes)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Via the Mark Citation dialog",
+        "isCorrect": true
+      },
+      {
+        "text": "Manually in the index",
+        "isCorrect": false
+      },
+      {
+        "text": "Through styles only",
+        "isCorrect": false
+      },
+      {
+        "text": "Not customizable",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "The 'Mark Citation' dialog offers options to categorize the authorities, allowing for a more organized and structured Table of Authorities."
+  },
+  {
+    "text": "How do you update a Table of Authorities after adding new citations?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click and select Update Field",
+        "isCorrect": true
+      },
+      {
+        "text": "Re-mark all entries",
+        "isCorrect": false
+      },
+      {
+        "text": "Use Bibliography update",
+        "isCorrect": false
+      },
+      {
+        "text": "Convert to index",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Right-clicking and selecting 'Update Field' refreshes the Table of Authorities to include newly marked citations and their page numbers."
+  }
+]

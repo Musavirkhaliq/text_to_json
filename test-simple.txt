@@ -1,270 +1,322 @@
-1. The ability of frogs to change body colour to blend with surroundings is called (as per NCERT text):
-A. Mimesis
-B. Mimicry (protective colouration)
-C. Countershading
-D. Disruptive patterning
+Multiple Choice Questions on the References Tab in Microsoft Word
+Below is a set of 50 multiple-choice questions covering all features of the References tab in Microsoft Word (from medium to advanced level). The questions are organized by major groups within the tab for easier navigation: Table of Contents (Q1-8), Footnotes (Q9-16), Research (Q17-20), Citations & Bibliography (Q21-35), Captions (Q36-41), Index (Q42-45), and Table of Authorities (Q46-50). Each question includes four options (A-D), with the correct answer indicated immediately after.
+Table of Contents (Questions 1-8)
 
-2. During aestivation and hibernation, gaseous exchange in frogs occurs primarily through:
-A. Lungs only
-B. Buccal cavity only
-C. Skin (cutaneous respiration)
-D. Gills
+What is the primary purpose of the Table of Contents group in the References tab?
+A) To insert images and charts
+B) To generate a navigable list of document headings based on styles
+C) To manage endnotes only
+D) To create hyperlinks to external sources
+Correct Answer: B
+Which command in the Table of Contents group allows you to insert a custom table rather than a built-in one?
+A) Automatic Table 1
+B) Insert Table of Contents
+C) Update Table
+D) Add Text
+Correct Answer: B
+After editing a document, how do you ensure the Table of Contents reflects the latest page numbers?
+A) Right-click the TOC and select "Rebuild"
+B) Use the Update Table command
+C) Press Ctrl + Shift + 8
+D) Go to the Home tab and refresh styles
+Correct Answer: B
+What does the "Add Text" drop-down in the Table of Contents group allow you to do?
+A) Assign heading levels to selected text for TOC inclusion
+B) Delete entire sections from the TOC
+C) Change the font size of TOC entries
+D) Export the TOC to a separate file
+Correct Answer: A
+In advanced TOC customization, what option under "Options" in the Table of Contents dialog allows you to include non-heading styles?
+A) Show page numbers
+B) TOC levels
+C) Styles dialog
+D) Right align page numbers
+Correct Answer: C
+Which shortcut key combination inserts a Table of Contents directly?
+A) Alt + Shift + O
+B) Ctrl + Alt + T
+C) There is no direct shortcut; use the ribbon
+D) F9
+Correct Answer: C
+What happens if you select "Do Not Show in Table of Contents" from the Add Text drop-down?
+A) It removes the entire TOC
+B) It excludes the selected paragraph from future TOC updates
+C) It converts the text to a footnote
+D) It hyperlinks the text externally
+Correct Answer: B
+For a multi-chapter document, how can you create separate TOCs per section (advanced technique)?
+A) Use section breaks and insert a TOC in each section
+B) Copy the TOC and paste into each chapter
+C) Manually type each TOC
+D) Use the Index group instead
+Correct Answer: A
 
-3. Which of the following is absent in an adult frog?
-A. Neck and tail
-B. Nostrils
-C. Tympanum
-D. Webbed digits
+Footnotes (Questions 9-16)
 
-4. Sexual dimorphism in frogs is shown by the presence of which features in males?
-A. Enlarged eyes and thick skin
-B. Vocal sacs and a copulatory (nuptial) pad on first digit of forelimb
-C. Ovipositor and larger abdomen
-D. Poison glands and brighter colour
+Where do footnotes appear by default in a Word document?
+A) At the end of the document
+B) At the bottom of the page where they are referenced
+C) In a separate pane on the side
+D) Inline with the text
+Correct Answer: B
+What is the keyboard shortcut to insert a new footnote?
+A) Ctrl + Alt + F
+B) Alt + Shift + F
+C) Ctrl + F
+D) F7
+Correct Answer: A
+How can you convert footnotes to endnotes in the Footnotes dialog?
+A) Select "Convert to Endnotes"
+B) Delete and reinsert as endnotes
+C) Use the Captions group
+D) Manually move them
+Correct Answer: A
+What numbering format can you apply to footnotes (e.g., Roman numerals)?
+A) Only sequential numbers
+B) Custom symbols or formats via the Footnotes dialog
+C) Hyperlinks only
+D) Bold italics
+Correct Answer: B
+In advanced use, how do you restart footnote numbering per section?
+A) Set "Restart each section" in the Footnotes dialog
+B) Use section breaks and apply numbering manually
+C) Convert to endnotes
+D) Update via Table of Contents
+Correct Answer: A
+What does the "Next Footnote" command in the Footnotes group do?
+A) Jumps to the next footnote for editing
+B) Inserts a new one
+C) Deletes the current one
+D) Converts to endnote
+Correct Answer: A
+To view all footnotes in one place for editing (advanced), switch to which view?
+A) Print Layout
+B) Draft view
+C) Reading view
+D) Outline view
+Correct Answer: B
+What style controls the appearance of footnote text and reference marks?
+A) Normal style
+B) Footnote Text and Footnote Reference styles
+C) Heading 1
+D) Caption style
+Correct Answer: B
 
-5. The nictitating membrane of frog:
-A. Aids in olfaction
-B. Protects eyes while in water
-C. Amplifies sound
-D. Helps in thermoregulation
+Research (Questions 17-20)
 
-6. Frogs maintain water balance mainly by:
-A. Drinking via mouth
-B. Absorbing water through the skin
-C. Storing water in gall bladder
-D. Urea reabsorption in rectum
+What is the main function of the Research group in the References tab?
+A) To insert citations
+B) To perform Smart Lookup for definitions and online info
+C) To create indexes
+D) To manage footnotes
+Correct Answer: B
+How do you activate Smart Lookup for a selected word?
+A) Right-click and select Search
+B) Click the Smart Lookup icon in the Research group
+C) Use Ctrl + F
+D) Go to File > Info
+Correct Answer: B
+What type of information does Smart Lookup provide (medium level)?
+A) Only dictionary definitions
+B) Definitions, web info, images, and phonetic spelling
+C) Citation styles only
+D) Footnote templates
+Correct Answer: B
+In advanced research, what must be enabled for Smart Lookup to access online data?
+A) Internet connection and Bing services
+B) A premium subscription
+C) Manual source entry
+D) Offline mode only
+Correct Answer: A
 
-7. Match the digits on limbs of frog:
-A. Forelimb 5; Hindlimb 4
-B. Forelimb 4; Hindlimb 5
-C. Forelimb 3; Hindlimb 3
-D. Forelimb 5; Hindlimb 5
+Citations & Bibliography (Questions 21-35)
 
-8. The alimentary canal of frog is shorter because frogs are:
-A. Herbivores
-B. Omnivores
-C. Carnivores
-D. Detritivores
+Which group in the References tab handles in-text citations and source management?
+A) Footnotes
+B) Citations & Bibliography
+C) Captions
+D) Index
+Correct Answer: B
+How do you select a citation style like APA or MLA?
+A) From the Style drop-down in Citations & Bibliography
+B) Via the Home tab
+C) In the Footnotes dialog
+D) Through Smart Lookup
+Correct Answer: A
+What command adds a new source to your document?
+A) Insert Citation > Add New Source
+B) Manage Sources
+C) Bibliography
+D) Update Table
+Correct Answer: A
+What is the purpose of the Source Manager?
+A) To edit, add, or delete sources from Master or Current List
+B) To insert footnotes
+C) To create a TOC
+D) To label captions
+Correct Answer: A
+To update a bibliography after adding new citations, what do you do?
+A) Right-click the bibliography and select Update Citations and Bibliography
+B) Reinsert it entirely
+C) Use Manage Sources only
+D) Convert to endnotes
+Correct Answer: A
+What appears next to placeholder sources in Source Manager?
+A) A green checkmark
+B) A question mark
+C) An exclamation point
+D) Nothing
+Correct Answer: B
+In advanced citation management, how do you add a custom style like Vancouver?
+A) Download and install via Style drop-down
+B) Manually type it in Source Manager
+C) Use only built-in styles
+D) Convert from APA
+Correct Answer: A
+What differentiates "Bibliography" from "Works Cited" when inserting?
+A) The title only; content is the same
+B) Bibliography includes uncited sources
+C) Works Cited is for images only
+D) No difference in output
+Correct Answer: A
+To edit a specific citation in-text (e.g., add page numbers), use:
+A) Citation Options > Edit Citation
+B) Manage Sources globally
+C) Insert new one
+D) Delete and re-add
+Correct Answer: A
+What is stored in the Master List for reuse across documents?
+A) Only current document sources
+B) All sources ever created on your computer
+C) Footnotes only
+D) TOC entries
+Correct Answer: B
+In medium-level use, how do you search for a source from another document?
+A) Open Source Manager and browse Master List
+B) Re-type it
+C) Use Smart Lookup
+D) Import via email
+Correct Answer: A
+What happens if you cite a source multiple times?
+A) Word automatically shortens subsequent citations based on style
+B) It duplicates fully each time
+C) It converts to a footnote
+D) It requires manual shortening
+Correct Answer: A
+For advanced users, how can you integrate Zotero with Word's Citations tool?
+A) Install Zotero plugin; it adds a tab for seamless import
+B) Manual copy-paste only
+C) Not possible
+D) Use EndNote instead
+Correct Answer: A
+What checkbox in Add New Source shows all bibliography fields?
+A) Show All Bibliography Fields
+B) Include Page Numbers
+C) Master List
+D) Current List
+Correct Answer: A
+To generate a bibliography, place your cursor and select:
+A) Bibliography > Insert Bibliography
+B) Insert Citation
+C) Manage Sources
+D) Update Table
+Correct Answer: A
 
-9. Food capture in frogs is aided by a tongue that is:
-A. Keratinised and immobile
-B. Bilobed at tip and used to flick prey
-C. Grooved with barbs
-D. Posteriorly attached and non-protrusible
+Captions (Questions 36-41)
 
-10. The duodenum of frog receives:
-A. Only bile via bile duct
-B. Only pancreatic juice via pancreatic duct
-C. Bile and pancreatic juice through a common bile duct
-D. Intestinal juice only
+What does the Insert Caption command add to selected objects?
+A) A numbered label like "Figure 1"
+B) A footnote
+C) A citation
+D) An index entry
+Correct Answer: A
+Where can captions be positioned—above or below the item?
+A) Only below
+B) Only above
+C) Either, via the Caption dialog
+D) Inline only
+Correct Answer: C
+How do you create a Table of Figures after adding captions?
+A) Insert Table of Figures in the Captions group
+B) Use Bibliography
+C) Mark Entry
+D) Smart Lookup
+Correct Answer: A
+What advanced option allows you to add a custom label like "Equation"?
+A) New Label button in Caption dialog
+B) Styles group
+C) Source Manager
+D) Footnotes dialog
+Correct Answer: A
+To update a Table of Figures after adding new captions:
+A) Right-click and select Update Field
+B) Reinsert Caption
+C) Use Manage Sources
+D) Convert to TOC
+Correct Answer: A
+In cross-referencing a caption (advanced), what must exist first?
+A) The captioned item
+B) A bibliography entry
+C) An index mark
+D) A footnote
+Correct Answer: A
 
-11. The cloaca in frog serves as a common chamber for:
-A. Only digestive wastes
-B. Only urine and eggs/sperms
-C. Faeces, urine and gametes
-D. Only faeces and urine (gametes excluded)
+Index (Questions 42-45)
 
-12. The heart of frog is covered by:
-A. Peritoneum
-B. Pericardium
-C. Pleura
-D. Perichondrium
+What is the first step to create an index?
+A) Mark Entry for key terms
+B) Insert Index
+C) Update Table
+D) Add Caption
+Correct Answer: A
+Where does an index typically appear in a document?
+A) At the beginning
+B) At the end
+C) Inline with text
+D) In footnotes
+Correct Answer: B
+What shortcut marks text for the index?
+A) Alt + Shift + X
+B) Ctrl + Alt + I
+C) F11
+D) No shortcut
+Correct Answer: A
+In advanced indexing, how do you include subentries?
+A) In the Mark Entry dialog, add under "Subentry"
+B) Manually type after marking
+C) Use cross-references only
+D) Convert to TOC
+Correct Answer: A
 
-13. Which statement is correct for the frog heart?
-A. Two ventricles, one atrium, no sinus venosus
-B. Two atria, one ventricle; sinus venosus joins right atrium
-C. Two atria, two ventricles; no conus arteriosus
-D. One atrium, one ventricle; no pericardium
+Table of Authorities (Questions 46-50)
 
-14. The ventricle of frog opens into a ventral, sac-like structure called:
-A. Truncus arteriosus
-B. Conus arteriosus
-C. Bulbus arteriosus
-D. Aorta
-
-15. Special venous connections in frogs include:
-A. Hepatic portal and pulmonary portal systems
-B. Renal portal and coronary portal systems
-C. Hepatic portal (intestine → liver) and renal portal (hind body → kidney) systems
-D. Only hepatic portal system
-
-16. The blood of frog contains RBCs that are typically:
-A. Non-nucleated and biconcave
-B. Nucleated and contain haemoglobin
-C. Avascular and anucleate
-D. Nucleated but without haemoglobin
-
-17. The lymphatic system in frogs includes:
-A. Lymph, lymph channels and lymph nodes
-B. Only lymph and spleen
-C. Lymph capillaries only
-D. Lymph nodes only
-
-18. The excretory organs of frog include all except:
-A. Kidneys
-B. Ureters
-C. Urinary bladder
-D. Malpighian tubules
-
-19. Nitrogenous waste excretion in adult frog is mainly as:
-A. Ammonia (ammonotelic)
-B. Uric acid (uricotelic)
-C. Urea (ureotelic)
-D. Creatinine
-
-20. In male frogs, the ureters function as:
-A. Only urine carriers to urinary bladder
-B. Urinogenital ducts opening into cloaca
-C. Separate sperm ducts opening outside directly
-D. Only sperm ducts; urine passes via cloaca independently
-
-21. In female frogs, which of the following opens separately into the cloaca?
-A. Ureters and oviducts
-B. Only ureters (oviducts open into bladder)
-C. Only oviducts (ureters open into bladder)
-D. Neither; both open outside via anus
-
-22. A mature female frog typically lays about:
-A. 200–300 eggs
-B. 700–1000 eggs
-C. 2500–3000 eggs
-D. 5000–8000 eggs
-
-23. Fertilisation and development in frogs are:
-A. Internal; direct
-B. External; direct
-C. External; indirect via tadpole
-D. Internal; indirect
-
-24. The vasa efferentia from each testis are about:
-A. 2–3 in number; open into ureter directly
-B. 10–12 in number; enter kidney and open into Bidder’s canal
-C. 20–25 in number; open into urinary bladder
-D. 30–35 in number; merge into vas deferens outside kidney
-
-25. The double fold of peritoneum that suspends each testis is the:
-A. Mesorchium
-B. Mesovarium
-C. Mesentery
-D. Mesocolon
-
-26. Which set correctly lists prominent endocrine glands of frog?
-A. Pituitary, thyroid, parathyroid, thymus, pineal, pancreatic islets, adrenals, gonads
-B. Only pituitary and thyroid
-C. Thyroid, adrenal medulla, corpus luteum, placenta
-D. Pineal, thymus, parotid, prostate
-
-27. Number of cranial nerve pairs arising from frog brain:
-A. 8
-B. 10
-C. 12
-D. 14
-
-28. Which option correctly matches brain regions of frog?
-A. Forebrain—optic lobes; Midbrain—diencephalon
-B. Forebrain—olfactory lobes, cerebral hemispheres, diencephalon; Midbrain—optic lobes; Hindbrain—cerebellum & medulla
-C. Forebrain—cerebellum; Hindbrain—olfactory lobes
-D. Midbrain—pons and medulla
-
-29. Regarding frog sense organs, choose the correct statement:
-A. External ear present with pinna
-B. Tympanum is visible externally; ear functions in hearing and equilibrium
-C. Compound eyes present
-D. Lateral line organ present in adult
-
-30. Which statement is true for frog morphology?
-A. Drinks water frequently; dry, scaly skin
-B. Skin smooth, mucous-covered and moist; frog absorbs water through skin
-C. Hindlimb with four digits; forelimb with five
-D. No webbing in digits; only claws help in swimming
-
-Answer Key with Explanations (NCERT-aligned)
-
-B. NCERT explicitly equates protective coloration with mimicry in frogs. 
-NCERT
-
-C. During aestivation/hibernation, exchange is cutaneous (skin). 
-NCERT
-
-A. Adult frogs lack neck and tail; nostrils, tympanum, webbed digits present. 
-NCERT
-
-B. Males: vocal sacs + copulatory (nuptial) pad on first fore-digit. 
-NCERT
-
-B. Nictitating membrane protects eyes in water. 
-NCERT
-
-B. “Frog never drinks water but absorbs it through the skin.” 
-NCERT
-
-B. Forelimb 4 digits; hindlimb 5 digits; digits are webbed. 
-NCERT
-
-C. Short gut reflects carnivory in frog. 
-NCERT
-
-B. Food is captured by the bilobed tongue (flicking prey). 
-NCERT
-
-C. Duodenum receives bile and pancreatic juice via a common bile duct. 
-NCERT
-
-C. Cloaca passes faeces, urine and sperms/eggs to exterior. 
-NCERT
-
-B. Heart is covered by pericardium. 
-NCERT
-
-B. Frog heart: 2 atria + 1 ventricle; sinus venosus joins right atrium. 
-NCERT
-
-B. Ventricle opens into conus arteriosus ventrally. 
-NCERT
-
-C. Hepatic and renal portal systems present in frogs. 
-NCERT
-
-B. Amphibian RBCs are nucleated and contain haemoglobin. 
-NCERT
-
-A. Lymphatic system = lymph, lymph channels, lymph nodes. 
-NCERT
-
-D. Malpighian tubules are arthropod excretory organs, not frog’s. (Contrast concept; frog has kidneys, ureters, bladder, cloaca.) 
-NCERT
-
-C. Adult frog is ureotelic. 
-NCERT
-
-B. In males, ureters act as urinogenital ducts opening into cloaca. 
-NCERT
-
-A. In females, ureters and oviducts open separately into cloaca. 
-NCERT
-
-C. Female lays ~2500–3000 ova at a time. 
-NCERT
-
-C. External fertilisation in water; indirect development via tadpole. 
-NCERT
-
-B. 10–12 vasa efferentia enter kidney and open into Bidder’s canal, then into urinogenital duct. 
-NCERT
-
-A. Testis suspended by mesorchium (double peritoneal fold). 
-NCERT
-
-A. NCERT list includes all mentioned endocrine glands. 
-NCERT
-
-B. Ten pairs of cranial nerves arise from the brain in frogs. 
-NCERT
-
-B. Forebrain: olfactory lobes, cerebral hemispheres, diencephalon; midbrain: optic lobes; hindbrain: cerebellum & medulla. 
-NCERT
-
-B. External ear absent; tympanum visible; ear aids hearing & equilibrium. 
-NCERT
-
-B. Skin smooth, mucous-coated, moist; water absorbed via skin.
+What is a Table of Authorities primarily used for?
+A) Listing legal citations like cases and statutes
+B) Creating a TOC for figures
+C) Managing footnotes
+D) Indexing keywords
+Correct Answer: A
+How do you mark a legal reference for the Table of Authorities?
+A) Use Mark Citation in the Table of Authorities group
+B) Insert Caption
+C) Add New Source
+D) Smart Lookup
+Correct Answer: A
+What does "Insert Table of Authorities" generate?
+A) A list of marked authorities with page numbers
+B) A bibliography
+C) An index of images
+D) Endnotes
+Correct Answer: A
+In advanced use, what categories can you assign to authorities (e.g., Cases, Statutes)?
+A) Via the Mark Citation dialog
+B) Manually in the index
+C) Through styles only
+D) Not customizable
+Correct Answer: A
+How do you update a Table of Authorities after adding new citations?
+A) Right-click and select Update Field
+B) Re-mark all entries
+C) Use Bibliography update
+D) Convert to index
+Correct Answer: A

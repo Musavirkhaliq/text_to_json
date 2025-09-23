@@ -1,0 +1,11 @@
+{
+  "title": "Word Wizard: Master the Art of Citations, Footnotes, and Tables!",
+  "description": "Test your Microsoft Word expertise! This quiz covers advanced features like creating custom tables of contents, managing footnotes and endnotes, mastering citations (including APA, MLA, and custom styles), generating bibliographies, tables of figures, indexes, and tables of authorities.",
+  "totalQuestions": 50,
+  "createdAt": "2025-09-21T19:27:15.418Z",
+  "questionTypes": {
+    "multiple_choice": 48,
+    "true_false": 1,
+    "short_answer": 1
+  }
+}
