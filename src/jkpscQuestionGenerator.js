@@ -11,9 +11,10 @@ class JKPSCQuestionGenerator {
      * Generate JKPSC-level MCQs from topics file
      * @param {string} topicsFilePath - Path to file containing topics
      * @param {number} questionsPerTopic - Number of questions per topic (default: 5)
+     * @param {string} outputDir - Directory to save output files (default: 'output')
      * @returns {Promise<Object>} - Generated questions with metadata
      */
-    async generateFromTopics(topicsFilePath, questionsPerTopic = 5) {
+    async generateFromTopics(topicsFilePath, questionsPerTopic = 5, outputDir = 'output') { // Added outputDir parameter
         try {
             // Read topics from file
             const topicsContent = await fs.readFile(topicsFilePath, 'utf8');
@@ -72,21 +73,21 @@ class JKPSCQuestionGenerator {
             };
 
             // Create output directory if it doesn't exist
-            await fs.ensureDir('AutoAamir');
+            await fs.ensureDir(outputDir); // Use outputDir here
 
             // Save files
-            await fs.writeFile(path.join('output', questionsFileName), JSON.stringify(allQuestions, null, 2));
-            await fs.writeFile(path.join('output', testInfoFileName), JSON.stringify(testInfo, null, 2));
+            await fs.writeFile(path.join(outputDir, questionsFileName), JSON.stringify(questionsData, null, 2)); // Use outputDir here
+            await fs.writeFile(path.join(outputDir, testInfoFileName), JSON.stringify(testInfo, null, 2)); // Use outputDir here
 
             console.log(`\nGeneration complete!`);
-            console.log(`Questions saved to: output/${questionsFileName}`);
-            console.log(`Test info saved to: output/${testInfoFileName}`);
+            console.log(`Questions saved to: ${outputDir}/${questionsFileName}`); // Use outputDir in log
+            console.log(`Test info saved to: ${outputDir}/${testInfoFileName}`); // Use outputDir in log
             console.log(`Total questions generated: ${allQuestions.length}`);
 
             return {
                 success: true,
-                questionsFile: path.join('output', questionsFileName),
-                testInfoFile: path.join('output', testInfoFileName),
+                questionsFile: path.join(outputDir, questionsFileName),
+                testInfoFile: path.join(outputDir, testInfoFileName),
                 totalQuestions: allQuestions.length,
                 topics: topics
             };
