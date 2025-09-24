@@ -170,7 +170,8 @@ IMPORTANT REQUIREMENTS:
 4. Avoid simple definition-based questions
 5. Include questions that require ANALYSIS, SYNTHESIS, and EVALUATION
 6. Each question should have 4 options with exactly ONE correct answer
-7. Provide clear, educational explanations for correct answers
+7. OPtions should be plausible to avoid guesswork and obvious right answers
+8. Provide clear, educational explanations for correct answers
 
 QUESTION TYPES TO INCLUDE:
 - Application of concepts to new situations

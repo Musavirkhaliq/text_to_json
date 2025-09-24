@@ -1,0 +1,23 @@
+{
+  "title": "JKPSC 10+2 Lecturer Recruitment Exam: Advanced Biology Comprehensive Practice Assessment",
+  "description": "This advanced postgraduate-level practice test is meticulously crafted for aspirants targeting the JKPSC 10+2 Lecturer Recruitment Examination in Biology. Designed to align precisely with rigorous JKPSC examination standards, this assessment offers an in-depth evaluation of critical biological concepts through conceptual and analytical questions.\n\nThe test comprehensively covers the following core and advanced topics:\n\n*   **Cellular & Molecular Biology:** Photosynthesis (Light & Dark Reactions, C3, C4, CAM Pathways), Cellular Respiration (Glycolysis, Krebs Cycle, Electron Transport Chain), Cell Division (Mitosis, Meiosis, Cell Cycle Regulation), Genetics (Mendelian Inheritance, Linkage, Chromosomal Aberrations), and Molecular Biology (DNA Replication, Transcription, Translation).\n*   **Physiology:** Detailed Plant Physiology (Water Relations, Mineral Nutrition, Growth Regulators) and Animal Physiology (Circulation, Respiration, Excretion).\n*   **Ecology & Evolution:** Population Dynamics, Community Structure, Ecosystem Function, Natural Selection, Speciation, and Phylogenetics.\n*   **Biotechnology:** Fundamental and applied aspects of Genetic Engineering, PCR techniques, and Recombinant DNA Technology.\n\nEach question is developed to challenge candidates' understanding, critical thinking, and problem-solving abilities, moving beyond mere recall. This professional academic assessment serves as an invaluable tool for identifying strengths, pinpointing areas for improvement, and ensuring comprehensive readiness for the demands of the JKPSC 10+2 Lecturer Recruitment Examination.",
+  "totalQuestions": 10,
+  "topics": [
+    "Photosynthesis: Light and Dark Reactions, C3, C4, and CAM Pathways",
+    "Cellular Respiration: Glycolysis, Krebs Cycle, and Electron Transport Chain",
+    "Cell Division: Mitosis, Meiosis, and Cell Cycle Regulation",
+    "Genetics: Mendelian Inheritance, Linkage, and Chromosomal Aberrations",
+    "Molecular Biology: DNA Replication, Transcription, and Translation",
+    "Plant Physiology: Water Relations, Mineral Nutrition, and Growth Regulators",
+    "Animal Physiology: Circulation, Respiration, and Excretion",
+    "Ecology: Population Dynamics, Community Structure, and Ecosystem Function",
+    "Evolution: Natural Selection, Speciation, and Phylogenetics",
+    "Biotechnology: Genetic Engineering, PCR, and Recombinant DNA Technology"
+  ],
+  "examType": "JKPSC 10+2 Lecturer Recruitment",
+  "difficulty": "Advanced/Postgraduate Level",
+  "createdAt": "2025-09-23T13:06:20.950Z",
+  "questionTypes": {
+    "multiple_choice": 10
+  }
+}
