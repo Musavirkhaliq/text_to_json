@@ -1,0 +1,15 @@
+{
+  "title": "JKPSC 10+2 Lecturer Recruitment Exam: Advanced Ultraviolet Spectroscopy Practice Assessment",
+  "description": "This meticulously crafted practice assessment is designed for candidates preparing for the JKPSC 10+2 Lecturer Recruitment Examination, focusing exclusively on Ultraviolet (UV) Spectroscopy. Tailored to an advanced postgraduate difficulty level, it provides a rigorous and comprehensive evaluation of your expertise in key spectroscopic principles. The test covers the fundamental concepts of the electromagnetic spectrum, a deep dive into the Beer-Lambert law (including its applications and the significance of molar absorptivity), the sophisticated presentation and analytical interpretation of electronic spectra, and a detailed examination of various types of electronic excitations. Questions are designed to be conceptually challenging and analytically demanding, mirroring the professional academic assessment standards expected by the JKPSC. This practice test is an essential tool for evaluating your advanced knowledge, problem-solving capabilities, and readiness to excel in the specialized field of UV spectroscopy required for a lecturer position.",
+  "totalQuestions": 10,
+  "topics": [
+    "Ultraviolet Spectroscopy: The electromagnetic spectrum. Beer-Lambert law, molar absorptivity.",
+    "Ultraviolet Spectroscopy: presentation and analysis of electronic spectra. Types of electronicexcitations."
+  ],
+  "examType": "JKPSC 10+2 Lecturer Recruitment",
+  "difficulty": "Advanced/Postgraduate Level",
+  "createdAt": "2025-09-25T04:34:32.346Z",
+  "questionTypes": {
+    "multiple_choice": 10
+  }
+}

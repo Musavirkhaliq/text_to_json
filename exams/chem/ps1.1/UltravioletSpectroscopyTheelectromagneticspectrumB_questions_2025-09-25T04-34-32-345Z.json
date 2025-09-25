@@ -1,0 +1,255 @@
+{
+  "questions": [
+    {
+      "text": "Consider a carbonyl compound like acetone. How would a shift from a non-polar solvent (e.g., hexane) to a polar, protic solvent (e.g., ethanol) affect the n→π* transition in its UV spectrum?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Red shift (bathochromic) due to hydrogen bonding stabilizing the π*-orbital more than the n-orbital.",
+          "isCorrect": false
+        },
+        {
+          "text": "Blue shift (hypsochromic) due to hydrogen bonding stabilizing the n-orbital, requiring more energy for excitation.",
+          "isCorrect": true
+        },
+        {
+          "text": "No significant shift, as n→π* transitions are largely solvent-independent.",
+          "isCorrect": false
+        },
+        {
+          "text": "An increase in molar absorptivity (hyperchromic effect) due to enhanced electronic coupling.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "In polar, protic solvents like ethanol, the non-bonding (n) orbital electrons of the carbonyl oxygen can form hydrogen bonds with the solvent molecules. This hydrogen bonding stabilizes the n-orbital, lowering its energy. The π*-orbital, being an antibonding orbital, is less affected by hydrogen bonding. Since the n-orbital is stabilized more than the π*-orbital, the energy gap between n and π* states increases. A larger energy gap requires more energy for excitation, which corresponds to absorption at shorter wavelengths (higher frequency), resulting in a blue shift (hypsochromic effect)."
+    },
+    {
+      "text": "Why are n→π* electronic transitions generally characterized by significantly lower molar absorptivity (ε values typically < 100 L mol⁻¹ cm⁻¹) compared to π→π* transitions (ε values typically > 1000 L mol⁻¹ cm⁻¹)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "n→π* transitions involve a smaller energy gap, leading to less efficient absorption.",
+          "isCorrect": false
+        },
+        {
+          "text": "n→π* transitions are often symmetry-forbidden or electric dipole forbidden, resulting in lower transition probability.",
+          "isCorrect": true
+        },
+        {
+          "text": "The spatial overlap between the non-bonding orbital and the anti-bonding π* orbital is inherently poor due to different symmetries.",
+          "isCorrect": false
+        },
+        {
+          "text": "n→π* transitions occur in saturated systems, which inherently absorb less light due to fewer electrons.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The intensity of an electronic absorption band (quantified by molar absorptivity, ε) is proportional to the transition probability. n→π* transitions, particularly in molecules with C2v or higher symmetry (e.g., formaldehyde), are often electric dipole forbidden by symmetry rules. This means the integral for the transition dipole moment is zero or very small. Although they may become weakly allowed through vibronic coupling (coupling of electronic and vibrational motions) or deviation from ideal symmetry, their inherent probability remains low compared to allowed π→π* transitions, which have large transition dipole moments due to significant spatial overlap and symmetry compatibility."
+    },
+    {
+      "text": "Using Woodward-Fieser rules, calculate the predicted λmax for the π→π* transition of 4,4-dimethyl-2-cyclohexen-1-one.",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "215 nm",
+          "isCorrect": false
+        },
+        {
+          "text": "227 nm",
+          "isCorrect": false
+        },
+        {
+          "text": "239 nm",
+          "isCorrect": true
+        },
+        {
+          "text": "249 nm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "For 4,4-dimethyl-2-cyclohexen-1-one, we apply the Woodward-Fieser rules for α,β-unsaturated ketones:\n1.  **Base value for a six-membered α,β-unsaturated ketone:** 215 nm\n2.  **Alkyl substituents:** There are two methyl groups at the β-position (C-4).\n    *   Each β-alkyl substituent adds: +12 nm\n    *   Total for two β-alkyl groups: 2 × 12 nm = +24 nm\n3.  **No α-alkyl groups, no exocyclic double bonds, no additional conjugated double bonds, no polar groups at α or β positions.**\n\nTherefore, the calculated λmax = 215 nm (base) + 24 nm (β-alkyls) = 239 nm."
+    },
+    {
+      "text": "A concentrated solution of an organic dye exhibits significant deviation from Beer-Lambert Law linearity, where the measured absorbance is lower than predicted. Which of the following is the *most plausible* chemical reason for this negative deviation at high concentrations?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Photodecomposition of the dye by the incident light beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "Changes in the refractive index of the solution affecting light scattering.",
+          "isCorrect": false
+        },
+        {
+          "text": "Formation of non-absorbing or weakly absorbing aggregates of the dye molecules.",
+          "isCorrect": true
+        },
+        {
+          "text": "Saturation of the detector due to very high light intensity passing through the sample.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The Beer-Lambert Law assumes that the absorbing species act independently. At high concentrations, many organic dyes tend to self-associate or aggregate (e.g., form dimers or higher-order aggregates). If these aggregates have different (usually lower or no) molar absorptivity at the measured wavelength compared to the monomeric form, the effective concentration of the actively absorbing monomer decreases, leading to a measured absorbance lower than predicted by the Beer-Lambert Law based on the total dye concentration. Photodecomposition would typically lead to a decrease in absorbance over time, not necessarily a non-linear initial reading. Refractive index changes and detector saturation are instrumental or physical effects, not direct chemical deviations from the law's assumption about absorbing species."
+    },
+    {
+      "text": "Which of the following statements *correctly* compares the energy requirements and typical wavelength ranges for σ→σ* and π→π* electronic transitions in organic molecules?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "σ→σ* transitions occur at longer wavelengths and have lower energy requirements than π→π* transitions.",
+          "isCorrect": false
+        },
+        {
+          "text": "π→π* transitions typically require less energy than σ→σ* transitions and are observed at longer wavelengths.",
+          "isCorrect": true
+        },
+        {
+          "text": "Both transitions are generally observed in the visible region, but σ→σ* transitions are more intense.",
+          "isCorrect": false
+        },
+        {
+          "text": "σ→σ* transitions are characteristic of unsaturated systems, while π→π* transitions are found in saturated compounds.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "σ bonds are very strong, and the energy difference between a σ bonding orbital and its corresponding σ* antibonding orbital is very large. Therefore, σ→σ* transitions require very high energy, typically absorbing in the vacuum UV region (<150 nm), which is often inaccessible with standard UV-Vis spectrophotometers. In contrast, π bonds are generally weaker than σ bonds, and the energy gap between a π bonding orbital and a π* antibonding orbital is smaller. This means π→π* transitions require less energy and are observed at longer wavelengths (typically 180-800 nm), often falling within the measurable UV-Vis range. Thus, π→π* transitions require less energy and occur at longer wavelengths than σ→σ* transitions."
+    },
+    {
+      "text": "A coordination complex containing a metal ion and an aromatic ligand exhibits a strong absorption band in the visible region that is absent in the spectra of the free metal ion or the free ligand. The position (λmax) and intensity (ε) of this band are significantly sensitive to the oxidation state of the metal and the electron-donating/withdrawing properties of the ligand. This band is most likely due to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A d-d transition within the metal ion, which becomes allowed upon complexation.",
+          "isCorrect": false
+        },
+        {
+          "text": "An n→π* transition originating from the ligand, enhanced by coordination.",
+          "isCorrect": false
+        },
+        {
+          "text": "A Ligand-to-Metal Charge Transfer (LMCT) or Metal-to-Ligand Charge Transfer (MLCT) transition.",
+          "isCorrect": true
+        },
+        {
+          "text": "A π→π* transition within the ligand, significantly red-shifted by the metal.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The key characteristics mentioned – strong intensity (often much higher than d-d transitions), presence only in the complex, and sensitivity to both metal oxidation state and ligand properties – are hallmarks of charge transfer (CT) transitions. In LMCT, an electron moves from an orbital largely centered on the ligand to an orbital largely centered on the metal. In MLCT, an electron moves from a metal-centered orbital to a ligand-centered orbital. These transitions are highly dependent on the energy levels of both the metal and ligand orbitals, which are influenced by the metal's oxidation state and the ligand's electronic properties. D-d transitions are usually weaker (often symmetry forbidden) and π→π* or n→π* transitions are typically found within the free ligand, though they can be perturbed by coordination."
+    },
+    {
+      "text": "Some electronic absorption bands in UV-Vis spectra, particularly at low temperatures or in rigid matrices, display a fine structure (shoulders or distinct peaks) rather than a smooth, broad band. This phenomenon is primarily attributed to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Solvent-induced intermolecular interactions causing multiple ground states.",
+          "isCorrect": false
+        },
+        {
+          "text": "Spin-orbit coupling broadening the electronic states.",
+          "isCorrect": false
+        },
+        {
+          "text": "Simultaneous changes in electronic and vibrational energy levels (vibronic transitions).",
+          "isCorrect": true
+        },
+        {
+          "text": "Instrumental limitations leading to inadequate resolution of the spectrometer.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Electronic transitions in molecules are almost always accompanied by simultaneous changes in vibrational and rotational energy levels. Each electronic state (ground and excited) has multiple vibrational substates. When an electron is excited, it can transition from the ground electronic state (and its vibrational ground state) to various vibrational substates of the excited electronic state. These 'vibronic' transitions lead to a series of closely spaced absorption lines, which, when broadened by molecular motion in solution or at higher temperatures, merge into a broad band. At low temperatures or in rigid environments, the broadening is reduced, allowing the individual vibronic transitions to be resolved as fine structure."
+    },
+    {
+      "text": "Predict the relative order of increasing λmax for the π→π* transition in the following compounds: Benzene, Styrene, and Stilbene (trans-1,2-diphenylethene).",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Benzene < Styrene < Stilbene",
+          "isCorrect": true
+        },
+        {
+          "text": "Stilbene < Styrene < Benzene",
+          "isCorrect": false
+        },
+        {
+          "text": "Benzene ≈ Styrene < Stilbene",
+          "isCorrect": false
+        },
+        {
+          "text": "Styrene < Benzene < Stilbene",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The λmax for π→π* transitions is directly related to the extent of conjugation in a molecule. Greater conjugation leads to a smaller energy gap between the HOMO and LUMO, resulting in absorption at longer wavelengths (red shift).\n1.  **Benzene:** Has a conjugated system of 6 π electrons in a ring (λmax ~ 255 nm with fine structure).\n2.  **Styrene:** Contains a benzene ring conjugated with a vinyl group (C=C). This extends the conjugation compared to benzene (λmax ~ 282 nm).\n3.  **Stilbene (trans-1,2-diphenylethene):** Has two benzene rings conjugated through a C=C double bond. This represents an even more extended and delocalized π-electron system than styrene (λmax ~ 295 nm).\n\nTherefore, the order of increasing λmax is Benzene < Styrene < Stilbene, due to increasing extent of conjugation."
+    },
+    {
+      "text": "According to the Franck-Condon principle, which of the following statements accurately describes electronic transitions in UV-Vis spectroscopy?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Electronic transitions are most probable when the nuclear positions and momenta change significantly during the transition.",
+          "isCorrect": false
+        },
+        {
+          "text": "Electronic transitions occur with minimal change in nuclear geometry because they are much faster than nuclear motion.",
+          "isCorrect": true
+        },
+        {
+          "text": "The absorption of a photon leads directly to the lowest vibrational level of the excited electronic state.",
+          "isCorrect": false
+        },
+        {
+          "text": "The intensity of an absorption band is solely determined by the energy difference between the electronic states.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The Franck-Condon principle states that because electronic transitions are much faster (on the order of 10⁻¹⁵ seconds) than nuclear motions (on the order of 10⁻¹³ seconds), during the instantaneous electronic transition, the nuclei do not have time to move significantly. Therefore, the electronic transition occurs most favorably (i.e., has the highest probability or intensity) when the nuclear geometry and momenta in the excited state are most similar to those in the ground state. This is often visualized as a 'vertical transition' on a potential energy diagram, where the internuclear distance remains approximately constant."
+    },
+    {
+      "text": "Compound X is a planar, highly conjugated molecule exhibiting a strong π→π* absorption at 340 nm. Compound Y is structurally analogous to X but incorporates bulky substituents that induce a significant steric hindrance, forcing the molecule into a non-planar conformation and thereby disrupting the extensive conjugation. How would the UV-Vis spectrum of Compound Y likely compare to that of Compound X?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Compound Y would show a red shift (bathochromic) and an increase in molar absorptivity (hyperchromic effect).",
+          "isCorrect": false
+        },
+        {
+          "text": "Compound Y would show a blue shift (hypsochromic) and a decrease in molar absorptivity (hypochromic effect).",
+          "isCorrect": true
+        },
+        {
+          "text": "Compound Y would show a red shift (bathochromic) and a decrease in molar absorptivity (hypochromic effect).",
+          "isCorrect": false
+        },
+        {
+          "text": "Compound Y would show a blue shift (hypsochromic) with no significant change in molar absorptivity.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Extended conjugation stabilizes the π electron system, lowering the energy gap between the HOMO and LUMO, leading to absorption at longer wavelengths (red shift) and typically high molar absorptivity. When steric hindrance forces a conjugated system into a non-planar conformation, the overlap of the p-orbitals involved in the π system is reduced or broken. This disruption of conjugation (also known as steric inhibition of resonance) effectively shortens the conjugated pathway. A shorter conjugated pathway results in a larger HOMO-LUMO energy gap, which requires more energy for excitation. This manifests as a shift to shorter wavelengths (blue shift or hypsochromic effect) and a decrease in the molar absorptivity (hypochromic effect) because the transition becomes less allowed or less efficient due to poorer orbital overlap."
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 10,
+    "topics": [
+      "Ultraviolet Spectroscopy: The electromagnetic spectrum. Beer-Lambert law, molar absorptivity.",
+      "Ultraviolet Spectroscopy: presentation and analysis of electronic spectra. Types of electronicexcitations."
+    ],
+    "questionsPerTopic": 10,
+    "examType": "JKPSC 10+2 Lecturer Recruitment",
+    "difficulty": "Advanced/Postgraduate Level",
+    "processedAt": "2025-09-25T04:34:32.346Z"
+  }
+}

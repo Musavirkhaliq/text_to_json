@@ -31,10 +31,9 @@ class JKPSCQuestionGenerator {
             for (let i = 0; i < topics.length; i++) {
                 const topic = topics[i];
                 console.log(`Generating questions for topic ${i + 1}/${topics.length}: ${topic}`);
-                
                 const topicQuestions = await this.generateQuestionsForTopic(topic, questionsPerTopic);
                 allQuestions.push(...topicQuestions);
-                
+
                 // Add delay between API calls to avoid rate limiting
                 if (i < topics.length - 1) {
                     await new Promise(resolve => setTimeout(resolve, 1000));
@@ -44,10 +43,20 @@ class JKPSCQuestionGenerator {
             // Generate title and description
             const titleAndDescription = await this.generateJKPSCTitleAndDescription(topics);
 
-            // Save questions and test info
+            // --- MODIFICATION START ---
+            // Create a sanitized topic string for filenames
+            // Take the first 3 topics and join them, then sanitize
+            const topicPrefix = topics.slice(0, 3)
+                                      .map(t => t.replace(/[^a-zA-Z0-9]/g, '')) // Remove special chars
+                                      .join('_')
+                                      .substring(0, 50); // Limit length
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-            const questionsFileName = `questions-${timestamp}.json`;
-            const testInfoFileName = `test-info-${timestamp}.json`;
+
+            // Use the topicPrefix in the filenames
+            const questionsFileName = `${topicPrefix}_questions_${timestamp}.json`;
+            const testInfoFileName = `${topicPrefix}_test-info_${timestamp}.json`;
+            // --- MODIFICATION END ---
+
 
             const questionsData = {
                 questions: allQuestions,
@@ -91,7 +100,6 @@ class JKPSCQuestionGenerator {
                 totalQuestions: allQuestions.length,
                 topics: topics
             };
-
         } catch (error) {
             console.error('Error generating JKPSC questions:', error);
             return {
@@ -122,7 +130,6 @@ class JKPSCQuestionGenerator {
      */
     async generateQuestionsForTopic(topic, count) {
         const prompt = this.buildJKPSCPrompt(topic, count);
-        
         try {
             const result = await this.geminiClient.model.generateContent(prompt);
             const response = await result.response;
@@ -130,20 +137,21 @@ class JKPSCQuestionGenerator {
 
             // Parse JSON response
             let jsonData = this.parseJSONResponse(text);
-            
+
             if (!jsonData || !Array.isArray(jsonData)) {
-                throw new Error(`Invalid response format for topic: ${topic}`);
+                // If parsing fails or it's not an array, attempt to log the raw response for debugging
+                console.error(`Raw API response for topic "${topic}" that failed parsing:\n`, text);
+                throw new Error(`Invalid response format for topic: ${topic}. Expected JSON array.`);
             }
 
             // Validate and clean questions
             const validQuestions = jsonData.filter(q => this.validateQuestion(q));
-            
+
             if (validQuestions.length === 0) {
                 throw new Error(`No valid questions generated for topic: ${topic}`);
             }
 
             return validQuestions;
-
         } catch (error) {
             console.error(`Error generating questions for topic "${topic}":`, error);
             // Return empty array to continue with other topics
@@ -158,10 +166,7 @@ class JKPSCQuestionGenerator {
      * @returns {string} - Formatted prompt
      */
     buildJKPSCPrompt(topic, count) {
-        return `
-You are an expert in creating questions for the JKPSC (Jammu & Kashmir Public Service Commission) 10+2 Lecturer Recruitment Exam. 
-
-Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+        return `You are an expert in creating questions for the JKPSC (Jammu & Kashmir Public Service Commission) 10+2 Lecturer Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
 
 IMPORTANT REQUIREMENTS:
 1. Questions must be at POSTGRADUATE/MASTERS level difficulty
@@ -170,11 +175,12 @@ IMPORTANT REQUIREMENTS:
 4. Avoid simple definition-based questions
 5. Include questions that require ANALYSIS, SYNTHESIS, and EVALUATION
 6. Each question should have 4 options with exactly ONE correct answer
-7. OPtions should be plausible to avoid guesswork and obvious right answers
+7. Options should be plausible to avoid guesswork and obvious right answers
 8. Provide clear, educational explanations for correct answers
 
 QUESTION TYPES TO INCLUDE:
 - Application of concepts to new situations
+- Numerical problems requiring multi-step calculations
 - Analysis of experimental data or scenarios
 - Comparison and contrast of related concepts
 - Problem-solving using theoretical knowledge
@@ -182,6 +188,7 @@ QUESTION TYPES TO INCLUDE:
 - Critical evaluation of statements or hypotheses
 
 FORMAT: Respond with a JSON array in this exact format:
+\`\`\`json
 [
   {
     "text": "Advanced conceptual question that requires deep understanding",
@@ -196,6 +203,7 @@ FORMAT: Respond with a JSON array in this exact format:
     "explanation": "Detailed explanation of why this answer is correct, including relevant concepts and reasoning"
   }
 ]
+\`\`\`
 
 DIFFICULTY GUIDELINES:
 - Points: 2-4 (reflecting advanced difficulty)
@@ -204,52 +212,59 @@ DIFFICULTY GUIDELINES:
 - Include interdisciplinary connections where relevant
 
 Topic: ${topic}
-
-Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json code blocks.
-`;
+Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`;
     }
 
     /**
      * Parse JSON response from Gemini API
      * @param {string} text - Raw response text
-     * @returns {Array|null} - Parsed JSON array or null
+     * @returns {Array|Object|null} - Parsed JSON array/object or null
      */
     parseJSONResponse(text) {
-        // Try multiple JSON extraction methods
         let jsonData = null;
-        
-        // Method 1: Look for JSON code blocks
-        const jsonMatch = text.match(/```json\s*([\s\S]*?)\s*```/);
+        const normalizedText = text.trim();
+
+        // Method 1: Look for JSON code blocks (case-insensitive for 'json')
+        const jsonCodeBlockRegex = /```json\s*([\s\S]*?)\s*```/i; // Added 'i' for case-insensitive
+        const jsonMatch = normalizedText.match(jsonCodeBlockRegex);
+
         if (jsonMatch) {
             try {
                 jsonData = JSON.parse(jsonMatch[1].trim());
+                console.log('Successfully parsed JSON from code block.');
+                return jsonData;
             } catch (e) {
-                console.log('Failed to parse JSON from code block');
+                console.warn('Failed to parse JSON from code block content:', e.message);
+                // Continue to next parsing method
             }
         }
-        
-        // Method 2: Look for array pattern
-        if (!jsonData) {
-            const arrayMatch = text.match(/\[\s*\{[\s\S]*\}\s*\]/);
-            if (arrayMatch) {
-                try {
-                    jsonData = JSON.parse(arrayMatch[0]);
-                } catch (e) {
-                    console.log('Failed to parse JSON array pattern');
-                }
+
+        // Method 2: Look for array pattern (if expecting an array)
+        if (normalizedText.startsWith('[') && normalizedText.endsWith(']')) {
+             try {
+                jsonData = JSON.parse(normalizedText);
+                console.log('Successfully parsed entire response as JSON array.');
+                return jsonData;
+            } catch (e) {
+                console.warn('Failed to parse entire response as JSON array:', e.message);
+                // Continue to next parsing method
             }
         }
-        
-        // Method 3: Try to parse entire response
-        if (!jsonData) {
+
+        // Method 3: Look for object pattern (if expecting an object, like title/description)
+        if (normalizedText.startsWith('{') && normalizedText.endsWith('}')) {
             try {
-                jsonData = JSON.parse(text.trim());
+                jsonData = JSON.parse(normalizedText);
+                console.log('Successfully parsed entire response as JSON object.');
+                return jsonData;
             } catch (e) {
-                console.log('Failed to parse entire response as JSON');
+                console.warn('Failed to parse entire response as JSON object:', e.message);
+                // Continue to next parsing method
             }
         }
-        
-        return jsonData;
+
+        console.warn('All JSON parsing methods failed.');
+        return null;
     }
 
     /**
@@ -261,13 +276,13 @@ Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON 
         if (!question.text || typeof question.text !== 'string') return false;
         if (question.type !== 'multiple_choice') return false;
         if (!Array.isArray(question.options) || question.options.length !== 4) return false;
-        
+
         const correctAnswers = question.options.filter(opt => opt.isCorrect);
         if (correctAnswers.length !== 1) return false;
-        
+
         if (!question.explanation || typeof question.explanation !== 'string') return false;
         if (typeof question.points !== 'number' || question.points < 2 || question.points > 4) return false;
-        
+
         return true;
     }
 
@@ -277,9 +292,7 @@ Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON 
      * @returns {Promise<Object>} - Title and description
      */
     async generateJKPSCTitleAndDescription(topics) {
-        const prompt = `
-Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment Exam practice test covering these topics:
-
+        const prompt = `Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment Exam practice test covering these topics:
 Topics: ${topics.join(', ')}
 
 The test should reflect:
@@ -289,28 +302,27 @@ The test should reflect:
 - Professional academic assessment
 
 Respond with JSON:
+\`\`\`json
 {
-    "title": "Professional, exam-focused title",
-    "description": "Comprehensive description highlighting the advanced nature and JKPSC relevance"
+  "title": "Professional, exam-focused title",
+  "description": "Comprehensive description highlighting the advanced nature and JKPSC relevance"
 }
-
-Respond only with the JSON object wrapped in \`\`\`json code blocks.
-`;
-
+\`\`\`
+Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`; // Ensure consistency with prompt format
         try {
             const result = await this.geminiClient.model.generateContent(prompt);
             const response = await result.response;
             const text = response.text();
-            
             const jsonData = this.parseJSONResponse(text);
-            
+
             if (jsonData && jsonData.title && jsonData.description) {
                 return jsonData;
+            } else {
+                console.warn('Generated title/description JSON was invalid or incomplete:', text);
             }
         } catch (error) {
             console.error('Error generating title and description:', error);
         }
-        
         // Fallback
         return {
             title: "JKPSC 10+2 Lecturer Recruitment - Advanced Practice Test",
