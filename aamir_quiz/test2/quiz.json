@@ -1,0 +1,609 @@
+[
+  {
+    "text": "Which region of the electromagnetic spectrum contains photons with the highest energy?",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Radio waves", "isCorrect": false},
+      {"text": "Microwaves", "isCorrect": false},
+      {"text": "X-rays", "isCorrect": true},
+      {"text": "Infrared", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The energy of a photon is directly proportional to its frequency and inversely proportional to its wavelength (E = hν = hc/λ). X-rays have the shortest wavelengths and highest frequencies in the given options, resulting in the highest energy photons."
+  },
+  {
+    "text": "The electromagnetic spectrum is typically arranged in order of increasing:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Wavelength", "isCorrect": true},
+      {"text": "Frequency", "isCorrect": false},
+      {"text": "Energy", "isCorrect": false},
+      {"text": "Speed", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The electromagnetic spectrum is commonly ordered from radio waves (longest wavelength, lowest frequency) to gamma rays (shortest wavelength, highest frequency).  Therefore, it's arranged in order of increasing wavelength when considering the standard arrangement."
+  },
+  {
+    "text": "What is the approximate wavelength range of visible light?",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "400-700 nm", "isCorrect": true},
+      {"text": "1-10 mm", "isCorrect": false},
+      {"text": "0.1-1 nm", "isCorrect": false},
+      {"text": "10-100 μm", "isCorrect": false}
+    ],
+    "points": 1,
+    "explanation": "Visible light occupies a relatively narrow band of wavelengths within the electromagnetic spectrum, approximately 400 nm (violet) to 700 nm (red)."
+  },
+  {
+    "text": "The Born-Oppenheimer approximation assumes that:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Nuclear motion is much faster than electronic motion", "isCorrect": false},
+      {"text": "Electronic motion is much faster than nuclear motion", "isCorrect": true},
+      {"text": "Both motions are equivalent", "isCorrect": false},
+      {"text": "Nuclei do not move at all", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The Born-Oppenheimer approximation simplifies molecular calculations by assuming that the electrons move so much faster than the nuclei that the electrons can instantaneously adjust to the nuclei's positions. This allows the separation of electronic and nuclear motions."
+  },
+  {
+    "text": "In the Born-Oppenheimer approximation, the total wavefunction is approximated as:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "The product of electronic and nuclear wavefunctions", "isCorrect": true},
+      {"text": "The sum of electronic and nuclear wavefunctions", "isCorrect": false},
+      {"text": "The electronic wavefunction only", "isCorrect": false},
+      {"text": "The nuclear wavefunction only", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The Born-Oppenheimer approximation separates the electronic and nuclear motions.  The total wavefunction is approximated as the product of the electronic wavefunction (for fixed nuclear positions) and the nuclear wavefunction."
+  },
+  {
+    "text": "Which type of spectroscopy typically uses the microwave region of the electromagnetic spectrum?",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "UV-Vis spectroscopy", "isCorrect": false},
+      {"text": "Rotational spectroscopy", "isCorrect": true},
+      {"text": "Vibrational spectroscopy", "isCorrect": false},
+      {"text": "NMR spectroscopy", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The energy differences between rotational energy levels are typically in the microwave region of the electromagnetic spectrum.  Therefore, rotational spectroscopy utilizes microwaves to probe these transitions."
+  },
+  {
+    "text": "The energy of electromagnetic radiation is inversely proportional to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Frequency", "isCorrect": false},
+      {"text": "Wavelength", "isCorrect": true},
+      {"text": "Speed", "isCorrect": false},
+      {"text": "Amplitude", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The energy of electromagnetic radiation is given by E = hc/λ, where h is Planck's constant, c is the speed of light, and λ is the wavelength.  This equation clearly shows an inverse relationship between energy and wavelength."
+  },
+  {
+    "text": "The Born-Oppenheimer approximation breaks down for:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Heavy molecules", "isCorrect": false},
+      {"text": "Light molecules like H₂", "isCorrect": true},
+      {"text": "Diatomic molecules only", "isCorrect": false},
+      {"text": "All molecules equally", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The Born-Oppenheimer approximation relies on the separation of electronic and nuclear motion.  In light molecules, the nuclei move relatively fast, leading to a stronger coupling between electronic and nuclear motions, causing the approximation to break down."
+  },
+  {
+    "text": "Which part of the EM spectrum is used for rotational spectroscopy?",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Ultraviolet", "isCorrect": false},
+      {"text": "Visible", "isCorrect": false},
+      {"text": "Microwave", "isCorrect": true},
+      {"text": "Gamma rays", "isCorrect": false}
+    ],
+    "points": 1,
+    "explanation": "Rotational transitions in molecules involve relatively small energy changes, corresponding to the energy of microwave radiation."
+  },
+  {
+    "text": "The Born-Oppenheimer approximation primarily justifies:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Treating molecules as rigid rotors", "isCorrect": false},
+      {"text": "Separating vibrational and rotational spectra", "isCorrect": false},
+      {"text": "Decoupling electronic and nuclear degrees of freedom", "isCorrect": true},
+      {"text": "Ignoring centrifugal distortion", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The core of the Born-Oppenheimer approximation is the separation of electronic and nuclear wavefunctions, effectively decoupling their degrees of freedom in the Schrödinger equation."
+  },
+  {
+    "text": "The moment of inertia for a diatomic molecule is given by:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "I = mr²", "isCorrect": false},
+      {"text": "I = μr²", "isCorrect": true},
+      {"text": "I = m₁ + m₂", "isCorrect": false},
+      {"text": "I = ½mr²", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The moment of inertia (I) for a diatomic molecule is calculated using the reduced mass (μ = m₁m₂/(m₁+m₂)) and the bond length (r).  The formula is I = μr²."
+  },
+  {
+    "text": "Molecules with three equal moments of inertia are classified as:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Linear", "isCorrect": false},
+      {"text": "Symmetric top", "isCorrect": false},
+      {"text": "Spherical top", "isCorrect": true},
+      {"text": "Asymmetric top", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Spherical top molecules possess three equal principal moments of inertia (Iₐ = Iբ = I꜀), exhibiting spherical symmetry.  Examples include methane (CH₄)."
+  },
+  {
+    "text": "For a linear molecule, how many independent moments of inertia are there?",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "1", "isCorrect": true},
+      {"text": "2", "isCorrect": false},
+      {"text": "3", "isCorrect": false},
+      {"text": "0", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Linear molecules have only one independent moment of inertia.  The other two are zero or equal to the first."
+  },
+  {
+    "text": "Symmetric top molecules have:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "All three moments of inertia different", "isCorrect": false},
+      {"text": "Two moments of inertia equal, one different", "isCorrect": true},
+      {"text": "All three moments of inertia equal", "isCorrect": false},
+      {"text": "No moments of inertia", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Symmetric top molecules have two equal principal moments of inertia and one different.  Examples include methyl chloride (CH₃Cl)."
+  },
+  {
+    "text": "The reduced mass (μ) for HCl (assuming masses 1 and 35 u) is approximately:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "36 u", "isCorrect": false},
+      {"text": "18 u", "isCorrect": false},
+      {"text": "1 u", "isCorrect": true},
+      {"text": "35 u", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The reduced mass μ is calculated as μ = m₁m₂/(m₁ + m₂). For HCl,  μ ≈ 0.97 u, which is closest to 1 u given the significantly larger mass of Cl compared to H."
+  },
+  {
+    "text": "Asymmetric top molecules have:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Iₐ = Iբ = I꜀", "isCorrect": false},
+      {"text": "Iₐ = Iբ ≠ I꜀", "isCorrect": false},
+      {"text": "Iₐ ≠ Iբ ≠ I꜀", "isCorrect": true},
+      {"text": "Iₐ = 0", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Asymmetric top molecules have all three principal moments of inertia different from each other.  Water (H₂O) is a classic example."
+  },
+  {
+    "text": "For diatomic molecules, classification based on moment of inertia places them as:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Spherical tops", "isCorrect": false},
+      {"text": "Linear rotors", "isCorrect": true},
+      {"text": "Asymmetric tops", "isCorrect": false},
+      {"text": "Oblate tops", "isCorrect": false}
+    ],
+    "points": 1,
+    "explanation": "Diatomic molecules are linear and therefore have only one non-zero moment of inertia, classifying them as linear rotors."
+  },
+  {
+    "text": "The moment of inertia increases with:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Increasing bond length", "isCorrect": true},
+      {"text": "Decreasing reduced mass", "isCorrect": false},
+      {"text": "Both increasing bond length and decreasing reduced mass", "isCorrect": false},
+      {"text": "Neither increasing bond length nor decreasing reduced mass", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The moment of inertia (I = μr²) is directly proportional to the square of the bond length (r).  Therefore, increasing the bond length increases the moment of inertia."
+  },
+  {
+    "text": "Polyatomic linear molecules like CO₂ have:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Two equal moments of inertia", "isCorrect": true},
+      {"text": "Three different moments of inertia", "isCorrect": false},
+      {"text": "Spherical symmetry", "isCorrect": false},
+      {"text": "No rotation", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Linear polyatomic molecules, like CO₂, have two equal moments of inertia perpendicular to the molecular axis and one moment of inertia of zero along the molecular axis.  Thus, they effectively have two equal moments of inertia."
+  },
+  {
+    "text": "The typical unit of moment of inertia in spectroscopy is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "kg m²", "isCorrect": false},
+      {"text": "amu Å²", "isCorrect": true},
+      {"text": "J s", "isCorrect": false},
+      {"text": "cm⁻¹", "isCorrect": false}
+    ],
+    "points": 1,
+    "explanation": "In molecular spectroscopy, atomic mass units (amu) and angstroms (Å) are commonly used to express moment of inertia, making amu Å² the typical unit."
+  },
+  {
+    "text": "The energy of a rigid diatomic rotor is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Eⱼ = BJ(J+1)", "isCorrect": true},
+      {"text": "Eⱼ = νJ", "isCorrect": false},
+      {"text": "Eⱼ = (1/2)kθ²", "isCorrect": false},
+      {"text": "Eⱼ = hc~", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The energy levels of a rigid diatomic rotor are given by Eⱼ = BJ(J+1), where B is the rotational constant and J is the rotational quantum number."
+  },
+  {
+    "text": "The rotational constant B is proportional to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "1/I", "isCorrect": true},
+      {"text": "I", "isCorrect": false},
+      {"text": "r", "isCorrect": false},
+      {"text": "μ", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The rotational constant B is inversely proportional to the moment of inertia (B = ħ²/(2I))."
+  },
+  {
+    "text": "The selection rule for rotational transitions in diatomic molecules is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "ΔJ = 0", "isCorrect": false},
+      {"text": "ΔJ = ±1", "isCorrect": true},
+      {"text": "ΔJ = ±2", "isCorrect": false},
+      {"text": "There is no selection rule", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "For pure rotational transitions, the change in the rotational quantum number (J) must be ±1.  This is a consequence of the conservation of angular momentum."
+  },
+  {
+    "text": "The spacing between consecutive rotational lines in the spectrum is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "B", "isCorrect": false},
+      {"text": "2B", "isCorrect": true},
+      {"text": "4B", "isCorrect": false},
+      {"text": "JB", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The energy difference between adjacent rotational levels is 2B(J+1), where J is the rotational quantum number of the lower level. Therefore, the spacing between consecutive lines is 2B."
+  },
+  {
+    "text": "For a rigid rotor, the ground state energy (J=0) is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "0", "isCorrect": true},
+      {"text": "B", "isCorrect": false},
+      {"text": "2B", "isCorrect": false},
+      {"text": "Infinite", "isCorrect": false}
+    ],
+    "points": 1,
+    "explanation": "When J=0, the energy of a rigid rotor is Eⱼ = BJ(J+1) = B(0)(1) = 0."
+  },
+  {
+    "text": "The degeneracy of rotational level J is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "J", "isCorrect": false},
+      {"text": "2J", "isCorrect": false},
+      {"text": "2J+1", "isCorrect": true},
+      {"text": "J+1", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Each rotational level J is (2J+1)-fold degenerate due to the different possible orientations of the rotational angular momentum vector in space (mⱼ = -J, -J+1, ..., J-1, J)."
+  },
+  {
+    "text": "Rotational transitions occur when the molecule has:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "A permanent dipole moment", "isCorrect": true},
+      {"text": "No dipole moment", "isCorrect": false},
+      {"text": "Vibrational energy only", "isCorrect": false},
+      {"text": "Electronic excitation", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "A permanent dipole moment is necessary for a molecule to interact with electromagnetic radiation and undergo rotational transitions.  Homonuclear diatomic molecules, lacking a permanent dipole moment, do not exhibit a pure rotational spectrum."
+  },
+  {
+    "text": "The rotational spectrum of a homonuclear diatomic molecule like O₂ is:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Intense", "isCorrect": false},
+      {"text": "Absent", "isCorrect": true},
+      {"text": "Broad", "isCorrect": false},
+      {"text": "In the UV region", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Homonuclear diatomic molecules like O₂ have no permanent dipole moment, preventing them from interacting with electromagnetic radiation in a way that induces pure rotational transitions. Thus, their rotational spectra are absent."
+  },
+  {
+    "text": "The energy levels for a rigid rotor are:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Equally spaced", "isCorrect": false},
+      {"text": "Increasingly spaced", "isCorrect": true},
+      {"text": "Decreasingly spaced", "isCorrect": false},
+      {"text": "Randomly spaced", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The energy levels of a rigid rotor are given by Eⱼ = BJ(J+1). The spacing between consecutive levels increases with increasing J."
+  },
+  {
+    "text": "Centrifugal distortion affects the energy by:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Adding a term -DJ²(J+1)²", "isCorrect": true},
+      {"text": "Subtracting B", "isCorrect": false},
+      {"text": "Multiplying by J", "isCorrect": false},
+      {"text": "Having no effect", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "Centrifugal distortion, arising from the non-rigidity of the molecule, is accounted for by adding a term -DJ²(J+1)² to the rigid rotor energy expression, where D is the centrifugal distortion constant."
+  },
+  {
+    "text": "The relative population of rotational levels follows:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "A uniform distribution", "isCorrect": false},
+      {"text": "A Boltzmann distribution", "isCorrect": true},
+      {"text": "A Poisson distribution", "isCorrect": false},
+      {"text": "A Gaussian distribution", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The population of rotational levels follows the Boltzmann distribution, with higher energy levels having lower populations at a given temperature."
+  },
+  {
+    "text": "The rotational level with the maximum population at temperature T is approximately at J where:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Jₘₐₓ ≈ √(kT/2B) - 1/2", "isCorrect": true},
+      {"text": "Jₘₐₓ = 0", "isCorrect": false},
+      {"text": "Jₘₐₓ = ∞", "isCorrect": false},
+      {"text": "Jₘₐₓ = 1", "isCorrect": false}
+    ],
+    "points": 4,
+    "explanation": "The most populated rotational level is found by maximizing the Boltzmann distribution considering both the energy and degeneracy of the levels. This leads to the approximation Jₘₐₓ ≈ √(kT/2B) - 1/2."
+  },
+  {
+    "text": "Spectral intensity in a rotational spectrum depends on:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "The population of the lower level only", "isCorrect": false},
+      {"text": "Both the transition dipole moment and the population of the lower level", "isCorrect": true},
+      {"text": "The population of the upper level only", "isCorrect": false},
+      {"text": "The bond length", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The intensity of a rotational transition is proportional to the product of the population of the lower energy level and the square of the transition dipole moment."
+  },
+  {
+    "text": "At high temperatures, the rotational spectrum shows:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Fewer lines", "isCorrect": false},
+      {"text": "More populated higher J levels", "isCorrect": true},
+      {"text": "No change", "isCorrect": false},
+      {"text": "Only low J lines", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "At higher temperatures, the Boltzmann distribution leads to a greater population in higher J levels, resulting in more intense lines at higher frequencies."
+  },
+  {
+    "text": "The P-branch in a rotational spectrum corresponds to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "ΔJ = +1", "isCorrect": false},
+      {"text": "ΔJ = -1", "isCorrect": true},
+      {"text": "ΔJ = 0", "isCorrect": false},
+      {"text": "ΔJ = +2", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The P-branch corresponds to transitions where the rotational quantum number decreases (ΔJ = -1), resulting in lower frequency absorption."
+  },
+  {
+    "text": "The R-branch is for:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "ΔJ = +1", "isCorrect": true},
+      {"text": "ΔJ = -1", "isCorrect": false},
+      {"text": "Absorption only", "isCorrect": false},
+      {"text": "Emission only", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The R-branch corresponds to transitions where the rotational quantum number increases (ΔJ = +1), resulting in higher frequency absorption."
+  },
+  {
+    "text": "There is no Q-branch in a pure rotational spectrum because:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "ΔJ = 0 is forbidden", "isCorrect": true},
+      {"text": "It overlaps with the P-branch", "isCorrect": false},
+      {"text": "Q-branches only appear in Raman spectroscopy", "isCorrect": false},
+      {"text": "Q-branches only occur for linear molecules", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The selection rule for pure rotational transitions is ΔJ = ±1.  ΔJ = 0 transitions are forbidden, hence the absence of a Q-branch."
+  },
+  {
+    "text": "The intensity distribution in a rotational spectrum is asymmetric due to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Equal spacing of energy levels", "isCorrect": false},
+      {"text": "The combination of Boltzmann population and degeneracy", "isCorrect": true},
+      {"text": "Bond length variation", "isCorrect": false},
+      {"text": "There is no specific reason for the asymmetry", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The asymmetric intensity distribution results from the interplay between the Boltzmann population distribution (favoring lower J levels) and the degeneracy of each rotational level (2J+1), which increases with J."
+  },
+  {
+    "text": "At room temperature, most diatomic molecules have maximum population at:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "J = 0", "isCorrect": false},
+      {"text": "Low J (1-10)", "isCorrect": true},
+      {"text": "High J (>50)", "isCorrect": false},
+      {"text": "There is no maximum population", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "At room temperature, the rotational energy levels are sparsely populated, and the most probable J value is typically small (1-10), depending on the rotational constant B."
+  },
+  {
+    "text": "The envelope of the rotational spectrum resembles:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "A straight line", "isCorrect": false},
+      {"text": "A bell curve", "isCorrect": true},
+      {"text": "An exponential decay", "isCorrect": false},
+      {"text": "A sine wave", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The overall shape of the rotational spectrum is roughly bell-shaped due to the Boltzmann population distribution."
+  },
+  {
+    "text": "Bond length (r) can be determined from:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "B = h/(8π²cI), I = μr²", "isCorrect": true},
+      {"text": "Directly from the energy levels", "isCorrect": false},
+      {"text": "The population distribution", "isCorrect": false},
+      {"text": "The spectral intensities", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "The rotational constant B is related to the moment of inertia I, which in turn depends on the reduced mass μ and the bond length r.  Thus, measuring B allows the determination of r."
+  },
+  {
+    "text": "A larger bond length leads to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "A larger B", "isCorrect": false},
+      {"text": "A smaller B", "isCorrect": true},
+      {"text": "No change in B", "isCorrect": false},
+      {"text": "Larger spacing between spectral lines", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Since B is inversely proportional to the moment of inertia (I), and I is proportional to r², a larger bond length results in a smaller rotational constant B."
+  },
+  {
+    "text": "For isotopes, a heavier reduced mass leads to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "A larger B", "isCorrect": false},
+      {"text": "A smaller B", "isCorrect": true},
+      {"text": "The same B", "isCorrect": false},
+      {"text": "No rotational spectrum", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The rotational constant B is inversely proportional to the reduced mass μ.  A heavier reduced mass leads to a smaller B."
+  },
+  {
+    "text": "Bond length is typically expressed in units of:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "cm", "isCorrect": false},
+      {"text": "Å", "isCorrect": true},
+      {"text": "nm", "isCorrect": false},
+      {"text": "m", "isCorrect": false}
+    ],
+    "points": 1,
+    "explanation": "Angstroms (Å) are commonly used to express bond lengths in molecular spectroscopy due to their convenient scale for molecular dimensions."
+  },
+  {
+    "text": "The accuracy of bond length determination from rotational spectra is high because:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "The rotational constant B can be precisely measured", "isCorrect": true},
+      {"text": "Rotational spectroscopy has low resolution", "isCorrect": false},
+      {"text": "Vibrational effects are significant", "isCorrect": false},
+      {"text": "There is no specific reason for the high accuracy", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Microwave spectroscopy used in rotational spectroscopy offers high precision in measuring the rotational constant B, directly impacting the accuracy of the calculated bond length."
+  },
+  {
+    "text": "For heteronuclear diatomic molecules, bond length is determined from:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "The spacing of the spectral lines", "isCorrect": true},
+      {"text": "The intensities of the spectral lines", "isCorrect": false},
+      {"text": "The population distribution of the rotational levels", "isCorrect": false},
+      {"text": "The degeneracy of the rotational levels", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The spacing between rotational lines is directly related to the rotational constant B, which in turn is related to the moment of inertia and hence the bond length."
+  },
+  {
+    "text": "If B = 10 cm⁻¹ for a molecule, doubling the bond length (r) would make B:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "40 cm⁻¹", "isCorrect": false},
+      {"text": "5 cm⁻¹", "isCorrect": true},
+      {"text": "2.5 cm⁻¹", "isCorrect": false},
+      {"text": "20 cm⁻¹", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "Since B is inversely proportional to r², doubling r will reduce B by a factor of four (B' = B/4 = 2.5 cm⁻¹)."
+  },
+  {
+    "text": "Spectral intensity is maximum near:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "J = 0", "isCorrect": false},
+      {"text": "The J value corresponding to the maximum population", "isCorrect": true},
+      {"text": "High frequency transitions", "isCorrect": false},
+      {"text": "Low frequency transitions", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The intensity of a spectral line is proportional to the population of the lower energy level involved in the transition.  The maximum intensity therefore occurs near the J value with the maximum population."
+  },
+  {
+    "text": "The relative intensity of lines decreases at high J due to:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Higher degeneracy", "isCorrect": false},
+      {"text": "Lower population", "isCorrect": true},
+      {"text": "Both higher degeneracy and lower population", "isCorrect": false},
+      {"text": "Neither higher degeneracy nor lower population", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "Although higher J levels have higher degeneracy, the exponential decrease in population with increasing energy according to the Boltzmann distribution dominates, leading to a decrease in intensity at high J."
+  },
+  {
+    "text": "Bond length determination from rotational spectroscopy assumes:",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "A rigid rotor model", "isCorrect": true},
+      {"text": "A non-rigid rotor model", "isCorrect": false},
+      {"text": "The inclusion of vibrational effects", "isCorrect": false},
+      {"text": "Significant electronic excitation", "isCorrect": false}
+    ],
+    "points": 2,
+    "explanation": "The basic approach to determining bond length from rotational spectroscopy uses the rigid rotor approximation, with corrections applied later to account for non-rigidity."
+  },
+  {
+    "text": "Explain the Born-Oppenheimer approximation and its limitations.",
+    "type": "essay",
+    "options": [],
+    "points": 5,
+    "explanation": "The Born-Oppenheimer approximation is a fundamental concept in quantum chemistry that simplifies the calculation of molecular wavefunctions by separating the electronic and nuclear motions.  It assumes that the electrons move so much faster than the nuclei that the electronic wavefunction can be calculated for a fixed nuclear configuration. This significantly reduces the complexity of solving the time-independent Schrödinger equation.  The approximation's validity relies on the significant difference in mass between electrons and nuclei.  However, its limitations become apparent when dealing with light molecules (like H2) where the large nuclear velocities can lead to a significant coupling between electronic and nuclear motions, making the separation of variables invalid.  Another limitation arises in cases with close-lying electronic energy levels, where the Born-Oppenheimer approximation breaks down, requiring more sophisticated methods for accurate calculations."
+  }
+]

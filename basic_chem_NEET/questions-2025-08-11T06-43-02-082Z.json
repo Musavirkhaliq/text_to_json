@@ -1,0 +1,554 @@
+[
+  {
+    "text": "What is the value of 1 atomic mass unit (u)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1.66 × 10⁻²⁴ g",
+        "isCorrect": false
+      },
+      {
+        "text": "1.66 × 10⁻²⁷ kg",
+        "isCorrect": false
+      },
+      {
+        "text": "1 g",
+        "isCorrect": false
+      },
+      {
+        "text": "both A and B",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "1 atomic mass unit (u) is defined as 1/12 the mass of a carbon-12 atom.  This is approximately equal to 1.66 × 10⁻²⁴ grams or 1.66 × 10⁻²⁷ kilograms."
+  },
+  {
+    "text": "What is the ratio of neutrons in C¹² to Si²⁸, considering their atomic masses?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "2:3",
+        "isCorrect": false
+      },
+      {
+        "text": "3:2",
+        "isCorrect": false
+      },
+      {
+        "text": "3:7",
+        "isCorrect": false
+      },
+      {
+        "text": "7:3",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "C¹² has 6 protons and 6 neutrons (12 - 6 = 6). Si²⁸ has 14 protons and 14 neutrons (28 - 14 = 14). The neutron ratio is therefore 6:14, which simplifies to 3:7."
+  },
+  {
+    "text": "Which of the following atoms has more electrons than neutrons?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "¹²C",
+        "isCorrect": false
+      },
+      {
+        "text": "¹⁹F⁻",
+        "isCorrect": false
+      },
+      {
+        "text": "¹⁶O²⁻",
+        "isCorrect": true
+      },
+      {
+        "text": "²⁷Al³⁺",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Oxygen-16 (¹⁶O) has 8 protons and 8 neutrons.  The O²⁻ ion has gained two electrons, giving it 10 electrons. Thus, it has more electrons (10) than neutrons (8)."
+  },
+  {
+    "text": "What is the molar mass of ferrous sulfate heptahydrate (FeSO₄·7H₂O)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "152 g/mol",
+        "isCorrect": false
+      },
+      {
+        "text": "278 g/mol",
+        "isCorrect": true
+      },
+      {
+        "text": "137 g/mol",
+        "isCorrect": false
+      },
+      {
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The molar mass is calculated by summing the atomic masses of all atoms in the compound: Fe (55.85) + S (32.07) + 4O (4 * 16.00) + 7(2H + O) = 278.05 g/mol (approximately)."
+  },
+  {
+    "text": "Which statement is NOT a basic postulate of Dalton's atomic theory?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Atoms are neither created nor destroyed in a chemical reaction.",
+        "isCorrect": false
+      },
+      {
+        "text": "Different elements have different types of atoms.",
+        "isCorrect": false
+      },
+      {
+        "text": "Atoms of an element may be different due to the presence of isotopes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Each element is composed of extremely small particles called atoms.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Dalton's atomic theory did not account for isotopes.  The concept of isotopes (atoms of the same element with different numbers of neutrons) was discovered later."
+  },
+  {
+    "text": "What is the gram molecular mass of H₂S?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "34 g/mol",
+        "isCorrect": true
+      },
+      {
+        "text": "32 g/mol",
+        "isCorrect": false
+      },
+      {
+        "text": "34 u",
+        "isCorrect": false
+      },
+      {
+        "text": "32 u",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The gram molecular mass is the molar mass expressed in grams.  For H₂S, it's 2(1.01) + 32.07 = 34.09 g/mol (approximately 34 g/mol)."
+  },
+  {
+    "text": "How many electrons are in an atom with 20 protons in its nucleus?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "20",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "30",
+        "isCorrect": false
+      },
+      {
+        "text": "40",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "In a neutral atom, the number of protons (positive charge) equals the number of electrons (negative charge). Therefore, an atom with 20 protons has 20 electrons."
+  },
+  {
+    "text": "What charge does an atom that has lost one electron carry?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Negatively charged",
+        "isCorrect": false
+      },
+      {
+        "text": "Positively charged",
+        "isCorrect": true
+      },
+      {
+        "text": "Electrically neutral",
+        "isCorrect": false
+      },
+      {
+        "text": "Carry double positive charge",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Losing an electron means losing a negative charge, resulting in a net positive charge (cation)."
+  },
+  {
+    "text": "How are positive ions formed from neutral atoms?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Increase of nuclear charge",
+        "isCorrect": false
+      },
+      {
+        "text": "Gain of protons",
+        "isCorrect": false
+      },
+      {
+        "text": "Loss of electrons",
+        "isCorrect": true
+      },
+      {
+        "text": "Loss of protons",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Positive ions (cations) are formed when a neutral atom loses one or more electrons."
+  },
+  {
+    "text": "What does the nucleus of an atom consist of?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Proton and neutron",
+        "isCorrect": true
+      },
+      {
+        "text": "Proton and electron",
+        "isCorrect": false
+      },
+      {
+        "text": "Neutron and electron",
+        "isCorrect": false
+      },
+      {
+        "text": "Proton, neutron and electron",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The nucleus contains protons and neutrons; electrons orbit the nucleus."
+  },
+  {
+    "text": "How many electrons are in a potassium-40 ion (⁴⁰K⁺)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "19",
+        "isCorrect": true
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "18",
+        "isCorrect": false
+      },
+      {
+        "text": "40",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Potassium has an atomic number of 19, meaning it has 19 protons and 19 electrons in its neutral state.  The +1 charge indicates it has lost one electron, leaving 18 electrons."
+  },
+  {
+    "text": "What are the constituents of the nucleus of ⁴⁰Ca?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "40 protons and 20 electrons",
+        "isCorrect": false
+      },
+      {
+        "text": "20 protons and 40 electrons",
+        "isCorrect": false
+      },
+      {
+        "text": "20 protons and 20 neutrons",
+        "isCorrect": true
+      },
+      {
+        "text": "20 protons and 40 neutrons",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Calcium (Ca) has an atomic number of 20 (20 protons).  The mass number (40) minus the atomic number (20) gives the number of neutrons (20)."
+  },
+  {
+    "text": "What is the total number of electrons in a nitrate ion (NO₃⁻)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "8",
+        "isCorrect": false
+      },
+      {
+        "text": "16",
+        "isCorrect": false
+      },
+      {
+        "text": "32",
+        "isCorrect": true
+      },
+      {
+        "text": "64",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Nitrogen has 7 electrons, oxygen has 8 electrons.  In NO₃⁻, there are 7 + 3(8) + 1 (for the negative charge) = 32 electrons."
+  },
+  {
+    "text": "What volume does 4.4 g of CO₂ occupy at STP?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "22.4 L",
+        "isCorrect": false
+      },
+      {
+        "text": "2.24 L",
+        "isCorrect": true
+      },
+      {
+        "text": "0.224 L",
+        "isCorrect": false
+      },
+      {
+        "text": "0.1 L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Molar mass of CO₂ = 44 g/mol. Moles of CO₂ = 4.4 g / 44 g/mol = 0.1 mol. At STP, 1 mol of gas occupies 22.4 L, so 0.1 mol occupies 0.1 mol * 22.4 L/mol = 2.24 L."
+  },
+  {
+    "text": "Which of the following has the same number of molecules as 16 g of oxygen?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "16 g of CO",
+        "isCorrect": false
+      },
+      {
+        "text": "28 g of N₂",
+        "isCorrect": false
+      },
+      {
+        "text": "24 g of C₂",
+        "isCorrect": false
+      },
+      {
+        "text": "1.0 g of H₂",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Moles of O₂ = 16 g / 32 g/mol = 0.5 mol.  1.0 g of H₂ is 1.0 g / 2.0 g/mol = 0.5 mol.  Equal moles mean equal number of molecules (Avogadro's Law)."
+  },
+  {
+    "text": "Calculate the mass of 6.022 × 10²³ molecules of Calcium Carbonate (CaCO₃).",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "50 g",
+        "isCorrect": false
+      },
+      {
+        "text": "100 g",
+        "isCorrect": true
+      },
+      {
+        "text": "200 g",
+        "isCorrect": false
+      },
+      {
+        "text": "None of these",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "6.022 × 10²³ molecules is 1 mole. The molar mass of CaCO₃ is approximately 100 g/mol. Therefore, the mass is 100 g."
+  },
+  {
+    "text": "How many molecules are present in 89.6 liters of a gas at NTP?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "2 NA",
+        "isCorrect": false
+      },
+      {
+        "text": "NA/2",
+        "isCorrect": false
+      },
+      {
+        "text": "NA/7",
+        "isCorrect": false
+      },
+      {
+        "text": "4 NA",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "At NTP, 22.4 L contains 1 mole (NA) of molecules.  89.6 L contains (89.6 L / 22.4 L/mol) = 4 moles, or 4 NA molecules."
+  },
+  {
+    "text": "If Avogadro's number (NA) changed from 6.022 × 10²³ mol⁻¹ to 6.022 × 10²⁰ mol⁻¹, what would change?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The mass of one mole of carbon",
+        "isCorrect": true
+      },
+      {
+        "text": "The ratio of chemical species to each other in a balanced equation",
+        "isCorrect": false
+      },
+      {
+        "text": "The ratio of elements to each other in a compound",
+        "isCorrect": false
+      },
+      {
+        "text": "The definition of mass in units of grams",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "Changing Avogadro's number changes the number of entities in one mole.  This directly affects the mass of one mole of any substance."
+  },
+  {
+    "text": "What is the mass of 44.8 L of SO₂ at STP in grams?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "128 g",
+        "isCorrect": true
+      },
+      {
+        "text": "95 g",
+        "isCorrect": false
+      },
+      {
+        "text": "24 g",
+        "isCorrect": false
+      },
+      {
+        "text": "50 g",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Moles of SO₂ = 44.8 L / 22.4 L/mol = 2 mol. Molar mass of SO₂ = 64 g/mol. Mass = 2 mol * 64 g/mol = 128 g"
+  },
+  {
+    "text": "How many molecules are in 280 g of N₂?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "6.02 × 10²³ molecules",
+        "isCorrect": false
+      },
+      {
+        "text": "2 × 6.02 × 10²³ molecules",
+        "isCorrect": false
+      },
+      {
+        "text": "10 × 6.02 × 10²³ molecules",
+        "isCorrect": true
+      },
+      {
+        "text": "4 × 6.02 × 10²³ molecules",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Moles of N₂ = 280 g / 28 g/mol = 10 mol.  Number of molecules = 10 mol * 6.022 × 10²³ molecules/mol = 10 NA molecules"
+  },
+  {
+    "text": "How many atoms are present in 49 g of H₂SO₄?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "7NA/2",
+        "isCorrect": true
+      },
+      {
+        "text": "7NA",
+        "isCorrect": false
+      },
+      {
+        "text": "14NA",
+        "isCorrect": false
+      },
+      {
+        "text": "NA/7",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Molar mass of H₂SO₄ ≈ 98 g/mol. Moles = 49 g / 98 g/mol = 0.5 mol. One molecule has 7 atoms. Total atoms = 0.5 mol * 7 atoms/molecule * 6.022 x 10²³ molecules/mol = 7NA/2"
+  },
+  {
+    "text": "Calculate the weight occupied by 12.04 × 10²⁴ molecules of N₂.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "280 g",
+        "isCorrect": true
+      },
+      {
+        "text": "560 g",
+        "isCorrect": false
+      },
+      {
+        "text": "112 g",
+        "isCorrect": false
+      },
+      {
+        "text": "200 g",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Moles = 12.04 x 10²⁴ / 6.022 x 10²³ = 20 moles. Mass = 20 moles * 28 g/mol = 560 g"
+  },
+  {
+    "text": "How many atoms are present in 11.2 L of oxygen gas at STP?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "NA/2",
+        "isCorrect": false
+      },
+      {
+        "text": "2 NA",
+        "isCorrect": false
+      },
+      {
+        "text": "7NA/2",
+        "isCorrect": false
+      },
+      {
+        "text": "2 NA",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Moles of O₂ = 11.2 L / 22.4 L/mol = 0.5 mol. Molecules = 0.5 NA. Atoms = 0.5NA * 2 = NA. Therefore 2 NA"
+  }
+]

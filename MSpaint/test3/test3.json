@@ -1,0 +1,970 @@
+[
+  {
+    "text": "How do you resize the entire canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Go to the Home tab and select Resize.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+C.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Resize option in the Home tab allows you to adjust the dimensions of the entire canvas."
+  },
+  {
+    "text": "What does skewing an image in MS Paint do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It tilts the image horizontally or vertically.",
+        "isCorrect": true
+      },
+      {
+        "text": "It crops the image.",
+        "isCorrect": false
+      },
+      {
+        "text": "It inverts the image colors.",
+        "isCorrect": false
+      },
+      {
+        "text": "It rotates the image 180 degrees.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Skewing, available in the Resize dialog, tilts the image along the horizontal or vertical axis."
+  },
+  {
+    "text": "How do you flip the entire canvas vertically in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select Rotate > Flip vertical from the Home tab.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+F.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select Invert Color.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Flip vertical option under Rotate in the Home tab mirrors the entire canvas top to bottom."
+  },
+  {
+    "text": "What is the effect of applying transparency to a selection in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It makes the background color of the selection transparent.",
+        "isCorrect": true
+      },
+      {
+        "text": "It inverts the colors of the selection.",
+        "isCorrect": false
+      },
+      {
+        "text": "It crops the selection.",
+        "isCorrect": false
+      },
+      {
+        "text": "It resizes the selection.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Enabling transparency in the Select tool makes the background color (Color 2) transparent when pasting."
+  },
+  {
+    "text": "How do you undo an action in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Press Ctrl+Z.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+Y.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+C.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+X.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+Z undoes the most recent action, allowing you to revert changes."
+  },
+  {
+    "text": "What does the Redo command do in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It reapplies an undone action.",
+        "isCorrect": true
+      },
+      {
+        "text": "It saves the image.",
+        "isCorrect": false
+      },
+      {
+        "text": "It crops the image.",
+        "isCorrect": false
+      },
+      {
+        "text": "It inverts the colors.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+Y or the Redo command reapplies an action that was previously undone."
+  },
+  {
+    "text": "How can you rotate an image 180 degrees in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select Rotate > Rotate 180 from the Home tab.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+R.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select Flip horizontal.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Rotate 180 option in the Home tab rotates the entire image or selection 180 degrees."
+  },
+  {
+    "text": "What happens when you crop an image in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The canvas is reduced to the selected area.",
+        "isCorrect": true
+      },
+      {
+        "text": "The image is rotated.",
+        "isCorrect": false
+      },
+      {
+        "text": "The image is resized proportionally.",
+        "isCorrect": false
+      },
+      {
+        "text": "The image colors are inverted.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Cropping reduces the canvas to the boundaries of the selected area, removing everything outside it."
+  },
+  {
+    "text": "How do you enable transparency for a pasted selection?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Check the Transparent selection option in the Select menu.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+T.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Color Picker tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select Invert Color.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Transparent selection option in the Select menu makes the background color transparent when pasting."
+  },
+  {
+    "text": "What is a limitation of resizing images in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Resizing may cause pixelation or loss of quality.",
+        "isCorrect": true
+      },
+      {
+        "text": "Resizing is not possible in MS Paint.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resizing always maintains perfect quality.",
+        "isCorrect": false
+      },
+      {
+        "text": "Resizing only works for selections, not the entire canvas.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Resizing in MS Paint, especially enlarging, can cause pixelation due to the lack of advanced interpolation algorithms."
+  },
+
+
+  {
+    "text": "Which file format in MS Paint preserves image quality without compression?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "PNG.",
+        "isCorrect": true
+      },
+      {
+        "text": "JPEG.",
+        "isCorrect": false
+      },
+      {
+        "text": "GIF.",
+        "isCorrect": false
+      },
+      {
+        "text": "BMP.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "PNG is a lossless format that preserves image quality without compression, unlike JPEG, which is lossy."
+  },
+  {
+    "text": "What is a disadvantage of saving an image as a JPEG in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It may lose quality due to compression.",
+        "isCorrect": true
+      },
+      {
+        "text": "It does not support transparency.",
+        "isCorrect": false
+      },
+      {
+        "text": "It cannot be opened in other programs.",
+        "isCorrect": false
+      },
+      {
+        "text": "It increases file size significantly.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "JPEG is a lossy format, meaning it compresses the image, potentially reducing quality, especially with repeated saves."
+  },
+  {
+    "text": "How do you open an existing image in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Go to File > Open and select the image.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+S.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select Paste from the Home tab.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The File > Open option allows you to browse and select an existing image to edit in MS Paint."
+  },
+  {
+    "text": "How can you set the canvas size in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Go to File > Properties and adjust dimensions.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+R.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "File > Properties allows you to set the canvas size by specifying width and height in pixels."
+  },
+  {
+    "text": "What is the default file format when saving a new image in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "PNG.",
+        "isCorrect": true
+      },
+      {
+        "text": "JPEG.",
+        "isCorrect": false
+      },
+      {
+        "text": "BMP.",
+        "isCorrect": false
+      },
+      {
+        "text": "GIF.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "In modern versions of MS Paint, the default save format is PNG due to its lossless quality and transparency support."
+  },
+  {
+    "text": "How do you export an image for printing in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Go to File > Print.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+E.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Save As option.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select Copy from the Home tab.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "File > Print sends the image to a connected printer, allowing you to configure print settings."
+  },
+  {
+    "text": "Which file format in MS Paint supports transparency?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "PNG.",
+        "isCorrect": true
+      },
+      {
+        "text": "JPEG.",
+        "isCorrect": false
+      },
+      {
+        "text": "BMP.",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "PNG supports transparency, making it ideal for images with transparent backgrounds, unlike JPEG or BMP."
+ },
+  {
+    "text": "What happens if you save an image in BMP format in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The file size is typically larger than PNG or JPEG.",
+        "isCorrect": true
+      },
+      {
+        "text": "The image quality is reduced.",
+        "isCorrect": false
+      },
+      {
+        "text": "The image gains transparency.",
+        "isCorrect": false
+      },
+      {
+        "text": "The image is automatically cropped.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "BMP is an uncompressed format, resulting in larger file sizes compared to compressed formats like PNG or JPEG."
+  },
+  {
+    "text": "How do you import an image into an existing canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use Paste From under the Paste menu.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+I.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Resize option.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Paste From in the Paste menu allows you to import an image from a file into the current canvas."
+  },
+  {
+    "text": "What is the purpose of the Properties dialog in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To set canvas dimensions and units.",
+        "isCorrect": true
+      },
+      {
+        "text": "To apply filters to the image.",
+        "isCorrect": false
+      },
+      {
+        "text": "To change the brush size.",
+        "isCorrect": false
+      },
+      {
+        "text": "To rotate the image.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Properties dialog (File > Properties) allows users to set the canvas size and choose units like pixels or inches."
+  },
+
+ 
+  {
+    "text": "What is the keyboard shortcut for the Eraser tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+E.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+T.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+P.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+S.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+E selects the Eraser tool, allowing you to erase parts of the canvas with the background color."
+  },
+  {
+    "text": "Which shortcut is used to undo an action in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+Z.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+Y.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+X.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+C.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+Z undoes the most recent action, reverting changes made to the canvas."
+  },
+  {
+    "text": "What does the Ctrl+Y shortcut do in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It redoes an undone action.",
+        "isCorrect": true
+      },
+      {
+        "text": "It saves the image.",
+        "isCorrect": false
+      },
+      {
+        "text": "It copies a selection.",
+        "isCorrect": false
+      },
+      {
+        "text": "It opens a new canvas.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+Y redoes an action that was previously undone, restoring it to the canvas."
+  },
+  {
+    "text": "Which shortcut zooms in on the canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+Plus.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+Minus.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+Z.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+S.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+Plus zooms in, increasing the magnification of the canvas for detailed editing."
+  },
+  {
+    "text": "What is the shortcut for copying a selection in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+C.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+X.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+V.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+Z.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+C copies the selected area to the clipboard for pasting elsewhere."
+  },
+  {
+    "text": "Which shortcut pastes a copied selection in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+V.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+C.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+X.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+Z.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+V pastes the contents of the clipboard onto the canvas."
+  },
+  {
+    "text": "What is the shortcut for saving an image in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+S.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+O.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+P.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+E.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+S opens the Save or Save As dialog to save the image to a file."
+  },
+  {
+    "text": "Which shortcut opens a new canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+N.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+O.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+S.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+P.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+N creates a new blank canvas in MS Paint."
+  },
+  {
+    "text": "What does the Ctrl+Minus shortcut do in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It zooms out of the canvas.",
+        "isCorrect": true
+      },
+      {
+        "text": "It zooms in on the canvas.",
+        "isCorrect": false
+      },
+      {
+        "text": "It undoes an action.",
+        "isCorrect": false
+      },
+      {
+        "text": "It saves the image.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+Minus zooms out, reducing the magnification of the canvas."
+  },
+  {
+    "text": "Which shortcut selects the Text tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ctrl+T.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ctrl+E.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+P.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ctrl+S.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+T activates the Text tool, allowing you to add text to the canvas."
+  },
+
+ 
+  {
+    "text": "How can MS Paint be used to create a simple flowchart?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use shapes like rectangles and arrows to represent steps and connections.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool to create flowchart symbols.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Color Picker to draw flowchart lines.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool to align shapes.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Shapes like rectangles, ovals, and arrows, combined with the Text tool, can be used to create flowchart diagrams in MS Paint."
+  },
+  {
+    "text": "What is a common use of MS Paint for editing screenshots?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Adding annotations with text and shapes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Applying advanced filters.",
+        "isCorrect": false
+      },
+      {
+        "text": "Creating 3D models.",
+        "isCorrect": false
+      },
+      {
+        "text": "Editing video frames.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "MS Paint is often used to annotate screenshots with text, arrows, or shapes to highlight or explain content."
+  },
+  {
+    "text": "How can MS Paint be used to design a basic logo?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Combine shapes, text, and colors to create a simple design.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool to create logo shapes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Apply transparency to the entire canvas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool to draw logos.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "MS Paint’s shapes, text, and color tools allow users to create simple logos by combining basic elements."
+  },
+  {
+    "text": "What is a key step in combining multiple images in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use Paste From to import images and arrange them on the canvas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool to merge images.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Eraser to blend images.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool to align images.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Paste From option allows users to import multiple images, which can then be moved and arranged on the canvas."
+  },
+  {
+    "text": "How is MS Paint suitable for pixel art creation?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Its grid and zoom features allow precise pixel-by-pixel drawing.",
+        "isCorrect": true
+      },
+      {
+        "text": "It supports advanced layering for pixel art.",
+        "isCorrect": false
+      },
+      {
+        "text": "It automatically smooths pixel edges.",
+        "isCorrect": false
+      },
+      {
+        "text": "It provides 3D modeling tools.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "MS Paint’s gridlines and zoom functionality make it ideal for precise pixel art creation, allowing detailed control over individual pixels."
+  },
+
+
+  {
+    "text": "What is a common issue when resizing the canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Accidentally cropping content if the new size is too small.",
+        "isCorrect": true
+      },
+      {
+        "text": "Automatically adding transparency.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inverting the image colors.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotating the canvas.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Resizing the canvas to a smaller size may crop content outside the new boundaries, so users must ensure important content is preserved."
+  },
+  {
+    "text": "What is a key limitation of MS Paint compared to advanced tools like Photoshop?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Lack of support for layers.",
+        "isCorrect": true
+      },
+      {
+        "text": "Inability to save images.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inability to draw shapes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Lack of keyboard shortcuts.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "MS Paint does not support layers, making it harder to edit complex images compared to tools like Photoshop."
+  },
+  {
+    "text": "How can pixelation occur when resizing images in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Enlarging an image stretches pixels, causing a blocky appearance.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reducing the image size adds transparency.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rotating the image causes pixelation.",
+        "isCorrect": false
+      },
+      {
+        "text": "Saving as PNG causes pixelation.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Enlarging an image in MS Paint stretches existing pixels, leading to a blocky, pixelated appearance due to the lack of advanced scaling algorithms."
+  },
+  {
+    "text": "What can you do to recover unsaved work after MS Paint crashes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "MS Paint does not have an autosave feature, so recovery is not possible.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use Ctrl+R to recover the file.",
+        "isCorrect": false
+      },
+      {
+        "text": "Check the File > Recover menu.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Undo command.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "MS Paint lacks an autosave or recovery feature, so unsaved work is typically lost after a crash."
+  },
+  {
+    "text": "What is a challenge when working with large image files in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "MS Paint may run slowly or crash due to limited processing power.",
+        "isCorrect": true
+      },
+      {
+        "text": "Large files cannot be opened in MS Paint.",
+        "isCorrect": false
+      },
+      {
+        "text": "Large files are automatically cropped.",
+        "isCorrect": false
+      },
+      {
+        "text": "Large files lose transparency.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "MS Paint is not optimized for large image files, which can cause performance issues like slow operation or crashes."
+  }
+]

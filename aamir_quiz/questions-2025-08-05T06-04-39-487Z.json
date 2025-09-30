@@ -1,0 +1,602 @@
+[
+  {
+    "text": "What is the significance of eigenfunctions and eigenvalues in the context of quantum mechanical operators?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Eigenfunctions represent physical observables, and eigenvalues are the probabilities of measurement.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eigenfunctions are wavefunctions that satisfy the operator equation, and eigenvalues are the corresponding measurable quantities.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eigenfunctions are the expectation values, and eigenvalues are the operators.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eigenfunctions are classical trajectories, and eigenvalues are energy states.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "In quantum mechanics, if an operator Â acts on a function ψ such that Âψ = aψ, then ψ is called an eigenfunction and a the corresponding eigenvalue.  This equation defines measurable physical observables. Eigenfunctions represent system states, and eigenvalues correspond to measurable quantities such as energy, momentum, etc."
+  },
+  {
+    "text": "What are the eigenvalues of the angular momentum operator L²?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "l(l+1)ℏ²",
+        "isCorrect": true
+      },
+      {
+        "text": "mlℏ",
+        "isCorrect": false
+      },
+      {
+        "text": "lℏ²",
+        "isCorrect": false
+      },
+      {
+        "text": "(l+1)ℏ",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The total angular momentum squared operator L² has eigenvalues l(l+1)ℏ², where l is the azimuthal quantum number. This arises from the spherical symmetry of systems like the hydrogen atom. Option B is the eigenvalue of Lz, not L²."
+  },
+  {
+    "text": "Which statement best expresses the Pauli exclusion principle?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "No two electrons in an atom can have the same energy.",
+        "isCorrect": false
+      },
+      {
+        "text": "No two fermions in a quantum system can occupy the same quantum state simultaneously.",
+        "isCorrect": true
+      },
+      {
+        "text": "Electrons in an atom must have opposite spins.",
+        "isCorrect": false
+      },
+      {
+        "text": "The total wavefunction must be symmetric under particle exchange.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Pauli exclusion principle states that no two identical fermions (e.g., electrons) may occupy the same quantum state. This restriction applies to all four quantum numbers (n, l, ml, ms). Options A and C are either too specific or consequential but not complete. Option D is characteristic of bosons, not fermions."
+  },
+  {
+    "text": "What is the time-dependent Schrödinger equation for a single particle?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ĥψ = Eψ",
+        "isCorrect": false
+      },
+      {
+        "text": "iℏ∂ψ/∂t = Ĥψ",
+        "isCorrect": true
+      },
+      {
+        "text": "Ĥψ = -(ℏ²/2m)∇²ψ",
+        "isCorrect": false
+      },
+      {
+        "text": "∂²ψ/∂t² = Ĥψ",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The time-dependent Schrödinger equation governs the evolution of a quantum state over time. The Hamiltonian Ĥ operates on the wavefunction ψ, producing its time evolution. Option A is the time-independent form."
+  },
+  {
+    "text": "What is the normalized wavefunction for a particle in a 1D infinite potential well (box) of length L?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "ψn(x) = (2/L)sin(nπx/L)",
+        "isCorrect": true
+      },
+      {
+        "text": "ψn(x) = (1/L)cos(nπx/L)",
+        "isCorrect": false
+      },
+      {
+        "text": "ψn(x) = (1/L)sin(nx/L)",
+        "isCorrect": false
+      },
+      {
+        "text": "ψn(x) = (2/L)e^(inπx/L)",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "For a 1D infinite box from x=0 to x=L, the wavefunction must vanish at the boundaries. The sine function satisfies this, and normalization requires the prefactor 2/L."
+  },
+  {
+    "text": "What are the energy eigenvalues for a particle confined in a 1D infinite potential well of length L?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "En = (n²π²ℏ²)/(2mL²)",
+        "isCorrect": true
+      },
+      {
+        "text": "En = (nℏ²)/(2mL²)",
+        "isCorrect": false
+      },
+      {
+        "text": "En = (n²ℏ²)/(2mL)",
+        "isCorrect": false
+      },
+      {
+        "text": "En = (nπℏ)/(mL²)",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Solving the time-independent Schrödinger equation for a particle in a box yields quantized energy levels: En = (n²π²ℏ²)/(2mL²), n=1,2,3,… This results from boundary conditions leading to quantization of allowed wavevectors."
+  },
+  {
+    "text": "What are the energy levels of a quantum harmonic oscillator?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "En = ℏω(n + 1/2)",
+        "isCorrect": true
+      },
+      {
+        "text": "En = ℏωn",
+        "isCorrect": false
+      },
+      {
+        "text": "En = (ℏ²ω²)/(2)(n+1)",
+        "isCorrect": false
+      },
+      {
+        "text": "En = ℏω(n² + 1/2)",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The quantized energy levels of the quantum harmonic oscillator are: En = ℏω(n + 1/2), n=0,1,2,… This nonzero ground state energy reflects zero-point motion due to the uncertainty principle."
+  },
+  {
+    "text": "In the hydrogen atom, the radial part of the wavefunction depends on which quantum numbers?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Magnetic quantum number ml",
+        "isCorrect": false
+      },
+      {
+        "text": "Spin quantum number ms",
+        "isCorrect": false
+      },
+      {
+        "text": "Principal quantum number n and azimuthal quantum number l",
+        "isCorrect": true
+      },
+      {
+        "text": "Only the principal quantum number n",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The radial wavefunction Rnl(r) in hydrogen depends on both n and l, while ml and ms affect angular and spin components, respectively."
+  },
+  {
+    "text": "Which of the following is NOT a postulate of quantum mechanics?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The state of a system is represented by a wavefunction ψ",
+        "isCorrect": false
+      },
+      {
+        "text": "Observables are represented by Hermitian operators",
+        "isCorrect": false
+      },
+      {
+        "text": "Time evolution follows classical mechanics",
+        "isCorrect": true
+      },
+      {
+        "text": "Measurement probabilities are derived from |ψ|²",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Time evolution in quantum mechanics is governed by the time-dependent Schrödinger equation, not classical Newtonian mechanics."
+  },
+  {
+    "text": "What is the key difference between Molecular Orbital (MO) theory and Valence Bond (VB) theory?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "MO uses localized orbitals; VB uses delocalized ones",
+        "isCorrect": false
+      },
+      {
+        "text": "MO constructs MOs from LCAO; VB uses hybrid orbitals and localized bonds",
+        "isCorrect": true
+      },
+      {
+        "text": "MO applies only to diatomics; VB to polyatomics",
+        "isCorrect": false
+      },
+      {
+        "text": "MO ignores spin; VB includes it",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "MO theory forms delocalized orbitals via linear combinations of atomic orbitals (LCAO), while VB theory uses localized bonding often involving hybridized orbitals."
+  },
+  {
+    "text": "What integrals are included in the secular determinant for π-systems in Hückel theory?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only Coulomb and exchange integrals",
+        "isCorrect": false
+      },
+      {
+        "text": "Coulomb and resonance integrals, neglecting overlap",
+        "isCorrect": true
+      },
+      {
+        "text": "Overlap and exchange integrals only",
+        "isCorrect": false
+      },
+      {
+        "text": "All integrals including overlap",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hückel theory simplifies π-electron systems by assuming: Coulomb integrals α (diagonal elements), Resonance integrals β (adjacent off-diagonal), Overlap integrals Sij = 0 for i≠j"
+  },
+  {
+    "text": "The ground-state wavefunction for the 1s orbital in hydrogen is proportional to what?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "e^(-r/a₀)",
+        "isCorrect": true
+      },
+      {
+        "text": "re^(-r/a₀)",
+        "isCorrect": false
+      },
+      {
+        "text": "e^(-r²/a₀²)",
+        "isCorrect": false
+      },
+      {
+        "text": "cos(θ)e^(-r/a₀)",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The hydrogenic 1s orbital is spherically symmetric and decays exponentially: ψ₁s(r) = (1/√(πa₀³))e^(-r/a₀)"
+  },
+  {
+    "text": "What is the correct spin wavefunction for a singlet state (S = 0) of two electrons?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "α(1)α(2)",
+        "isCorrect": false
+      },
+      {
+        "text": "β(1)β(2)",
+        "isCorrect": false
+      },
+      {
+        "text": "(1/√2)[α(1)β(2) - β(1)α(2)]",
+        "isCorrect": true
+      },
+      {
+        "text": "(1/√2)[α(1)β(2) + β(1)α(2)]",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The singlet spin state is antisymmetric: χs = (1/√2)[α(1)β(2) - β(1)α(2)]. It ensures that the total wavefunction of fermions is antisymmetric."
+  },
+  {
+    "text": "What is the expectation value of an operator Â in state ψ?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "⟨A⟩ = ∫ψ*Âψ dV",
+        "isCorrect": true
+      },
+      {
+        "text": "⟨A⟩ = ∫ψÂψ* dV",
+        "isCorrect": false
+      },
+      {
+        "text": "⟨A⟩ = ∫ψ*Âψ* dV",
+        "isCorrect": false
+      },
+      {
+        "text": "⟨A⟩ = ∫ψÂψ dV",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "This is the standard formulation to compute the mean (expected) value of an observable: ⟨Â⟩ = ∫ψ*Âψ dV. It guarantees a real result due to Hermitian nature of Â."
+  },
+  {
+    "text": "In the ground state of a 1D infinite box, what is the approximate probability of finding a particle between L/4 and 3L/4?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.5",
+        "isCorrect": false
+      },
+      {
+        "text": "0.707",
+        "isCorrect": false
+      },
+      {
+        "text": "0.866",
+        "isCorrect": true
+      },
+      {
+        "text": "1.0",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "P = ∫_(L/4)^(3L/4) |ψ₁(x)|² dx ≈ 0.866. This reflects the higher probability density in the center of the well for the ground state."
+  },
+  {
+    "text": "What are the Hückel energy levels for benzene (6 carbon atoms)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "α + 2β, α, α, α - β, α - β, α - 2β",
+        "isCorrect": false
+      },
+      {
+        "text": "α + 2β, α + β, α + β, α - β, α - β, α - 2β",
+        "isCorrect": true
+      },
+      {
+        "text": "α, α, α, α, α, α",
+        "isCorrect": false
+      },
+      {
+        "text": "α + β, α + β, α, α, α - β, α - β",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "Hückel theory predicts 6 π-MOs with energies symmetric about α, reflecting the cyclic nature of benzene."
+  },
+  {
+    "text": "What is the origin of zero-point energy in a quantum harmonic oscillator?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Classical behavior at low temperatures",
+        "isCorrect": false
+      },
+      {
+        "text": "The uncertainty principle",
+        "isCorrect": true
+      },
+      {
+        "text": "The Pauli exclusion principle",
+        "isCorrect": false
+      },
+      {
+        "text": "Boundary conditions",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The uncertainty principle prevents a particle from being at rest at the bottom of the potential. This leads to a non-zero minimum energy E₀ = (1/2)ℏω."
+  },
+  {
+    "text": "In VB theory, the H₂ molecule's wavefunction is primarily described how?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A delocalized MO across both nuclei",
+        "isCorrect": false
+      },
+      {
+        "text": "A product of atomic orbitals with covalent and ionic character",
+        "isCorrect": true
+      },
+      {
+        "text": "A single atomic orbital on one atom",
+        "isCorrect": false
+      },
+      {
+        "text": "An antisymmetric MO combination",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "VB theory considers bonding as a superposition of localized valence orbitals, with contributions from both covalent and ionic terms."
+  },
+  {
+    "text": "What is the degeneracy of the energy level in a hydrogen atom with principal quantum number n (considering only orbital degeneracy)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "n",
+        "isCorrect": false
+      },
+      {
+        "text": "2n",
+        "isCorrect": false
+      },
+      {
+        "text": "n²",
+        "isCorrect": true
+      },
+      {
+        "text": "2n²",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "For each n, the number of unique (l, ml) combinations is n². Spin doubling gives 2n², but here only orbital degeneracy is asked."
+  },
+  {
+    "text": "Which operator commutes with the Hamiltonian of the hydrogen atom?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "x̂",
+        "isCorrect": false
+      },
+      {
+        "text": "p̂x",
+        "isCorrect": false
+      },
+      {
+        "text": "L²",
+        "isCorrect": true
+      },
+      {
+        "text": "Ŝx",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Due to spherical symmetry, L² and Lz commute with the hydrogenic Hamiltonian."
+  },
+  {
+    "text": "In Hückel theory, what is the π-bond order between adjacent carbons in benzene?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.333",
+        "isCorrect": false
+      },
+      {
+        "text": "0.5",
+        "isCorrect": false
+      },
+      {
+        "text": "0.667",
+        "isCorrect": true
+      },
+      {
+        "text": "1.0",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "With 6 π-electrons occupying bonding MOs, each C–C bond has a bond order of approximately 2/3 or 0.667 due to resonance and delocalization."
+  },
+  {
+    "text": "What is the normalization constant for the ground state of a quantum harmonic oscillator?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "(mω/πℏ)^(1/4)",
+        "isCorrect": true
+      },
+      {
+        "text": "(mω/ℏ)^(1/2)",
+        "isCorrect": false
+      },
+      {
+        "text": "(πℏ/mω)^(1/4)",
+        "isCorrect": false
+      },
+      {
+        "text": "(mω/π)^(1/2)",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "The normalized wavefunction is: ψ₀(x) = (mω/πℏ)^(1/4)e^(-mωx²/2ℏ)"
+  },
+  {
+    "text": "What is the commutator [L̂x, L̂y] equal to?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "text": "iℏL̂z",
+        "isCorrect": true
+      },
+      {
+        "text": "-iℏL̂z",
+        "isCorrect": false
+      },
+      {
+        "text": "ℏ²L̂z",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Angular momentum components obey: [L̂x, L̂y] = iℏL̂z. This reflects their underlying Lie algebra structure."
+  },
+  {
+    "text": "In MO theory, how is the bonding orbital of H₂⁺ formed?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Subtracting atomic orbitals",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding atomic orbitals",
+        "isCorrect": true
+      },
+      {
+        "text": "Multiplying atomic orbitals",
+        "isCorrect": false
+      },
+      {
+        "text": "Squaring one atomic orbital",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The bonding MO is a constructive linear combination (addition) of atomic orbitals."
+  },
+  {
+    "text": "Which molecule is most suitable for analysis using Hückel theory?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "H₂",
+        "isCorrect": false
+      },
+      {
+        "text": "Benzene (C₆H₆)",
+        "isCorrect": true
+      },
+      {
+        "text": "Methane (CH₄)",
+        "isCorrect": false
+      },
+      {
+        "text": "Water (H₂O)",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Hückel theory applies to planar conjugated π-systems, with benzene being the archetypal example."
+  }
+]

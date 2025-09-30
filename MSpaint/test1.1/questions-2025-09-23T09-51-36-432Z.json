@@ -1,0 +1,722 @@
+[
+  {
+    "text": "How do you select the foreground color in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click a color in the Color Palette",
+        "isCorrect": false
+      },
+      {
+        "text": "Left-click a color in the Color Palette",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Eraser tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + C",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Left-clicking a color in the Color Palette selects it as the foreground color, which is the color used for drawing and filling by default."
+  },
+  {
+    "text": "What is the function of the Color Picker (Eyedropper) tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fills an area with color",
+        "isCorrect": false
+      },
+      {
+        "text": "Selects a color from the canvas",
+        "isCorrect": true
+      },
+      {
+        "text": "Draws straight lines",
+        "isCorrect": false
+      },
+      {
+        "text": "Erases a selected area",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Eyedropper tool samples a color from any point on the canvas, allowing you to use that exact color for drawing or filling."
+  },
+  {
+    "text": "What happens when you right-click a color in the MS Paint Color Palette?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It selects the foreground color",
+        "isCorrect": false
+      },
+      {
+        "text": "It selects the background color",
+        "isCorrect": true
+      },
+      {
+        "text": "It opens a custom color menu",
+        "isCorrect": false
+      },
+      {
+        "text": "It erases the canvas",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Right-clicking a color in the Color Palette selects it as the background color. This color is used for the eraser tool and creating transparent backgrounds."
+  },
+  {
+    "text": "What is the function of the Fill tool (Paint Bucket) in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Draws a straight line",
+        "isCorrect": false
+      },
+      {
+        "text": "Fills an enclosed area with color",
+        "isCorrect": true
+      },
+      {
+        "text": "Erases a selected area",
+        "isCorrect": false
+      },
+      {
+        "text": "Adds text to the canvas",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Fill tool uses the currently selected foreground color to fill completely enclosed areas.  If the area is not enclosed, it will flood fill the entire canvas."
+  },
+  {
+    "text": "How can you create a custom color in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Click \"Edit Colors\" in the Color Palette",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Zoom slider",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + Shift",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The \"Edit Colors\" option in the Color Palette opens a dialog box where you can create and customize your own colors."
+  },
+  {
+    "text": "What does a transparent fill do in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fills with a solid color",
+        "isCorrect": false
+      },
+      {
+        "text": "Leaves the background visible",
+        "isCorrect": true
+      },
+      {
+        "text": "Erases the filled area",
+        "isCorrect": false
+      },
+      {
+        "text": "Changes the canvas size",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A transparent fill allows the underlying color or image to show through, making the fill appear invisible."
+  },
+  {
+    "text": "Which color is used by the Fill tool by default in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Background color",
+        "isCorrect": false
+      },
+      {
+        "text": "Foreground color",
+        "isCorrect": true
+      },
+      {
+        "text": "Black",
+        "isCorrect": false
+      },
+      {
+        "text": "White",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Fill tool automatically uses the currently selected foreground color to fill shapes or areas."
+  },
+  {
+    "text": "What happens if you use the Fill tool on an unenclosed area in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The entire canvas is filled",
+        "isCorrect": true
+      },
+      {
+        "text": "Nothing happens",
+        "isCorrect": false
+      },
+      {
+        "text": "The area is erased",
+        "isCorrect": false
+      },
+      {
+        "text": "A shape is drawn",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Fill tool performs a flood fill on unenclosed areas, filling the entire canvas with the foreground color."
+  },
+  {
+    "text": "How do you switch between foreground and background colors in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Zoom slider",
+        "isCorrect": false
+      },
+      {
+        "text": "Click the color boxes in the Color Palette",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl + Z",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Eraser tool",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Clicking on either the foreground or background color box in the Color Palette will swap the two colors."
+  },
+  {
+    "text": "What is the purpose of the Color Palette in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To adjust canvas size",
+        "isCorrect": false
+      },
+      {
+        "text": "To select and manage colors",
+        "isCorrect": true
+      },
+      {
+        "text": "To draw shapes",
+        "isCorrect": false
+      },
+      {
+        "text": "To add text",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Color Palette provides a selection of colors and allows you to choose the foreground and background colors for your drawings."
+  },
+  {
+    "text": "Which tool allows you to match a color on the canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Color Picker (Eyedropper)",
+        "isCorrect": true
+      },
+      {
+        "text": "Brush",
+        "isCorrect": false
+      },
+      {
+        "text": "Eraser",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Color Picker (Eyedropper) tool lets you select a color directly from the image on the canvas."
+  },
+  {
+    "text": "What does a solid fill do in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Leaves the area transparent",
+        "isCorrect": false
+      },
+      {
+        "text": "Fills the area with a single color",
+        "isCorrect": true
+      },
+      {
+        "text": "Draws an outline",
+        "isCorrect": false
+      },
+      {
+        "text": "Erases the area",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A solid fill completely covers the selected area with the chosen foreground color, leaving no transparency."
+  },
+  {
+    "text": "How do you access the custom color creator in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Click the Status Bar",
+        "isCorrect": false
+      },
+      {
+        "text": "Click \"Edit Colors\" in the Color Palette",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Text tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + C",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The \"Edit Colors\" button in the Color Palette opens the custom color mixer, allowing you to create new colors by adjusting RGB values or using a color picker."
+  },
+  {
+    "text": "What happens when you use the Eraser with the background color selected in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It fills with the foreground color",
+        "isCorrect": false
+      },
+      {
+        "text": "It replaces the area with the background color",
+        "isCorrect": true
+      },
+      {
+        "text": "It draws a line",
+        "isCorrect": false
+      },
+      {
+        "text": "It selects a color",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Eraser tool uses the background color to remove pixels, effectively 'erasing' them and replacing them with the background color."
+  },
+  {
+    "text": "Which option ensures a shape’s interior remains transparent in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Solid Color",
+        "isCorrect": false
+      },
+      {
+        "text": "No Fill",
+        "isCorrect": true
+      },
+      {
+        "text": "Outline",
+        "isCorrect": false
+      },
+      {
+        "text": "Foreground Color",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Selecting \"No Fill\" prevents the shape's interior from being filled with any color, leaving it transparent and showing the background."
+  },
+  {
+    "text": "How do you add text to the canvas in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Text tool",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Brush tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Eraser",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Text tool is specifically designed for adding text to the MS Paint canvas."
+  },
+  {
+    "text": "How can you change the font size in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Zoom slider",
+        "isCorrect": false
+      },
+      {
+        "text": "Select a size from the Font dropdown",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Color Palette",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + Z",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Font dropdown menu within the Text tool options allows you to select different font sizes for your text."
+  },
+  {
+    "text": "What is a key limitation of text editing in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "You cannot change the font color",
+        "isCorrect": false
+      },
+      {
+        "text": "You cannot edit text after deselecting the text box",
+        "isCorrect": true
+      },
+      {
+        "text": "You cannot add text at all",
+        "isCorrect": false
+      },
+      {
+        "text": "You cannot resize the text box",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Once you click outside the text box, the text becomes rasterized (part of the image) and is no longer editable."
+  },
+  {
+    "text": "What does the opaque text background do in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Makes the text transparent",
+        "isCorrect": false
+      },
+      {
+        "text": "Adds a solid background color behind the text",
+        "isCorrect": true
+      },
+      {
+        "text": "Deletes the text",
+        "isCorrect": false
+      },
+      {
+        "text": "Changes the font style",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "An opaque background fills the text box with the background color, making the text stand out more clearly."
+  },
+  {
+    "text": "How do you make the text background transparent in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select Transparent in the Text toolbar",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Eraser",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + T",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Text toolbar has an option to make the text background transparent, allowing the background image to show through."
+  },
+  {
+    "text": "Which tool is used to move a text box in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Select tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Text tool (while active)",
+        "isCorrect": true
+      },
+      {
+        "text": "Eraser",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "While the Text tool is active, you can click and drag the text box to reposition it on the canvas."
+  },
+  {
+    "text": "What happens if you try to edit text after clicking outside the text box in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The text is deleted",
+        "isCorrect": false
+      },
+      {
+        "text": "The text becomes part of the canvas",
+        "isCorrect": true
+      },
+      {
+        "text": "The font size changes",
+        "isCorrect": false
+      },
+      {
+        "text": "The text color changes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Clicking outside the text box finalizes the text, making it a part of the image and no longer editable as text."
+  },
+  {
+    "text": "How do you change the font style in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Color Palette",
+        "isCorrect": false
+      },
+      {
+        "text": "Select a font from the Font dropdown",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Zoom slider",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + F",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Font dropdown menu in the Text tool options provides a list of available font styles to choose from."
+  },
+  {
+    "text": "Which color is used for text by default in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Background color",
+        "isCorrect": false
+      },
+      {
+        "text": "Foreground color",
+        "isCorrect": true
+      },
+      {
+        "text": "Black",
+        "isCorrect": false
+      },
+      {
+        "text": "White",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "New text in MS Paint will automatically use the currently selected foreground color."
+  },
+  {
+    "text": "How can you resize a text box in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Zoom slider",
+        "isCorrect": false
+      },
+      {
+        "text": "Drag the edges of the text box",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + R",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "You can resize the text box by dragging the small squares (handles) at the corners and edges of the box."
+  },
+  {
+    "text": "What happens when you select the Transparent text background option in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The text is erased",
+        "isCorrect": false
+      },
+      {
+        "text": "The text box shows the canvas beneath it",
+        "isCorrect": true
+      },
+      {
+        "text": "The text becomes bold",
+        "isCorrect": false
+      },
+      {
+        "text": "The text color changes",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Selecting \"Transparent\" for the text background makes the background of the text box invisible, revealing any underlying image or color."
+  },
+  {
+    "text": "Which tab contains the Text tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "View",
+        "isCorrect": false
+      },
+      {
+        "text": "Home",
+        "isCorrect": true
+      },
+      {
+        "text": "File",
+        "isCorrect": false
+      },
+      {
+        "text": "Edit",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Text tool is located on the Home tab of the MS Paint interface."
+  },
+  {
+    "text": "What is a key limitation of the Text tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "You cannot change the font size",
+        "isCorrect": false
+      },
+      {
+        "text": "You cannot add multiple text boxes at once",
+        "isCorrect": true
+      },
+      {
+        "text": "You cannot change the text color",
+        "isCorrect": false
+      },
+      {
+        "text": "You cannot move the text box",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Only one text box can be active and edited at a time in MS Paint."
+  },
+  {
+    "text": "How do you change the text color in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Fill tool",
+        "isCorrect": false
+      },
+      {
+        "text": "Select a color from the Color Palette",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Eraser",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl + C",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The text color is determined by the currently selected foreground color."
+  },
+  {
+    "text": "What happens if you deselect a text box before finishing editing in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The text is saved as editable",
+        "isCorrect": false
+      },
+      {
+        "text": "The text becomes part of the canvas",
+        "isCorrect": true
+      },
+      {
+        "text": "The text is deleted",
+        "isCorrect": false
+      },
+      {
+        "text": "The text box is resized",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Deselecting a text box converts the text into a raster image, making it uneditable as text."
+  }
+]

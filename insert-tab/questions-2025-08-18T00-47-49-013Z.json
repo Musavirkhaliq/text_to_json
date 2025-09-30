@@ -1,0 +1,1202 @@
+[
+  {
+    "text": "Which Insert tab group allows inserting the current date and time?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Symbols",
+        "isCorrect": false
+      },
+      {
+        "text": "Text",
+        "isCorrect": true
+      },
+      {
+        "text": "Header & Footer",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Text' group in the Insert tab contains options for inserting the current date and time, along with other text-based elements."
+  },
+  {
+    "text": "Where is the 'Cover Page' option located in the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pages",
+        "isCorrect": true
+      },
+      {
+        "text": "Illustrations",
+        "isCorrect": false
+      },
+      {
+        "text": "Tables",
+        "isCorrect": false
+      },
+      {
+        "text": "Links",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Pages' group within the Insert tab provides access to various page formatting options, including the 'Cover Page' feature."
+  },
+  {
+    "text": "What can be inserted using the 'Illustrations' group?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Footnote",
+        "isCorrect": false
+      },
+      {
+        "text": "Picture",
+        "isCorrect": true
+      },
+      {
+        "text": "Bookmark",
+        "isCorrect": false
+      },
+      {
+        "text": "Header",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Illustrations' group focuses on image-related insertions, primarily allowing you to insert pictures."
+  },
+  {
+    "text": "What tab does the shortcut Alt + N open in Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Home",
+        "isCorrect": false
+      },
+      {
+        "text": "Design",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert",
+        "isCorrect": true
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Alt + N is a shortcut specifically designed to quickly access the 'Insert' tab in Microsoft Word."
+  },
+  {
+    "text": "Which feature inserts pre-designed building blocks (calendars, headers)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Quick Parts",
+        "isCorrect": true
+      },
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Shapes",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "'Quick Parts' allows quick insertion of reusable content blocks, including pre-designed elements like calendars and headers."
+  },
+  {
+    "text": "Which Insert tab feature adds online resources (Wikipedia definitions)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      },
+      {
+        "text": "Online Video",
+        "isCorrect": false
+      },
+      {
+        "text": "Researcher",
+        "isCorrect": true
+      },
+      {
+        "text": "Object",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Researcher' tool facilitates the inclusion of online resources, enabling direct integration of information like Wikipedia definitions."
+  },
+  {
+    "text": "Where is the hyperlink insertion option located in the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Links",
+        "isCorrect": true
+      },
+      {
+        "text": "Illustrations",
+        "isCorrect": false
+      },
+      {
+        "text": "Media",
+        "isCorrect": false
+      },
+      {
+        "text": "Pages",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Links' group within the Insert tab provides functionality for creating and managing hyperlinks within your Word document."
+  },
+  {
+    "text": "How do you insert a blank page in Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Layout → Breaks",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert → Pages",
+        "isCorrect": true
+      },
+      {
+        "text": "Home → Paragraph",
+        "isCorrect": false
+      },
+      {
+        "text": "View → Navigation Pane",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The most straightforward method is to use the 'Pages' option under the 'Insert' tab to add a new blank page."
+  },
+  {
+    "text": "Which of these cannot be inserted directly from the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equations",
+        "isCorrect": false
+      },
+      {
+        "text": "Symbols",
+        "isCorrect": false
+      },
+      {
+        "text": "Citation",
+        "isCorrect": true
+      },
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Citations are managed through the 'References' tab, not the 'Insert' tab.  The Insert tab provides tools for inserting content, but citations require the bibliographic features of the References tab."
+  },
+  {
+    "text": "What does the 'Header & Footer' group in the Insert tab include?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Page Number, Table, Shapes",
+        "isCorrect": false
+      },
+      {
+        "text": "Header, Footer, Page Number",
+        "isCorrect": true
+      },
+      {
+        "text": "Date, Quick Parts, Object",
+        "isCorrect": false
+      },
+      {
+        "text": "Comments, Footnote, Endnote",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Header & Footer' group is specifically designed for managing headers, footers, and page numbers within a document."
+  },
+  {
+    "text": "What is the maximum table size directly creatable using the Insert → Table grid?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "8 × 10",
+        "isCorrect": false
+      },
+      {
+        "text": "10 × 10",
+        "isCorrect": false
+      },
+      {
+        "text": "8 × 8",
+        "isCorrect": true
+      },
+      {
+        "text": "12 × 8",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The visual grid in the Insert Table feature limits the initial table creation to a maximum of 8 rows and 8 columns. Larger tables require manual adjustment after creation."
+  },
+  {
+    "text": "Where do you find the option to insert a SmartArt graphic?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert → Illustrations",
+        "isCorrect": true
+      },
+      {
+        "text": "Insert → Links",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert → Text",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert → Add-ins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "SmartArt graphics are categorized as illustrations and are therefore found in the 'Illustrations' group within the Insert tab."
+  },
+  {
+    "text": "Which chart types are available under Insert → Charts?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pie",
+        "isCorrect": false
+      },
+      {
+        "text": "Line",
+        "isCorrect": false
+      },
+      {
+        "text": "Bar",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Charts' option in the Insert tab offers a variety of chart types, including pie, line, bar, and many others."
+  },
+  {
+    "text": "How do you insert 3D models in newer versions of Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Shapes",
+        "isCorrect": false
+      },
+      {
+        "text": "Icons",
+        "isCorrect": false
+      },
+      {
+        "text": "3D Models",
+        "isCorrect": true
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Newer versions of Word have a dedicated '3D Models' option within the Insert tab for inserting three-dimensional models."
+  },
+  {
+    "text": "Which illustration tool is best for manually drawing flowcharts?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Chart",
+        "isCorrect": false
+      },
+      {
+        "text": "Shapes",
+        "isCorrect": true
+      },
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Icons",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Shapes' tool provides various shapes suitable for creating flowcharts and other diagrams manually."
+  },
+  {
+    "text": "Which Insert tool is best for creating an organizational hierarchy?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Table",
+        "isCorrect": false
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": true
+      },
+      {
+        "text": "Chart",
+        "isCorrect": false
+      },
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "SmartArt graphics are specifically designed for creating visual representations of hierarchical structures and processes."
+  },
+  {
+    "text": "How do you insert SVG icons in Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Icons",
+        "isCorrect": true
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Charts",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Icons' option in the Insert tab allows you to insert scalable vector graphics (SVG) icons."
+  },
+  {
+    "text": "What does the Screenshot option allow you to do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Take a screenshot of your desktop",
+        "isCorrect": false
+      },
+      {
+        "text": "Take screenshots of any open windows",
+        "isCorrect": true
+      },
+      {
+        "text": "Record video",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert screen recordings only",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Screenshot feature enables you to capture images from any open window on your computer and insert them directly into your document."
+  },
+  {
+    "text": "What's the best way to insert a repeating logo in the background?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Watermark",
+        "isCorrect": false
+      },
+      {
+        "text": "Header/Footer → Picture",
+        "isCorrect": true
+      },
+      {
+        "text": "Screenshot",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Using the Header/Footer option and inserting a picture allows the logo to repeat consistently across all pages."
+  },
+  {
+    "text": "Which Insert option is used for inserting mathematical formulas?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Equation",
+        "isCorrect": true
+      },
+      {
+        "text": "Symbol",
+        "isCorrect": false
+      },
+      {
+        "text": "Object",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Equation' option provides a dedicated editor for creating and formatting mathematical formulas."
+  },
+  {
+    "text": "Where is the Bookmark option located?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Links → Bookmark",
+        "isCorrect": true
+      },
+      {
+        "text": "Text → Bookmark",
+        "isCorrect": false
+      },
+      {
+        "text": "Review → Bookmark",
+        "isCorrect": false
+      },
+      {
+        "text": "Layout → Bookmark",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Bookmarks are associated with navigation and linking, hence their placement within the 'Links' group of the Insert tab."
+  },
+  {
+    "text": "Which media types can be inserted from the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Video from File",
+        "isCorrect": false
+      },
+      {
+        "text": "Online Video",
+        "isCorrect": false
+      },
+      {
+        "text": "Audio Recording",
+        "isCorrect": false
+      },
+      {
+        "text": "Both a & b",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "The Insert tab allows insertion of videos from files and online videos. Audio recording may require additional steps or add-ins."
+  },
+  {
+    "text": "Which Insert tab option is used for inserting decorative text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Quick Parts",
+        "isCorrect": false
+      },
+      {
+        "text": "WordArt",
+        "isCorrect": true
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "WordArt is specifically designed for creating stylized and decorative text elements."
+  },
+  {
+    "text": "What can be linked using the Hyperlink feature?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A file",
+        "isCorrect": false
+      },
+      {
+        "text": "A webpage",
+        "isCorrect": false
+      },
+      {
+        "text": "A place in the document",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Hyperlinks can connect to various targets, including files, web pages, and specific locations within the same document."
+  },
+  {
+    "text": "What types of files can be inserted using the Object option?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Excel spreadsheets",
+        "isCorrect": false
+      },
+      {
+        "text": "PowerPoint slides",
+        "isCorrect": false
+      },
+      {
+        "text": "PDF files",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Object' option allows for embedding or linking various file types, including Excel workbooks, PowerPoint presentations, and PDF documents."
+  },
+  {
+    "text": "Which tab should you use to insert a citation or bibliography?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "References",
+        "isCorrect": true
+      },
+      {
+        "text": "Review",
+        "isCorrect": false
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false
+      },
+      {
+        "text": "View",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Citations and bibliographies are handled by the 'References' tab, which offers tools for managing sources and creating bibliographies."
+  },
+  {
+    "text": "What is the purpose of the 'Online Pictures' feature?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Draw diagrams",
+        "isCorrect": false
+      },
+      {
+        "text": "Search and insert web images",
+        "isCorrect": true
+      },
+      {
+        "text": "Capture video",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert 3D models",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Online Pictures' feature facilitates the direct search and insertion of images from the web into your Word document."
+  },
+  {
+    "text": "What is the primary difference between WordArt and a Text Box?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "WordArt adds decorative effects; Text Box adds container text.",
+        "isCorrect": true
+      },
+      {
+        "text": "WordArt cannot be rotated",
+        "isCorrect": false
+      },
+      {
+        "text": "Text Box cannot contain text",
+        "isCorrect": false
+      },
+      {
+        "text": "WordArt allows hyperlinks; Text Box does not",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "WordArt focuses on visual enhancements and styling, while a text box serves primarily as a container for text, offering basic formatting options."
+  },
+  {
+    "text": "Which Insert tab feature is best for inserting repeating content blocks?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Quick Parts",
+        "isCorrect": true
+      },
+      {
+        "text": "Header",
+        "isCorrect": false
+      },
+      {
+        "text": "Object",
+        "isCorrect": false
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Quick Parts allows you to create and reuse blocks of text or other content, ideal for elements like disclaimers that need to appear repeatedly."
+  },
+  {
+    "text": "What does the 'Link to Previous' option (when inserting headers) do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Merging two Word files",
+        "isCorrect": false
+      },
+      {
+        "text": "Making header/footer same as the previous section",
+        "isCorrect": true
+      },
+      {
+        "text": "Linking bookmarks",
+        "isCorrect": false
+      },
+      {
+        "text": "Inserting citations",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "This option links the header or footer to the previous section's header or footer, ensuring consistency across sections."
+  },
+  {
+    "text": "Where is the Page Number option located in the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pages",
+        "isCorrect": false
+      },
+      {
+        "text": "Header & Footer",
+        "isCorrect": true
+      },
+      {
+        "text": "Text",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Page numbers are a part of header and footer management."
+  },
+  {
+    "text": "How do you insert a 'Different First Page' header?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Go to Insert → Header → Options",
+        "isCorrect": true
+      },
+      {
+        "text": "Page Layout → Margins",
+        "isCorrect": false
+      },
+      {
+        "text": "Review → Protect Document",
+        "isCorrect": false
+      },
+      {
+        "text": "References → Index",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Options' button within the Header/Footer options allows you to customize the header for the first page separately."
+  },
+  {
+    "text": "How do you insert page numbers at the bottom center?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert → Footer → Page Number → Bottom of Page",
+        "isCorrect": true
+      },
+      {
+        "text": "Insert → Header → Numbering",
+        "isCorrect": false
+      },
+      {
+        "text": "Layout → Breaks",
+        "isCorrect": false
+      },
+      {
+        "text": "View → Page Setup",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "This is the direct path to setting page numbers at the desired location."
+  },
+  {
+    "text": "Which Insert tab option helps navigate large documents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Page Number",
+        "isCorrect": false
+      },
+      {
+        "text": "Bookmark",
+        "isCorrect": false
+      },
+      {
+        "text": "Table of Contents",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyperlink (to headings/bookmarks)",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "While bookmarks and a Table of Contents help, hyperlinks to headings or bookmarks offer the most direct navigation."
+  },
+  {
+    "text": "Which tab should you use to create a table of contents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "References",
+        "isCorrect": true
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false
+      },
+      {
+        "text": "Design",
+        "isCorrect": false
+      },
+      {
+        "text": "Review",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Table of Contents creation is a feature specifically found in the References tab."
+  },
+  {
+    "text": "How do you insert fields like Author or File Name?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Symbols → Field",
+        "isCorrect": false
+      },
+      {
+        "text": "Text → Quick Parts → Field",
+        "isCorrect": true
+      },
+      {
+        "text": "Links → Field",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Document fields are accessed through the Quick Parts feature within the Text group."
+  },
+  {
+    "text": "What is the function of Page Break in the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "End the current page and start a new one",
+        "isCorrect": true
+      },
+      {
+        "text": "Add blank spaces",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert a table row",
+        "isCorrect": false
+      },
+      {
+        "text": "Start numbering again",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Page Break inserts a hard page break, forcing a new page to begin."
+  },
+  {
+    "text": "How do you insert formatted document parts like a 'Disclaimer'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "WordArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Quick Parts → AutoText",
+        "isCorrect": true
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Symbols",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "AutoText entries in Quick Parts are designed for storing and reusing formatted text blocks."
+  },
+  {
+    "text": "Which Insert option adds commands from external apps?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Object",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": true
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Researcher",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Add-ins extend Word's functionality by integrating commands from other applications."
+  },
+  {
+    "text": "Where is the Signature Line feature located?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Illustrations",
+        "isCorrect": false
+      },
+      {
+        "text": "Text",
+        "isCorrect": true
+      },
+      {
+        "text": "Header & Footer",
+        "isCorrect": false
+      },
+      {
+        "text": "Symbols",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Signature lines are related to text insertion and document signing."
+  },
+  {
+    "text": "How do you insert a YouTube video directly into Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Object",
+        "isCorrect": false
+      },
+      {
+        "text": "Online Video",
+        "isCorrect": true
+      },
+      {
+        "text": "Hyperlink",
+        "isCorrect": false
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Online Video' option allows direct embedding of online video content."
+  },
+  {
+    "text": "How do you insert mathematical notations like ∑ or ∞?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Symbol",
+        "isCorrect": true
+      },
+      {
+        "text": "Equation",
+        "isCorrect": false
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Quick Parts",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "These symbols are typically found within the 'Symbol' feature."
+  },
+  {
+    "text": "Where is the screen recording feature located in the Insert tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Screenshot",
+        "isCorrect": false
+      },
+      {
+        "text": "Screen Recording",
+        "isCorrect": true
+      },
+      {
+        "text": "Online Video",
+        "isCorrect": false
+      },
+      {
+        "text": "Media",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "There's a dedicated 'Screen Recording' option for capturing screen activity."
+  },
+  {
+    "text": "Which Insert option is best for creating a professional title page?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Header",
+        "isCorrect": false
+      },
+      {
+        "text": "Cover Page",
+        "isCorrect": true
+      },
+      {
+        "text": "Quick Parts",
+        "isCorrect": false
+      },
+      {
+        "text": "Object",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Cover Page' option provides pre-designed templates for professional-looking title pages."
+  },
+  {
+    "text": "Where do you insert a cross-reference to a figure?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert tab",
+        "isCorrect": false
+      },
+      {
+        "text": "References tab",
+        "isCorrect": true
+      },
+      {
+        "text": "Layout tab",
+        "isCorrect": false
+      },
+      {
+        "text": "Review tab",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Cross-referencing features are part of the document's bibliographic tools, located in the References tab."
+  },
+  {
+    "text": "How do you insert a horizontal line separator?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Shapes → Line",
+        "isCorrect": true
+      },
+      {
+        "text": "Symbol → Line",
+        "isCorrect": false
+      },
+      {
+        "text": "Text → Quick Parts → Field",
+        "isCorrect": false
+      },
+      {
+        "text": "Equation",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Shapes tool offers line options for drawing horizontal separators."
+  },
+  {
+    "text": "What does the 'Equation Editor' allow?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only simple fractions",
+        "isCorrect": false
+      },
+      {
+        "text": "Professional formatting of math equations",
+        "isCorrect": true
+      },
+      {
+        "text": "Conversion of equations to text",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding charts with math values",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Equation Editor is designed for comprehensive mathematical notation and formatting."
+  },
+  {
+    "text": "Where is the 'Drop Cap' option located?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert → Text",
+        "isCorrect": true
+      },
+      {
+        "text": "Insert → Symbols",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert → Illustrations",
+        "isCorrect": false
+      },
+      {
+        "text": "Layout",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Drop caps are a text formatting feature."
+  },
+  {
+    "text": "What is the best use of the Insert → Symbol option?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Adding emojis",
+        "isCorrect": false
+      },
+      {
+        "text": "Inserting special characters like ©, ™",
+        "isCorrect": true
+      },
+      {
+        "text": "Creating charts",
+        "isCorrect": false
+      },
+      {
+        "text": "Drawing shapes",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Symbol option is for inserting special characters not readily available on the keyboard."
+  },
+  {
+    "text": "How do you insert a PDF file into a Word document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Object",
+        "isCorrect": true
+      },
+      {
+        "text": "SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Add-ins",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyperlink",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Object option allows embedding or linking various file types, including PDFs."
+  }
+]

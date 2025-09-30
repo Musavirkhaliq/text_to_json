@@ -1,0 +1,9 @@
+{
+  "title": "Word Wizard: Conquer the Insert Tab!",
+  "description": "Test your Microsoft Word mastery! This quiz challenges your knowledge of the Insert tab's diverse features, from inserting dates and images to creating tables, equations, and more.  See how well you navigate Word's powerful insertion tools.",
+  "totalQuestions": 50,
+  "createdAt": "2025-08-18T00:47:49.013Z",
+  "questionTypes": {
+    "multiple_choice": 50
+  }
+}

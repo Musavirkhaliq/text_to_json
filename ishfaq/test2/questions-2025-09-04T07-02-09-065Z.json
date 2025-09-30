@@ -1,0 +1,1202 @@
+[
+  {
+    "text": "Which of the following is a core principle of classical liberalism as advocated by John Locke?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Collective ownership of property",
+        "isCorrect": false
+      },
+      {
+        "text": "Natural rights to life, liberty, and property",
+        "isCorrect": true
+      },
+      {
+        "text": "Emphasis on social hierarchy",
+        "isCorrect": false
+      },
+      {
+        "text": "Rejection of individual freedoms",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "John Locke's philosophy is a cornerstone of classical liberalism.  He argued for inherent natural rights, including the right to life, liberty, and property, which precede government and cannot be legitimately violated by it.  Options A, C, and D contradict Locke's core tenets."
+  },
+  {
+    "text": "John Stuart Mill's 'harm principle' in liberalism primarily argues that:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The state should intervene in all personal matters",
+        "isCorrect": false
+      },
+      {
+        "text": "Individual actions should be limited only to prevent harm to others",
+        "isCorrect": true
+      },
+      {
+        "text": "Society should prioritize tradition over progress",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic equality is more important than liberty",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The harm principle, central to Mill's On Liberty, asserts that the only justification for limiting individual liberty is to prevent harm to others.  It emphasizes individual autonomy and restricts state intervention to instances of demonstrable harm."
+  },
+  {
+    "text": "In liberal thought, Isaiah Berlin's 'negative liberty' refers to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Freedom from external constraints",
+        "isCorrect": true
+      },
+      {
+        "text": "Freedom to achieve one's potential",
+        "isCorrect": false
+      },
+      {
+        "text": "Collective freedom through state action",
+        "isCorrect": false
+      },
+      {
+        "text": "Freedom rooted in cultural traditions",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Negative liberty, as defined by Isaiah Berlin, emphasizes freedom *from* interference. It's the absence of external constraints on individual action, contrasting with positive liberty, which focuses on the capacity for self-realization."
+  },
+  {
+    "text": "Which liberal thinker emphasized 'justice as fairness' through the 'veil of ignorance'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Thomas Hobbes",
+        "isCorrect": false
+      },
+      {
+        "text": "John Rawls",
+        "isCorrect": true
+      },
+      {
+        "text": "Edmund Burke",
+        "isCorrect": false
+      },
+      {
+        "text": "Karl Marx",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "John Rawls's 'A Theory of Justice' introduces the 'veil of ignorance' thought experiment, arguing that a just society is one that would be chosen by individuals unaware of their own position within it.  This ensures fairness and impartiality in the distribution of resources and opportunities."
+  },
+  {
+    "text": "Modern liberalism differs from classical liberalism primarily in its advocacy for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Laissez-faire economics without state intervention",
+        "isCorrect": false
+      },
+      {
+        "text": "A welfare state to ensure social justice",
+        "isCorrect": true
+      },
+      {
+        "text": "Preservation of traditional institutions",
+        "isCorrect": false
+      },
+      {
+        "text": "Class-based revolution",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Modern liberalism departs from classical liberalism's emphasis on minimal state intervention by advocating for a more active role of the state in addressing social and economic inequalities through welfare programs and social safety nets."
+  },
+  {
+    "text": "The liberal concept of 'social contract' is most closely associated with:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Jean-Jacques Rousseau's emphasis on general will",
+        "isCorrect": false
+      },
+      {
+        "text": "Locke's concept of consent of the governed",
+        "isCorrect": true
+      },
+      {
+        "text": "Burke's organic society",
+        "isCorrect": false
+      },
+      {
+        "text": "Marx's dialectical materialism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While Rousseau also explored the social contract, Locke's formulation emphasizes individual rights and the legitimacy of government based on the consent of the governed. This is a central tenet of liberal political thought."
+  },
+  {
+    "text": "In liberalism, the ideal role of the state is:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Maximal, controlling all aspects of life",
+        "isCorrect": false
+      },
+      {
+        "text": "Minimal, acting as a night-watchman state",
+        "isCorrect": true
+      },
+      {
+        "text": "To enforce religious conformity",
+        "isCorrect": false
+      },
+      {
+        "text": "To promote proletarian dictatorship",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Classical liberalism advocates for a limited state, primarily focused on protecting individual rights and liberties,  leaving most aspects of economic and social life to individual initiative.  This 'night-watchman state' concept emphasizes minimal intervention."
+  },
+  {
+    "text": "Which of the following is NOT a key feature of liberalism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rule of law",
+        "isCorrect": false
+      },
+      {
+        "text": "Constitutionalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Authoritarian governance",
+        "isCorrect": true
+      },
+      {
+        "text": "Tolerance and pluralism",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Liberalism fundamentally emphasizes individual rights, freedoms, and limited government.  Authoritarianism, with its concentration of power and suppression of dissent, is diametrically opposed to liberal principles."
+  },
+  {
+    "text": "T.H. Green's positive liberalism advocates for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "State intervention to enable individual self-realization",
+        "isCorrect": true
+      },
+      {
+        "text": "Complete withdrawal of the state from the economy",
+        "isCorrect": false
+      },
+      {
+        "text": "Preservation of feudal structures",
+        "isCorrect": false
+      },
+      {
+        "text": "Violent overthrow of capitalism",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "T.H. Green's positive liberalism argues for state intervention to create the conditions for individual flourishing and self-realization, differing from the more laissez-faire approach of classical liberalism."
+  },
+  {
+    "text": "Liberalism's emphasis on individualism contrasts with conservatism's focus on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Community and tradition",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic determinism",
+        "isCorrect": false
+      },
+      {
+        "text": "Gender equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Class struggle",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A key difference between liberalism and conservatism lies in their approach to the individual vs. the community.  Liberalism emphasizes individual rights and autonomy, while conservatism prioritizes social order, stability, and the importance of established institutions and traditions."
+  },
+  {
+    "text": "Edmund Burke criticized the French Revolution for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Promoting too much tradition",
+        "isCorrect": false
+      },
+      {
+        "text": "Disregarding historical continuity and organic change",
+        "isCorrect": true
+      },
+      {
+        "text": "Failing to establish a welfare state",
+        "isCorrect": false
+      },
+      {
+        "text": "Not emphasizing class conflict",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Burke, a prominent conservative, criticized the French Revolution's abrupt rejection of existing institutions and traditions. He advocated for gradual, organic change, respecting the historical development and continuity of society."
+  },
+  {
+    "text": "Conservatism generally views human nature as:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Perfectible through rational planning",
+        "isCorrect": false
+      },
+      {
+        "text": "Flawed and in need of traditional restraints",
+        "isCorrect": true
+      },
+      {
+        "text": "Determined solely by economic relations",
+        "isCorrect": false
+      },
+      {
+        "text": "Innately egalitarian",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Conservatism often posits a less optimistic view of human nature than liberalism, suggesting that humans are inherently flawed and require social institutions and traditions to restrain their potential for self-destructive behavior."
+  },
+  {
+    "text": "Michael Oakeshott's conservatism emphasizes:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rationalism in politics",
+        "isCorrect": false
+      },
+      {
+        "text": "Practical knowledge and skepticism of abstract ideologies",
+        "isCorrect": true
+      },
+      {
+        "text": "Revolutionary change",
+        "isCorrect": false
+      },
+      {
+        "text": "State ownership of the means of production",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Oakeshott's conservatism champions practical wisdom and rejects grand, utopian schemes. He stresses the importance of incremental change and distrusts abstract ideologies that promise radical transformations."
+  },
+  {
+    "text": "Neo-conservatism, in contrast to traditional conservatism, often supports:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "An isolationist foreign policy",
+        "isCorrect": false
+      },
+      {
+        "text": "Active promotion of democracy abroad through intervention",
+        "isCorrect": true
+      },
+      {
+        "text": "Radical wealth redistribution",
+        "isCorrect": false
+      },
+      {
+        "text": "Rejection of market economies",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Neo-conservatism distinguishes itself from traditional conservatism through its more interventionist foreign policy, often advocating for the spread of democracy and liberal values through military or political means."
+  },
+  {
+    "text": "Irving Kristol, considered the 'godfather' of neo-conservatism, argued for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A return to laissez-faire capitalism without morals",
+        "isCorrect": false
+      },
+      {
+        "text": "Capitalism tempered by moral and cultural values",
+        "isCorrect": true
+      },
+      {
+        "text": "Abolition of private property",
+        "isCorrect": false
+      },
+      {
+        "text": "Matriarchal societal structures",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Kristol advocated for a form of capitalism that was morally and culturally grounded, rejecting both unfettered free markets and socialist alternatives. He believed that economic prosperity should be accompanied by a strong sense of social responsibility and moral values."
+  },
+  {
+    "text": "Conservatism's 'organic theory of society' implies that society:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Can be redesigned like a machine",
+        "isCorrect": false
+      },
+      {
+        "text": "Evolves naturally like a living organism",
+        "isCorrect": true
+      },
+      {
+        "text": "Is based on historical materialism",
+        "isCorrect": false
+      },
+      {
+        "text": "Requires constant revolutionary upheaval",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The organic theory of society views society as a complex, interconnected system that evolves gradually over time, similar to a living organism, rather than a machine that can be easily redesigned or manipulated."
+  },
+  {
+    "text": "Which of the following is a hallmark of neo-conservative foreign policy?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pacifism and non-intervention",
+        "isCorrect": false
+      },
+      {
+        "text": "Moral realism and pre-emptive action",
+        "isCorrect": true
+      },
+      {
+        "text": "Emphasis on multilateralism only",
+        "isCorrect": false
+      },
+      {
+        "text": "Support for communist regimes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Neo-conservative foreign policy is often characterized by a willingness to use military force preemptively, guided by a moral realism that prioritizes national interests and the promotion of democratic values abroad."
+  },
+  {
+    "text": "Traditional conservatism opposes rapid change because it believes in:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The wisdom of ancestors and inherited institutions",
+        "isCorrect": true
+      },
+      {
+        "text": "The inevitability of progress through science",
+        "isCorrect": false
+      },
+      {
+        "text": "The need for proletarian revolution",
+        "isCorrect": false
+      },
+      {
+        "text": "Gender-based power structures",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Conservatism emphasizes the importance of tradition, accumulated wisdom, and established institutions.  Rapid change is viewed with suspicion, as it may disrupt social order and undermine valuable aspects of the existing social fabric."
+  },
+  {
+    "text": "Neo-conservatism emerged in the 20th century as a response to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The failures of liberal welfare policies and cultural relativism",
+        "isCorrect": true
+      },
+      {
+        "text": "The success of Marxist economies",
+        "isCorrect": false
+      },
+      {
+        "text": "Feminist movements",
+        "isCorrect": false
+      },
+      {
+        "text": "Environmental activism",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Neo-conservatism arose partly as a reaction against the perceived failures of 1960s liberalism, including the welfare state and what was seen as excessive cultural relativism.  It offered a more conservative alternative focused on traditional values and a stronger national identity."
+  },
+  {
+    "text": "Roger Scruton's conservatism highlights the importance of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Aesthetics and cultural heritage in politics",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic determinism",
+        "isCorrect": false
+      },
+      {
+        "text": "Radical equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Atheistic rationalism",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Scruton emphasizes the role of beauty, art, and cultural heritage in shaping a good society. He sees a connection between aesthetics and moral values, arguing for their importance in politics and public life."
+  },
+  {
+    "text": "Socialism primarily seeks to address inequalities through:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Private ownership and free markets",
+        "isCorrect": false
+      },
+      {
+        "text": "Collective control of resources and production",
+        "isCorrect": true
+      },
+      {
+        "text": "Hereditary monarchy",
+        "isCorrect": false
+      },
+      {
+        "text": "Religious authority",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Socialism's core principle is to address social and economic inequalities by advocating for collective ownership or control of the means of production and distribution of resources."
+  },
+  {
+    "text": "Utopian socialism, as advocated by Robert Owen, focused on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Violent class struggle",
+        "isCorrect": false
+      },
+      {
+        "text": "Ideal communities based on cooperation",
+        "isCorrect": true
+      },
+      {
+        "text": "Laissez-faire capitalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Imperial expansion",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Utopian socialists like Robert Owen aimed to create model communities based on cooperation, social harmony, and shared ownership, as opposed to the competitive individualism of capitalism."
+  },
+  {
+    "text": "Democratic socialism differs from revolutionary socialism in its advocacy for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Armed insurrection",
+        "isCorrect": false
+      },
+      {
+        "text": "Gradual reform through electoral politics",
+        "isCorrect": true
+      },
+      {
+        "text": "Complete deregulation",
+        "isCorrect": false
+      },
+      {
+        "text": "Patriarchal structures",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Democratic socialists seek to achieve socialist goals through existing political systems, using elections and legislation to implement gradual reforms.  Revolutionary socialists, in contrast, advocate for a more radical overthrow of the existing order."
+  },
+  {
+    "text": "The Fabian Society in Britain represented:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Anarchist socialism",
+        "isCorrect": false
+      },
+      {
+        "text": "Gradualist, reformist socialism",
+        "isCorrect": true
+      },
+      {
+        "text": "Neo-conservative ideals",
+        "isCorrect": false
+      },
+      {
+        "text": "Liberal individualism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Fabian Society was a prominent British socialist organization that championed gradual, evolutionary socialism through political reform and education, rather than revolution."
+  },
+  {
+    "text": "What is the central critique of capitalism from a socialist perspective?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Exploitation of labor and surplus value",
+        "isCorrect": true
+      },
+      {
+        "text": "Excessive individual freedoms",
+        "isCorrect": false
+      },
+      {
+        "text": "Too much state intervention",
+        "isCorrect": false
+      },
+      {
+        "text": "Preservation of traditions",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Socialist critiques of capitalism often center on the exploitation of workers through the extraction of surplus value—the difference between the value a worker produces and the wages they receive.  This exploitation is seen as inherent to the capitalist system."
+  },
+  {
+    "text": "What is the core principle of Guild Socialism, as advocated by G.D.H. Cole?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Centralized state planning",
+        "isCorrect": false
+      },
+      {
+        "text": "Worker control through guilds",
+        "isCorrect": true
+      },
+      {
+        "text": "Free market competition",
+        "isCorrect": false
+      },
+      {
+        "text": "Military interventionism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Guild socialism proposes that workers should control their industries through self-governing guilds, rather than through centralized state planning or free-market competition."
+  },
+  {
+    "text": "In socialist thought, where does the principle 'from each according to ability, to each according to need' originate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Liberalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Marx's Critique of the Gotha Program",
+        "isCorrect": true
+      },
+      {
+        "text": "Conservatism",
+        "isCorrect": false
+      },
+      {
+        "text": "Feminism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "This famous principle is a core tenet of Marxist thought and is articulated in Marx's Critique of the Gotha Program, outlining a vision of a communist society."
+  },
+  {
+    "text": "What are the key components of market socialism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "State ownership with market mechanisms",
+        "isCorrect": true
+      },
+      {
+        "text": "Feudalism with capitalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Anarchy with hierarchy",
+        "isCorrect": false
+      },
+      {
+        "text": "Imperialism with isolationism",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Market socialism attempts to combine public or collective ownership of the means of production with the use of market mechanisms for allocation of resources."
+  },
+  {
+    "text": "Which socialist thinker is associated with 'scientific socialism'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Charles Fourier",
+        "isCorrect": false
+      },
+      {
+        "text": "Karl Marx",
+        "isCorrect": true
+      },
+      {
+        "text": "Edmund Burke",
+        "isCorrect": false
+      },
+      {
+        "text": "John Locke",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Karl Marx and Friedrich Engels are credited with developing the theory of 'scientific socialism,' which aimed to provide a scientific basis for understanding and achieving socialist revolution."
+  },
+  {
+    "text": "Socialism's emphasis on social equality contrasts with which core principle of liberalism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Political liberty",
+        "isCorrect": true
+      },
+      {
+        "text": "Economic determinism",
+        "isCorrect": false
+      },
+      {
+        "text": "Cultural relativism",
+        "isCorrect": false
+      },
+      {
+        "text": "Gender oppression",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While liberalism values equality before the law and certain social freedoms, its focus on individual liberty can clash with socialism's emphasis on achieving substantial social equality through collective action and redistribution."
+  },
+  {
+    "text": "According to Karl Marx's theory of historical materialism, what shapes the superstructure of society?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ideas determine social structures",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic base shapes the superstructure",
+        "isCorrect": true
+      },
+      {
+        "text": "Tradition is the key to progress",
+        "isCorrect": false
+      },
+      {
+        "text": "Individual rights are paramount",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Historical materialism posits that the economic base (the mode of production) fundamentally determines the superstructure of society, including its political, legal, and ideological institutions."
+  },
+  {
+    "text": "In Marxist theory, what does 'alienation' refer to?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Workers' separation from the product of their labor",
+        "isCorrect": true
+      },
+      {
+        "text": "Harmony in class relations",
+        "isCorrect": false
+      },
+      {
+        "text": "State intervention in markets",
+        "isCorrect": false
+      },
+      {
+        "text": "Preservation of monarchy",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Marxist theory describes alienation as the estrangement of workers from the products they create, the process of production, their fellow workers, and themselves, resulting from capitalist relations of production."
+  },
+  {
+    "text": "What is the Marxist concept of the 'dictatorship of the proletariat'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rule by the bourgeoisie",
+        "isCorrect": false
+      },
+      {
+        "text": "Transitional worker control after revolution",
+        "isCorrect": true
+      },
+      {
+        "text": "Liberal democracy",
+        "isCorrect": false
+      },
+      {
+        "text": "Conservative hierarchy",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'dictatorship of the proletariat' refers to a transitional period after a socialist revolution where the working class holds power, suppressing counter-revolution and laying the groundwork for a communist society."
+  },
+  {
+    "text": "What is the primary focus of critique in the Frankfurt School's neo-Marxism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only economic issues",
+        "isCorrect": false
+      },
+      {
+        "text": "Culture, ideology, and mass media",
+        "isCorrect": true
+      },
+      {
+        "text": "Free markets positively",
+        "isCorrect": false
+      },
+      {
+        "text": "Feminist theories",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Frankfurt School broadened Marxist analysis to include the role of culture, ideology, and mass media in maintaining capitalist power structures, emphasizing the importance of cultural hegemony."
+  },
+  {
+    "text": "In neo-Marxism, what does Antonio Gramsci's concept of 'hegemony' describe?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Dominant class control through consent",
+        "isCorrect": true
+      },
+      {
+        "text": "Violent coercion only",
+        "isCorrect": false
+      },
+      {
+        "text": "Individual liberty",
+        "isCorrect": false
+      },
+      {
+        "text": "Traditional values",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Gramsci's concept of hegemony emphasizes how the dominant class maintains power not only through force but also through ideological and cultural influence, gaining consent rather than just coercion."
+  },
+  {
+    "text": "What is the process involved in Marx's 'dialectical materialism'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Thesis, antithesis, synthesis in historical change",
+        "isCorrect": true
+      },
+      {
+        "text": "Static social structures",
+        "isCorrect": false
+      },
+      {
+        "text": "Divine intervention",
+        "isCorrect": false
+      },
+      {
+        "text": "Gender roles",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Dialectical materialism applies the Hegelian dialectic (thesis, antithesis, synthesis) to materialist history, viewing historical change as a process of conflict and resolution between opposing forces."
+  },
+  {
+    "text": "What concept did Herbert Marcuse, a neo-Marxist, introduce to describe individuals in capitalist society?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "One-dimensional man",
+        "isCorrect": true
+      },
+      {
+        "text": "Laissez-faire economics",
+        "isCorrect": false
+      },
+      {
+        "text": "Conservative traditions",
+        "isCorrect": false
+      },
+      {
+        "text": "Patriarchal dominance",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Marcuse's 'one-dimensional man' describes individuals in advanced industrial societies who are integrated into the system and lack critical consciousness, accepting dominant ideologies uncritically."
+  },
+  {
+    "text": "In Marxism, under what societal conditions does the 'withering away of the state' occur?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Capitalist phase",
+        "isCorrect": false
+      },
+      {
+        "text": "Communist society",
+        "isCorrect": true
+      },
+      {
+        "text": "Feudalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Liberal democracy",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'withering away of the state' is a Marxist concept predicting that in a communist society, the state—as an instrument of class oppression—will become unnecessary and eventually disappear."
+  },
+  {
+    "text": "What is a key contribution of Louis Althusser to neo-Marxist thought?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ideological state apparatuses",
+        "isCorrect": true
+      },
+      {
+        "text": "Organic society",
+        "isCorrect": false
+      },
+      {
+        "text": "Harm principle",
+        "isCorrect": false
+      },
+      {
+        "text": "Veil of ignorance",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Althusser's concept of 'ideological state apparatuses' refers to institutions (e.g., education, religion, media) that reproduce capitalist ideology and maintain social control, complementing the repressive state apparatuses (e.g., police, military)."
+  },
+  {
+    "text": "How does Marxism characterize religion?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The opium of the people",
+        "isCorrect": true
+      },
+      {
+        "text": "Essential for social order",
+        "isCorrect": false
+      },
+      {
+        "text": "A tool for individual liberty",
+        "isCorrect": false
+      },
+      {
+        "text": "Irrelevant to politics",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Marx famously described religion as 'the opium of the people,' suggesting it serves as a tool of social control, alleviating suffering but masking the underlying social and economic injustices."
+  },
+  {
+    "text": "What is the central focus of liberal feminism as articulated by Mary Wollstonecraft?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equal rights and opportunities for women within existing structures",
+        "isCorrect": true
+      },
+      {
+        "text": "Overthrow of capitalism",
+        "isCorrect": false
+      },
+      {
+        "text": "Preservation of traditions",
+        "isCorrect": false
+      },
+      {
+        "text": "Class struggle",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Liberal feminism seeks gender equality through reforms within existing social and political systems, focusing on equal rights and opportunities for women rather than radical social transformation."
+  },
+  {
+    "text": "How does radical feminism view patriarchy?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A secondary issue to class",
+        "isCorrect": false
+      },
+      {
+        "text": "The primary system of oppression",
+        "isCorrect": true
+      },
+      {
+        "text": "Beneficial for society",
+        "isCorrect": false
+      },
+      {
+        "text": "Non-existent in modern times",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Radical feminism identifies patriarchy—the system of male dominance—as the fundamental source of women's oppression, seeing it as pervasive across all aspects of society."
+  },
+  {
+    "text": "What is the core integration in socialist feminism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Marxist class analysis with gender oppression",
+        "isCorrect": true
+      },
+      {
+        "text": "Conservative values",
+        "isCorrect": false
+      },
+      {
+        "text": "Laissez-faire economics",
+        "isCorrect": false
+      },
+      {
+        "text": "Isolationist policies",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Socialist feminism combines Marxist analysis of class inequality with feminist analysis of gender oppression, arguing that both systems are interconnected and mutually reinforcing."
+  },
+  {
+    "text": "What was the primary focus of the 'first wave' of feminism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Reproductive rights",
+        "isCorrect": false
+      },
+      {
+        "text": "Women's suffrage",
+        "isCorrect": true
+      },
+      {
+        "text": "Workplace equality",
+        "isCorrect": false
+      },
+      {
+        "text": "LGBTQ+ rights",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The first wave of feminism (late 19th and early 20th centuries) primarily focused on securing women's right to vote—suffrage—as a crucial step towards broader political and social equality."
+  },
+  {
+    "text": "What is the central argument of Simone de Beauvoir's 'The Second Sex'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Women are the 'other' in patriarchal society",
+        "isCorrect": true
+      },
+      {
+        "text": "Gender is irrelevant",
+        "isCorrect": false
+      },
+      {
+        "text": "Tradition empowers women",
+        "isCorrect": false
+      },
+      {
+        "text": "Capitalism liberates women",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Beauvoir's seminal work argues that women are constructed as 'the other' in patriarchal society, defining their identity and experiences in relation to men rather than as autonomous beings."
+  },
+  {
+    "text": "What does intersectional feminism, associated with Kimberlé Crenshaw, emphasize?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Overlapping oppressions like race, class, and gender",
+        "isCorrect": true
+      },
+      {
+        "text": "Only gender issues",
+        "isCorrect": false
+      },
+      {
+        "text": "Free market solutions",
+        "isCorrect": false
+      },
+      {
+        "text": "Hierarchical structures",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Intersectional feminism highlights how various social categories (race, class, gender, sexuality, etc.) intersect to create unique experiences of oppression and discrimination."
+  },
+  {
+    "text": "What connection does ecofeminism draw?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Exploitation of women and nature",
+        "isCorrect": true
+      },
+      {
+        "text": "Industrial capitalism positively",
+        "isCorrect": false
+      },
+      {
+        "text": "Conservative foreign policy",
+        "isCorrect": false
+      },
+      {
+        "text": "Individualism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ecofeminism argues that the domination of women and the domination of nature are interconnected forms of oppression, rooted in patriarchal systems and unsustainable practices."
+  },
+  {
+    "text": "What is the target of Betty Friedan's critique in 'The Feminine Mystique'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The housewife role in suburban America",
+        "isCorrect": true
+      },
+      {
+        "text": "Revolutionary socialism",
+        "isCorrect": false
+      },
+      {
+        "text": "Neo-conservatism",
+        "isCorrect": false
+      },
+      {
+        "text": "Dialectical materialism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Friedan's influential work critiques the limited and confining role assigned to women in 1950s suburban America, highlighting the dissatisfaction and unhappiness experienced by many housewives."
+  },
+  {
+    "text": "What does postmodern feminism challenge?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Essentialist views of gender",
+        "isCorrect": true
+      },
+      {
+        "text": "Scientific socialism",
+        "isCorrect": false
+      },
+      {
+        "text": "Organic society",
+        "isCorrect": false
+      },
+      {
+        "text": "Negative liberty",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Postmodern feminism challenges the idea that there are universal or essential characteristics that define womanhood, emphasizing the constructed and fluid nature of gender identity."
+  },
+  {
+    "text": "What characterizes third-wave feminism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Emphasis on diversity, individualism, and cultural expressions",
+        "isCorrect": true
+      },
+      {
+        "text": "Focus solely on suffrage",
+        "isCorrect": false
+      },
+      {
+        "text": "Rejection of all reforms",
+        "isCorrect": false
+      },
+      {
+        "text": "Support for authoritarianism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Third-wave feminism embraces diversity, acknowledging the varied experiences of women across different races, classes, sexualities, and cultures, promoting individuality and recognizing a multitude of feminist perspectives."
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "text": "Which type of mutual fund primarily invests in stocks of companies across various sectors?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equity Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds invest primarily in stocks of companies across various sectors to achieve capital appreciation. They are suitable for investors seeking higher returns with higher risk."
+  },
+  {
+    "text": "What is the primary investment focus of Debt Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Government securities, corporate bonds, and money market instruments",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity shares of large-cap companies",
+        "isCorrect": false
+      },
+      {
+        "text": "A mix of equity and debt instruments",
+        "isCorrect": false
+      },
+      {
+        "text": "Stocks of a specific industry",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds invest in fixed-income securities like government bonds, corporate bonds, and money market instruments, offering lower risk and stable returns compared to equity funds."
+  },
+  {
+    "text": "Which mutual fund type aims to balance risk and return by investing in both equity and debt instruments?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hybrid Funds invest in a mix of equity and debt instruments to balance risk and return, catering to investors seeking moderate growth with reduced volatility."
+  },
+  {
+    "text": "What is a defining characteristic of Sectoral Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Investment in a specific industry or sector",
+        "isCorrect": true
+      },
+      {
+        "text": "Diversification across all industries",
+        "isCorrect": false
+      },
+      {
+        "text": "Investment only in fixed-income securities",
+        "isCorrect": false
+      },
+      {
+        "text": "Balanced allocation between equity and debt",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds focus on a specific industry or sector, such as technology or banking, making them riskier due to lack of diversification across sectors."
+  },
+  {
+    "text": "Which type of mutual fund is most suitable for investors with a high risk appetite seeking long-term capital growth?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equity Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds are ideal for investors with a high risk appetite as they invest in stocks, offering potential for high returns over the long term but with higher volatility."
+  },
+  {
+    "text": "Which mutual fund type is considered least risky among the following options?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds are considered less risky as they invest in fixed-income securities like bonds, which provide stable returns and lower volatility compared to equity or sectoral funds."
+  },
+  {
+    "text": "What is a key feature of Hybrid Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Diversification across equity and debt",
+        "isCorrect": true
+      },
+      {
+        "text": "Investment in a single sector",
+        "isCorrect": false
+      },
+      {
+        "text": "Exclusive focus on government securities",
+        "isCorrect": false
+      },
+      {
+        "text": "High exposure to derivatives",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hybrid Funds diversify investments across equity and debt, aiming to balance risk and return, making them suitable for moderate-risk investors."
+  },
+  {
+    "text": "Which type of mutual fund is most likely to be affected by the performance of a single industry?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds are highly sensitive to the performance of a single industry, such as pharma or IT, as they concentrate investments in one sector, increasing risk."
+  },
+  {
+    "text": "Which mutual fund type is best suited for short-term investment with low risk?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds, particularly short-term debt funds like liquid funds, are ideal for short-term investments due to their low risk and stable returns."
+  },
+  {
+    "text": "What is a common risk associated with Sectoral Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Lack of diversification",
+        "isCorrect": true
+      },
+      {
+        "text": "High credit risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Low liquidity",
+        "isCorrect": false
+      },
+      {
+        "text": "Fixed returns",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds lack diversification as they invest in a single sector, making them vulnerable to sector-specific risks and economic downturns."
+  },
+  {
+    "text": "Which performance metric measures the return of a mutual fund relative to a benchmark index?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Alpha",
+        "isCorrect": true
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      },
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "Standard Deviation",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Alpha measures a fund's excess return compared to a benchmark index, indicating the fund manager's ability to outperform the market."
+  },
+  {
+    "text": "What does Beta measure in the context of mutual fund performance?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The fund’s volatility relative to the market",
+        "isCorrect": true
+      },
+      {
+        "text": "The fund’s total return",
+        "isCorrect": false
+      },
+      {
+        "text": "The fund’s expense ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "The fund’s risk-adjusted return",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Beta measures a fund’s volatility compared to the market. A Beta of 1 indicates the fund moves in line with the market, while a Beta > 1 indicates higher volatility."
+  },
+  {
+    "text": "Which metric is used to evaluate a mutual fund’s risk-adjusted return?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": true
+      },
+      {
+        "text": "Alpha",
+        "isCorrect": false
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      },
+      {
+        "text": "Standard Deviation",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Sharpe Ratio measures a fund’s risk-adjusted return by dividing the excess return (over risk-free rate) by the standard deviation of returns, indicating how much return is achieved per unit of risk."
+  },
+  {
+    "text": "What does a high Standard Deviation indicate about a mutual fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "High volatility in returns",
+        "isCorrect": true
+      },
+      {
+        "text": "High expense ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "High credit risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Stable returns",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Standard Deviation measures the volatility of a fund’s returns. A high value indicates greater fluctuation in returns, implying higher risk."
+  },
+  {
+    "text": "Which type of mutual fund is most likely to have a high Beta?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equity Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds, due to their investment in stocks, tend to have higher Beta, indicating greater volatility compared to the market."
+  },
+  {
+    "text": "What is the primary objective of an Equity Fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Capital appreciation",
+        "isCorrect": true
+      },
+      {
+        "text": "Stable income",
+        "isCorrect": false
+      },
+      {
+        "text": "Low risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Tax-free returns",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds aim for capital appreciation by investing in stocks, which offer potential for higher returns but come with higher risk."
+  },
+  {
+    "text": "Which mutual fund type is most suitable for conservative investors seeking stable returns?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds are suitable for conservative investors as they invest in fixed-income securities, offering stable returns with lower risk compared to equity or sectoral funds."
+  },
+  {
+    "text": "What does the Expense Ratio of a mutual fund represent?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The annual cost of managing the fund as a percentage of assets",
+        "isCorrect": true
+      },
+      {
+        "text": "The fund’s total return",
+        "isCorrect": false
+      },
+      {
+        "text": "The fund’s volatility",
+        "isCorrect": false
+      },
+      {
+        "text": "The fund’s benchmark return",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Expense Ratio represents the annual cost of managing the fund, including management fees, expressed as a percentage of the fund’s average assets."
+  },
+  {
+    "text": "Which mutual fund type is likely to have the highest expense ratio?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equity Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Index Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds often have higher expense ratios due to active management and research costs compared to passive funds like index funds or low-maintenance debt funds."
+  },
+  {
+    "text": "What is a key risk associated with Debt Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Interest rate risk",
+        "isCorrect": true
+      },
+      {
+        "text": "Sector-specific risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Market volatility risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Currency risk",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds are exposed to interest rate risk, where changes in interest rates can affect the value of fixed-income securities held by the fund."
+  },
+  {
+    "text": "Which metric compares a mutual fund’s return to the risk-free rate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": true
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      },
+      {
+        "text": "Alpha",
+        "isCorrect": false
+      },
+      {
+        "text": "Standard Deviation",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Sharpe Ratio compares a fund’s excess return (return minus risk-free rate) to its standard deviation, measuring return per unit of risk."
+  },
+  {
+    "text": "Which type of mutual fund is most likely to invest in technology stocks only?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds focus on specific sectors like technology, investing primarily in stocks of companies within that sector."
+  },
+  {
+    "text": "What does a Beta less than 1 indicate about a mutual fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Lower volatility than the market",
+        "isCorrect": true
+      },
+      {
+        "text": "Higher volatility than the market",
+        "isCorrect": false
+      },
+      {
+        "text": "Higher return than the market",
+        "isCorrect": false
+      },
+      {
+        "text": "Stable returns",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A Beta less than 1 indicates that the fund is less volatile than the market, meaning it experiences smaller price swings."
+  },
+  {
+    "text": "Which mutual fund type is best for investors seeking a mix of income and growth?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hybrid Funds invest in both equity and debt, offering a mix of income from debt and growth from equity, suitable for balanced portfolios."
+  },
+  {
+    "text": "What does a negative Alpha indicate about a mutual fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Underperformance compared to the benchmark",
+        "isCorrect": true
+      },
+      {
+        "text": "Outperformance compared to the benchmark",
+        "isCorrect": false
+      },
+      {
+        "text": "High volatility",
+        "isCorrect": false
+      },
+      {
+        "text": "Low expense ratio",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A negative Alpha indicates that the fund has underperformed its benchmark index, suggesting the fund manager failed to generate excess returns."
+  },
+  {
+    "text": "Which mutual fund type is most diversified across industries?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equity Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds, particularly diversified equity funds, invest across various industries, providing greater diversification compared to sectoral funds."
+  },
+  {
+    "text": "What is a key risk associated with Equity Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Market risk",
+        "isCorrect": true
+      },
+      {
+        "text": "Credit risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Interest rate risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquidity risk",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds are exposed to market risk, where fluctuations in the stock market can significantly impact the fund’s value."
+  },
+  {
+    "text": "Which metric indicates the consistency of a mutual fund’s returns?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Standard Deviation",
+        "isCorrect": true
+      },
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "Alpha",
+        "isCorrect": false
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Standard Deviation measures the consistency of a fund’s returns by showing how much the returns deviate from the average, with lower values indicating more consistency."
+  },
+  {
+    "text": "Which type of mutual fund is most likely to invest in government securities?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds primarily invest in government securities, corporate bonds, and other fixed-income instruments to generate stable returns."
+  },
+  {
+    "text": "What is the purpose of the Treynor Ratio in mutual fund analysis?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Measure risk-adjusted return relative to Beta",
+        "isCorrect": true
+      },
+      {
+        "text": "Measure total return",
+        "isCorrect": false
+      },
+      {
+        "text": "Measure expense ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "Measure sector-specific risk",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Treynor Ratio measures a fund’s risk-adjusted return by dividing the excess return (over risk-free rate) by the fund’s Beta, focusing on systematic risk."
+  },
+  {
+    "text": "Which mutual fund type is most suitable for an investor with a 1-year investment horizon?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds, especially short-term or liquid funds, are suitable for a 1-year horizon due to their lower risk and stable returns."
+  },
+  {
+    "text": "What does a high Sharpe Ratio indicate about a mutual fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Higher return per unit of risk",
+        "isCorrect": true
+      },
+      {
+        "text": "Higher volatility",
+        "isCorrect": false
+      },
+      {
+        "text": "Lower expense ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "Lower return per unit of risk",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A high Sharpe Ratio indicates that the fund provides higher returns per unit of risk, making it more efficient in delivering risk-adjusted returns."
+  },
+  {
+    "text": "Which type of mutual fund is most likely to be actively managed?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Index Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds are typically actively managed, as fund managers actively select stocks within a specific sector to outperform the market."
+  },
+  {
+    "text": "What is a key benefit of investing in Hybrid Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Balanced risk and return",
+        "isCorrect": true
+      },
+      {
+        "text": "Guaranteed returns",
+        "isCorrect": false
+      },
+      {
+        "text": "Sector-specific growth",
+        "isCorrect": false
+      },
+      {
+        "text": "Low expense ratio",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hybrid Funds offer a balance of risk and return by investing in both equity and debt, providing growth potential with reduced volatility."
+  },
+  {
+    "text": "Which risk is most relevant to Sectoral Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Concentration risk",
+        "isCorrect": true
+      },
+      {
+        "text": "Interest rate risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Credit risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquidity risk",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds face concentration risk due to their focus on a single sector, making them vulnerable to sector-specific downturns."
+  },
+  {
+    "text": "Which metric is used to assess the volatility of a mutual fund’s returns?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Standard Deviation",
+        "isCorrect": true
+      },
+      {
+        "text": "Alpha",
+        "isCorrect": false
+      },
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "Expense Ratio",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Standard Deviation measures the volatility of a fund’s returns, indicating how much the returns fluctuate around the average."
+  },
+  {
+    "text": "Which type of mutual fund is least affected by stock market fluctuations?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds are least affected by stock market fluctuations as they invest in fixed-income securities, which are more stable than equities."
+  },
+  {
+    "text": "What does a high Alpha indicate about a mutual fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Outperformance compared to the benchmark",
+        "isCorrect": true
+      },
+      {
+        "text": "High volatility",
+        "isCorrect": false
+      },
+      {
+        "text": "Low risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Low expense ratio",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A high Alpha indicates that the fund has outperformed its benchmark index, reflecting the fund manager’s ability to generate excess returns."
+  },
+  {
+    "text": "Which mutual fund type is most suitable for an investor seeking high growth in a specific industry?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds are ideal for investors seeking high growth in a specific industry, such as technology or healthcare, but they carry higher risk due to lack of diversification."
+  },
+  {
+    "text": "What is the primary source of returns for Debt Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Interest income",
+        "isCorrect": true
+      },
+      {
+        "text": "Capital appreciation",
+        "isCorrect": false
+      },
+      {
+        "text": "Dividend income",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral growth",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds primarily generate returns through interest income from fixed-income securities like bonds, rather than capital appreciation or dividends."
+  },
+  {
+    "text": "Which metric is most relevant for assessing a fund manager’s stock-picking ability?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Alpha",
+        "isCorrect": true
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      },
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": false
+      },
+      {
+        "text": "Standard Deviation",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Alpha measures a fund manager’s ability to generate returns above the benchmark, reflecting their stock-picking and portfolio management skills."
+  },
+  {
+    "text": "Which mutual fund type is most likely to include both stocks and bonds in its portfolio?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hybrid Funds include both stocks (equity) and bonds (debt) in their portfolio to balance growth and stability."
+  },
+  {
+    "text": "What is a key risk associated with Hybrid Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Moderate market and interest rate risk",
+        "isCorrect": true
+      },
+      {
+        "text": "High concentration risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Low liquidity risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Guaranteed losses",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Hybrid Funds face moderate market risk from their equity component and interest rate risk from their debt component, but these risks are balanced due to diversification."
+  },
+  {
+    "text": "Which mutual fund type is most likely to have a low Beta?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Debt Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds typically have a low Beta as they invest in fixed-income securities, which are less volatile than equities."
+  },
+  {
+    "text": "What does the Information Ratio measure in mutual fund analysis?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Excess return per unit of active risk",
+        "isCorrect": true
+      },
+      {
+        "text": "Total return per unit of total risk",
+        "isCorrect": false
+      },
+      {
+        "text": "Volatility relative to the market",
+        "isCorrect": false
+      },
+      {
+        "text": "Expense ratio relative to returns",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Information Ratio measures a fund’s excess return over a benchmark per unit of active risk (tracking error), indicating the consistency of outperformance."
+  },
+  {
+    "text": "Which type of mutual fund is most likely to invest in small-cap stocks?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Equity Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Liquid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Equity Funds, particularly small-cap equity funds, focus on investing in small-cap stocks to achieve high growth, though with higher risk."
+  },
+  {
+    "text": "What is a key benefit of investing in Debt Funds?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Stable income with low risk",
+        "isCorrect": true
+      },
+      {
+        "text": "High capital appreciation",
+        "isCorrect": false
+      },
+      {
+        "text": "Sector-specific growth",
+        "isCorrect": false
+      },
+      {
+        "text": "High volatility",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Debt Funds provide stable income through interest from fixed-income securities, making them a low-risk investment option."
+  },
+  {
+    "text": "Which performance metric is most useful for comparing two funds with similar returns but different risk levels?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sharpe Ratio",
+        "isCorrect": true
+      },
+      {
+        "text": "Alpha",
+        "isCorrect": false
+      },
+      {
+        "text": "Beta",
+        "isCorrect": false
+      },
+      {
+        "text": "Expense Ratio",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Sharpe Ratio is ideal for comparing funds with similar returns but different risk levels, as it measures return per unit of risk."
+  },
+  {
+    "text": "Which mutual fund type is most likely to have a high concentration risk?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sectoral Funds",
+        "isCorrect": true
+      },
+      {
+        "text": "Equity Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Debt Funds",
+        "isCorrect": false
+      },
+      {
+        "text": "Hybrid Funds",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Sectoral Funds have high concentration risk as they invest in a single sector, making them vulnerable to sector-specific downturns."
+  },
+  {
+    "text": "What is a key consideration when selecting a mutual fund?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Alignment with investor’s risk profile and goals",
+        "isCorrect": true
+      },
+      {
+        "text": "Guaranteed returns",
+        "isCorrect": false
+      },
+      {
+        "text": "Lowest expense ratio only",
+        "isCorrect": false
+      },
+      {
+        "text": "Short-term performance only",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "When selecting a mutual fund, it’s crucial to ensure it aligns with the investor’s risk tolerance, financial goals, and investment horizon, rather than focusing solely on returns or costs."
+  }
+]

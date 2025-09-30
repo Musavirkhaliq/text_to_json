@@ -1,0 +1,1194 @@
+[
+  {
+    "text": "Which Design tab option allows you to change the overall look of fonts, colors, and effects simultaneously?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Style Sets",
+        "isCorrect": false
+      },
+      {
+        "text": "Themes",
+        "isCorrect": true
+      },
+      {
+        "text": "Page Color",
+        "isCorrect": false
+      },
+      {
+        "text": "SmartArt Styles",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Themes offer a comprehensive way to alter the visual appearance of your document by modifying fonts, colors, and effects at once."
+  },
+  {
+    "text": "Applying a new theme automatically changes which document elements?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Font styles and sizes",
+        "isCorrect": false
+      },
+      {
+        "text": "Colors and effects",
+        "isCorrect": false
+      },
+      {
+        "text": "Both font styles and sizes, and colors and effects",
+        "isCorrect": true
+      },
+      {
+        "text": "Only paragraph spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Themes modify both the stylistic aspects (fonts and sizes) and the visual effects (colors and visual enhancements) of your document."
+  },
+  {
+    "text": "What feature within the Design tab applies coordinated fonts to headings and body text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Effects",
+        "isCorrect": false
+      },
+      {
+        "text": "Fonts",
+        "isCorrect": true
+      },
+      {
+        "text": "Style Set",
+        "isCorrect": false
+      },
+      {
+        "text": "Quick Parts",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Fonts' option under the Design tab allows you to select a consistent set of fonts for headings and body text, ensuring visual harmony."
+  },
+  {
+    "text": "The Style Set in the Design tab primarily influences:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Document layout",
+        "isCorrect": false
+      },
+      {
+        "text": "The appearance of built-in styles (like Heading 1, Heading 2)",
+        "isCorrect": true
+      },
+      {
+        "text": "Character spacing only",
+        "isCorrect": false
+      },
+      {
+        "text": "Margins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A Style Set modifies the pre-defined styles within Word, such as Heading 1 and Heading 2, influencing their overall visual attributes."
+  },
+  {
+    "text": "A theme created in MS Word can be used for consistency across which other Microsoft Office applications?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only Excel",
+        "isCorrect": false
+      },
+      {
+        "text": "Only PowerPoint",
+        "isCorrect": false
+      },
+      {
+        "text": "Word, Excel, and PowerPoint",
+        "isCorrect": true
+      },
+      {
+        "text": "Only Outlook",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Themes maintain consistency across Word, Excel, and PowerPoint, allowing for a unified visual style across different applications."
+  },
+  {
+    "text": "The 'Colors' option in the Design tab modifies:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only font color",
+        "isCorrect": false
+      },
+      {
+        "text": "Only shapes and SmartArt",
+        "isCorrect": false
+      },
+      {
+        "text": "Fonts, shapes, charts, and SmartArt",
+        "isCorrect": true
+      },
+      {
+        "text": "Only the background",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Colors' option provides a comprehensive application of color schemes to various elements, impacting fonts, shapes, charts, and SmartArt consistently."
+  },
+  {
+    "text": "Which font combination is controlled by the 'Fonts' option under the Design tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Heading font and body font",
+        "isCorrect": true
+      },
+      {
+        "text": "Only the body font",
+        "isCorrect": false
+      },
+      {
+        "text": "Title font only",
+        "isCorrect": false
+      },
+      {
+        "text": "Captions only",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Fonts' option specifically controls the font selections for both heading and body text within the document."
+  },
+  {
+    "text": "The 'Effects' option within the Design tab primarily affects:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Font decorations only",
+        "isCorrect": false
+      },
+      {
+        "text": "Shape styles, SmartArt, and charts",
+        "isCorrect": true
+      },
+      {
+        "text": "Page margins",
+        "isCorrect": false
+      },
+      {
+        "text": "Paragraph spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Effects primarily influence the visual enhancements applied to shapes, SmartArt graphics, and charts, not the textual content."
+  },
+  {
+    "text": "To ensure consistent use of Calibri for body text and Cambria for headings, which Design tab option should you use?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Effects",
+        "isCorrect": false
+      },
+      {
+        "text": "Fonts",
+        "isCorrect": true
+      },
+      {
+        "text": "Themes",
+        "isCorrect": false
+      },
+      {
+        "text": "Quick Styles",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 'Fonts' option allows you to explicitly select specific fonts for headings and body text, ensuring consistency."
+  },
+  {
+    "text": "When changing the theme font in the Design tab, which text elements are automatically updated?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only newly typed text",
+        "isCorrect": false
+      },
+      {
+        "text": "Existing text that uses theme fonts",
+        "isCorrect": true
+      },
+      {
+        "text": "Manually formatted text with custom fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Both existing text with theme fonts and manually formatted text with custom fonts",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Only the text that utilizes the theme fonts will automatically update when the theme font is modified; manually formatted text remains unchanged."
+  },
+  {
+    "text": "The 'Paragraph Spacing' option in the Design tab allows for modification of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Spacing before and after paragraphs for the entire document",
+        "isCorrect": true
+      },
+      {
+        "text": "Line spacing within a single paragraph only",
+        "isCorrect": false
+      },
+      {
+        "text": "Character spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Margins",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "This option provides a global adjustment to paragraph spacing, affecting the entire document uniformly."
+  },
+  {
+    "text": "Which paragraph spacing setting from the Design tab aligns most closely with professional publishing standards?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Compact",
+        "isCorrect": false
+      },
+      {
+        "text": "Tight",
+        "isCorrect": false
+      },
+      {
+        "text": "Open",
+        "isCorrect": true
+      },
+      {
+        "text": "Double",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'Open' setting generally offers better readability and aligns with professional publishing conventions."
+  },
+  {
+    "text": "Modifying 'Paragraph Spacing' primarily affects:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Styles like Heading 1 and Normal",
+        "isCorrect": true
+      },
+      {
+        "text": "Only manually selected text",
+        "isCorrect": false
+      },
+      {
+        "text": "Only tables",
+        "isCorrect": false
+      },
+      {
+        "text": "Page margins",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The changes made to paragraph spacing cascade down and affect the styles applied throughout the document."
+  },
+  {
+    "text": "Typography options in the Design tab enable adjustments to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ligatures, stylistic sets, and number spacing",
+        "isCorrect": true
+      },
+      {
+        "text": "Only bold and italics",
+        "isCorrect": false
+      },
+      {
+        "text": "Font sizes",
+        "isCorrect": false
+      },
+      {
+        "text": "Margins",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Typography controls advanced font features like ligatures and stylistic sets, enhancing the visual refinement of text."
+  },
+  {
+    "text": "Advanced typography settings under Design are most effective when using:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "OpenType fonts",
+        "isCorrect": true
+      },
+      {
+        "text": "Any system font",
+        "isCorrect": false
+      },
+      {
+        "text": "Bitmap fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Manually applied styles only",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "OpenType fonts offer the features necessary for advanced typography settings to function correctly, enhancing their effectiveness."
+  },
+  {
+    "text": "The 'Page Color' option under the Design tab affects:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The color of printed output always",
+        "isCorrect": false
+      },
+      {
+        "text": "The background of the document (not always printed)",
+        "isCorrect": true
+      },
+      {
+        "text": "Only the text box color",
+        "isCorrect": false
+      },
+      {
+        "text": "Watermark color only",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "While it changes the document background, printing this background color requires enabling the relevant print option."
+  },
+  {
+    "text": "Which Design tab option allows the placement of faint text or images behind the main text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Page Color",
+        "isCorrect": false
+      },
+      {
+        "text": "Page Borders",
+        "isCorrect": false
+      },
+      {
+        "text": "Watermark",
+        "isCorrect": true
+      },
+      {
+        "text": "Effects",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Watermarks provide a means to overlay faint images or text beneath the primary content."
+  },
+  {
+    "text": "By default, a watermark applied from the Design tab appears on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only the first page",
+        "isCorrect": false
+      },
+      {
+        "text": "All pages",
+        "isCorrect": true
+      },
+      {
+        "text": "Header and footer only",
+        "isCorrect": false
+      },
+      {
+        "text": "Last page only",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Unless specified otherwise, watermarks extend across all pages of the document by default."
+  },
+  {
+    "text": "Which of the following watermarks are available by default in MS Word’s Design tab?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "“Top Secret”",
+        "isCorrect": false
+      },
+      {
+        "text": "“Do Not Copy”",
+        "isCorrect": false
+      },
+      {
+        "text": "“Confidential”",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Word provides several pre-designed watermarks, including \"Top Secret,\" \"Do Not Copy,\" and \"Confidential.\""
+  },
+  {
+    "text": "The 'Page Borders' feature under the Design tab applies borders to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only the first page",
+        "isCorrect": false
+      },
+      {
+        "text": "The entire document or specific sections",
+        "isCorrect": true
+      },
+      {
+        "text": "Only headers",
+        "isCorrect": false
+      },
+      {
+        "text": "Only text boxes",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Page borders offer flexibility in application, allowing for document-wide or section-specific implementation."
+  },
+  {
+    "text": "Which Design tab feature enables the creation of a custom set of coordinated colors?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Custom Themes",
+        "isCorrect": true
+      },
+      {
+        "text": "Custom Fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Page Layout",
+        "isCorrect": false
+      },
+      {
+        "text": "Styles",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Custom Themes allow for the design and saving of personalized color palettes."
+  },
+  {
+    "text": "A custom theme saved from Word can be reused in:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only the current document",
+        "isCorrect": false
+      },
+      {
+        "text": "Any new document",
+        "isCorrect": false
+      },
+      {
+        "text": "Other MS Office applications",
+        "isCorrect": false
+      },
+      {
+        "text": "Any new document and other MS Office applications",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Custom themes offer broad reusability, extending beyond the current document to new documents and even other Office applications."
+  },
+  {
+    "text": "Saving a custom style set in the Design tab creates a file with which extension?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": ".dotx",
+        "isCorrect": false
+      },
+      {
+        "text": ".docx",
+        "isCorrect": false
+      },
+      {
+        "text": ".thmx",
+        "isCorrect": true
+      },
+      {
+        "text": ".dotm",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Custom themes are saved using the .thmx file extension."
+  },
+  {
+    "text": "Custom themes saved from Word are typically stored in which folder by default?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Documents",
+        "isCorrect": false
+      },
+      {
+        "text": "Templates",
+        "isCorrect": false
+      },
+      {
+        "text": "Themes",
+        "isCorrect": true
+      },
+      {
+        "text": "Program Files",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Word stores custom themes within a dedicated 'Themes' folder for easy access and management."
+  },
+  {
+    "text": "Applying a new style set from the Design tab affects text formatted with manual formatting how?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It resets to the Normal style",
+        "isCorrect": false
+      },
+      {
+        "text": "It changes only if it's based on a theme style",
+        "isCorrect": true
+      },
+      {
+        "text": "It gets deleted",
+        "isCorrect": false
+      },
+      {
+        "text": "It changes automatically",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Only the text elements that rely on styles linked to the theme will update; custom manual formatting remains untouched."
+  },
+  {
+    "text": "Will a page background color always print?",
+    "type": "true_false",
+    "options": [
+      {
+        "text": "True",
+        "isCorrect": false
+      },
+      {
+        "text": "False",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Printing background colors requires enabling the \"Print background colors and images\" option in Word Options."
+  },
+  {
+    "text": "Which Design tab feature is most valuable for establishing consistent branding in official documents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paragraph Spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Custom Themes with fonts, colors, and watermarks",
+        "isCorrect": true
+      },
+      {
+        "text": "Page Borders",
+        "isCorrect": false
+      },
+      {
+        "text": "Effects",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Custom Themes offer the most comprehensive control over visual branding elements, including fonts, colors, and watermarks."
+  },
+  {
+    "text": "When inserting a watermark image, which options are controllable?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Scale and washout",
+        "isCorrect": true
+      },
+      {
+        "text": "Image brightness",
+        "isCorrect": false
+      },
+      {
+        "text": "Contrast only",
+        "isCorrect": false
+      },
+      {
+        "text": "Page margins",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "You can adjust the scale and washout (transparency) of watermark images for optimal visual integration."
+  },
+  {
+    "text": "How do style sets differ from Quick Styles?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Style sets apply to the entire document, Quick Styles to selected text",
+        "isCorrect": true
+      },
+      {
+        "text": "Quick Styles apply to the entire document, Style sets to selected text",
+        "isCorrect": false
+      },
+      {
+        "text": "They are functionally identical",
+        "isCorrect": false
+      },
+      {
+        "text": "Style sets are for images, Quick Styles for text",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Style sets provide a comprehensive style application across the entire document, unlike Quick Styles which affect only selected content."
+  },
+  {
+    "text": "Which advanced typography feature enhances readability in professional documents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ligatures",
+        "isCorrect": false
+      },
+      {
+        "text": "OpenType stylistic sets",
+        "isCorrect": false
+      },
+      {
+        "text": "Proportional number spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "All listed features contribute to improved readability: ligatures enhance visual flow, stylistic sets offer typographic variations, and proportional number spacing improves numerical alignment."
+  },
+  {
+    "text": "To display a company logo faintly in the background of every document, which feature is best suited?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Page Color",
+        "isCorrect": false
+      },
+      {
+        "text": "Watermark",
+        "isCorrect": true
+      },
+      {
+        "text": "Header/Footer",
+        "isCorrect": false
+      },
+      {
+        "text": "Page Borders",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Watermarks are ideal for subtly integrating images or text into the background of a document."
+  },
+  {
+    "text": "What is the quickest method to apply consistent fonts and colors across multiple documents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Manually applying fonts and colors",
+        "isCorrect": false
+      },
+      {
+        "text": "Using Themes in the Design tab",
+        "isCorrect": true
+      },
+      {
+        "text": "Copying and pasting styles",
+        "isCorrect": false
+      },
+      {
+        "text": "Saving as a template",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Themes offer the most efficient way to ensure consistent visual styling across multiple documents."
+  },
+  {
+    "text": "To reset a document's design to Word's default settings, you should:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Choose \"Reset to Theme from Template\" under Design",
+        "isCorrect": true
+      },
+      {
+        "text": "Change margins",
+        "isCorrect": false
+      },
+      {
+        "text": "Manually change the Normal style",
+        "isCorrect": false
+      },
+      {
+        "text": "Delete all formatting",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Reset to Theme from Template\" option provides a direct method to revert to Word's default document styling."
+  },
+  {
+    "text": "Why might some text fail to update after changing the theme font?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It is based on theme styles",
+        "isCorrect": false
+      },
+      {
+        "text": "It has direct formatting (manual font applied)",
+        "isCorrect": true
+      },
+      {
+        "text": "It is in a table",
+        "isCorrect": false
+      },
+      {
+        "text": "It is in a footer",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Text with manually applied font formatting will remain unaffected by changes to the theme font."
+  },
+  {
+    "text": "Why might a background color not appear in print preview?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Background printing is disabled in Options",
+        "isCorrect": true
+      },
+      {
+        "text": "Printer driver issue",
+        "isCorrect": false
+      },
+      {
+        "text": "Theme mismatch",
+        "isCorrect": false
+      },
+      {
+        "text": "Style set issue",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The \"Print background colors and images\" option needs to be enabled in Word Options for background colors to print correctly."
+  },
+  {
+    "text": "Which file format is necessary for sharing a theme across Office applications?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": ".docx",
+        "isCorrect": false
+      },
+      {
+        "text": ".dotx",
+        "isCorrect": false
+      },
+      {
+        "text": ".thmx",
+        "isCorrect": true
+      },
+      {
+        "text": ".xml",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": ".thmx is the standard file format for themes, enabling compatibility across various Office applications."
+  },
+  {
+    "text": "In advanced typography, which feature improves number alignment in tables?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Stylistic sets",
+        "isCorrect": false
+      },
+      {
+        "text": "Ligatures",
+        "isCorrect": false
+      },
+      {
+        "text": "Proportional vs. tabular number spacing",
+        "isCorrect": true
+      },
+      {
+        "text": "Page Color",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Tabular number spacing ensures uniform alignment of numbers within tables, improving readability."
+  },
+  {
+    "text": "To restrict a watermark to the first page, you must:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Insert it normally via the Design tab",
+        "isCorrect": false
+      },
+      {
+        "text": "Edit Header/Footer and unlink sections",
+        "isCorrect": true
+      },
+      {
+        "text": "Change Page Setup",
+        "isCorrect": false
+      },
+      {
+        "text": "Apply custom margins",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Unlinking sections in Header/Footer allows for independent content on each page, enabling a watermark only on the first page."
+  },
+  {
+    "text": "Which Design tab option enables uniform paragraph spacing across the entire document without individual style edits?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paragraph Spacing",
+        "isCorrect": true
+      },
+      {
+        "text": "Style Set",
+        "isCorrect": false
+      },
+      {
+        "text": "Effects",
+        "isCorrect": false
+      },
+      {
+        "text": "Custom Fonts",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Paragraph Spacing option offers global control over paragraph spacing, affecting the entire document uniformly."
+  },
+  {
+    "text": "When exporting a Word document with a custom theme to PDF, which design elements might not be preserved?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Watermark",
+        "isCorrect": false
+      },
+      {
+        "text": "Background color (if not set to print)",
+        "isCorrect": true
+      },
+      {
+        "text": "Page borders",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Background colors might not always be preserved during PDF export, depending on the export settings and whether print background is enabled."
+  },
+  {
+    "text": "What cannot be customized within a theme?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Colors",
+        "isCorrect": false
+      },
+      {
+        "text": "Fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Page borders",
+        "isCorrect": true
+      },
+      {
+        "text": "Effects",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Page borders are not included in the customizable aspects of a theme; they are independently managed."
+  },
+  {
+    "text": "Which theme element determines line and fill styles for shapes and SmartArt?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Colors",
+        "isCorrect": false
+      },
+      {
+        "text": "Effects",
+        "isCorrect": true
+      },
+      {
+        "text": "Paragraph Spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Effects control the visual styling of shapes and SmartArt, influencing line styles and fill colors."
+  },
+  {
+    "text": "Applying a new Style Set updates which part of the document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only headings",
+        "isCorrect": false
+      },
+      {
+        "text": "Only Normal style",
+        "isCorrect": false
+      },
+      {
+        "text": "All styles linked to the Style Set",
+        "isCorrect": true
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A style set's impact extends to all styles directly or indirectly connected to it, ensuring consistency."
+  },
+  {
+    "text": "What advantage do built-in theme fonts offer over manually applied fonts?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Easy global changes",
+        "isCorrect": false
+      },
+      {
+        "text": "Smaller file size",
+        "isCorrect": false
+      },
+      {
+        "text": "Compatibility with templates",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "Theme fonts provide ease of global modification, contribute to smaller file sizes, and offer better compatibility with templates."
+  },
+  {
+    "text": "How do you permanently save a custom style set for later reuse?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Save it as a template",
+        "isCorrect": false
+      },
+      {
+        "text": "Use “Save as a New Style Set” in the Design tab",
+        "isCorrect": true
+      },
+      {
+        "text": "Use “Save Current Theme”",
+        "isCorrect": false
+      },
+      {
+        "text": "Both save as a template and use “Save as a New Style Set”",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The \"Save as a New Style Set\" function directly saves custom style sets for future use."
+  },
+  {
+    "text": "A law firm needs 1.15 spacing, Calibri body font, and a \"Confidential\" watermark.  Which Design tab features should they use?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Paragraph Spacing, Fonts, Watermark",
+        "isCorrect": true
+      },
+      {
+        "text": "Themes only",
+        "isCorrect": false
+      },
+      {
+        "text": "Page Color and Effects",
+        "isCorrect": false
+      },
+      {
+        "text": "Quick Styles only",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "These three features directly address the specific requirements of the law firm."
+  },
+  {
+    "text": "Which Design option provides access to elegant font alternatives like swashes or stylistic letterforms?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Ligatures under Typography",
+        "isCorrect": true
+      },
+      {
+        "text": "Effects",
+        "isCorrect": false
+      },
+      {
+        "text": "Fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Paragraph Spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Ligatures offer access to stylistic alternates and enhanced typographic features."
+  },
+  {
+    "text": "A theme is applied, but the company logo watermark is missing in the printout. Why?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It was inserted via Header/Footer, not Watermark",
+        "isCorrect": true
+      },
+      {
+        "text": "Print watermarks are disabled in Options",
+        "isCorrect": false
+      },
+      {
+        "text": "Theme fonts are not applied",
+        "isCorrect": false
+      },
+      {
+        "text": "Incorrect paragraph spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Watermarks inserted via Header/Footer are not always included in printouts."
+  },
+  {
+    "text": "Which theme component ensures a consistent look for charts and SmartArt graphics?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Fonts",
+        "isCorrect": false
+      },
+      {
+        "text": "Colors",
+        "isCorrect": false
+      },
+      {
+        "text": "Effects",
+        "isCorrect": true
+      },
+      {
+        "text": "Style Set",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Effects' component of a theme dictates the visual style of charts and SmartArt graphics, ensuring uniformity."
+  },
+  {
+    "text": "Which advanced Design feature is particularly useful for multilingual professional documents?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Typography (ligatures & stylistic sets)",
+        "isCorrect": true
+      },
+      {
+        "text": "Watermark",
+        "isCorrect": false
+      },
+      {
+        "text": "Page Borders",
+        "isCorrect": false
+      },
+      {
+        "text": "Paragraph Spacing",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "Typography features, such as ligatures and stylistic sets, are crucial for ensuring proper rendering and visual appeal in multilingual documents."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "title": "Quantum Quest: Conquer the Microscopic World!",
+  "description": "Test your mastery of quantum mechanics! This quiz challenges your understanding of fundamental concepts, from Schrödinger's equation and atomic orbitals to molecular bonding theories like Hückel and VB.  Prepare to tackle eigenvalues, wavefunctions, and the mysteries of the quantum realm!",
+  "totalQuestions": 25,
+  "createdAt": "2025-08-05T06:04:39.487Z",
+  "questionTypes": {
+    "multiple_choice": 25
+  }
+}

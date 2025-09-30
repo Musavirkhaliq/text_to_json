@@ -1,0 +1,9 @@
+{
+  "title": "Atom Smashers Quiz: Test Your Chemistry Smarts!",
+  "description": "Challenge your understanding of atomic structure, molar mass, gas laws, and Avogadro's number with this comprehensive chemistry quiz.  From atomic mass units to calculating molecular weights and gas volumes, this quiz covers key concepts in basic chemistry.",
+  "totalQuestions": 23,
+  "createdAt": "2025-08-11T06:43:02.081Z",
+  "questionTypes": {
+    "multiple_choice": 23
+  }
+}

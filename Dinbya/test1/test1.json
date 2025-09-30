@@ -1,0 +1,1034 @@
+[
+{
+"text": "What is a mutual fund according to the Indian Trusts Act, 1882?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "A vehicle to pool money from investors to invest in securities based on common objectives.",
+"isCorrect": true
+},
+{
+"text": "A bank account for individual savings.",
+"isCorrect": false
+},
+{
+"text": "A stock exchange for trading shares.",
+"isCorrect": false
+},
+{
+"text": "An insurance policy with investment options.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "A mutual fund is a trust that pools savings from investors to invest in securities like equities and bonds, managed professionally, as defined under the Indian Trusts Act, 1882, and regulated by SEBI."
+},
+{
+"text": "Which of the following is NOT a type of mutual fund based on structure?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Open-ended",
+"isCorrect": false
+},
+{
+"text": "Close-ended",
+"isCorrect": false
+},
+{
+"text": "Actively managed",
+"isCorrect": true
+},
+{
+"text": "Interval",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Actively managed is a type based on management style, not structure. Open-ended, close-ended, and interval are structural types."
+},
+{
+"text": "In an open-ended mutual fund scheme, what is the key feature regarding entry and exit?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Investors can enter or exit at any time at NAV.",
+"isCorrect": true
+},
+{
+"text": "Fixed maturity period only.",
+"isCorrect": false
+},
+{
+"text": "Traded only on stock exchanges.",
+"isCorrect": false
+},
+{
+"text": "No redemption allowed.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Open-ended schemes allow continuous entry and exit at the prevailing Net Asset Value (NAV), subject to liquidity requirements."
+},
+{
+"text": "What is the minimum lock-in period for Equity Linked Savings Schemes (ELSS)?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "3 years",
+"isCorrect": true
+},
+{
+"text": "5 years",
+"isCorrect": false
+},
+{
+"text": "1 year",
+"isCorrect": false
+},
+{
+"text": "No lock-in",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "ELSS funds have a 3-year lock-in period and offer tax benefits under Section 80C of the Income Tax Act."
+},
+{
+"text": "Which participant in a mutual fund structure is responsible for protecting the interests of unit-holders?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Trustee",
+"isCorrect": true
+},
+{
+"text": "Sponsor",
+"isCorrect": false
+},
+{
+"text": "Asset Management Company (AMC)",
+"isCorrect": false
+},
+{
+"text": "Custodian",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Trustees hold the assets in trust for unit-holders and ensure compliance with SEBI regulations and the trust deed."
+},
+{
+"text": "What is the role of the Sponsor in a mutual fund?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Sets up the mutual fund trust and appoints the trustee and AMC.",
+"isCorrect": true
+},
+{
+"text": "Manages day-to-day investments.",
+"isCorrect": false
+},
+{
+"text": "Holds the securities on behalf of the fund.",
+"isCorrect": false
+},
+{
+"text": "Distributes units to investors.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "The sponsor establishes the mutual fund, provides the initial corpus, and ensures the AMC's net worth contribution."
+},
+{
+"text": "In debt schemes, what is the maximum exposure to unrated or below investment grade securities?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Limited as per scheme guidelines.",
+"isCorrect": true
+},
+{
+"text": "No limit.",
+"isCorrect": false
+},
+{
+"text": "100%",
+"isCorrect": false
+},
+{
+"text": "50%",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Debt schemes limit exposure to unrated/below investment grade securities to maintain safety, as specified in the scheme."
+},
+{
+"text": "What is a Hybrid Scheme in mutual funds?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "A mix of equity, debt, and other assets.",
+"isCorrect": true
+},
+{
+"text": "Pure equity investment.",
+"isCorrect": false
+},
+{
+"text": "Only debt instruments.",
+"isCorrect": false
+},
+{
+"text": "Gold only.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Hybrid schemes combine equity and debt to balance risk and return, including balanced funds and asset allocation funds."
+},
+{
+"text": "Who can invest in mutual funds as per participants?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Residents, NRIs, companies, trusts, FPIs.",
+"isCorrect": true
+},
+{
+"text": "Only Indian residents.",
+"isCorrect": false
+},
+{
+"text": "Only institutions.",
+"isCorrect": false
+},
+{
+"text": "Minors only.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "A wide range of investors including individuals (residents/NRIs), HUFs, companies, trusts, banks, FPIs, etc., can invest."
+},
+{
+"text": "What is the minimum net worth required for an AMC?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Rs. 50 crore",
+"isCorrect": true
+},
+{
+"text": "Rs. 10 crore",
+"isCorrect": false
+},
+{
+"text": "Rs. 100 crore",
+"isCorrect": false
+},
+{
+"text": "Rs. 1 crore",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "SEBI requires AMCs to have a minimum net worth of Rs. 50 crore to manage mutual fund schemes."
+},
+{
+"text": "In close-ended schemes, units are typically:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Traded on stock exchanges.",
+"isCorrect": true
+},
+{
+"text": "Redeemable at NAV anytime.",
+"isCorrect": false
+},
+{
+"text": "Not listed.",
+"isCorrect": false
+},
+{
+"text": "Convertible to debt.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Close-ended schemes have a fixed maturity and units are listed on exchanges for trading."
+},
+{
+"text": "What is an ETF?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Exchange Traded Fund, a passive scheme tracking an index.",
+"isCorrect": true
+},
+{
+"text": "Equity Trading Fund.",
+"isCorrect": false
+},
+{
+"text": "Fixed Term Fund.",
+"isCorrect": false
+},
+{
+"text": "Debt Fund.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "ETFs are passively managed funds that track an index and are traded on stock exchanges like stocks."
+},
+{
+"text": "For liquid debt schemes, the maximum maturity is:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "91 days",
+"isCorrect": true
+},
+{
+"text": "365 days",
+"isCorrect": false
+},
+{
+"text": "182 days",
+"isCorrect": false
+},
+{
+"text": "No limit",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Liquid schemes invest in instruments with maturity up to 91 days for high liquidity."
+},
+{
+"text": "What is the role of the Custodian?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Safekeeps the securities and collects income.",
+"isCorrect": true
+},
+{
+"text": "Sells units to investors.",
+"isCorrect": false
+},
+{
+"text": "Approves the scheme.",
+"isCorrect": false
+},
+{
+"text": "Audits the accounts.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Custodians hold the fund's securities in demat form, ensure safe custody, and handle settlements."
+},
+{
+"text": "REITs invest primarily in:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Real estate assets.",
+"isCorrect": true
+},
+{
+"text": "Equity stocks.",
+"isCorrect": false
+},
+{
+"text": "Government bonds.",
+"isCorrect": false
+},
+{
+"text": "Commodities.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Real Estate Investment Trusts (REITs) invest at least 75% in income-generating real estate."
+},
+{
+"text": "Minors can invest in mutual funds through:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Guardians.",
+"isCorrect": true
+},
+{
+"text": "Directly alone.",
+"isCorrect": false
+},
+{
+"text": "Trustees only.",
+"isCorrect": false
+},
+{
+"text": "Sponsors.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Minors invest through natural or legal guardians, with units held in their name."
+},
+{
+"text": "What is a Fund of Funds (FoF)?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Invests in other mutual fund schemes.",
+"isCorrect": true
+},
+{
+"text": "Invests directly in stocks.",
+"isCorrect": false
+},
+{
+"text": "A single scheme.",
+"isCorrect": false
+},
+{
+"text": "Debt only.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "FoFs pool money to invest in units of other mutual funds, domestic or overseas."
+},
+{
+"text": "The NAV for equity funds is calculated to how many decimal places?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "At least 2",
+"isCorrect": true
+},
+{
+"text": "4",
+"isCorrect": false
+},
+{
+"text": "1",
+"isCorrect": false
+},
+{
+"text": "0",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Equity and balanced schemes NAV to at least 2 decimals; liquid/debt to 4."
+},
+{
+"text": "Who appoints the fund manager?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "AMC",
+"isCorrect": true
+},
+{
+"text": "SEBI",
+"isCorrect": false
+},
+{
+"text": "Trustee",
+"isCorrect": false
+},
+{
+"text": "Sponsor",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "The AMC appoints the Chief Investment Officer (CIO) and fund managers."
+},
+{
+"text": "What is the minimum initial corpus provided by the sponsor?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Rs. 1,00,000",
+"isCorrect": true
+},
+{
+"text": "Rs. 50,000",
+"isCorrect": false
+},
+{
+"text": "Rs. 1 lakh",
+"isCorrect": false
+},
+{
+"text": "Rs. 10 lakh",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Sponsor must provide at least Rs. 1,00,000 as initial corpus for the trust."
+},
+{
+"text": "Sectoral funds invest primarily in:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Specific sectors like IT or pharma.",
+"isCorrect": true
+},
+{
+"text": "All sectors equally.",
+"isCorrect": false
+},
+{
+"text": "Debt only.",
+"isCorrect": false
+},
+{
+"text": "Gold.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Sector/thematic funds focus on specific sectors or themes for higher risk-return."
+},
+{
+"text": "What regulation governs mutual funds in India?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "SEBI (Mutual Funds) Regulations, 1996",
+"isCorrect": true
+},
+{
+"text": "Companies Act, 2013",
+"isCorrect": false
+},
+{
+"text": "RBI Act",
+"isCorrect": false
+},
+{
+"text": "IRDA Regulations",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Mutual funds are regulated by SEBI under the SEBI (Mutual Funds) Regulations, 1996."
+},
+{
+"text": "What is the primary regulatory body for mutual funds?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "SEBI",
+"isCorrect": true
+},
+{
+"text": "RBI",
+"isCorrect": false
+},
+{
+"text": "AMFI",
+"isCorrect": false
+},
+{
+"text": "NISM",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "SEBI is the apex regulator for securities markets, including mutual funds."
+},
+{
+"text": "Mutual funds must be registered with:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "SEBI",
+"isCorrect": true
+},
+{
+"text": "AMFI",
+"isCorrect": false
+},
+{
+"text": "NSDL",
+"isCorrect": false
+},
+{
+"text": "Stock Exchanges",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "All mutual funds must obtain registration from SEBI before launching schemes."
+},
+{
+"text": "What does AMFI stand for and its role?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Association of Mutual Funds in India, self-regulatory organization.",
+"isCorrect": true
+},
+{
+"text": "Asset Management Fund India.",
+"isCorrect": false
+},
+{
+"text": "All Mutual Funds Investors.",
+"isCorrect": false
+},
+{
+"text": "Association of Money Funds.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "AMFI is the industry body that promotes mutual funds and sets code of conduct for members."
+},
+{
+"text": "Distributors must register with:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "AMFI",
+"isCorrect": true
+},
+{
+"text": "SEBI directly",
+"isCorrect": false
+},
+{
+"text": "NISM only",
+"isCorrect": false
+},
+{
+"text": "RBI",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Mutual fund distributors must obtain AMFI registration number (ARN) to sell units."
+},
+{
+"text": "What is required for KYC compliance in mutual funds?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "All investors must complete KYC before investing.",
+"isCorrect": true
+},
+{
+"text": "Only for amounts above Rs. 1 lakh.",
+"isCorrect": false
+},
+{
+"text": "Optional.",
+"isCorrect": false
+},
+{
+"text": "Only for NRIs.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "SEBI mandates Know Your Customer (KYC) for all investors to prevent money laundering."
+},
+{
+"text": "The Scheme Information Document (SID) must be provided to investors:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Before investment.",
+"isCorrect": true
+},
+{
+"text": "After investment.",
+"isCorrect": false
+},
+{
+"text": "Optionally.",
+"isCorrect": false
+},
+{
+"text": "Only on request post-investment.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "SID contains details of the scheme and must be given to investors before subscription."
+},
+{
+"text": "What is the frequency of portfolio disclosure to SEBI?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Monthly.",
+"isCorrect": true
+},
+{
+"text": "Quarterly.",
+"isCorrect": false
+},
+{
+"text": "Annually.",
+"isCorrect": false
+},
+{
+"text": "Half-yearly.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "AMCs must disclose full portfolio to SEBI every month and to investors half-yearly."
+},
+{
+"text": "AMFI's Code of Conduct requires distributors to:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Act in the best interest of clients and avoid mis-selling.",
+"isCorrect": true
+},
+{
+"text": "Sell only high-commission products.",
+"isCorrect": false
+},
+{
+"text": "No disclosure needed.",
+"isCorrect": false
+},
+{
+"text": "Ignore risk profiling.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "The code emphasizes ethical practices, fair dealing, and suitability of products to clients."
+},
+{
+"text": "What is the penalty for non-compliance with SEBI regulations by distributors?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Cancellation of ARN, fines, or bans.",
+"isCorrect": true
+},
+{
+"text": "No penalty.",
+"isCorrect": false
+},
+{
+"text": "Only warning.",
+"isCorrect": false
+},
+{
+"text": "Self-regulated.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "SEBI and AMFI can impose penalties including suspension or cancellation of registration."
+},
+{
+"text": "Investors have the right to:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Receive transaction statements and annual reports.",
+"isCorrect": true
+},
+{
+"text": "No rights.",
+"isCorrect": false
+},
+{
+"text": "Manage the portfolio themselves.",
+"isCorrect": false
+},
+{
+"text": "Vote on AMC decisions.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Unit-holders are entitled to regular updates, statements, and reports as per regulations."
+},
+{
+"text": "SEBI mandates that at least how many trustees be independent?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "2/3 if a company.",
+"isCorrect": true
+},
+{
+"text": "All.",
+"isCorrect": false
+},
+{
+"text": "Half.",
+"isCorrect": false
+},
+{
+"text": "None.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "For a trustee company, at least two-thirds of trustees must be independent."
+},
+{
+"text": "What is reported half-yearly to unit-holders?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Portfolio and financial statements.",
+"isCorrect": true
+},
+{
+"text": "Daily NAV.",
+"isCorrect": false
+},
+{
+"text": "Quarterly expenses.",
+"isCorrect": false
+},
+{
+"text": "Annual audits only.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "AMCs must send unaudited half-yearly results and portfolio within 2 months."
+},
+{
+"text": "The Key Information Memorandum (KIM) summarizes:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Essential scheme details.",
+"isCorrect": true
+},
+{
+"text": "Tax implications only.",
+"isCorrect": false
+},
+{
+"text": "AMC history.",
+"isCorrect": false
+},
+{
+"text": "Investor complaints.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "KIM is a concise document with key facts for investors before subscription."
+},
+{
+"text": "Compliance officer is appointed by:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "AMC.",
+"isCorrect": true
+},
+{
+"text": "SEBI.",
+"isCorrect": false
+},
+{
+"text": "Trustees.",
+"isCorrect": false
+},
+{
+"text": "Distributors.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "AMCs must appoint a compliance officer to ensure regulatory adherence."
+},
+{
+"text": "What is the sponsor's contribution to AMC net worth?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "At least 40%.",
+"isCorrect": true
+},
+{
+"text": "100%.",
+"isCorrect": false
+},
+{
+"text": "0%.",
+"isCorrect": false
+},
+{
+"text": "50%.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Sponsor must contribute at least 40% to the net worth of the AMC."
+},
+{
+"text": "Distributors must maintain records for:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "At least 8 years.",
+"isCorrect": true
+},
+{
+"text": "1 year.",
+"isCorrect": false
+},
+{
+"text": "Permanently.",
+"isCorrect": false
+},
+{
+"text": "5 years.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "AMFI code requires retaining client records and transactions for 8 years for audits."
+},
+{
+"text": "SEBI's investment restrictions for equity schemes include:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "At least 65% in equity.",
+"isCorrect": true
+},
+{
+"text": "100% in equity.",
+"isCorrect": false
+},
+{
+"text": "No equity.",
+"isCorrect": false
+},
+{
+"text": "50% max.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Equity-oriented schemes must invest at least 65% in equity shares."
+},
+{
+"text": "Annual report to unit-holders must be sent within:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "4 months of financial year-end.",
+"isCorrect": true
+},
+{
+"text": "6 months.",
+"isCorrect": false
+},
+{
+"text": "1 month.",
+"isCorrect": false
+},
+{
+"text": "Annually on request.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Audited annual reports are dispatched within 4 months from March 31."
+},
+{
+"text": "What is the role of NISM in mutual funds?",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Certifies distributors via exams.",
+"isCorrect": true
+},
+{
+"text": "Regulates directly.",
+"isCorrect": false
+},
+{
+"text": "Manages funds.",
+"isCorrect": false
+},
+{
+"text": "Audits schemes.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "NISM conducts certification exams like Series V-A for mutual fund distributors as mandated by SEBI."
+},
+{
+"text": "Trust deed is registered under:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Indian Registration Act, 1908.",
+"isCorrect": true
+},
+{
+"text": "Indian Trusts Act only.",
+"isCorrect": false
+},
+{
+"text": "Companies Act.",
+"isCorrect": false
+},
+{
+"text": "SEBI Act.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "The trust deed must be registered under the Indian Registration Act, 1908."
+},
+{
+"text": "Mis-selling by distributors can lead to:",
+"type": "multiple_choice",
+"options": [
+{
+"text": "Penalties under SEBI and AMFI codes.",
+"isCorrect": true
+},
+{
+"text": "No action.",
+"isCorrect": false
+},
+{
+"text": "Only client complaint.",
+"isCorrect": false
+},
+{
+"text": "Automatic certification renewal.",
+"isCorrect": false
+}
+],
+"points": 1,
+"explanation": "Distributors must ensure suitability; mis-selling violates code and invites regulatory action."
+}
+]

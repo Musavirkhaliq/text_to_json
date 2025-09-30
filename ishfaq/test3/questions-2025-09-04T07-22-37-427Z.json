@@ -1,0 +1,530 @@
+[
+  {
+    "text": "How does Jacques Derrida's deconstruction apply to politics?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "By reinforcing hierarchical structures",
+        "isCorrect": false
+      },
+      {
+        "text": "By unraveling binary oppositions in ideologies",
+        "isCorrect": true
+      },
+      {
+        "text": "By advocating for empirical methods",
+        "isCorrect": false
+      },
+      {
+        "text": "By supporting grand theories",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Deconstruction, a key concept in post-structuralism, challenges binary oppositions (e.g., good/evil, us/them) that often underpin political ideologies.  By deconstructing these binaries, Derrida's work reveals the inherent instability and contradictions within such systems."
+  },
+  {
+    "text": "What is a key impact of postmodernism on feminism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Promoting universal women's rights (while ignoring cultural differences)",
+        "isCorrect": false
+      },
+      {
+        "text": "Challenging essentialist views of gender",
+        "isCorrect": true
+      },
+      {
+        "text": "Ignoring intersectionality among women's experiences",
+        "isCorrect": false
+      },
+      {
+        "text": "Focusing on economic factors exclusively",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Postmodern feminism critiques essentialism, the idea that all women share a common essence or identity.  Instead, it emphasizes the diversity of women's experiences and rejects universalizing notions of womanhood."
+  },
+  {
+    "text": "What are the core priorities of environmentalism as a political tradition?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Unrestricted economic growth",
+        "isCorrect": false
+      },
+      {
+        "text": "Sustainable development and ecological protection",
+        "isCorrect": true
+      },
+      {
+        "text": "Cultural assimilation",
+        "isCorrect": false
+      },
+      {
+        "text": "Military expansion",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Environmentalism, at its core, prioritizes the health of the environment and the sustainable use of resources, aiming to balance human needs with ecological protection."
+  },
+  {
+    "text": "What is Rachel Carson's 'Silent Spring' primarily foundational for?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Modern environmentalism, highlighting the dangers of pesticides",
+        "isCorrect": true
+      },
+      {
+        "text": "Multicultural theory",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern deconstruction",
+        "isCorrect": false
+      },
+      {
+        "text": "Modernist rationalism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "'Silent Spring' exposed the harmful effects of pesticides on the environment and human health, significantly influencing the development of the modern environmental movement."
+  },
+  {
+    "text": "What is a central tenet of deep ecology?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Anthropocentric resource management",
+        "isCorrect": false
+      },
+      {
+        "text": "Intrinsic value of nature beyond human utility",
+        "isCorrect": true
+      },
+      {
+        "text": "Industrial exploitation of natural resources",
+        "isCorrect": false
+      },
+      {
+        "text": "Cultural relativism in ecological perspectives",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Deep ecology argues that nature has intrinsic value independent of its usefulness to humans.  It emphasizes the inherent worth of all living beings and ecosystems."
+  },
+  {
+    "text": "Which document popularized the concept of 'sustainable development'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The Brundtland Report (Our Common Future)",
+        "isCorrect": true
+      },
+      {
+        "text": "Kyoto Protocol",
+        "isCorrect": false
+      },
+      {
+        "text": "Paris Agreement",
+        "isCorrect": false
+      },
+      {
+        "text": "Earth Summit",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Brundtland Report, formally titled 'Our Common Future,' is widely credited with popularizing the concept of sustainable development, defining it as 'meeting the needs of the present without compromising the ability of future generations to meet their own needs.'"
+  },
+  {
+    "text": "How does ecofeminism connect environmentalism with other social issues?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "By focusing solely on cultural relativism",
+        "isCorrect": false
+      },
+      {
+        "text": "Through a critique of patriarchal domination over nature and women",
+        "isCorrect": true
+      },
+      {
+        "text": "By embracing modernist progress narratives",
+        "isCorrect": false
+      },
+      {
+        "text": "By emphasizing multicultural group rights",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Ecofeminism draws parallels between the oppression of women and the exploitation of nature, arguing that both stem from patriarchal systems of domination."
+  },
+  {
+    "text": "What are some core principles emphasized by green politics?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Centralized authority and cultural homogenization",
+        "isCorrect": false
+      },
+      {
+        "text": "Grassroots democracy, non-violence, and ecological wisdom",
+        "isCorrect": true
+      },
+      {
+        "text": "Rational bureaucracy and economic growth above all else",
+        "isCorrect": false
+      },
+      {
+        "text": "Maintaining the status quo",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Green politics advocates for decentralized decision-making, peaceful methods of conflict resolution, and a deep understanding of ecological systems in political decision-making."
+  },
+  {
+    "text": "What does the precautionary principle in environmental policy entail?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Waiting for conclusive scientific evidence before taking action",
+        "isCorrect": false
+      },
+      {
+        "text": "Acting to prevent harm even without full scientific certainty",
+        "isCorrect": true
+      },
+      {
+        "text": "Prioritizing economic costs over environmental risks",
+        "isCorrect": false
+      },
+      {
+        "text": "Ignoring potential long-term environmental impacts",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The precautionary principle suggests that when there is a potential for serious harm, action should be taken even if there is not complete scientific certainty about the cause-and-effect relationship."
+  },
+  {
+    "text": "How does anthropocentrism view nature's value?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Nature has equal rights to humans",
+        "isCorrect": false
+      },
+      {
+        "text": "Nature is valuable primarily for human benefit",
+        "isCorrect": true
+      },
+      {
+        "text": "Nature is irrelevant to politics",
+        "isCorrect": false
+      },
+      {
+        "text": "Nature is a postmodern construct",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Anthropocentrism places humans at the center, valuing nature primarily for its usefulness or benefit to humanity."
+  },
+  {
+    "text": "With what is the Earth Charter primarily associated?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Global environmental ethics and sustainability principles",
+        "isCorrect": true
+      },
+      {
+        "text": "Multicultural immigration policies",
+        "isCorrect": false
+      },
+      {
+        "text": "Modernist state-building",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern art criticism",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Earth Charter is a declaration of fundamental ethical principles for building a just, sustainable, and peaceful global society."
+  },
+  {
+    "text": "How does biocentrism differ from ecocentrism?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Biocentrism focuses on individual organisms rather than ecosystems as a whole",
+        "isCorrect": true
+      },
+      {
+        "text": "Biocentrism is human-centered",
+        "isCorrect": false
+      },
+      {
+        "text": "Biocentrism emphasizes cultural diversity",
+        "isCorrect": false
+      },
+      {
+        "text": "Biocentrism prioritizes economic growth",
+        "isCorrect": false
+      }
+    ],
+    "points": 4,
+    "explanation": "While both biocentrism and ecocentrism value life, biocentrism focuses on the inherent worth of individual living beings, whereas ecocentrism emphasizes the value of entire ecosystems and ecological processes."
+  },
+  {
+    "text": "What is the central concern of the environmental justice movement?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Disproportionate environmental burdens on marginalized groups",
+        "isCorrect": true
+      },
+      {
+        "text": "Universal modernist solutions to environmental problems",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern deconstruction of nature",
+        "isCorrect": false
+      },
+      {
+        "text": "Multicultural language policies",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Environmental justice addresses the inequitable distribution of environmental benefits and harms, recognizing that marginalized communities often bear a disproportionate burden of pollution and environmental degradation."
+  },
+  {
+    "text": "What was the primary aim of the Kyoto Protocol?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Reducing greenhouse gas emissions",
+        "isCorrect": true
+      },
+      {
+        "text": "Promoting cultural pluralism",
+        "isCorrect": false
+      },
+      {
+        "text": "Critiquing grand narratives",
+        "isCorrect": false
+      },
+      {
+        "text": "Advancing rational planning",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Kyoto Protocol was an international treaty committing industrialized nations to reducing their greenhouse gas emissions to combat climate change."
+  },
+  {
+    "text": "According to Murray Bookchin's social ecology, what is the root of environmental crises?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hierarchical societies",
+        "isCorrect": true
+      },
+      {
+        "text": "Deep ecological mysticism",
+        "isCorrect": false
+      },
+      {
+        "text": "Multicultural fragmentation",
+        "isCorrect": false
+      },
+      {
+        "text": "Modernist individualism",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Social ecology argues that social hierarchies and power structures are at the root of both social and environmental problems."
+  },
+  {
+    "text": "What does the concept of 'limits to growth' signify in environmental political theory?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Finite resources constraining endless expansion",
+        "isCorrect": true
+      },
+      {
+        "text": "Unlimited technological solutions to resource scarcity",
+        "isCorrect": false
+      },
+      {
+        "text": "Cultural boundaries on economic growth",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern fluidity of resources",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Limits to growth' refers to the inherent constraints imposed by finite resources and the carrying capacity of the Earth on continued economic expansion."
+  },
+  {
+    "text": "What is the central focus of the Paris Agreement?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Global cooperation to limit climate change",
+        "isCorrect": true
+      },
+      {
+        "text": "National multiculturalism policies",
+        "isCorrect": false
+      },
+      {
+        "text": "Deconstructing environmental discourses",
+        "isCorrect": false
+      },
+      {
+        "text": "Modernist enlightenment ideals",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Paris Agreement is an international accord aiming to limit global warming by reducing greenhouse gas emissions through cooperative international efforts."
+  },
+  {
+    "text": "What is the core idea behind ecological modernization theory?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Environmental protection through technological innovation within capitalism",
+        "isCorrect": true
+      },
+      {
+        "text": "Rejection of all modern industry",
+        "isCorrect": false
+      },
+      {
+        "text": "Cultural relativism in ecology",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern skepticism of science",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Ecological modernization theory suggests that environmental problems can be solved through technological advancements and innovation within the existing capitalist framework."
+  },
+  {
+    "text": "Upon what are animal rights arguments within environmentalism often based?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Human dominance over nature",
+        "isCorrect": false
+      },
+      {
+        "text": "Sentience and moral consideration beyond utility",
+        "isCorrect": true
+      },
+      {
+        "text": "Multicultural traditions",
+        "isCorrect": false
+      },
+      {
+        "text": "Modernist progress",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Animal rights advocates within environmentalism argue that sentient beings deserve moral consideration irrespective of their usefulness to humans."
+  },
+  {
+    "text": "What does the concept of 'biodiversity' emphasize in environmental politics?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Preservation of variety in ecosystems for stability",
+        "isCorrect": true
+      },
+      {
+        "text": "Monoculture agriculture",
+        "isCorrect": false
+      },
+      {
+        "text": "Cultural assimilation",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern fragmentation",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Biodiversity refers to the variety of life at all levels, from genes to ecosystems, and its preservation is crucial for the stability and resilience of ecological systems."
+  },
+  {
+    "text": "Critics argue that environmentalism may conflict with what?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Economic development in developing countries",
+        "isCorrect": true
+      },
+      {
+        "text": "Multicultural rights",
+        "isCorrect": false
+      },
+      {
+        "text": "Modernist rationality",
+        "isCorrect": false
+      },
+      {
+        "text": "Postmodern relativism",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "A common criticism of environmentalism is that its focus on environmental protection can sometimes conflict with economic development, especially in developing nations where poverty and lack of resources are major challenges."
+  },
+  {
+    "text": "How does the Gaia hypothesis, proposed by James Lovelock, view Earth?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A self-regulating system like a living organism",
+        "isCorrect": true
+      },
+      {
+        "text": "A resource for human exploitation",
+        "isCorrect": false
+      },
+      {
+        "text": "A cultural construct",
+        "isCorrect": false
+      },
+      {
+        "text": "A modernist invention",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Gaia hypothesis proposes that Earth's living and non-living components interact as a complex, self-regulating system, analogous to a living organism."
+  }
+]

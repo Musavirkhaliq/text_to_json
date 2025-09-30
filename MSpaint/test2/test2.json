@@ -1,0 +1,727 @@
+[
+  {
+    "text": "What is the primary function of the Home tab in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To manage file operations like saving and opening.",
+        "isCorrect": false
+      },
+      {
+        "text": "To access drawing, editing, and selection tools.",
+        "isCorrect": true
+      },
+      {
+        "text": "To adjust canvas dimensions and resolution.",
+        "isCorrect": false
+      },
+      {
+        "text": "To apply advanced filters and effects.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Home tab in MS Paint contains tools for drawing, editing, and selecting, such as brushes, shapes, and text tools, making it the central hub for most editing tasks."
+  },
+  {
+    "text": "How can you access the Zoom tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "From the File menu.",
+        "isCorrect": false
+      },
+      {
+        "text": "From the View tab.",
+        "isCorrect": true
+      },
+      {
+        "text": "From the Home tab.",
+        "isCorrect": false
+      },
+      {
+        "text": "By pressing Ctrl+Shift.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Zoom tool is located in the View tab, allowing users to zoom in or out of the canvas for detailed editing."
+  },
+  {
+    "text": "What does the Status Bar in MS Paint display?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The list of available tools.",
+        "isCorrect": false
+      },
+      {
+        "text": "The coordinates and size of the selection or cursor position.",
+        "isCorrect": true
+      },
+      {
+        "text": "The file format of the current image.",
+        "isCorrect": false
+      },
+      {
+        "text": "The color palette history.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Status Bar at the bottom of MS Paint shows information like cursor coordinates and the dimensions of a selected area."
+  },
+  {
+    "text": "How can you toggle the visibility of the gridlines in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "From the Home tab under Tools.",
+        "isCorrect": false
+      },
+      {
+        "text": "From the View tab by selecting Gridlines.",
+        "isCorrect": true
+      },
+      {
+        "text": "By pressing Ctrl+G.",
+        "isCorrect": false
+      },
+      {
+        "text": "From the File menu.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Gridlines can be toggled on or off from the View tab to assist with precise drawing and alignment."
+  },
+  {
+    "text": "What is the purpose of the Color Picker tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To fill an area with a gradient.",
+        "isCorrect": false
+      },
+      {
+        "text": "To select a color from the canvas for use.",
+        "isCorrect": true
+      },
+      {
+        "text": "To invert the colors of an image.",
+        "isCorrect": false
+      },
+      {
+        "text": "To resize the canvas.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Color Picker (eyedropper) tool allows users to select a color from the canvas to use as the foreground or background color."
+  },
+  {
+    "text": "Which tool in MS Paint allows you to draw freehand lines?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Line tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pencil tool.",
+        "isCorrect": true
+      },
+      {
+        "text": "Brush tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rectangle tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Pencil tool in MS Paint is used for freehand drawing, allowing pixel-by-pixel control."
+  },
+  {
+    "text": "What happens when you click the Magnifier tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It opens a new canvas.",
+        "isCorrect": false
+      },
+      {
+        "text": "It zooms in on the clicked area of the canvas.",
+        "isCorrect": true
+      },
+      {
+        "text": "It selects a rectangular area.",
+        "isCorrect": false
+      },
+      {
+        "text": "It applies a transparency effect.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Magnifier tool zooms in on the area where you click, allowing for detailed editing."
+  },
+  {
+    "text": "How do you access the Text tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "From the File menu.",
+        "isCorrect": false
+      },
+      {
+        "text": "From the Home tab under Tools.",
+        "isCorrect": true
+      },
+      {
+        "text": "From the View tab.",
+        "isCorrect": false
+      },
+      {
+        "text": "By pressing Ctrl+T.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Text tool is located in the Home tab under the Tools section, allowing users to add text to the canvas."
+  },
+  {
+    "text": "What is the purpose of the Color 1 and Color 2 boxes in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To set the canvas size.",
+        "isCorrect": false
+      },
+      {
+        "text": "To select foreground and background colors.",
+        "isCorrect": true
+      },
+      {
+        "text": "To adjust image transparency.",
+        "isCorrect": false
+      },
+      {
+        "text": "To change the brush size.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Color 1 is the foreground color (used for drawing), and Color 2 is the background color (used for filling or erasing)."
+  },
+  {
+    "text": "How can you quickly switch between tools in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "By clicking on the toolbar or using keyboard shortcuts.",
+        "isCorrect": true
+      },
+      {
+        "text": "By resizing the canvas.",
+        "isCorrect": false
+      },
+      {
+        "text": "By saving the image.",
+        "isCorrect": false
+      },
+      {
+        "text": "By zooming in.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Tools can be selected by clicking their icons in the toolbar or using keyboard shortcuts like Ctrl+E for Eraser."
+  },
+
+ 
+  {
+    "text": "What is the difference between the Select and Free-Form Select tools in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select creates rectangular selections, while Free-Form Select allows irregular shapes.",
+        "isCorrect": true
+      },
+      {
+        "text": "Select is for copying, while Free-Form Select is for pasting.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select is for drawing, while Free-Form Select is for erasing.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select allows rotation, while Free-Form Select does not.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Select tool creates rectangular selections, while the Free-Form Select tool allows users to draw irregular shapes for selection."
+  },
+  {
+    "text": "How do you copy a selected area in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Press Ctrl+X.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+C.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+V.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+Z.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+C copies the selected area to the clipboard, allowing it to be pasted elsewhere."
+  },
+  {
+    "text": "What happens when you use Ctrl+X on a selected area?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It pastes the selection.",
+        "isCorrect": false
+      },
+      {
+        "text": "It cuts the selection, removing it from the canvas.",
+        "isCorrect": true
+      },
+      {
+        "text": "It undoes the selection.",
+        "isCorrect": false
+      },
+      {
+        "text": "It inverts the selection colors.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+X cuts the selected area, removing it from the canvas and storing it in the clipboard."
+  },
+  {
+    "text": "How can you resize a selected area in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Resize option under the Home tab.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+R.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "After selecting an area, the Resize option in the Home tab allows you to scale or skew the selection."
+  },
+  {
+    "text": "What is the purpose of the Crop tool in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To rotate the canvas.",
+        "isCorrect": false
+      },
+      {
+        "text": "To trim the image to the selected area.",
+        "isCorrect": true
+      },
+      {
+        "text": "To invert the colors of the selection.",
+        "isCorrect": false
+      },
+      {
+        "text": "To apply transparency to the selection.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Crop tool trims the image to the boundaries of the selected area, discarding the rest of the canvas."
+  },
+  {
+    "text": "How do you invert the colors of a selected area in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right-click the selection and choose Invert Color.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+I.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Color Picker tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Select the area and press Ctrl+Z.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Right-clicking a selection and choosing Invert Color reverses the colors within the selected area."
+  },
+  {
+    "text": "What happens when you flip a selected area horizontally in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The selection is mirrored left to right.",
+        "isCorrect": true
+      },
+      {
+        "text": "The selection is mirrored top to bottom.",
+        "isCorrect": false
+      },
+      {
+        "text": "The selection is rotated 90 degrees.",
+        "isCorrect": false
+      },
+      {
+        "text": "The selection is cropped.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Flipping a selection horizontally mirrors it left to right, accessible via the Rotate or Flip option."
+  },
+  {
+    "text": "How do you paste a copied selection in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Press Ctrl+V.",
+        "isCorrect": true
+      },
+      {
+        "text": "Press Ctrl+X.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+Z.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+C.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ctrl+V pastes the copied or cut selection onto the canvas, which can then be moved or edited."
+  },
+  {
+    "text": "What is the effect of rotating a selection 90 degrees clockwise?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The selection turns 90 degrees to the right.",
+        "isCorrect": true
+      },
+      {
+        "text": "The selection flips upside down.",
+        "isCorrect": false
+      },
+      {
+        "text": "The selection is mirrored horizontally.",
+        "isCorrect": false
+      },
+      {
+        "text": "The selection is cropped.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Rotating a selection 90 degrees clockwise turns it to the right, accessible via the Rotate option in the Home tab."
+  },
+  {
+    "text": "How can you move a selected area in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Click and drag the selection with the mouse.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+M.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Zoom tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "After selecting an area, you can click and drag it to a new position on the canvas."
+  },
+
+  
+  {
+    "text": "Which tool in MS Paint is used to draw a rectangle?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pencil tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Rectangle tool.",
+        "isCorrect": true
+      },
+      {
+        "text": "Brush tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Free-Form Select tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Rectangle tool, found in the Shapes group on the Home tab, is used to draw rectangles or squares."
+  },
+  {
+    "text": "How do you draw a perfect circle in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the Oval tool while holding Shift.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Circle tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Free-Form Select tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Brush tool with Ctrl.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Holding the Shift key while using the Oval tool constrains it to draw a perfect circle."
+  },
+  {
+    "text": "What does the Fill With Color tool do when used with a shape?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It fills the shape with the selected Color 2 (background color).",
+        "isCorrect": true
+      },
+      {
+        "text": "It draws an outline around the shape.",
+        "isCorrect": false
+      },
+      {
+        "text": "It resizes the shape.",
+        "isCorrect": false
+      },
+      {
+        "text": "It rotates the shape.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Fill With Color tool fills a closed shape with the selected background color (Color 2)."
+  },
+  {
+    "text": "How can you create a custom shape using the Polygon tool?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Click multiple points to form a closed shape.",
+        "isCorrect": true
+      },
+      {
+        "text": "Drag the mouse in a circular motion.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Free-Form Select tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hold Ctrl while drawing.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Polygon tool allows users to click multiple points to create a custom closed shape."
+  },
+  {
+    "text": "What happens when you select 'Outline' for a shape in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It draws a border around the shape using Color 1.",
+        "isCorrect": true
+      },
+      {
+        "text": "It fills the shape with a pattern.",
+        "isCorrect": false
+      },
+      {
+        "text": "It rotates the shape.",
+        "isCorrect": false
+      },
+      {
+        "text": "It removes the shape's fill.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Selecting 'Outline' in the Shapes menu draws a border around the shape using the foreground color (Color 1)."
+  },
+  {
+    "text": "How do you ensure a shape is symmetrical in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hold Shift while drawing the shape.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Free-Form Select tool.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+S while drawing.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Crop tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Holding Shift while drawing shapes like rectangles or ovals ensures symmetry, creating perfect squares or circles."
+  },
+  {
+    "text": "What is the purpose of the 'No Outline' option for shapes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It removes the border around the shape.",
+        "isCorrect": true
+      },
+      {
+        "text": "It fills the shape with transparency.",
+        "isCorrect": false
+      },
+      {
+        "text": "It resizes the shape.",
+        "isCorrect": false
+      },
+      {
+        "text": "It rotates the shape 90 degrees.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 'No Outline' option prevents a border from being drawn around the shape, leaving only the fill."
+  },
+  {
+    "text": "How can you layer shapes in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Draw shapes in the desired order, as later shapes appear on top.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Layer menu to arrange shapes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+L to reorder shapes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Transparency tool.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "MS Paint does not have a dedicated layering system; shapes drawn later appear on top of earlier ones."
+  },
+  {
+    "text": "What is the effect of selecting a pattern fill for a shape?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It fills the shape with a textured pattern instead of a solid color.",
+        "isCorrect": true
+      },
+      {
+        "text": "It adds a shadow effect to the shape.",
+        "isCorrect": false
+      },
+      {
+        "text": "It rotates the shape.",
+        "isCorrect": false
+      },
+      {
+        "text": "It removes the shape’s outline.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Pattern fills, available in the Shapes menu, apply a textured pattern instead of a solid color to the shape’s interior."
+  },
+  {
+    "text": "How do you edit a shape after drawing it in MS Paint?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Select it with the Select tool and resize or move it.",
+        "isCorrect": true
+      },
+      {
+        "text": "Use the Crop tool to modify it.",
+        "isCorrect": false
+      },
+      {
+        "text": "Press Ctrl+E to edit.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use the Eraser tool to reshape it.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "After drawing a shape, you can use the Select tool to encompass it, then resize, move, or rotate it."
+  }
+
+]

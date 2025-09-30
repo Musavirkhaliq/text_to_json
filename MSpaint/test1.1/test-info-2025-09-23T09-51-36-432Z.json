@@ -1,0 +1,9 @@
+{
+  "title": "MS Paint Master: Conquer the Canvas!",
+  "description": "Test your MS Paint prowess! This quiz covers everything from color selection and fill tools to text editing and transparency.  See how well you know the ins and outs of this classic painting program.",
+  "totalQuestions": 30,
+  "createdAt": "2025-09-23T09:51:36.432Z",
+  "questionTypes": {
+    "multiple_choice": 30
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "MS Paint Master: Can You Conquer the Canvas?",
+  "description": "Test your MS Paint prowess! This quiz challenges your knowledge of tools, features, and techniques within the classic drawing program.  From pencils and brushes to shapes and zoom, see how well you navigate the Paint interface.",
+  "totalQuestions": 30,
+  "createdAt": "2025-09-23T09:50:42.311Z",
+  "questionTypes": {
+    "multiple_choice": 30
+  }
+}
