@@ -5,7 +5,7 @@ const GeminiClient = require('./geminiClient');
 class JKPSCQuestionGenerator {
     constructor() {
         this.geminiClient = new GeminiClient();
-        this.maxRetries = 2; // Define max retries for JSON parsing
+        this.maxRetries = 3; // Increased max retries for better resilience
     }
 
     /**
@@ -15,7 +15,7 @@ class JKPSCQuestionGenerator {
      * @param {string} outputDir - Directory to save output files (default: 'output')
      * @returns {Promise<Object>} - Generated questions with metadata
      */
-    async generateFromTopics(topicsFilePath, questionsPerTopic = 5, outputDir = 'output') { // Added outputDir parameter
+    async generateFromTopics(topicsFilePath, questionsPerTopic = 5, outputDir = 'output') {
         try {
             // Read topics from file
             const topicsContent = await fs.readFile(topicsFilePath, 'utf8');
@@ -44,20 +44,15 @@ class JKPSCQuestionGenerator {
             // Generate title and description
             const titleAndDescription = await this.generateJKPSCTitleAndDescription(topics);
 
-            // --- MODIFICATION START ---
             // Create a sanitized topic string for filenames
-            // Take the first 3 topics and join them, then sanitize
             const topicPrefix = topics.slice(0, 3)
-                                      .map(t => t.replace(/[^a-zA-Z0-9]/g, '')) // Remove special chars
+                                      .map(t => t.replace(/[^a-zA-Z0-9]/g, ''))
                                       .join('_')
-                                      .substring(0, 50); // Limit length
+                                      .substring(0, 50);
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 
-            // Use the topicPrefix in the filenames
             const questionsFileName = `${topicPrefix}_questions_${timestamp}.json`;
             const testInfoFileName = `${topicPrefix}_test-info_${timestamp}.json`;
-            // --- MODIFICATION END ---
-
 
             const questionsData = {
                 questions: allQuestions,
@@ -83,15 +78,15 @@ class JKPSCQuestionGenerator {
             };
 
             // Create output directory if it doesn't exist
-            await fs.ensureDir(outputDir); // Use outputDir here
+            await fs.ensureDir(outputDir);
 
             // Save files
-            await fs.writeFile(path.join(outputDir, questionsFileName), JSON.stringify(questionsData, null, 2)); // Use outputDir here
-            await fs.writeFile(path.join(outputDir, testInfoFileName), JSON.stringify(testInfo, null, 2)); // Use outputDir here
+            await fs.writeFile(path.join(outputDir, questionsFileName), JSON.stringify(questionsData, null, 2));
+            await fs.writeFile(path.join(outputDir, testInfoFileName), JSON.stringify(testInfo, null, 2));
 
             console.log(`\nGeneration complete!`);
-            console.log(`Questions saved to: ${outputDir}/${questionsFileName}`); // Use outputDir in log
-            console.log(`Test info saved to: ${outputDir}/${testInfoFileName}`); // Use outputDir in log
+            console.log(`Questions saved to: ${outputDir}/${questionsFileName}`);
+            console.log(`Test info saved to: ${outputDir}/${testInfoFileName}`);
             console.log(`Total questions generated: ${allQuestions.length}`);
 
             return {
@@ -120,122 +115,196 @@ class JKPSCQuestionGenerator {
             .split('\n')
             .map(line => line.trim())
             .filter(line => line.length > 0 && !line.startsWith('#'))
-            .map(line => line.replace(/^\d+\.\s*/, '')); // Remove numbering if present
+            .map(line => line.replace(/^\d+\.\s*/, ''));
     }
 
     /**
      * Generate JKPSC-level questions for a specific topic
      * @param {string} topic - Topic name
      * @param {number} count - Number of questions to generate
-     * @param {number} retryCount - Current retry attempt (internal use)
      * @returns {Promise<Array>} - Array of questions
      */
-    async generateQuestionsForTopic(topic, count, retryCount = 0) {
-        let prompt = this.buildJKPSCPrompt(topic, count);
-        try {
-            const result = await this.geminiClient.model.generateContent(prompt);
-            const response = await result.response;
-            const text = response.text();
+    async generateQuestionsForTopic(topic, count) {
+        let retryCount = 0;
+        let lastRawResponse = null;
+        let lastError = null;
 
-            // Parse JSON response
-            let jsonData = this.parseJSONResponse(text);
-
-            if (!jsonData || !Array.isArray(jsonData)) {
-                console.error(`Attempt ${retryCount + 1}: Invalid response format for topic: ${topic}. Expected JSON array.`);
-                console.error(`Raw API response that failed parsing:\n`, text);
-
-                if (retryCount < this.maxRetries) {
-                    console.warn(`Retrying for topic "${topic}" with corrected JSON prompt...`);
-                    // Craft a new prompt asking the LLM to correct the JSON
-                    const correctionPrompt = `The previous response for topic "${topic}" was not in the correct JSON array format.
-Original (incorrect) response:
-\`\`\`
-${text}
-\`\`\`
-Please provide the ${count} Multiple Choice Questions again, strictly adhering to the specified JSON array format. Ensure it's enclosed in \`\`\`json\`\`\` code blocks as requested.`;
-                    // Pass the correction prompt for the retry
-                    return this.generateQuestionsForTopicWithCorrection(topic, count, correctionPrompt, retryCount + 1);
+        while (retryCount <= this.maxRetries) {
+            try {
+                let prompt;
+                
+                if (retryCount === 0) {
+                    // Initial attempt with standard prompt
+                    prompt = this.buildJKPSCPrompt(topic, count);
                 } else {
-                    console.error(`Max retries (${this.maxRetries}) exceeded for topic "${topic}". Skipping.`);
-                    // Fallback after max retries
+                    // Retry with correction prompt including the failed response
+                    prompt = this.buildCorrectionPrompt(topic, count, lastRawResponse, lastError, retryCount);
+                    console.log(`\n🔄 Retry attempt ${retryCount}/${this.maxRetries} for topic "${topic}"`);
+                }
+
+                const result = await this.geminiClient.model.generateContent(prompt);
+                const response = await result.response;
+                const text = response.text();
+                
+                lastRawResponse = text;
+
+                // Parse JSON response
+                const parseResult = this.parseJSONResponse(text);
+                
+                if (!parseResult.success) {
+                    lastError = parseResult.error;
+                    console.error(`❌ Parsing failed (attempt ${retryCount + 1}): ${parseResult.error}`);
+                    
+                    if (retryCount < this.maxRetries) {
+                        retryCount++;
+                        await new Promise(resolve => setTimeout(resolve, 1000 * retryCount)); // Exponential backoff
+                        continue;
+                    } else {
+                        console.error(`⚠️  Max retries exceeded for topic "${topic}". Skipping.`);
+                        return [];
+                    }
+                }
+
+                const jsonData = parseResult.data;
+
+                // Validate that we have an array
+                if (!Array.isArray(jsonData)) {
+                    lastError = 'Response is not an array';
+                    console.error(`❌ Invalid format (attempt ${retryCount + 1}): Expected array, got ${typeof jsonData}`);
+                    
+                    if (retryCount < this.maxRetries) {
+                        retryCount++;
+                        await new Promise(resolve => setTimeout(resolve, 1000 * retryCount));
+                        continue;
+                    } else {
+                        console.error(`⚠️  Max retries exceeded for topic "${topic}". Skipping.`);
+                        return [];
+                    }
+                }
+
+                // Validate and clean questions
+                const validQuestions = jsonData.filter(q => this.validateQuestion(q));
+                const invalidCount = jsonData.length - validQuestions.length;
+
+                if (invalidCount > 0) {
+                    console.warn(`⚠️  ${invalidCount} invalid questions filtered out from topic "${topic}"`);
+                }
+
+                if (validQuestions.length === 0) {
+                    lastError = 'No valid questions in response';
+                    console.error(`❌ No valid questions (attempt ${retryCount + 1})`);
+                    
+                    if (retryCount < this.maxRetries) {
+                        retryCount++;
+                        await new Promise(resolve => setTimeout(resolve, 1000 * retryCount));
+                        continue;
+                    } else {
+                        console.error(`⚠️  Max retries exceeded for topic "${topic}". Skipping.`);
+                        return [];
+                    }
+                }
+
+                // Success!
+                if (retryCount > 0) {
+                    console.log(`✅ Successfully generated ${validQuestions.length} questions after ${retryCount} retries`);
+                } else {
+                    console.log(`✅ Successfully generated ${validQuestions.length} questions`);
+                }
+                
+                return validQuestions;
+
+            } catch (error) {
+                lastError = error.message;
+                console.error(`❌ Error (attempt ${retryCount + 1}):`, error.message);
+                
+                if (retryCount < this.maxRetries) {
+                    retryCount++;
+                    await new Promise(resolve => setTimeout(resolve, 1000 * retryCount));
+                    continue;
+                } else {
+                    console.error(`⚠️  Max retries exceeded for topic "${topic}". Skipping.`);
                     return [];
                 }
             }
-
-            // Validate and clean questions
-            const validQuestions = jsonData.filter(q => this.validateQuestion(q));
-
-            if (validQuestions.length === 0) {
-                throw new Error(`No valid questions generated for topic: ${topic}`);
-            }
-
-            return validQuestions;
-        } catch (error) {
-            console.error(`Error generating questions for topic "${topic}":`, error);
-            // Return empty array to continue with other topics
-            return [];
         }
+
+        return [];
     }
 
     /**
-     * Internal helper for retrying question generation with a specific correction prompt.
-     * This avoids rebuilding the main prompt and keeps track of retries.
+     * Build correction prompt when JSON parsing fails
      * @param {string} topic - Topic name
-     * @param {number} count - Number of questions to generate
-     * @param {string} correctionPrompt - The prompt specifically asking for JSON correction
-     * @param {number} retryCount - Current retry attempt
-     * @returns {Promise<Array>} - Array of questions
+     * @param {number} count - Number of questions
+     * @param {string} failedResponse - The response that failed to parse
+     * @param {string} error - The error message
+     * @param {number} attemptNumber - Current retry attempt number
+     * @returns {string} - Correction prompt
      */
-    async generateQuestionsForTopicWithCorrection(topic, count, correctionPrompt, retryCount) {
-        try {
-            const result = await this.geminiClient.model.generateContent(correctionPrompt);
-            const response = await result.response;
-            const text = response.text();
+    buildCorrectionPrompt(topic, count, failedResponse, error, attemptNumber) {
+        // Truncate failed response if too long
+        const truncatedResponse = failedResponse && failedResponse.length > 2000 
+            ? failedResponse.substring(0, 2000) + '\n... (truncated)'
+            : failedResponse;
 
-            let jsonData = this.parseJSONResponse(text);
+        return `⚠️ CRITICAL: The previous response had a JSON formatting error and could not be parsed.
 
-            if (!jsonData || !Array.isArray(jsonData)) {
-                console.error(`Retry attempt ${retryCount}: Still invalid response format for topic: ${topic}.`);
-                console.error(`Raw API response that failed parsing (retry):\n`, text);
+ERROR DETAILS:
+${error}
 
-                if (retryCount < this.maxRetries) {
-                    // Another retry, using the same correction prompt
-                    await new Promise(resolve => setTimeout(resolve, 500)); // Small delay before next retry
-                    return this.generateQuestionsForTopicWithCorrection(topic, count, correctionPrompt, retryCount + 1);
-                } else {
-                    console.error(`Max retries (${this.maxRetries}) exceeded for topic "${topic}" after correction attempts. Skipping.`);
-                    return [];
-                }
-            }
-
-            const validQuestions = jsonData.filter(q => this.validateQuestion(q));
-            if (validQuestions.length === 0) {
-                 // Even if JSON is valid, if no valid questions are in it
-                 if (retryCount < this.maxRetries) {
-                     console.warn(`Retry attempt ${retryCount}: JSON was valid, but no valid questions found. Retrying for topic "${topic}"...`);
-                     const refinedCorrectionPrompt = `The JSON response for topic "${topic}" was syntactically correct, but contained no valid questions according to the specified structure.
-Original (partially correct) response:
+FAILED RESPONSE (Attempt ${attemptNumber}):
 \`\`\`
-${text}
+${truncatedResponse || 'No response received'}
 \`\`\`
-Please generate the ${count} Multiple Choice Questions again, ensuring each question adheres to the format and validation rules. Strictly adhere to the specified JSON array format, enclosed in \`\`\`json\`\`\` code blocks.`;
-                     await new Promise(resolve => setTimeout(resolve, 500));
-                     return this.generateQuestionsForTopicWithCorrection(topic, count, refinedCorrectionPrompt, retryCount + 1);
-                 } else {
-                     console.error(`Max retries (${this.maxRetries}) exceeded for topic "${topic}" after valid JSON with no valid questions. Skipping.`);
-                     return [];
-                 }
-            }
 
-            console.log(`Successfully generated and parsed questions for topic "${topic}" after ${retryCount} retries.`);
-            return validQuestions;
+YOUR TASK:
+Generate ${count} Multiple Choice Questions for the topic: "${topic}"
 
-        } catch (error) {
-            console.error(`Error during retry for topic "${topic}":`, error);
-            return [];
-        }
+‼️ CRITICAL FORMATTING REQUIREMENTS - YOU MUST FOLLOW THESE EXACTLY:
+1. Your ENTIRE response must ONLY be a JSON array wrapped in \`\`\`json code blocks
+2. Start your response with: \`\`\`json
+3. Then immediately provide the JSON array starting with [
+4. End with ] followed by \`\`\`
+5. DO NOT include ANY text before or after the code block
+6. DO NOT include explanatory text, apologies, or comments
+7. Ensure all strings are properly escaped with double quotes
+8. Ensure all commas are correctly placed
+9. Do not use trailing commas
+
+EXACT FORMAT REQUIRED:
+\`\`\`json
+[
+  {
+    "text": "Question text here",
+    "type": "multiple_choice",
+    "options": [
+      {"text": "Option A", "isCorrect": false},
+      {"text": "Option B", "isCorrect": true},
+      {"text": "Option C", "isCorrect": false},
+      {"text": "Option D", "isCorrect": false}
+    ],
+    "points": 3,
+    "explanation": "Detailed explanation here"
+  }
+]
+\`\`\`
+
+VALIDATION CHECKLIST:
+✓ Each question has "text", "type", "options", "points", "explanation"
+✓ "type" is exactly "multiple_choice"
+✓ "options" is an array with exactly 4 items
+✓ Exactly ONE option has "isCorrect": true
+✓ "points" is a number between 2 and 4
+✓ All strings use double quotes, not single quotes
+✓ No trailing commas in arrays or objects
+
+CONTENT REQUIREMENTS:
+- POSTGRADUATE/MASTERS level difficulty
+- Focus on CONCEPTUAL UNDERSTANDING and APPLICATION
+- Avoid simple factual recall questions
+- Provide clear, educational explanations
+
+Generate the ${count} questions NOW. Respond ONLY with the JSON code block, nothing else.`;
     }
-
 
     /**
      * Build JKPSC-specific prompt for question generation
@@ -283,6 +352,8 @@ FORMAT: Respond with a JSON array in this exact format:
 ]
 \`\`\`
 
+CRITICAL: Your response must ONLY contain the JSON code block. Do not include any text before or after it.
+
 DIFFICULTY GUIDELINES:
 - Points: 2-4 (reflecting advanced difficulty)
 - Questions should require 2-3 minutes of thinking time
@@ -290,59 +361,111 @@ DIFFICULTY GUIDELINES:
 - Include interdisciplinary connections where relevant
 
 Topic: ${topic}
-Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`;
+Generate ${count} high-quality JKPSC-level MCQs now. Respond ONLY with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`;
     }
 
     /**
-     * Parse JSON response from Gemini API
+     * Parse JSON response from Gemini API with enhanced error handling
      * @param {string} text - Raw response text
-     * @returns {Array|Object|null} - Parsed JSON array/object or null
+     * @returns {Object} - {success: boolean, data: any, error: string}
      */
     parseJSONResponse(text) {
-        let jsonData = null;
         const normalizedText = text.trim();
 
-        // Method 1: Look for JSON code blocks (case-insensitive for 'json')
-        const jsonCodeBlockRegex = /```json\s*([\s\S]*?)\s*```/i; // Added 'i' for case-insensitive
+        // Method 1: Look for JSON code blocks (case-insensitive)
+        const jsonCodeBlockRegex = /```(?:json)?\s*([\s\S]*?)\s*```/i;
         const jsonMatch = normalizedText.match(jsonCodeBlockRegex);
 
         if (jsonMatch) {
+            const jsonContent = jsonMatch[1].trim();
             try {
-                jsonData = JSON.parse(jsonMatch[1].trim());
-                console.log('Successfully parsed JSON from code block.');
-                return jsonData;
+                const parsed = JSON.parse(jsonContent);
+                console.log('✓ Successfully parsed JSON from code block');
+                return { success: true, data: parsed, error: null };
             } catch (e) {
-                console.warn('Failed to parse JSON from code block content:', e.message);
-                // Continue to next parsing method
+                console.warn('✗ Failed to parse JSON from code block:', e.message);
+                return { 
+                    success: false, 
+                    data: null, 
+                    error: `JSON syntax error in code block: ${e.message}` 
+                };
             }
         }
 
-        // Method 2: Look for array pattern (if expecting an array)
-        if (normalizedText.startsWith('[') && normalizedText.endsWith(']')) {
-             try {
-                jsonData = JSON.parse(normalizedText);
-                console.log('Successfully parsed entire response as JSON array.');
-                return jsonData;
-            } catch (e) {
-                console.warn('Failed to parse entire response as JSON array:', e.message);
-                // Continue to next parsing method
+        // Method 2: Look for array pattern
+        if (normalizedText.startsWith('[')) {
+            // Find the matching closing bracket
+            let bracketCount = 0;
+            let endIndex = -1;
+            
+            for (let i = 0; i < normalizedText.length; i++) {
+                if (normalizedText[i] === '[') bracketCount++;
+                if (normalizedText[i] === ']') {
+                    bracketCount--;
+                    if (bracketCount === 0) {
+                        endIndex = i;
+                        break;
+                    }
+                }
+            }
+
+            if (endIndex !== -1) {
+                const jsonContent = normalizedText.substring(0, endIndex + 1);
+                try {
+                    const parsed = JSON.parse(jsonContent);
+                    console.log('✓ Successfully parsed JSON array from raw text');
+                    return { success: true, data: parsed, error: null };
+                } catch (e) {
+                    console.warn('✗ Failed to parse JSON array:', e.message);
+                    return { 
+                        success: false, 
+                        data: null, 
+                        error: `JSON syntax error in array: ${e.message}` 
+                    };
+                }
             }
         }
 
-        // Method 3: Look for object pattern (if expecting an object, like title/description)
-        if (normalizedText.startsWith('{') && normalizedText.endsWith('}')) {
-            try {
-                jsonData = JSON.parse(normalizedText);
-                console.log('Successfully parsed entire response as JSON object.');
-                return jsonData;
-            } catch (e) {
-                console.warn('Failed to parse entire response as JSON object:', e.message);
-                // Continue to next parsing method
+        // Method 3: Look for object pattern
+        if (normalizedText.startsWith('{')) {
+            // Find the matching closing brace
+            let braceCount = 0;
+            let endIndex = -1;
+            
+            for (let i = 0; i < normalizedText.length; i++) {
+                if (normalizedText[i] === '{') braceCount++;
+                if (normalizedText[i] === '}') {
+                    braceCount--;
+                    if (braceCount === 0) {
+                        endIndex = i;
+                        break;
+                    }
+                }
+            }
+
+            if (endIndex !== -1) {
+                const jsonContent = normalizedText.substring(0, endIndex + 1);
+                try {
+                    const parsed = JSON.parse(jsonContent);
+                    console.log('✓ Successfully parsed JSON object from raw text');
+                    return { success: true, data: parsed, error: null };
+                } catch (e) {
+                    console.warn('✗ Failed to parse JSON object:', e.message);
+                    return { 
+                        success: false, 
+                        data: null, 
+                        error: `JSON syntax error in object: ${e.message}` 
+                    };
+                }
             }
         }
 
-        console.warn('All JSON parsing methods failed.');
-        return null;
+        console.warn('✗ No valid JSON structure found in response');
+        return { 
+            success: false, 
+            data: null, 
+            error: 'No JSON code block or valid JSON structure found in response' 
+        };
     }
 
     /**
@@ -351,15 +474,33 @@ Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON 
      * @returns {boolean} - Whether question is valid
      */
     validateQuestion(question) {
-        if (!question.text || typeof question.text !== 'string') return false;
-        if (question.type !== 'multiple_choice') return false;
-        if (!Array.isArray(question.options) || question.options.length !== 4) return false;
+        if (!question.text || typeof question.text !== 'string') {
+            console.warn('Invalid question: missing or invalid text field');
+            return false;
+        }
+        if (question.type !== 'multiple_choice') {
+            console.warn('Invalid question: type must be "multiple_choice"');
+            return false;
+        }
+        if (!Array.isArray(question.options) || question.options.length !== 4) {
+            console.warn('Invalid question: must have exactly 4 options');
+            return false;
+        }
 
         const correctAnswers = question.options.filter(opt => opt.isCorrect);
-        if (correctAnswers.length !== 1) return false;
+        if (correctAnswers.length !== 1) {
+            console.warn('Invalid question: must have exactly 1 correct answer');
+            return false;
+        }
 
-        if (!question.explanation || typeof question.explanation !== 'string') return false;
-        if (typeof question.points !== 'number' || question.points < 2 || question.points > 4) return false;
+        if (!question.explanation || typeof question.explanation !== 'string') {
+            console.warn('Invalid question: missing or invalid explanation');
+            return false;
+        }
+        if (typeof question.points !== 'number' || question.points < 2 || question.points > 4) {
+            console.warn('Invalid question: points must be a number between 2 and 4');
+            return false;
+        }
 
         return true;
     }
@@ -367,11 +508,93 @@ Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON 
     /**
      * Generate JKPSC-specific title and description
      * @param {Array<string>} topics - Array of topics
-     * @param {number} retryCount - Current retry attempt (internal use)
      * @returns {Promise<Object>} - Title and description
      */
-    async generateJKPSCTitleAndDescription(topics, retryCount = 0) {
-        const initialPrompt = `Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment Exam practice test covering these topics:
+    async generateJKPSCTitleAndDescription(topics) {
+        let retryCount = 0;
+        let lastRawResponse = null;
+        let lastError = null;
+
+        while (retryCount <= this.maxRetries) {
+            try {
+                let prompt;
+                
+                if (retryCount === 0) {
+                    prompt = this.buildTitleDescriptionPrompt(topics);
+                } else {
+                    prompt = this.buildTitleDescriptionCorrectionPrompt(topics, lastRawResponse, lastError);
+                    console.log(`\n🔄 Retry attempt ${retryCount}/${this.maxRetries} for title/description`);
+                }
+
+                const result = await this.geminiClient.model.generateContent(prompt);
+                const response = await result.response;
+                const text = response.text();
+                
+                lastRawResponse = text;
+
+                const parseResult = this.parseJSONResponse(text);
+                
+                if (!parseResult.success) {
+                    lastError = parseResult.error;
+                    console.error(`❌ Title/description parsing failed (attempt ${retryCount + 1}): ${parseResult.error}`);
+                    
+                    if (retryCount < this.maxRetries) {
+                        retryCount++;
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                        continue;
+                    } else {
+                        console.error(`⚠️  Using fallback title/description`);
+                        break;
+                    }
+                }
+
+                const jsonData = parseResult.data;
+
+                if (jsonData && jsonData.title && jsonData.description) {
+                    console.log('✅ Successfully generated title and description');
+                    return jsonData;
+                } else {
+                    lastError = 'Missing title or description fields';
+                    console.warn(`❌ Invalid title/description structure (attempt ${retryCount + 1})`);
+                    
+                    if (retryCount < this.maxRetries) {
+                        retryCount++;
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                        continue;
+                    } else {
+                        console.error(`⚠️  Using fallback title/description`);
+                        break;
+                    }
+                }
+            } catch (error) {
+                lastError = error.message;
+                console.error(`❌ Error generating title/description (attempt ${retryCount + 1}):`, error.message);
+                
+                if (retryCount < this.maxRetries) {
+                    retryCount++;
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    continue;
+                } else {
+                    console.error(`⚠️  Using fallback title/description`);
+                    break;
+                }
+            }
+        }
+
+        // Fallback
+        return {
+            title: "JKPSC 10+2 Lecturer Recruitment - Advanced Practice Test",
+            description: `Comprehensive practice test for JKPSC 10+2 Lecturer Recruitment covering ${topics.length} key topics. Features postgraduate-level MCQs designed to test conceptual understanding, analytical thinking, and application of knowledge as per JKPSC examination standards.`
+        };
+    }
+
+    /**
+     * Build prompt for title and description generation
+     * @param {Array<string>} topics - Array of topics
+     * @returns {string} - Formatted prompt
+     */
+    buildTitleDescriptionPrompt(topics) {
+        return `Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment Exam practice test covering these topics:
 Topics: ${topics.join(', ')}
 
 The test should reflect:
@@ -380,58 +603,47 @@ The test should reflect:
 - Conceptual and analytical questions
 - Professional academic assessment
 
-Respond with JSON:
+Respond with JSON in this exact format:
 \`\`\`json
 {
   "title": "Professional, exam-focused title",
   "description": "Comprehensive description highlighting the advanced nature and JKPSC relevance"
 }
 \`\`\`
-Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`;
 
-        let promptToUse = initialPrompt;
+CRITICAL: Your response must ONLY contain the JSON code block. Do not include any text before or after it.`;
+    }
 
-        try {
-            const result = await this.geminiClient.model.generateContent(promptToUse);
-            const response = await result.response;
-            const text = response.text();
-            let jsonData = this.parseJSONResponse(text);
+    /**
+     * Build correction prompt for title/description
+     * @param {Array<string>} topics - Array of topics
+     * @param {string} failedResponse - Failed response
+     * @param {string} error - Error message
+     * @returns {string} - Correction prompt
+     */
+    buildTitleDescriptionCorrectionPrompt(topics, failedResponse, error) {
+        const truncatedResponse = failedResponse && failedResponse.length > 1000 
+            ? failedResponse.substring(0, 1000) + '... (truncated)'
+            : failedResponse;
 
-            if (jsonData && jsonData.title && jsonData.description) {
-                return jsonData;
-            } else {
-                console.warn(`Attempt ${retryCount + 1}: Generated title/description JSON was invalid or incomplete:`, text);
+        return `⚠️ The previous response had a JSON formatting error: ${error}
 
-                if (retryCount < this.maxRetries) {
-                    console.warn(`Retrying title/description generation with corrected JSON prompt...`);
-                    const correctionPrompt = `The previous response for the title and description was not in the correct JSON object format.
-Original (incorrect) response:
+FAILED RESPONSE:
 \`\`\`
-${text}
+${truncatedResponse || 'No response received'}
 \`\`\`
-Please provide the title and description again, strictly adhering to the specified JSON object format. Ensure it's enclosed in \`\`\`json\`\`\` code blocks as requested.`;
-                    await new Promise(resolve => setTimeout(resolve, 500)); // Small delay before retry
-                    return this.generateJKPSCTitleAndDescription(topics, retryCount + 1);
-                } else {
-                    console.error(`Max retries (${this.maxRetries}) exceeded for title/description generation. Falling back.`);
-                }
-            }
-        } catch (error) {
-            console.error(`Error generating title and description (attempt ${retryCount + 1}):`, error);
-            if (retryCount < this.maxRetries) {
-                console.warn(`Retrying title/description generation due to API error...`);
-                await new Promise(resolve => setTimeout(resolve, 500));
-                return this.generateJKPSCTitleAndDescription(topics, retryCount + 1);
-            } else {
-                console.error(`Max retries (${this.maxRetries}) exceeded for title/description generation after API errors. Falling back.`);
-            }
-        }
 
-        // Fallback after max retries or initial failure
-        return {
-            title: "JKPSC 10+2 Lecturer Recruitment - Advanced Practice Test",
-            description: `Comprehensive practice test for JKPSC 10+2 Lecturer Recruitment covering ${topics.length} key topics. Features postgraduate-level MCQs designed to test conceptual understanding, analytical thinking, and application of knowledge as per JKPSC examination standards.`
-        };
+Generate a title and description for a JKPSC test covering: ${topics.join(', ')}
+
+Respond ONLY with this exact format:
+\`\`\`json
+{
+  "title": "Your title here",
+  "description": "Your description here"
+}
+\`\`\`
+
+No additional text. Only the JSON code block.`;
     }
 
     /**

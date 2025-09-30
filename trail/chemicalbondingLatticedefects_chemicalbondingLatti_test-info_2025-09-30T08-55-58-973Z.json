@@ -1,0 +1,15 @@
+{
+  "title": "JKPSC 10+2 Lecturer Chemistry: Advanced Chemical Bonding - Lattice Energy & Defects Practice Exam",
+  "description": "This advanced practice examination is meticulously designed for aspiring JKPSC 10+2 Lecturer (Chemistry) candidates, reflecting a rigorous postgraduate level of difficulty. It offers a comprehensive assessment of core concepts within Chemical Bonding, specifically focusing on Lattice Defects and the intricate principles of Lattice Energy and the Born-Haber Cycle.\n\nEach question is crafted to meet JKPSC examination standards, emphasizing conceptual understanding and analytical problem-solving rather than rote memorization. Candidates will encounter challenging scenarios requiring critical thinking, application of advanced theoretical knowledge, and the ability to interpret complex chemical phenomena. This professional academic assessment aims to pinpoint nuanced areas of strength and weakness, deepen comprehension of solid-state chemistry principles, and prepare candidates for the demanding analytical rigor of the actual JKPSC Lecturer Recruitment Examination.",
+  "totalQuestions": 20,
+  "topics": [
+    "chemical bonding: Lattice defects.",
+    "chemical bonding: Lattice energy and Born Haber Cycle"
+  ],
+  "examType": "JKPSC 10+2 Lecturer Recruitment",
+  "difficulty": "Advanced/Postgraduate Level",
+  "createdAt": "2025-09-30T08:55:58.973Z",
+  "questionTypes": {
+    "multiple_choice": 20
+  }
+}
