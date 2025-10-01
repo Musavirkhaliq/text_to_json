@@ -7,6 +7,7 @@ const { v4: uuidv4 } = require('uuid');
 require('dotenv').config();
 
 const QuestionProcessor = require('./questionProcessor');
+const questionRoutes = require('./routes/questionRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,9 +17,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../public')));
 
-// Ensure upload directory exists
+// Ensure upload and temp directories exist
 const uploadDir = path.join(__dirname, '../uploads');
+const tempDir = path.join(__dirname, '../temp');
 fs.ensureDirSync(uploadDir);
+fs.ensureDirSync(tempDir);
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
@@ -53,8 +56,19 @@ const questionProcessor = new QuestionProcessor();
 
 // Routes
 app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/landing.html'));
+});
+
+app.get('/generator', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
+
+app.get('/processor', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/processor.html'));
+});
+
+// API routes for question generation
+app.use('/api', questionRoutes);
 
 app.get('/api/health', (req, res) => {
     res.json({

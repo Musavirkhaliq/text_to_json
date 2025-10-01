@@ -1,0 +1,42 @@
+# Multi-Exam Question Generator - Requirements
+# This is a Node.js project. Use npm to install dependencies.
+
+# To install all dependencies, run:
+# npm install
+
+# Production Dependencies:
+@google/generative-ai@^0.21.0    # Google Gemini AI API client
+cors@^2.8.5                     # Cross-Origin Resource Sharing middleware
+dotenv@^16.3.1                  # Environment variables loader
+express@^4.18.2                 # Web framework for Node.js
+fs-extra@^11.1.1                # Extended file system utilities
+multer@^1.4.5-lts.1             # Middleware for handling multipart/form-data
+pdf-parse@^1.1.1                # PDF parsing library
+uuid@^9.0.1                     # UUID generator
+
+# Development Dependencies:
+jest@^29.7.0                    # JavaScript testing framework
+nodemon@^3.0.1                  # Development server with auto-restart
+
+# System Requirements:
+# - Node.js >= 16.0.0
+# - npm >= 8.0.0
+
+# Environment Variables Required:
+# GEMINI_API_KEY=your_gemini_api_key_here
+# PORT=3000 (optional, defaults to 3000)
+# MAX_FILE_SIZE=10485760 (optional, defaults to 10MB)
+
+# Installation Instructions:
+# 1. Clone the repository
+# 2. Run: npm install
+# 3. Create .env file with required environment variables
+# 4. Run: npm start (production) or npm run dev (development)
+
+# Available Scripts:
+# npm start          - Start the production server
+# npm run dev        - Start development server with auto-restart
+# npm test           - Run tests
+# npm run cli        - Run CLI version
+# npm run batch      - Run batch processing CLI
+# npm run generate   - Run question generator CLI

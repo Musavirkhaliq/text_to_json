@@ -1,0 +1,27 @@
+# NEET Biology Topics
+Cell Structure and Function
+Biomolecules
+Cell Division
+Plant Physiology
+Human Physiology
+Reproduction
+Genetics and Evolution
+Biotechnology
+Ecology and Environment
+
+# NEET Physics Topics
+Mechanics
+Thermodynamics
+Waves and Oscillations
+Electromagnetism
+Optics
+Modern Physics
+
+# NEET Chemistry Topics
+Atomic Structure
+Chemical Bonding
+Thermodynamics
+Equilibrium
+Electrochemistry
+Organic Chemistry
+Coordination Compounds

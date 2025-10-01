@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Processing Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Question Processing Tools</h1>
+            <p>Comprehensive tools for generating and processing exam questions</p>
+        </header>
+
+        <div class="tools-container">
+            <div class="tool-card">
+                <div class="tool-icon">🚀</div>
+                <h3>Multi-Exam Question Generator</h3>
+                <p>Generate customized MCQs for different competitive exams including JKPSC, NEET, JEE, and UPSC with exam-specific prompts and difficulty levels.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">JKPSC</span>
+                    <span class="feature-tag">NEET</span>
+                    <span class="feature-tag">JEE</span>
+                    <span class="feature-tag">UPSC</span>
+                </div>
+                <a href="/generator" class="tool-button">Launch Generator</a>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-icon">📄</div>
+                <h3>Question File Processor</h3>
+                <p>Upload and process existing question files, convert formats, and validate question structures for consistency and quality.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">File Upload</span>
+                    <span class="feature-tag">Format Conversion</span>
+                    <span class="feature-tag">Validation</span>
+                </div>
+                <a href="/processor" class="tool-button">Process Files</a>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h4>🎓 Exam-Specific Prompts</h4>
+                    <p>Tailored question generation for different exam types with appropriate difficulty levels and question styles.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>⚡ Real-time Progress</h4>
+                    <p>Live progress tracking with detailed logs during question generation process.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>📊 Quality Validation</h4>
+                    <p>Automatic validation of generated questions to ensure proper format and structure.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>💾 Multiple Formats</h4>
+                    <p>Export questions in various formats suitable for different platforms and use cases.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .tools-container {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .tool-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .tool-card h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .tool-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .tool-features {
+            margin-bottom: 25px;
+        }
+
+        .feature-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 2px;
+        }
+
+        .tool-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tool-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+        }
+
+        .info-section {
+            padding: 40px;
+            background: #f8f9fa;
+        }
+
+        .info-section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .feature-item {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .feature-item h4 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .feature-item p {
+            color: #666;
+            line-height: 1.5;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .tools-container {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

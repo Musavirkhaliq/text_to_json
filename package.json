@@ -8,7 +8,8 @@
     "dev": "nodemon src/app.js",
     "test": "jest",
     "cli": "node src/cli.js",
-    "batch": "node src/batchCli.js"
+    "batch": "node src/batchCli.js",
+    "generate": "node generate-questions.js"
   },
   "keywords": [
     "gemini-api",

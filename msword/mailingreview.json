@@ -1,0 +1,1204 @@
+[
+  
+  {
+    "text": "What is the primary purpose of the Mailings tab in Microsoft Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To insert images and shapes into documents",
+        "isCorrect": false
+      },
+      {
+        "text": "To perform mail merges, create envelopes, and manage labels",
+        "isCorrect": true
+      },
+      {
+        "text": "To edit document layouts and themes",
+        "isCorrect": false
+      },
+      {
+        "text": "To add references and citations",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Mailings tab in Microsoft Word is designed for tasks related to creating and managing bulk correspondence, such as mail merges, envelopes, and labels, allowing users to personalize and distribute documents efficiently."
+  },
+  {
+    "text": "Which group in the Mailings tab contains the 'Start Mail Merge' dropdown?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Write & Insert Fields",
+        "isCorrect": false
+      },
+      {
+        "text": "Start Mail Merge",
+        "isCorrect": true
+      },
+      {
+        "text": "Preview Results",
+        "isCorrect": false
+      },
+      {
+        "text": "Finish & Merge",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Start Mail Merge' dropdown is located in the Start Mail Merge group, which provides options to initiate different types of mail merge documents, such as letters, emails, or labels."
+  },
+  {
+    "text": "Under 'Start Mail Merge,' which option allows you to create letters for multiple recipients?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Envelopes",
+        "isCorrect": false
+      },
+      {
+        "text": "Labels",
+        "isCorrect": false
+      },
+      {
+        "text": "Letters",
+        "isCorrect": true
+      },
+      {
+        "text": "Directory",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Letters' option under Start Mail Merge is used to create personalized letters for multiple recipients, integrating data from a recipient list into a standard letter template."
+  },
+  {
+    "text": "What does the 'E-mail Messages' option in Start Mail Merge do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Prints physical letters",
+        "isCorrect": false
+      },
+      {
+        "text": "Creates emails for bulk sending via Outlook",
+        "isCorrect": true
+      },
+      {
+        "text": "Generates directories",
+        "isCorrect": false
+      },
+      {
+        "text": "Designs envelopes",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'E-mail Messages' option allows users to create personalized email messages for multiple recipients, which can be sent directly through Microsoft Outlook."
+  },
+  {
+    "text": "Which command in the Start Mail Merge group launches the Step-by-Step Mail Merge Wizard?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Step-by-Step Mail Merge Wizard",
+        "isCorrect": true
+      },
+      {
+        "text": "Normal Word Document",
+        "isCorrect": false
+      },
+      {
+        "text": "Select Recipients",
+        "isCorrect": false
+      },
+      {
+        "text": "Edit Recipient List",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Step-by-Step Mail Merge Wizard' command guides users through the mail merge process, providing a structured approach to set up documents, select recipients, and insert fields."
+  },
+  {
+    "text": "In the Select Recipients dropdown, what does 'Type a New List' allow you to do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Import from Excel",
+        "isCorrect": false
+      },
+      {
+        "text": "Create a new address list directly in Word",
+        "isCorrect": true
+      },
+      {
+        "text": "Edit an existing list",
+        "isCorrect": false
+      },
+      {
+        "text": "Filter recipients",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Type a New List' enables users to manually create a new recipient list within Word, which can be saved as a Microsoft Office Address List (.mdb) file."
+  },
+  {
+    "text": "Which option under Select Recipients lets you use an existing file like an Excel spreadsheet?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Create a New List",
+        "isCorrect": false
+      },
+      {
+        "text": "Use an Existing List",
+        "isCorrect": true
+      },
+      {
+        "text": "Edit Recipient List",
+        "isCorrect": false
+      },
+      {
+        "text": "Type a New List",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Use an Existing List' allows users to import data from external sources like Excel spreadsheets or databases to use as the recipient list for a mail merge."
+  },
+  {
+    "text": "What is the purpose of the 'Edit Recipient List' command?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To start a new merge",
+        "isCorrect": false
+      },
+      {
+        "text": "To change, filter, or sort the recipient list",
+        "isCorrect": true
+      },
+      {
+        "text": "To insert merge fields",
+        "isCorrect": false
+      },
+      {
+        "text": "To preview results",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Edit Recipient List' opens a dialog where users can modify, filter, sort, or exclude specific recipients from the mail merge process."
+  },
+  {
+    "text": "In the Write & Insert Fields group, what does 'Address Block' insert?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A single email address",
+        "isCorrect": false
+      },
+      {
+        "text": "A formatted block for recipient's full address",
+        "isCorrect": true
+      },
+      {
+        "text": "A greeting line only",
+        "isCorrect": false
+      },
+      {
+        "text": "A custom field",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Address Block' inserts a pre-formatted field that combines address components like street, city, and zip code, customizable to match the recipient list."
+  },
+  {
+    "text": "Which option in Write & Insert Fields adds a personalized salutation like 'Dear [Name]'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Greeting Line",
+        "isCorrect": true
+      },
+      {
+        "text": "Address Block",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert Merge Field",
+        "isCorrect": false
+      },
+      {
+        "text": "Rules",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Greeting Line' allows users to insert a customizable salutation, such as 'Dear [First_Name]' or 'Dear [Title] [Last_Name]', into the document."
+  },
+  {
+    "text": "What are some common fields available in the Insert Merge Field dropdown?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Title, First_Name, Last_Name, Company_Name",
+        "isCorrect": true
+      },
+      {
+        "text": "Page Number, Date, Time",
+        "isCorrect": false
+      },
+      {
+        "text": "Header, Footer, Page Break",
+        "isCorrect": false
+      },
+      {
+        "text": "Bold, Italic, Underline",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Insert Merge Field' dropdown includes fields like Title, First_Name, Last_Name, and Company_Name, which correspond to columns in the recipient list."
+  },
+  {
+    "text": "Which group allows quick insertion of fields like Address_Line_1, City, or Zip_Code?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Start Mail Merge",
+        "isCorrect": false
+      },
+      {
+        "text": "Write & Insert Fields",
+        "isCorrect": true
+      },
+      {
+        "text": "Preview Results",
+        "isCorrect": false
+      },
+      {
+        "text": "Finish & Merge",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Write & Insert Fields group provides tools like 'Insert Merge Field' to add specific fields such as Address_Line_1, City, or Zip_Code into the document."
+  },
+  {
+    "text": "What does the 'Rules' dropdown in Write & Insert Fields enable?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Basic field insertion",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding conditional logic like If...Then...Else",
+        "isCorrect": true
+      },
+      {
+        "text": "Previewing merges",
+        "isCorrect": false
+      },
+      {
+        "text": "Editing lists",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Rules' dropdown allows users to apply conditional logic, such as If...Then...Else statements, to customize content based on recipient data."
+  },
+  {
+    "text": "In the Preview Results group, what does 'First Record' do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Shows the last recipient's data",
+        "isCorrect": false
+      },
+      {
+        "text": "Displays the first record for preview",
+        "isCorrect": true
+      },
+      {
+        "text": "Finds a specific entry",
+        "isCorrect": false
+      },
+      {
+        "text": "Checks for errors",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'First Record' displays the data for the first recipient in the list, allowing users to preview how the merge will appear."
+  },
+  {
+    "text": "Which button in Preview Results allows navigation to the next recipient?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Previous Record",
+        "isCorrect": false
+      },
+      {
+        "text": "Next Record",
+        "isCorrect": true
+      },
+      {
+        "text": "Find Recipient",
+        "isCorrect": false
+      },
+      {
+        "text": "Last Record",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Next Record' navigates to the next recipient's data in the preview, helping users verify the merge for different entries."
+  },
+  {
+    "text": "What is the function of 'Find Recipient' in the Preview Results group?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Searches for a specific text entry in the list",
+        "isCorrect": true
+      },
+      {
+        "text": "Inserts a new field",
+        "isCorrect": false
+      },
+      {
+        "text": "Starts the merge",
+        "isCorrect": false
+      },
+      {
+        "text": "Prints envelopes",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Find Recipient' allows users to search for a specific recipient by entering text, useful for large lists."
+  },
+  {
+    "text": "Which command in Preview Results simulates the merge to identify errors?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Check for Errors",
+        "isCorrect": true
+      },
+      {
+        "text": "Next Record",
+        "isCorrect": false
+      },
+      {
+        "text": "Last Record",
+        "isCorrect": false
+      },
+      {
+        "text": "Preview Results",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Check for Errors' simulates the mail merge to detect issues like missing fields or invalid data before finalizing."
+  },
+  {
+    "text": "In the Finish & Merge group, what does 'Edit Individual Documents' do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Prints directly",
+        "isCorrect": false
+      },
+      {
+        "text": "Creates a new document with merged results for editing",
+        "isCorrect": true
+      },
+      {
+        "text": "Sends emails",
+        "isCorrect": false
+      },
+      {
+        "text": "Filters recipients",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Edit Individual Documents' generates a new Word document containing all merged results, allowing further customization before printing or saving."
+  },
+  {
+    "text": "Which option under Finish & Merge allows bulk emailing?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Print Documents",
+        "isCorrect": false
+      },
+      {
+        "text": "Send Email Messages",
+        "isCorrect": true
+      },
+      {
+        "text": "Edit Individual Documents",
+        "isCorrect": false
+      },
+      {
+        "text": "Merge to Printer",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Send Email Messages' enables users to send personalized emails to recipients using Outlook, based on the mail merge setup."
+  },
+  {
+    "text": "What does the Envelopes command in the Create group do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Creates labels",
+        "isCorrect": false
+      },
+      {
+        "text": "Sets up a single or bulk envelope with addresses",
+        "isCorrect": true
+      },
+      {
+        "text": "Starts mail merge",
+        "isCorrect": false
+      },
+      {
+        "text": "Edits recipient list",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Envelopes' command allows users to create and print envelopes, either individually or as part of a mail merge with recipient addresses."
+  },
+  {
+    "text": "Which Create group option is used for printing labels like address labels?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Envelopes",
+        "isCorrect": false
+      },
+      {
+        "text": "Labels",
+        "isCorrect": true
+      },
+      {
+        "text": "Directory",
+        "isCorrect": false
+      },
+      {
+        "text": "Letters",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Labels' command is used to create and print labels, such as address labels, with options to format for standard label sheets."
+  },
+  {
+    "text": "What is a mail merge recipient list saved as by default?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": ".docx file",
+        "isCorrect": false
+      },
+      {
+        "text": "Microsoft Office Address List (.mdb)",
+        "isCorrect": true
+      },
+      {
+        "text": ".xlsx file",
+        "isCorrect": false
+      },
+      {
+        "text": ".pdf file",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "By default, a mail merge recipient list created in Word is saved as a Microsoft Office Address List (.mdb) file, compatible with mail merge operations."
+  },
+  {
+    "text": "In the New Address List dialog, how do you add a new entry?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Click 'New Entry'",
+        "isCorrect": true
+      },
+      {
+        "text": "Select 'Import'",
+        "isCorrect": false
+      },
+      {
+        "text": "Use 'Filter'",
+        "isCorrect": false
+      },
+      {
+        "text": "Choose 'Sort'",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "In the New Address List dialog, clicking 'New Entry' allows users to add a new recipient's information to the list."
+  },
+  {
+    "text": "Which tool in Mailings allows customizing columns in the address list?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Customize Columns",
+        "isCorrect": true
+      },
+      {
+        "text": "Edit Recipient List",
+        "isCorrect": false
+      },
+      {
+        "text": "Insert Merge Field",
+        "isCorrect": false
+      },
+      {
+        "text": "Rules",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Customize Columns' in the Edit Recipient List dialog allows users to add, remove, or rename columns in the address list to match their data needs."
+  },
+  {
+    "text": "What happens when you finish a mail merge and save the document?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It disconnects from the recipient list",
+        "isCorrect": false
+      },
+      {
+        "text": "It stays connected for future use",
+        "isCorrect": true
+      },
+      {
+        "text": "It automatically prints",
+        "isCorrect": false
+      },
+      {
+        "text": "It deletes the list",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Saving a mail merge document keeps it connected to the recipient list, allowing users to revisit and update the merge later."
+  },
+  
+  {
+    "text": "What is the main function of the Review tab in Microsoft Word?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To insert tables and charts",
+        "isCorrect": false
+      },
+      {
+        "text": "To proofread, track changes, and collaborate on documents",
+        "isCorrect": true
+      },
+      {
+        "text": "To manage page layouts",
+        "isCorrect": false
+      },
+      {
+        "text": "To add hyperlinks",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Review tab provides tools for proofreading, tracking changes, adding comments, and collaborating, making it essential for document editing and review processes."
+  },
+  {
+    "text": "In the Proofing group, which command checks for spelling and grammar errors?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Thesaurus",
+        "isCorrect": false
+      },
+      {
+        "text": "Spelling & Grammar",
+        "isCorrect": true
+      },
+      {
+        "text": "Word Count",
+        "isCorrect": false
+      },
+      {
+        "text": "Research",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Spelling & Grammar' command checks the document for spelling and grammar errors, offering suggestions for corrections."
+  },
+  {
+    "text": "What does the Thesaurus option in Proofing do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Counts words in the document",
+        "isCorrect": false
+      },
+      {
+        "text": "Suggests synonyms for selected words",
+        "isCorrect": true
+      },
+      {
+        "text": "Translates text",
+        "isCorrect": false
+      },
+      {
+        "text": "Checks accessibility",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Thesaurus' provides synonyms and related words for a selected word, helping users enhance their vocabulary in the document."
+  },
+  {
+    "text": "Which Proofing tool displays statistics like word count and page count?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Spelling & Grammar",
+        "isCorrect": false
+      },
+      {
+        "text": "Word Count",
+        "isCorrect": true
+      },
+      {
+        "text": "Editor",
+        "isCorrect": false
+      },
+      {
+        "text": "Read Aloud",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Word Count' tool provides detailed statistics, including word count, character count, and page count, for the document or selected text."
+  },
+  {
+    "text": "What is the purpose of the Editor command in the Proofing group?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Reads text aloud",
+        "isCorrect": false
+      },
+      {
+        "text": "Categorizes spelling, grammar, and style issues",
+        "isCorrect": true
+      },
+      {
+        "text": "Inserts comments",
+        "isCorrect": false
+      },
+      {
+        "text": "Tracks changes",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Editor' command analyzes the document for spelling, grammar, and stylistic issues, providing categorized suggestions for improvement."
+  },
+  {
+    "text": "In the Language group, what does 'Set Proofing Language' allow?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Changing the document's display language",
+        "isCorrect": false
+      },
+      {
+        "text": "Setting the language for spell-checking",
+        "isCorrect": true
+      },
+      {
+        "text": "Translating the entire document",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding comments in another language",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Set Proofing Language' specifies the language used for spell-checking and grammar-checking, ensuring accurate proofing for multilingual documents."
+  },
+  {
+    "text": "Which Language option provides a full translation of selected text?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Translate",
+        "isCorrect": true
+      },
+      {
+        "text": "Set Proofing Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Language Preferences",
+        "isCorrect": false
+      },
+      {
+        "text": "Thesaurus",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Translate' option allows users to translate selected text or the entire document into another language using Word's translation tools."
+  },
+  {
+    "text": "What does 'New Comment' in the Comments group do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Deletes existing comments",
+        "isCorrect": false
+      },
+      {
+        "text": "Inserts a comment at the selected location",
+        "isCorrect": true
+      },
+      {
+        "text": "Accepts changes",
+        "isCorrect": false
+      },
+      {
+        "text": "Compares documents",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'New Comment' inserts a comment at the cursor's location or selected text, allowing users to add notes or feedback for collaboration."
+  },
+  {
+    "text": "Which command in Comments allows you to reply to an existing comment?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Delete",
+        "isCorrect": false
+      },
+      {
+        "text": "Previous/Next",
+        "isCorrect": true
+      },
+      {
+        "text": "New Comment",
+        "isCorrect": false
+      },
+      {
+        "text": "Show Comments",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Previous/Next' commands allow navigation through comments, and selecting a comment enables replying to it directly in the comment pane."
+  },
+  {
+    "text": "What is the function of the 'Delete' dropdown in the Comments group?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Inserts a new comment",
+        "isCorrect": false
+      },
+      {
+        "text": "Removes selected or all comments",
+        "isCorrect": true
+      },
+      {
+        "text": "Tracks changes",
+        "isCorrect": false
+      },
+      {
+        "text": "Protects the document",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Delete' dropdown provides options to remove a single comment, all comments in the document, or specific comment threads."
+  },
+  {
+    "text": "In the Tracking group, what does 'Track Changes' enable?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hides revisions",
+        "isCorrect": false
+      },
+      {
+        "text": "Records insertions, deletions, and formatting changes",
+        "isCorrect": true
+      },
+      {
+        "text": "Compares versions",
+        "isCorrect": false
+      },
+      {
+        "text": "Checks spelling",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Track Changes' records all edits, including insertions, deletions, and formatting changes, for collaborative editing and review."
+  },
+  {
+    "text": "Which Tracking option displays 'Just Mine' changes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "All Markup",
+        "isCorrect": false
+      },
+      {
+        "text": "Simple Markup",
+        "isCorrect": false
+      },
+      {
+        "text": "No Markup",
+        "isCorrect": false
+      },
+      {
+        "text": "Just Mine",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "'Just Mine' in the Track Changes display options shows only the changes made by the current user, filtering out others' revisions."
+  },
+  {
+    "text": "What does the Reviewing Pane in Tracking show?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only comments",
+        "isCorrect": false
+      },
+      {
+        "text": "A summary of changes and comments",
+        "isCorrect": true
+      },
+      {
+        "text": "Document statistics",
+        "isCorrect": false
+      },
+      {
+        "text": "Accessibility issues",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Reviewing Pane' displays a detailed summary of all tracked changes and comments, available vertically or horizontally."
+  },
+  {
+    "text": "In the Changes group, what does 'Accept' do to tracked changes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rejects them",
+        "isCorrect": false
+      },
+      {
+        "text": "Incorporates them into the document",
+        "isCorrect": true
+      },
+      {
+        "text": "Hides them",
+        "isCorrect": false
+      },
+      {
+        "text": "Deletes comments",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Accept' incorporates a tracked change into the document, making it part of the final content and removing the markup."
+  },
+  {
+    "text": "Which Changes command allows rejecting all tracked changes at once?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Accept All Changes",
+        "isCorrect": false
+      },
+      {
+        "text": "Reject All Changes",
+        "isCorrect": true
+      },
+      {
+        "text": "Next Change",
+        "isCorrect": false
+      },
+      {
+        "text": "Previous Change",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Reject All Changes' removes all tracked changes, reverting the document to its state before the changes were made."
+  },
+  {
+    "text": "What is the purpose of 'Next' and 'Previous' in the Changes group?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Navigates between tracked changes",
+        "isCorrect": true
+      },
+      {
+        "text": "Inserts fields",
+        "isCorrect": false
+      },
+      {
+        "text": "Zooms the document",
+        "isCorrect": false
+      },
+      {
+        "text": "Protects sections",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Next' and 'Previous' allow users to move between tracked changes, facilitating review and decision-making on each edit."
+  },
+  {
+    "text": "In the Compare group, which option compares two document versions?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Combine",
+        "isCorrect": false
+      },
+      {
+        "text": "Compare",
+        "isCorrect": true
+      },
+      {
+        "text": "Protect Document",
+        "isCorrect": false
+      },
+      {
+        "text": "Restrict Editing",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 'Compare' option analyzes two versions of a document and highlights differences in a new document for review."
+  },
+  {
+    "text": "What does the 'Combine' command in Compare do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Merges changes from multiple reviewers into one document",
+        "isCorrect": true
+      },
+      {
+        "text": "Checks for errors",
+        "isCorrect": false
+      },
+      {
+        "text": "Reads aloud",
+        "isCorrect": false
+      },
+      {
+        "text": "Counts words",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Combine' merges revisions from multiple reviewers into a single document, preserving all tracked changes for further review."
+  },
+  {
+    "text": "Which Protect group option restricts editing to comments or tracked changes only?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Protect Document",
+        "isCorrect": false
+      },
+      {
+        "text": "Restrict Editing",
+        "isCorrect": true
+      },
+      {
+        "text": "Mark as Final",
+        "isCorrect": false
+      },
+      {
+        "text": "Encrypt with Password",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Restrict Editing' allows users to set permissions, such as limiting edits to comments or tracked changes, to control document modifications."
+  },
+  {
+    "text": "What does 'Mark as Final' in Protect do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Allows full editing",
+        "isCorrect": false
+      },
+      {
+        "text": "Makes the document read-only and notifies users it's final",
+        "isCorrect": true
+      },
+      {
+        "text": "Tracks all changes",
+        "isCorrect": false
+      },
+      {
+        "text": "Compares files",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Mark as Final' sets the document to read-only and displays a notification indicating it is the final version, though this can be overridden."
+  },
+  {
+    "text": "In the Insights group, what does 'Read Aloud' feature do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Checks grammar",
+        "isCorrect": false
+      },
+      {
+        "text": "Reads selected text or document aloud",
+        "isCorrect": true
+      },
+      {
+        "text": "Inserts comments",
+        "isCorrect": false
+      },
+      {
+        "text": "Compares versions",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Read Aloud' uses text-to-speech to read the document or selected text aloud, aiding in proofreading and accessibility."
+  },
+  {
+    "text": "Which command launches the Accessibility Checker?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Check Accessibility",
+        "isCorrect": true
+      },
+      {
+        "text": "Word Count",
+        "isCorrect": false
+      },
+      {
+        "text": "Translate",
+        "isCorrect": false
+      },
+      {
+        "text": "New Comment",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Check Accessibility' scans the document for accessibility issues, such as missing alt text, to ensure compatibility with screen readers."
+  },
+  {
+    "text": "What does the Accessibility Checker identify?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Spelling errors only",
+        "isCorrect": false
+      },
+      {
+        "text": "Issues affecting screen readers and accessibility",
+        "isCorrect": true
+      },
+      {
+        "text": "Tracked changes",
+        "isCorrect": false
+      },
+      {
+        "text": "Word synonyms",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Accessibility Checker identifies issues like missing alt text or low contrast that could hinder accessibility for users with disabilities."
+  },
+  {
+    "text": "In Track Changes options, what can 'Change User Name' adjust?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Document language",
+        "isCorrect": false
+      },
+      {
+        "text": "The name displayed for your revisions",
+        "isCorrect": true
+      },
+      {
+        "text": "Comment colors",
+        "isCorrect": false
+      },
+      {
+        "text": "Proofing settings",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'Change User Name' in Track Changes options sets the name displayed for a user's revisions and comments, aiding in collaborative editing."
+  },
+  {
+    "text": "Which view in the Tracking dropdown hides all markup temporarily?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "All Markup",
+        "isCorrect": false
+      },
+      {
+        "text": "Simple Markup",
+        "isCorrect": false
+      },
+      {
+        "text": "No Markup",
+        "isCorrect": true
+      },
+      {
+        "text": "Original",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "'No Markup' hides all tracked changes and comments, showing the document as it would appear after accepting all changes."
+  }
+]

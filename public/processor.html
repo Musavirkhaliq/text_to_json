@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question File Processor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📄 Question File Processor</h1>
+            <p>Upload and process existing question files</p>
+            <a href="/" class="back-link">← Back to Tools</a>
+        </header>
+
+        <div class="form-container">
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">📁</div>
+                <h3>Upload Question File</h3>
+                <p>Drag and drop your file here or click to browse</p>
+                <input type="file" id="fileInput" accept=".txt,.md,.json" style="display: none;">
+                <button type="button" id="browseBtn">Browse Files</button>
+            </div>
+
+            <div class="file-info" id="fileInfo" style="display: none;">
+                <h4>Selected File:</h4>
+                <p id="fileName"></p>
+                <button type="button" id="processBtn">Process File</button>
+                <button type="button" id="cancelBtn">Cancel</button>
+            </div>
+        </div>
+
+        <div class="result-container" id="resultContainer" style="display: none;">
+            <h3>Processing Results</h3>
+            <div id="resultContent"></div>
+        </div>
+    </div>
+
+    <style>
+        .back-link {
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            color: white;
+        }
+
+        .upload-area {
+            border: 2px dashed #4facfe;
+            border-radius: 12px;
+            padding: 60px 40px;
+            text-align: center;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .upload-area:hover {
+            border-color: #667eea;
+            background: #e3f2fd;
+        }
+
+        .upload-area.dragover {
+            border-color: #667eea;
+            background: #e3f2fd;
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            opacity: 0.7;
+        }
+
+        .upload-area h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .upload-area p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        #browseBtn {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #browseBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+        }
+
+        .file-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .file-info h4 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .file-info p {
+            color: #666;
+            margin-bottom: 20px;
+            font-family: monospace;
+        }
+
+        .file-info button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #processBtn {
+            background: #28a745;
+            color: white;
+        }
+
+        #processBtn:hover {
+            background: #218838;
+        }
+
+        #cancelBtn {
+            background: #6c757d;
+            color: white;
+        }
+
+        #cancelBtn:hover {
+            background: #5a6268;
+        }
+    </style>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const browseBtn = document.getElementById('browseBtn');
+        const fileInfo = document.getElementById('fileInfo');
+        const fileName = document.getElementById('fileName');
+        const processBtn = document.getElementById('processBtn');
+        const cancelBtn = document.getElementById('cancelBtn');
+        const resultContainer = document.getElementById('resultContainer');
+        const resultContent = document.getElementById('resultContent');
+
+        let selectedFile = null;
+
+        // File upload handlers
+        uploadArea.addEventListener('click', () => fileInput.click());
+        browseBtn.addEventListener('click', () => fileInput.click());
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                handleFileSelect(files[0]);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFileSelect(e.target.files[0]);
+            }
+        });
+
+        function handleFileSelect(file) {
+            selectedFile = file;
+            fileName.textContent = file.name;
+            uploadArea.style.display = 'none';
+            fileInfo.style.display = 'block';
+        }
+
+        cancelBtn.addEventListener('click', () => {
+            selectedFile = null;
+            fileInput.value = '';
+            uploadArea.style.display = 'block';
+            fileInfo.style.display = 'none';
+            resultContainer.style.display = 'none';
+        });
+
+        processBtn.addEventListener('click', async () => {
+            if (!selectedFile) return;
+
+            processBtn.disabled = true;
+            processBtn.textContent = 'Processing...';
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            try {
+                const response = await fetch('/api/process-questions', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    resultContent.innerHTML = `
+                        <div class="success">
+                            <h4>✅ File Processed Successfully!</h4>
+                            <p><strong>Questions Found:</strong> ${result.data.questions.length}</p>
+                            <p><strong>Test Info:</strong> <a href="${result.files.testInfoPath}" download>Download Test Info</a></p>
+                            <p><strong>Questions:</strong> <a href="${result.files.questionsPath}" download>Download Questions</a></p>
+                            ${result.validation ? `<p><strong>Validation:</strong> ${result.validation.valid ? 'Passed' : 'Failed'}</p>` : ''}
+                        </div>
+                    `;
+                } else {
+                    resultContent.innerHTML = `
+                        <div class="error">
+                            <h4>❌ Processing Failed</h4>
+                            <p>${result.error}</p>
+                        </div>
+                    `;
+                }
+
+                resultContainer.style.display = 'block';
+
+            } catch (error) {
+                resultContent.innerHTML = `
+                    <div class="error">
+                        <h4>❌ Processing Failed</h4>
+                        <p>Network error: ${error.message}</p>
+                    </div>
+                `;
+                resultContainer.style.display = 'block';
+            } finally {
+                processBtn.disabled = false;
+                processBtn.textContent = 'Process File';
+            }
+        });
+    </script>
+</body>
+</html>

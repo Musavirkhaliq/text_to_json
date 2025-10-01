@@ -1,0 +1,254 @@
+{
+  "questions": [
+    {
+      "text": "Consider a quantum system described by a Hamiltonian H = H₀ + λH₁, where H₀ is the unperturbed Hamiltonian and λH₁ is a small perturbation. If the ground state of H₀ is non-degenerate, and its energy is E₀, which of the following statements about the second-order energy correction (E₀⁽²⁾) is always true?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "E₀⁽²⁾ is always positive for the ground state.",
+          "isCorrect": false
+        },
+        {
+          "text": "E₀⁽²⁾ is always negative for the ground state.",
+          "isCorrect": true
+        },
+        {
+          "text": "E₀⁽²⁾ depends only on the matrix elements between the ground state and the first excited state.",
+          "isCorrect": false
+        },
+        {
+          "text": "E₀⁽²⁾ is independent of the complete spectrum (both discrete and continuous) of H₀.",
+          "isCorrect": false
+        }
+      ],
+      "points": 4,
+      "explanation": "The second-order energy correction for a non-degenerate ground state |ψ₀⟩ with energy E₀ is given by the formula: E₀⁽²⁾ = Σ_(n≠0) |⟨ψₙ|H₁|ψ₀⟩|² / (E₀ - Eₙ). Since |ψ₀⟩ is the ground state, E₀ is the lowest energy, meaning E₀ < Eₙ for all n≠0. Therefore, the denominator (E₀ - Eₙ) is always negative. As the numerator |⟨ψₙ|H₁|ψ₀⟩|² is always non-negative (positive if the matrix element is non-zero), the sum of negative terms results in E₀⁽²⁾ being always negative or zero for the ground state. It depends on all other states (discrete and continuous) of H₀, not just the first excited state."
+    },
+    {
+      "text": "According to the variational principle, if we use a trial wave function |φ⟩ to estimate the ground state energy E₀ of a system with Hamiltonian H, which of the following statements is always true?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The expectation value ⟨φ|H|φ⟩ / ⟨φ|φ⟩ will be exactly equal to E₀ if |φ⟩ is orthogonal to all excited states.",
+          "isCorrect": false
+        },
+        {
+          "text": "The expectation value ⟨φ|H|φ⟩ / ⟨φ|φ⟩ provides an upper bound to the true ground state energy E₀.",
+          "isCorrect": true
+        },
+        {
+          "text": "If |φ⟩ is normalized, ⟨φ|H|φ⟩ must be positive.",
+          "isCorrect": false
+        },
+        {
+          "text": "The closer |φ⟩ is to the true ground state |ψ₀⟩, the closer ⟨φ|H|φ⟩ / ⟨φ|φ⟩ will be to E₀, and this approximation can yield a value lower than E₀.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The variational principle states that for any normalized trial wave function |φ⟩, the expectation value of the Hamiltonian, ⟨φ|H|φ⟩, is always greater than or equal to the true ground state energy E₀. That is, ⟨φ|H|φ⟩ ≥ E₀. If |φ⟩ is not normalized, then ⟨φ|H|φ⟩ / ⟨φ|φ⟩ ≥ E₀. This principle provides an upper bound to E₀. It can never yield a value lower than E₀. The expectation value does not have to be positive (e.g., for bound states where E₀ < 0). Orthogonality to excited states is not sufficient for equality unless |φ⟩ is the true ground state itself."
+    },
+    {
+      "text": "In the WKB approximation, the quantization condition for a particle in a potential well V(x) with two turning points a and b is given by ∫_a^b p(x) dx = (n + γ)πħ, where p(x) = √[2m(E - V(x))] is the classical momentum. What is the appropriate value of γ for a typical potential well with two 'soft' turning points (i.e., where the potential changes smoothly)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "γ = 0",
+          "isCorrect": false
+        },
+        {
+          "text": "γ = 1/2",
+          "isCorrect": true
+        },
+        {
+          "text": "γ = 1/4",
+          "isCorrect": false
+        },
+        {
+          "text": "γ = 3/4",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The WKB quantization condition involves a phase correction γ that depends on the behavior of the potential at the turning points. For a potential well with two 'soft' turning points (where the potential V(x) changes smoothly and is finite at E=V(x)), each turning point contributes a phase change of π/4. With two such turning points, the total phase correction in the integral leads to γ = 1/2. For a potential that rises infinitely sharply at one turning point and is smooth at the other, γ = 3/4. For two infinite walls, the phase integral is typically written as (n+1)πħ (for n=0,1,2...) or nπħ (for n=1,2,3...)."
+    },
+    {
+      "text": "Consider the scattering of a particle by a short-range potential in three dimensions. If the scattering occurs at very low energies (kR << 1, where k is the wave number and R is the range of the potential), which of the following phenomena is expected to dominate?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Resonance scattering due to higher angular momentum states.",
+          "isCorrect": false
+        },
+        {
+          "text": "Diffraction scattering, where the scattering amplitude is purely imaginary.",
+          "isCorrect": false
+        },
+        {
+          "text": "P-wave scattering, characterized by a differential cross-section proportional to cos²θ.",
+          "isCorrect": false
+        },
+        {
+          "text": "S-wave scattering, leading to an isotropic differential cross-section.",
+          "isCorrect": true
+        }
+      ],
+      "points": 3,
+      "explanation": "At very low energies (kR << 1), only the s-wave (l=0) partial wave contributes significantly to the scattering process. Higher angular momentum waves (p-wave, d-wave, etc.) are negligible because the centrifugal barrier (ħ²l(l+1)/(2mr²)) prevents the low-energy incident particle from reaching the potential region. S-wave scattering is characterized by a scattering amplitude that is independent of the scattering angle θ, leading to an isotropic differential cross-section."
+    },
+    {
+      "text": "Given two identical fermions (e.g., electrons), the total spin angular momentum S = S₁ + S₂ can result in either a singlet state (S=0) or triplet states (S=1). If the two particles are in a triplet spin state, which statement about their spatial wave function (Ψ_spatial) is correct?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Ψ_spatial must be symmetric with respect to particle exchange.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ψ_spatial must be antisymmetric with respect to particle exchange.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ψ_spatial can be either symmetric or antisymmetric, depending on their interaction.",
+          "isCorrect": false
+        },
+        {
+          "text": "The spatial wave function is irrelevant for identical fermions; only the spin state matters.",
+          "isCorrect": false
+        }
+      ],
+      "points": 4,
+      "explanation": "For identical fermions, the total wave function (Ψ_total = Ψ_spatial × Ψ_spin) must be antisymmetric with respect to the exchange of any two particles. The spin triplet state (S=1) is symmetric under particle exchange (e.g., |↑↑⟩, (|↑↓⟩ + |↓↑⟩)/√2, |↓↓⟩). Therefore, for the total wave function to be antisymmetric, the spatial wave function (Ψ_spatial) must be antisymmetric with respect to particle exchange. If the particles were in a spin singlet state (S=0), which is antisymmetric, then the spatial wave function would have to be symmetric."
+    },
+    {
+      "text": "The Dirac equation successfully describes the relativistic quantum mechanics of a spin-1/2 particle. Which of the following is NOT a direct consequence or prediction of the Dirac equation?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The intrinsic spin of the particle (s=1/2).",
+          "isCorrect": false
+        },
+        {
+          "text": "The existence of antiparticles.",
+          "isCorrect": false
+        },
+        {
+          "text": "The fine structure of atomic spectra, including spin-orbit coupling.",
+          "isCorrect": false
+        },
+        {
+          "text": "The explanation of the strong nuclear force between nucleons.",
+          "isCorrect": true
+        }
+      ],
+      "points": 3,
+      "explanation": "The Dirac equation naturally incorporates several key features: (1) It predicts that the particle must have an intrinsic angular momentum (spin) of ħ/2. (2) It leads to positive and negative energy solutions, which Dirac interpreted as predicting the existence of antiparticles (e.g., positrons for electrons). (3) It correctly predicts the fine structure of atomic spectra, including the spin-orbit interaction, without needing to be added ad-hoc. However, the Dirac equation describes the behavior of single, non-interacting (or electromagnetically interacting) fermions. It does not explain the strong nuclear force, which requires a quantum field theory (Quantum Chromodynamics) involving gluons and quarks."
+    },
+    {
+      "text": "Consider two non-commuting observables A and B, whose commutator is [A, B] = iC, where C is a Hermitian operator. If we measure A and then immediately measure B on a quantum system, which statement is generally true about the second measurement?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The measurement of B will necessarily yield an uncertain outcome, regardless of the precision of the A measurement.",
+          "isCorrect": false
+        },
+        {
+          "text": "The act of measuring A will generally disturb the system, affecting the subsequent measurement of B.",
+          "isCorrect": true
+        },
+        {
+          "text": "The outcome of B can be predicted with certainty if the system was initially in an eigenstate of A.",
+          "isCorrect": false
+        },
+        {
+          "text": "The uncertainty principle (ΔAΔB ≥ ½|⟨C⟩|) implies that a precise measurement of A makes a precise measurement of B impossible, meaning B cannot be measured at all.",
+          "isCorrect": false
+        }
+      ],
+      "points": 4,
+      "explanation": "When two observables A and B do not commute ([A, B] ≠ 0), they cannot be simultaneously measured with arbitrary precision. Measuring A forces the system into an eigenstate of A. If this eigenstate is not also an eigenstate of B (which it generally won't be if A and B don't commute), then the subsequent measurement of B will project the system into one of B's eigenstates with a certain probability distribution. This process of measuring A thus 'disturbs' the system with respect to B, meaning the state after the A-measurement is not necessarily one that would lead to a definite outcome for B. The uncertainty principle dictates the *precision* of simultaneous measurements, not that one observable becomes 'unmeasurable'. A precise measurement of A indeed makes a precise prediction for B impossible (unless by coincidence the eigenstate of A is also an eigenstate of B), but B can certainly still be measured, just with an uncertain outcome."
+    },
+    {
+      "text": "In the context of second quantization, the creation operator a† for bosons, acting on a state with n identical bosons |n⟩, produces a state with (n+1) bosons. Which of the following correctly describes its action and commutation relation?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "a†|n⟩ = √(n+1)|n+1⟩ and [a, a†] = 0",
+          "isCorrect": false
+        },
+        {
+          "text": "a†|n⟩ = √(n+1)|n+1⟩ and [a, a†] = 1",
+          "isCorrect": true
+        },
+        {
+          "text": "a†|n⟩ = n|n+1⟩ and {a, a†} = 1",
+          "isCorrect": false
+        },
+        {
+          "text": "a†|n⟩ = √(n)|n-1⟩ and [a, a†] = -1",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "For bosons, the creation operator a† acting on a number state |n⟩ is defined as a†|n⟩ = √(n+1)|n+1⟩. This ensures that the norm of the resulting state is consistent with the standard normalization conventions for harmonic oscillator states. The fundamental commutation relation for bosonic creation and annihilation operators is [a, a†] = aa† - a†a = 1. The other options contain incorrect actions on the number state or incorrect commutation relations (like anticommutator {a,a†} = 1, which applies to fermions, or incorrect values for the commutator)."
+    },
+    {
+      "text": "An electron is in a state |ψ⟩ = (1/√2) |↑⟩ + (1/√2) |↓⟩, where |↑⟩ and |↓⟩ are the eigenstates of the spin angular momentum operator S_z. If we measure S_x for this electron, what are the possible outcomes and their respective probabilities?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "+ħ/2 with probability 1, -ħ/2 with probability 0.",
+          "isCorrect": true
+        },
+        {
+          "text": "+ħ/2 with probability 0, -ħ/2 with probability 1.",
+          "isCorrect": false
+        },
+        {
+          "text": "+ħ/2 with probability 1/2, -ħ/2 with probability 1/2.",
+          "isCorrect": false
+        },
+        {
+          "text": "The measurement of S_x is undefined because the electron is in a superposition of S_z eigenstates.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The eigenstates of S_z are |↑⟩ and |↓⟩ with eigenvalues +ħ/2 and -ħ/2 respectively. The eigenstates of S_x are given by: \n|S_x; +ħ/2⟩ = |→⟩ = (1/√2) (|↑⟩ + |↓⟩) \n|S_x; -ħ/2⟩ = |←⟩ = (1/√2) (|↑⟩ - |↓⟩) \n\nThe given state is |ψ⟩ = (1/√2) |↑⟩ + (1/√2) |↓⟩. Comparing this with the eigenstates of S_x, we see that |ψ⟩ is precisely the eigenstate |→⟩ corresponding to the S_x eigenvalue of +ħ/2. Therefore, if we measure S_x for an electron in state |ψ⟩, we are guaranteed to find the value +ħ/2 with a probability of 1."
+    },
+    {
+      "text": "The density operator for a quantum system is given by ρ = Σ_i p_i |ψ_i⟩⟨ψ_i|, where p_i are probabilities and |ψ_i⟩ are a set of (not necessarily orthogonal) pure states. Which of the following conditions must always be satisfied for a valid density operator?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Tr(ρ²) = 1 (for both pure and mixed states).",
+          "isCorrect": false
+        },
+        {
+          "text": "ρ must be Hermitian and Tr(ρ) = 1, but it is not necessarily positive definite.",
+          "isCorrect": false
+        },
+        {
+          "text": "ρ must be Hermitian, positive semi-definite, and Tr(ρ) = 1.",
+          "isCorrect": true
+        },
+        {
+          "text": "The eigenvalues of ρ are always 0 or 1.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "A valid density operator ρ must satisfy three fundamental properties: \n1.  **Hermiticity:** ρ† = ρ. This ensures that expectation values are real observables. \n2.  **Positive semi-definiteness:** For any state |φ⟩, ⟨φ|ρ|φ⟩ ≥ 0. This implies all eigenvalues of ρ are non-negative. \n3.  **Trace condition:** Tr(ρ) = 1. This ensures that the probabilities sum to unity. \n\nTr(ρ²) = 1 is only true for a pure state (where ρ = |ψ⟩⟨ψ|), but for a general mixed state, Tr(ρ²) < 1. The eigenvalues of ρ are probabilities, so they are always between 0 and 1, but not necessarily 0 or 1 (unless it's a pure state). Therefore, option C correctly lists all necessary conditions."
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 10,
+    "topics": [
+      "Quantum Mechanics"
+    ],
+    "questionsPerTopic": 10,
+    "examType": "JKPSC 10+2 Lecturer Recruitment",
+    "difficulty": "Advanced/Postgraduate Level",
+    "processedAt": "2025-10-01T06:18:35.536Z"
+  }
+}

@@ -1,0 +1,29 @@
+# JEE Mathematics Topics
+Algebra
+Trigonometry
+Coordinate Geometry
+Calculus
+Differential Equations
+Probability and Statistics
+Vector Algebra
+
+# JEE Physics Topics
+Mechanics
+Rotational Motion
+Gravitation
+Thermodynamics
+Kinetic Theory
+Oscillations and Waves
+Electrostatics
+Current Electricity
+Magnetic Effects
+Electromagnetic Induction
+Optics
+Modern Physics
+
+# JEE Chemistry Topics
+Physical Chemistry
+Inorganic Chemistry
+Organic Chemistry
+Chemical Kinetics
+Electrochemistry
