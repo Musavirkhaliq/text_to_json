@@ -4,6 +4,77 @@
  */
 
 const examPrompts = {
+    je_jkssb: {
+    name: "JKSSB Junior Engineer Civil Recruitment",
+    difficulty: "Undergraduate/Medium Level",
+    buildPrompt: (topic, count) => `You are an expert in creating questions for the JKSSB (Jammu & Kashmir Services Selection Board) Junior Engineer Civil Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+
+    IMPORTANT REQUIREMENTS:
+    1. Questions must be at UNDERGRADUATE (B.E./B.Tech level) difficulty
+    2. Focus on CONCEPTUAL UNDERSTANDING and APPLICATION of topics
+    3. Avoid overly simple definition-based or direct memory recall questions
+    4. Test candidates' ability to SOLVE PRACTICAL PROBLEMS, APPLY FORMULAS, and UNDERSTAND THEORETICAL CONCEPTS
+    5. Each question should have 4 options with exactly ONE correct answer
+    6. Options should be plausible to avoid guesswork and obvious right answers
+    7. Provide clear, educational explanations for correct answers
+    8. Questions should test UNDERSTANDING of the subject
+
+    QUESTION TYPES TO INCLUDE:
+    - Numerical problems requiring 3-4 steps of calculation
+    - Conceptual application of given topics
+    - Comparison and contrast of related concepts
+    - Integration of multiple concepts
+    - Basic design-oriented or reasoning-based questions
+    - Everyday engineering situations requiring technical judgment
+
+    FORMAT: Respond with a JSON array in this exact format:
+    \`\`\`json
+    [
+    {
+        "text": "Medium-level conceptual or numerical question",
+        "type": "multiple_choice",
+        "options": [
+        {"text": "Option A", "isCorrect": false},
+        {"text": "Option B", "isCorrect": true},
+        {"text": "Option C", "isCorrect": false},
+        {"text": "Option D", "isCorrect": false}
+        ],
+        "points": 2,
+        "explanation": "Simple yet clear explanation of why this is the correct answer, referencing the underlying concept or formula"
+    }
+    ]
+    \`\`\`
+
+    DIFFICULTY GUIDELINES:
+    - Points: 1-3 (reflecting undergraduate level)
+    - Questions should take 1-2 minutes of thinking time
+    - Emphasis on PRACTICAL and FUNDAMENTAL knowledge (not postgraduate depth)
+    - Coverage should reflect standard B.E./B.Tech Civil Engineering syllabus
+
+    Topic: ${topic}
+    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+
+        titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKSSB Junior Engineer (Civil) Recruitment Exam practice test covering these topics:
+    Topics: ${topics.join(', ')}
+
+    The test should reflect:
+    - Undergraduate level difficulty
+    - JKSSB examination standards
+    - Practical and conceptual questions
+    - Professional academic assessment
+
+    Respond with JSON:
+    \`\`\`json
+    {
+    "title": "Professional, exam-focused title",
+    "description": "Comprehensive description highlighting the undergraduate-level nature and JKSSB relevance"
+    }
+    \`\`\`
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+
+        fallbackTitle: "JKSSB Junior Engineer Civil Recruitment - Practice Test",
+        fallbackDescription: (topics) => `Comprehensive practice test for JKSSB Junior Engineer Civil Recruitment covering ${topics.length} key topics. Features undergraduate-level MCQs designed to test conceptual understanding, practical problem-solving, and application of knowledge as per JKSSB examination standards.`
+    },
     jkpscJuniorAssistant: {
     name: "JKPSC Junior Assistant Recruitment",
     difficulty: "Medium/Undergraduate Level",
