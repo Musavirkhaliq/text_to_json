@@ -75,13 +75,13 @@ const examPrompts = {
         fallbackTitle: "JKSSB Junior Engineer Civil Recruitment - Practice Test",
         fallbackDescription: (topics) => `Comprehensive practice test for JKSSB Junior Engineer Civil Recruitment covering ${topics.length} key topics. Features undergraduate-level MCQs designed to test conceptual understanding, practical problem-solving, and application of knowledge as per JKSSB examination standards.`
     },
-    jkpscJuniorAssistant: {
-    name: "JKPSC Junior Assistant Recruitment",
+    jkssbJuniorAssistant: {
+    name: "JKSSB Junior Assistant Recruitment",
     difficulty: "Medium/Undergraduate Level",
     description: "Questions focus on general knowledge, reasoning, basic mathematics, English, and computer awareness at undergraduate level.",
     points: "1-2 points per question",
     timePerQuestion: "1-2 minutes",
-    buildPrompt: (topic, count) => `You are an expert in creating exam questions for the JKPSC (Jammu & Kashmir Public Service Commission) Junior Assistant Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+    buildPrompt: (topic, count) => `You are an expert in creating exam questions for the JKSSB (Jammu & Kashmir Services Selection Board) Junior Assistant Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
 
     IMPORTANT REQUIREMENTS:
     1. Questions must be at UNDERGRADUATE / GENERAL COMPETITION level difficulty
@@ -93,13 +93,12 @@ const examPrompts = {
     7. Keep the language straightforward and exam-appropriate
 
     QUESTION TYPES TO INCLUDE:
-    - General knowledge and reasoning
-    - Give 
-    - Basic mathematics & arithmetic applications
-    - English grammar and comprehension
-    - Computer awareness (MS Office, basics of IT)
-    - General awareness (Indian polity, history, geography, economy)
-    - Everyday problem-solving and logic
+    - Application of concepts to familiar or slightly modified situations
+    - Integration of multiple undergraduate-level concepts
+    - Clarity of fundamental principles
+    - Conceptual understanding and reasoning-based questions
+    - Problem-solving and analytical reasoning based on standard undergraduate knowledge
+    - Evaluation of statements or explanations within the scope of undergraduate knowledge
 
     FORMAT: Respond with a JSON array in this exact format:
     \`\`\`json
