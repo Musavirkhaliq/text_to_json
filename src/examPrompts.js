@@ -52,7 +52,7 @@ const examPrompts = {
     - Coverage should reflect standard B.E./B.Tech Civil Engineering syllabus
 
     Topic: ${topic}
-    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKSSB Junior Engineer (Civil) Recruitment Exam practice test covering these topics:
     Topics: ${topics.join(', ')}
@@ -70,7 +70,7 @@ const examPrompts = {
     "description": "Comprehensive description highlighting the undergraduate-level nature and JKSSB relevance"
     }
     \`\`\`
-    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "JKSSB Junior Engineer Civil Recruitment - Practice Test",
         fallbackDescription: (topics) => `Comprehensive practice test for JKSSB Junior Engineer Civil Recruitment covering ${topics.length} key topics. Features undergraduate-level MCQs designed to test conceptual understanding, practical problem-solving, and application of knowledge as per JKSSB examination standards.`
@@ -125,7 +125,7 @@ const examPrompts = {
     - Balance questions between factual recall, reasoning, and basic application
 
     Topic: ${topic}
-    Generate ${count} medium-level JKPSC Junior Assistant MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+    Generate ${count} medium-level JKPSC Junior Assistant MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
             
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKPSC Junior Assistant Recruitment Exam practice test covering these topics:
     Topics: ${topics.join(', ')}
@@ -143,7 +143,7 @@ const examPrompts = {
     "description": "Comprehensive description highlighting medium-level difficulty and JKPSC Junior Assistant exam relevance"
     }
     \`\`\`
-    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "JKPSC Junior Assistant Recruitment - Medium Level Practice Test",
         fallbackDescription: (topics) => `Comprehensive practice test for JKPSC Junior Assistant Recruitment covering ${topics.length} important topics. Features medium-level MCQs designed to test reasoning, English, mathematics, computer awareness, and general knowledge in line with JKPSC standards.`
@@ -203,7 +203,7 @@ const examPrompts = {
     - Where relevant, include interdisciplinary connections (e.g., sociology, economics, law, history)
 
     Topic: ${topic}
-    Generate ${count} high-quality JKPSC-level MCQs in Political Science now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+    Generate ${count} high-quality JKPSC-level MCQs in Political Science now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment Exam practice test in Political Science covering these topics:
     Topics: ${topics.join(', ')}
@@ -221,7 +221,7 @@ const examPrompts = {
     "description": "Comprehensive description highlighting the advanced Political Science focus and JKPSC relevance"
     }
     \`\`\`
-    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "JKPSC 10+2 Lecturer Recruitment – Political Science Advanced Practice Test",
         fallbackDescription: (topics) => `Comprehensive practice test for JKPSC 10+2 Lecturer Recruitment in Political Science covering ${topics.length} key areas. Features postgraduate-level MCQs designed to test conceptual understanding, critical analysis, and application of political knowledge as per JKPSC examination standards.`
@@ -279,7 +279,7 @@ const examPrompts = {
     - Include interdisciplinary connections (chemistry with physics, biology, material science) where relevant
 
     Topic: ${topic}
-    Generate ${count} high-quality Chemistry MCQs at JKPSC level now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+    Generate ${count} high-quality Chemistry MCQs at JKPSC level now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment (Chemistry) Exam practice test covering these topics:
     Topics: ${topics.join(', ')}
@@ -297,7 +297,7 @@ const examPrompts = {
     "description": "Comprehensive description highlighting the advanced Chemistry nature and JKPSC relevance"
     }
     \`\`\`
-    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "JKPSC 10+2 Lecturer Recruitment (Chemistry) - Advanced Practice Test",
         fallbackDescription: (topics) => `Comprehensive Chemistry practice test for JKPSC 10+2 Lecturer Recruitment covering ${topics.length} key topics. Features postgraduate-level Chemistry MCQs designed to test conceptual understanding, problem-solving, and analytical reasoning as per JKPSC standards.`
@@ -354,7 +354,7 @@ DIFFICULTY GUIDELINES:
 - Include interdisciplinary connections where relevant
 
 Topic: ${topic}
-Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
         
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKPSC 10+2 Lecturer Recruitment Exam practice test covering these topics:
 Topics: ${topics.join(', ')}
@@ -372,7 +372,7 @@ Respond with JSON:
   "description": "Comprehensive description highlighting the advanced nature and JKPSC relevance"
 }
 \`\`\`
-Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "JKPSC 10+2 Lecturer Recruitment - Advanced Practice Test",
         fallbackDescription: (topics) => `Comprehensive practice test for JKPSC 10+2 Lecturer Recruitment covering ${topics.length} key topics. Features postgraduate-level MCQs designed to test conceptual understanding, analytical thinking, and application of knowledge as per JKPSC examination standards.`
@@ -428,7 +428,7 @@ DIFFICULTY GUIDELINES:
 - Include both theoretical and numerical questions
 
 Topic: ${topic}
-Generate ${count} high-quality NEET-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+Generate ${count} high-quality NEET-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a NEET (National Eligibility cum Entrance Test) practice test covering these topics:
 Topics: ${topics.join(', ')}
@@ -446,7 +446,7 @@ Respond with JSON:
   "description": "Comprehensive description highlighting NEET relevance and medical entrance preparation"
 }
 \`\`\`
-Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "NEET Practice Test - Medical Entrance Preparation",
         fallbackDescription: (topics) => `Comprehensive NEET practice test covering ${topics.length} essential topics. Features Class 11-12 level MCQs based on NCERT syllabus, designed for medical entrance preparation with focus on conceptual understanding and problem-solving skills.`
@@ -502,7 +502,7 @@ DIFFICULTY GUIDELINES:
 - Emphasize mathematical problem-solving skills
 
 Topic: ${topic}
-Generate ${count} high-quality JEE-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+Generate ${count} high-quality JEE-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JEE (Joint Entrance Examination) practice test covering these topics:
 Topics: ${topics.join(', ')}
@@ -520,7 +520,7 @@ Respond with JSON:
   "description": "Comprehensive description highlighting JEE relevance and engineering entrance preparation"
 }
 \`\`\`
-Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "JEE Practice Test - Engineering Entrance Preparation",
         fallbackDescription: (topics) => `Comprehensive JEE practice test covering ${topics.length} key topics. Features advanced-level MCQs designed for engineering entrance preparation with emphasis on problem-solving, analytical thinking, and mathematical rigor.`
@@ -576,7 +576,7 @@ DIFFICULTY GUIDELINES:
 - Focus on administrative and governance perspectives
 
 Topic: ${topic}
-Generate ${count} high-quality UPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks.`,
+Generate ${count} high-quality UPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         titleDescriptionPrompt: (topics) => `Generate a professional title and description for a UPSC Civil Services Examination practice test covering these topics:
 Topics: ${topics.join(', ')}
@@ -594,7 +594,7 @@ Respond with JSON:
   "description": "Comprehensive description highlighting UPSC relevance and civil services preparation"
 }
 \`\`\`
-Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks.`,
+Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enlosed in $.`,
 
         fallbackTitle: "UPSC Civil Services Practice Test",
         fallbackDescription: (topics) => `Comprehensive UPSC Civil Services practice test covering ${topics.length} important topics. Features graduate-level MCQs designed for administrative services preparation with focus on analytical thinking, policy understanding, and current affairs integration.`
