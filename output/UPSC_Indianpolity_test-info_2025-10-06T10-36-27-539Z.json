@@ -1,0 +1,14 @@
+{
+  "title": "UPSC CSE Pro: Advanced Indian Polity & Governance Simulation Test",
+  "description": "This comprehensive practice test is meticulously designed to mirror the standards and intellectual demands of the UPSC Civil Services Examination (CSE) for the Indian Polity and Governance section. Moving beyond theoretical knowledge, this test emphasizes an administrative and governance-centric approach, with questions framed to assess your understanding of the Constitution's practical application in public administration. It seamlessly integrates contemporary issues, requiring you to connect static constitutional provisions with recent landmark judicial pronouncements, significant legislative changes, and ongoing debates. The test is structured to foster critical thinking and policy analysis skills, challenging you to evaluate governmental actions and form well-reasoned arguments, making it an essential tool for aspirants aiming to excel in both the Preliminary and Main examinations.",
+  "totalQuestions": 5,
+  "topics": [
+    "Indian polity"
+  ],
+  "examType": "UPSC Civil Services Examination",
+  "difficulty": "Advanced/Administrative Level",
+  "createdAt": "2025-10-06T10:36:27.539Z",
+  "questionTypes": {
+    "multiple_choice": 5
+  }
+}

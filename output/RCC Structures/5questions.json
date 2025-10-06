@@ -1,0 +1,1240 @@
+{
+  "questions": [
+    {
+      "text": "A simply supported rectangular prestressed concrete beam is subjected to a concentric prestressing force, P. What is the nature of the stress distribution across the mid-span section due to this prestressing force alone?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniform tensile stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Uniform compressive stress",
+          "isCorrect": true
+        },
+        {
+          "text": "Linearly varying stress with tension at the top and compression at the bottom",
+          "isCorrect": false
+        },
+        {
+          "text": "Linearly varying stress with compression at the top and tension at the bottom",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Concentric prestressing means the force is applied at the centroid of the cross-section. This induces a direct axial stress which is uniformly distributed. Since prestressing involves compression, the stress is uniformly compressive across the entire section, calculated as $f = P/A$."
+    },
+    {
+      "text": "Why is the use of high-strength concrete a fundamental requirement for prestressed concrete (PSC) structures, as opposed to conventional Reinforced Concrete (RCC)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To reduce the self-weight of the structure significantly.",
+          "isCorrect": false
+        },
+        {
+          "text": "To achieve a higher bond strength with mild steel bars.",
+          "isCorrect": false
+        },
+        {
+          "text": "To resist high compressive stresses at anchorage zones and minimize prestress losses.",
+          "isCorrect": true
+        },
+        {
+          "text": "To improve the aesthetic appearance of the finished concrete.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "High-strength concrete is essential in PSC to withstand the high compressive stresses induced by the prestressing force, especially at the end anchorages in post-tensioned members. It also has a higher modulus of elasticity, which reduces elastic shortening losses, and exhibits lower creep and shrinkage, thus minimizing long-term prestress losses."
+    },
+    {
+      "text": "In which of the following prestressing systems is the loss of prestress due to friction between the tendon and the duct a significant design consideration?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Pre-tensioning systems",
+          "isCorrect": false
+        },
+        {
+          "text": "Post-tensioning systems",
+          "isCorrect": true
+        },
+        {
+          "text": "Both pre-tensioning and post-tensioning systems equally",
+          "isCorrect": false
+        },
+        {
+          "text": "Chemical prestressing systems",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In post-tensioning, tendons are placed in ducts and stressed after the concrete has hardened. The curvature of the duct and minor imperfections (wobble effect) cause friction between the tendon and the duct wall during the tensioning process, leading to a loss of prestress. This loss is absent in pre-tensioning as the wires are straight and stressed before concrete casting."
+    },
+    {
+      "text": "A pre-tensioned concrete beam of cross-section 200 mm x 300 mm is prestressed by 4 wires of 7 mm diameter placed at the centroid. The wires are initially tensioned to a stress of 1200 MPa. If the modular ratio ($m = E_s/E_c$) is 6, what is the approximate percentage loss of stress in the wires due to elastic shortening of concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "3.1%",
+          "isCorrect": false
+        },
+        {
+          "text": "1.5%",
+          "isCorrect": true
+        },
+        {
+          "text": "4.6%",
+          "isCorrect": false
+        },
+        {
+          "text": "0.8%",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "1. Area of steel ($A_s$) = $4 \\times (\\pi/4) \\times 7^2 = 153.94 \\text{ mm}^2$. 2. Area of concrete ($A_c$) = $200 \\times 300 = 60000 \\text{ mm}^2$. 3. Initial Prestressing force ($P$) = $A_s \\times 1200 = 153.94 \\times 1200 = 184728 \\text{ N}$. 4. Stress in concrete at the level of steel ($f_c$) = $P/A_c = 184728 / 60000 = 3.08 \\text{ MPa}$. 5. Loss of stress in steel ($\\Delta f_s$) = $m \\times f_c = 6 \\times 3.08 = 18.48 \\text{ MPa}$. 6. Percentage loss = $(\\Delta f_s / 1200) \\times 100 = (18.48 / 1200) \\times 100 \\approx 1.54\\%$."
+    },
+    {
+      "text": "A rectangular prestressed concrete beam of size 250 mm (width) x 500 mm (depth) is prestressed by a force of 1000 kN at a constant eccentricity of 100 mm. The beam supports its self-weight of 3 kN/m over a span of 10 m. What is the resultant stress at the bottom fibre at the mid-span section?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "2.0 MPa (Tension)",
+          "isCorrect": false
+        },
+        {
+          "text": "4.0 MPa (Compression)",
+          "isCorrect": false
+        },
+        {
+          "text": "14.0 MPa (Compression)",
+          "isCorrect": true
+        },
+        {
+          "text": "21.2 MPa (Compression)",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Properties: $A = 250 \\times 500 = 125000 \\text{ mm}^2$; Section Modulus $Z = (bh^2)/6 = (250 \\times 500^2)/6 = 10.417 \\times 10^6 \\text{ mm}^3$. Max Bending Moment (self-weight) $M = (wl^2)/8 = (3 \\times 10^2)/8 = 37.5 \\text{ kNm} = 37.5 \\times 10^6 \\text{ Nmm}$. Stress at bottom fiber $f_{bottom} = P/A + Pe/Z - M/Z$. This evaluates to $(1000 \\times 10^3 / 125000) + (1000 \\times 10^3 \\times 100) / (10.417 \\times 10^6) - (37.5 \\times 10^6) / (10.417 \\times 10^6) = 8 + 9.6 - 3.6 = 14.0 \\text{ MPa}$ (Compression)."
+    },
+    {
+      "text": "In a simply supported prestressed concrete beam subjected to a uniformly distributed load, why is it advantageous to provide a tendon with a parabolic profile (concordant profile)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It is easier to construct a parabolic duct than a straight one.",
+          "isCorrect": false
+        },
+        {
+          "text": "A parabolic profile maximizes the prestress losses due to friction.",
+          "isCorrect": false
+        },
+        {
+          "text": "It creates an upward internal resisting moment that directly counteracts the parabolic bending moment from the external load.",
+          "isCorrect": true
+        },
+        {
+          "text": "It ensures uniform compressive stress across all sections of the beam.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The bending moment diagram for a simply supported beam under a Uniformly Distributed Load (UDL) is parabolic. By providing a tendon with a matching parabolic profile (maximum eccentricity at mid-span and zero at supports), the prestressing force creates an upward uniform pressure that 'balances' or counteracts the downward external load. This is the most efficient use of prestressing for this specific load case."
+    },
+    {
+      "text": "Which of the following losses of prestress occurs at the time of tensioning and anchoring in a post-tensioned beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Loss due to creep of concrete",
+          "isCorrect": false
+        },
+        {
+          "text": "Loss due to shrinkage of concrete",
+          "isCorrect": false
+        },
+        {
+          "text": "Loss due to anchorage slip",
+          "isCorrect": true
+        },
+        {
+          "text": "Loss due to relaxation of steel",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Anchorage slip (or set) is the loss of prestress that occurs when the anchoring wedges 'seat' themselves into the anchoring device as the tensioning jack is released. This is an immediate loss that happens only in post-tensioned systems at the time of anchoring. Creep, shrinkage, and relaxation are time-dependent losses that occur over a long period."
+    },
+    {
+      "text": "For a simply supported prestressed concrete beam with a straight tendon at a constant eccentricity 'e', when it is subjected to a uniformly distributed load, the pressure line (C-line) will be:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A straight line parallel to the centroidal axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "A straight line located above the tendon.",
+          "isCorrect": false
+        },
+        {
+          "text": "A parabolic curve shifting upwards from the tendon.",
+          "isCorrect": true
+        },
+        {
+          "text": "A parabolic curve shifting downwards from the tendon.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The pressure line (or thrust line, C-line) represents the locus of the resultant compressive force. Its position is given by the lever arm $a = M/P$, where M is the bending moment and P is the prestressing force. Since the bending moment (M) due to a UDL is parabolic, the shift of the C-line from the tendon's position will also be parabolic, shifting upwards towards the applied load."
+    },
+    {
+      "text": "A simply supported PSC beam of span 'L' is to be designed to completely balance a uniformly distributed load of 'w' kN/m using the load balancing concept. If the tendon has a parabolic profile with zero eccentricity at supports and a maximum dip 'h' at the center, what is the required prestressing force 'P'?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$P = wL^2 / (8h)$",
+          "isCorrect": true
+        },
+        {
+          "text": "$P = wL^2 / (2h)$",
+          "isCorrect": false
+        },
+        {
+          "text": "$P = wh^2 / (8L)$",
+          "isCorrect": false
+        },
+        {
+          "text": "$P = wL / (8h)$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The load balancing concept equates the upward force exerted by the curved tendon to the downward external load. For a parabolic tendon with dip 'h' over a span 'L', the equivalent upward uniformly distributed force ($w_{up}$) it exerts is given by $w_{up} = 8Ph / L^2$. To completely balance the downward load 'w', we set $w_{up} = w$. Therefore, $w = 8Ph / L^2$, which rearranges to $P = wL^2 / (8h)$."
+    },
+    {
+      "text": "A pre-tensioned concrete beam is cast. The ultimate shrinkage strain of concrete is estimated to be $300 \\times 10^{-6}$. If the modulus of elasticity of the prestressing steel ($E_s$) is 210 GPa, what is the loss of stress in steel due to shrinkage of concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "42 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "53 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "63 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "74 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The loss of stress in steel due to the shrinkage of concrete is calculated by multiplying the ultimate shrinkage strain of the concrete ($\\epsilon_{sh}$) by the modulus of elasticity of steel ($E_s$). The concrete shrinks and, being bonded to the steel, forces the steel to shorten as well, thus reducing its tension. Loss = $\\epsilon_{sh} \\times E_s = (300 \\times 10^{-6}) \\times (210 \\times 10^3 \\text{ MPa}) = 63 \\text{ MPa}$."
+    },
+    {
+      "text": "In post-tensioned prestressed concrete members, what is the primary function of an end block?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To increase the overall flexural strength of the beam at the ends.",
+          "isCorrect": false
+        },
+        {
+          "text": "To provide a decorative finish to the beam ends.",
+          "isCorrect": false
+        },
+        {
+          "text": "To distribute the concentrated prestressing force from the anchorage to the entire beam cross-section.",
+          "isCorrect": true
+        },
+        {
+          "text": "To prevent shrinkage cracks from forming at the ends of the beam.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The prestressing force in post-tensioned members is transferred from tendons to the concrete through anchoring devices, creating a high concentration of stress (bearing stress and bursting tensile stress) at the ends. The end block is a specially designed and reinforced zone at the end of the member to safely resist and distribute this concentrated force into the general cross-section of the beam, preventing local failure."
+    },
+    {
+      "text": "As per IS 1343, the maximum compressive stress in concrete at transfer, $\\sigma_{ct}$, in a pre-tensioned member is limited to a certain fraction of the characteristic cube strength of concrete at transfer, $f_{ci}$. What is this fraction?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.41 $f_{ci}$",
+          "isCorrect": false
+        },
+        {
+          "text": "0.51 $f_{ci}$",
+          "isCorrect": false
+        },
+        {
+          "text": "0.60 $f_{ci}$",
+          "isCorrect": true
+        },
+        {
+          "text": "0.80 $f_{ci}$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "IS 1343:2012 (Table 6) specifies that for pre-tensioned members, the maximum compressive stress in concrete at the time of transfer ($\\sigma_{ct}$) should not exceed 0.60 times the cube strength at transfer ($f_{ci}$). This limit is imposed to prevent excessive compressive stresses on the relatively young concrete, which could lead to micro-cracking or creep issues."
+    },
+    {
+      "text": "How does the mechanism of shear resistance in a prestressed concrete beam (uncracked in flexure) primarily differ from that in a reinforced concrete beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "PSC beams rely solely on stirrups, while RCC beams use bent-up bars.",
+          "isCorrect": false
+        },
+        {
+          "text": "Shear is not a design consideration in PSC beams due to high pre-compression.",
+          "isCorrect": false
+        },
+        {
+          "text": "The entire uncracked concrete section in a PSC beam resists shear, while an RCC beam relies on a combination of mechanisms across a cracked section.",
+          "isCorrect": true
+        },
+        {
+          "text": "The prestressing tendons in a PSC beam provide the entire shear resistance.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "In an uncracked PSC beam, shear is resisted by the principal stresses within the homogeneous concrete section. The high longitudinal pre-compression reduces the principal tensile stress, significantly enhancing the shear capacity of the concrete itself. In contrast, an RCC beam is assumed to be cracked in flexure, and its shear resistance relies on a combination of the uncracked concrete in the compression zone, aggregate interlock, dowel action of longitudinal bars, and shear reinforcement (stirrups)."
+    },
+    {
+      "text": "For a given span and loading condition, how does the long-term deflection of a properly designed prestressed concrete (PSC) beam generally compare to that of an equivalent reinforced concrete (RCC) beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Significantly higher than the RCC beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "Approximately the same as the RCC beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "Significantly lower than the RCC beam.",
+          "isCorrect": true
+        },
+        {
+          "text": "The deflection is always zero in a PSC beam.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "PSC beams are designed to remain largely uncracked under service loads. This means the entire gross concrete section contributes to stiffness (using $I_g$), unlike an RCC beam which cracks and has a reduced effective moment of inertia ($I_{eff}$). Additionally, the upward camber induced by prestressing counteracts the downward deflection from loads. Consequently, both short-term and long-term deflections are significantly lower in PSC beams."
+    },
+    {
+      "text": "In the design of a prestressed concrete section, Magnel's diagram is a graphical method used for what primary purpose?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To determine the ultimate moment of resistance of the section.",
+          "isCorrect": false
+        },
+        {
+          "text": "To calculate the loss of prestress due to friction.",
+          "isCorrect": false
+        },
+        {
+          "text": "To find the feasible region (safe zone) for the prestressing force ($P$) and eccentricity ($e$).",
+          "isCorrect": true
+        },
+        {
+          "text": "To plot the stress-strain curve for high-tensile steel.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Magnel's diagram is a graphical tool that plots the inverse of the prestressing force (1/P) against the eccentricity (e). It represents the four stress limit inequalities (top and bottom fibers at transfer and service stages) as straight lines. The intersection of these lines forms a 'safe zone' or feasible region, where any combination of P and e will satisfy all the design stress criteria."
+    },
+    {
+      "text": "A rectangular prestressed concrete beam has a cross-section of 300 mm x 600 mm. The effective prestressing force is 1200 kN at an eccentricity of 150 mm. If the modulus of rupture of concrete ($f_{cr}$) is 4.0 MPa, what is the cracking moment for the section?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "180 kNm",
+          "isCorrect": false
+        },
+        {
+          "text": "240 kNm",
+          "isCorrect": false
+        },
+        {
+          "text": "372 kNm",
+          "isCorrect": true
+        },
+        {
+          "text": "450 kNm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "1. Properties: $A = 300 \\times 600 = 180000 \\text{ mm}^2$, $Z = (bh^2)/6 = (300 \\times 600^2)/6 = 18 \\times 10^6 \\text{ mm}^3$. 2. Compressive stress at bottom fiber due to prestress: $f_{pre} = P/A + Pe/Z = (1200 \\times 10^3 / 180000) + (1200 \\times 10^3 \\times 150) / (18 \\times 10^6) = 6.67 + 10 = 16.67 \\text{ MPa}$. 3. Cracking occurs when tensile stress from the moment equals the pre-compression plus the concrete's tensile strength: $M_{cr}/Z = f_{pre} + f_{cr}$. 4. $M_{cr} = Z \\times (f_{pre} + f_{cr}) = (18 \\times 10^6) \\times (16.67 + 4.0) = 372.06 \\times 10^6 \\text{ Nmm} \\approx 372 \\text{ kNm}$."
+    },
+    {
+      "text": "In a typical long-span post-tensioned concrete girder, which of the following time-dependent losses is generally considered to be the most significant in magnitude?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Elastic shortening of concrete",
+          "isCorrect": false
+        },
+        {
+          "text": "Anchorage slip",
+          "isCorrect": false
+        },
+        {
+          "text": "Creep of concrete",
+          "isCorrect": true
+        },
+        {
+          "text": "Friction and wobble effects",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "While all losses are important, the loss due to creep of concrete is often the largest single component of the time-dependent losses. Creep is the long-term deformation of concrete under the sustained compressive stress from prestressing. This continuous shortening of the concrete member over time results in a significant reduction of tension in the steel. Elastic shortening, anchorage slip, and friction are immediate losses, not time-dependent."
+    },
+    {
+      "text": "A simply supported prestressed concrete beam of rectangular section 300 mm x 500 mm is subjected to an initial prestressing force of 1200 kN at an eccentricity of 100 mm. The moment due to self-weight at mid-span is 60 kNm. What is the resultant stress at the bottom fiber of the beam at mid-span during transfer?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "3.2 MPa (Compression)",
+          "isCorrect": false
+        },
+        {
+          "text": "12.8 MPa (Compression)",
+          "isCorrect": true
+        },
+        {
+          "text": "1.6 MPa (Tension)",
+          "isCorrect": false
+        },
+        {
+          "text": "22.4 MPa (Compression)",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The stress at the bottom fiber is calculated by combining direct stress, bending stress due to eccentricity, and bending stress due to self-weight. Formula: $f_{bottom} = \\frac{P}{A} + \\frac{Pe}{Z} - \\frac{M_g}{Z}$. Area $A = 300 \\times 500 = 150000$ mm². Section modulus $Z = \\frac{bd^2}{6} = \\frac{300 \\times 500^2}{6} = 12.5 \\times 10^6$ mm³. Stress = $\\frac{1200 \\times 10^3}{150000} + \\frac{1200 \\times 10^3 \\times 100}{12.5 \\times 10^6} - \\frac{60 \\times 10^6}{12.5 \\times 10^6} = 8 + 9.6 - 4.8 = 12.8$ MPa (Compression)."
+    },
+    {
+      "text": "What is the primary reason for checking stresses in a prestressed concrete beam at the 'transfer' stage?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To ensure the beam does not deflect excessively under full live load.",
+          "isCorrect": false
+        },
+        {
+          "text": "To verify that the concrete, which has not yet reached its full strength, is not overstressed by the high prestressing force.",
+          "isCorrect": true
+        },
+        {
+          "text": "To check for cracks under service conditions, after all losses have occurred.",
+          "isCorrect": false
+        },
+        {
+          "text": "To calculate the ultimate moment capacity of the beam before failure.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "At transfer, the prestressing force is at its maximum, but the concrete has only reached its initial strength ($f_{ci}$), not its 28-day characteristic strength ($f_{ck}$). Therefore, it is critical to check that the high stresses induced by the prestress force do not crush the relatively young concrete, especially at the end zones and regions of high eccentricity."
+    },
+    {
+      "text": "For a one-way slab, the main reinforcement is provided along the shorter span. What is the fundamental reason for this practice?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To reduce the overall weight of the steel required.",
+          "isCorrect": false
+        },
+        {
+          "text": "Because bending moment is inversely proportional to the square of the span ($M \\propto 1/L^2$), so the shorter span resists most of the load.",
+          "isCorrect": false
+        },
+        {
+          "text": "Because the slab primarily bends along the shorter direction, transferring the majority of the load to the supports along the longer sides.",
+          "isCorrect": true
+        },
+        {
+          "text": "To simplify the process of placing and tying reinforcement bars on site.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In a one-way slab (where $L_y/L_x > 2$), the slab acts like a wide beam spanning in the shorter direction. The load is primarily transferred along the shorter path to the longer supports. Consequently, the maximum bending moment develops along the shorter span, necessitating the placement of main reinforcement in that direction to resist it."
+    },
+    {
+      "text": "A prestressed concrete beam is analyzed at service loads. After accounting for all losses, the effective prestressing force is 1000 kN. The beam has the same properties as in the first question (A=150000 mm², Z=12.5x10⁶ mm³, e=100mm). The total service load moment is 150 kNm. What is the final stress at the top fiber?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "2.67 MPa (Tension)",
+          "isCorrect": false
+        },
+        {
+          "text": "1.33 MPa (Tension)",
+          "isCorrect": false
+        },
+        {
+          "text": "10.67 MPa (Compression)",
+          "isCorrect": true
+        },
+        {
+          "text": "18.67 MPa (Compression)",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The final stress at the top fiber is the sum of direct stress, stress from eccentricity, and stress from service load moment. Formula: $f_{top} = \\frac{P_{eff}}{A} - \\frac{P_{eff}e}{Z} + \\frac{M_{service}}{Z}$. Stress = $\\frac{1000 \\times 10^3}{150000} - \\frac{1000 \\times 10^3 \\times 100}{12.5 \\times 10^6} + \\frac{150 \\times 10^6}{12.5 \\times 10^6} = 6.67 - 8.0 + 12.0 = 10.67$ MPa (Compression)."
+    },
+    {
+      "text": "According to IS 456:2000, what is the minimum area of distribution reinforcement required per meter width for a 150 mm thick one-way slab using Fe 415 grade steel?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "225 mm²/m",
+          "isCorrect": false
+        },
+        {
+          "text": "150 mm²/m",
+          "isCorrect": false
+        },
+        {
+          "text": "180 mm²/m",
+          "isCorrect": true
+        },
+        {
+          "text": "120 mm²/m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "As per IS 456:2000, the minimum reinforcement for temperature and shrinkage (distribution steel) for slabs using high-strength deformed bars (like Fe 415) is 0.12% of the gross cross-sectional area. Area = $0.0012 \\times b \\times D = 0.0012 \\times 1000 \\text{ mm} \\times 150 \\text{ mm} = 180$ mm²/m. The value 225 mm²/m corresponds to 0.15% for mild steel (Fe 250)."
+    },
+    {
+      "text": "How does the 'pressure line' or 'C-line' in a simply supported prestressed beam behave when an external uniformly distributed service load is applied?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It remains straight and coincident with the tendon profile.",
+          "isCorrect": false
+        },
+        {
+          "text": "It shifts upwards from the tendon profile, becoming a parabolic curve, with maximum shift at mid-span.",
+          "isCorrect": true
+        },
+        {
+          "text": "It shifts downwards from the tendon profile, following the shape of the bending moment diagram.",
+          "isCorrect": false
+        },
+        {
+          "text": "It becomes a straight line connecting the points of zero stress in the end sections.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The pressure line represents the locus of the resultant compressive force (C) across the beam length. At transfer, it is close to the tendon profile. When service loads are applied, they induce a sagging moment which is counteracted by an internal resisting couple formed by the tensile force in the tendon (T) and the compressive force (C). To create this couple, the C-force must shift upwards, away from the T-force (tendon). The shift is proportional to the bending moment, hence it is parabolic for a UDL, with maximum shift at mid-span."
+    },
+    {
+      "text": "In a one-way continuous slab over several supports, where is the main negative reinforcement (top steel) primarily required?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "At the mid-span of all spans.",
+          "isCorrect": false
+        },
+        {
+          "text": "Only at the mid-span of the end spans.",
+          "isCorrect": false
+        },
+        {
+          "text": "Over the intermediate supports.",
+          "isCorrect": true
+        },
+        {
+          "text": "Distributed uniformly throughout the slab.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "In a continuous slab, negative bending moments (hogging) develop over the intermediate supports, causing tension at the top surface of the slab. To resist these tensile stresses and prevent cracking, main negative reinforcement is placed in the top of the slab over these supports."
+    },
+    {
+      "text": "A slab has dimensions of 7.0 m x 2.5 m. How should it be primarily designed, and why?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "As a two-way slab because both dimensions are large.",
+          "isCorrect": false
+        },
+        {
+          "text": "As a one-way slab because the ratio of longer span to shorter span ($L_y/L_x$) is greater than 2.",
+          "isCorrect": true
+        },
+        {
+          "text": "As a two-way slab because it is supported on all four sides (assumed).",
+          "isCorrect": false
+        },
+        {
+          "text": "As a one-way slab because the shorter span is less than 3 m.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The classification of a slab depends on the ratio of the longer span ($L_y$) to the shorter span ($L_x$). If $L_y/L_x > 2$, the slab predominantly bends in the shorter direction, and the load is carried primarily along the shorter span. In this case, $7.0 / 2.5 = 2.8$, which is greater than 2. Therefore, it is designed as a one-way slab."
+    },
+    {
+      "text": "According to IS 1343:2012, if analysis of a prestressed section under service loads shows that tensile stresses are developed but are within permissible limits, the section is classified as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Type 1 (Fully Prestressed)",
+          "isCorrect": false
+        },
+        {
+          "text": "Type 4 (Over-reinforced)",
+          "isCorrect": false
+        },
+        {
+          "text": "Type 3 (Partially Prestressed)",
+          "isCorrect": false
+        },
+        {
+          "text": "Type 2 (Limited Prestressed)",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "IS 1343 classifies prestressed sections based on the allowable tensile stress at service loads. Type 1 allows no tensile stress. Type 2 allows limited tensile stress, assuming the cracks (if any) would close upon removal of the live load. Type 3 allows higher tensile stresses, where cracking is permitted and crack widths are controlled."
+    },
+    {
+      "text": "What is the primary function of distribution reinforcement (secondary reinforcement) in a one-way slab?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To resist the main bending moment along the shorter span.",
+          "isCorrect": false
+        },
+        {
+          "text": "To resist shear forces near the supports.",
+          "isCorrect": false
+        },
+        {
+          "text": "To control cracks due to temperature and shrinkage and to distribute concentrated loads.",
+          "isCorrect": true
+        },
+        {
+          "text": "To act as a tie for the main reinforcement only, without any structural role.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Distribution reinforcement is placed perpendicular to the main reinforcement in a one-way slab. Its main purposes are to distribute point loads over a wider area, to resist stresses induced by temperature changes and concrete shrinkage, and to hold the main reinforcement bars in their correct positions."
+    },
+    {
+      "text": "A simply supported one-way slab has a clear span of 4.0 m and is supported on 300 mm wide beams. If it carries a total ultimate design load of 12 kN/m², what is the design shear force per meter width at the face of the support?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "30.0 kN/m",
+          "isCorrect": false
+        },
+        {
+          "text": "24.0 kN/m",
+          "isCorrect": true
+        },
+        {
+          "text": "22.5 kN/m",
+          "isCorrect": false
+        },
+        {
+          "text": "12.0 kN/m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a uniformly loaded simply supported member, the shear force at the face of the support is calculated based on the clear span. Shear Force $V_u = \\frac{w_u \\times L_{clear}}{2}$. Given $w_u = 12$ kN/m² (or 12 kN/m run for a 1m strip) and $L_{clear} = 4.0$ m. So, $V_u = \\frac{12 \\times 4.0}{2} = 24.0$ kN/m."
+    },
+    {
+      "text": "As per IS 456:2000, the effective span of a simply supported one-way slab is taken as the minimum of (i) center-to-center distance between supports and (ii) ...",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Clear span plus half the effective depth.",
+          "isCorrect": false
+        },
+        {
+          "text": "Clear span plus the effective depth.",
+          "isCorrect": true
+        },
+        {
+          "text": "1.15 times the clear span.",
+          "isCorrect": false
+        },
+        {
+          "text": "The clear span between supports.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "According to IS 456:2000, Clause 22.2(a), the effective span of a simply supported beam or slab is the lesser of: (1) the distance between the centers of the supports, or (2) the clear distance between the supports plus the effective depth 'd' of the slab."
+    },
+    {
+      "text": "A one-way slab has a thickness of 120 mm and is subjected to a service live load of 3 kN/m² and a floor finish load of 1 kN/m². Assuming the unit weight of RCC is 25 kN/m³, what is the ultimate design load per unit area as per IS 456:2000?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "9.0 kN/m²",
+          "isCorrect": false
+        },
+        {
+          "text": "10.5 kN/m²",
+          "isCorrect": true
+        },
+        {
+          "text": "12.0 kN/m²",
+          "isCorrect": false
+        },
+        {
+          "text": "7.5 kN/m²",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "First, calculate the dead loads. Self-weight of slab = Thickness × Unit weight = $0.12 \\text{ m} \\times 25 \\text{ kN/m³} = 3.0$ kN/m². Total Dead Load (DL) = Self-weight + Floor Finish = $3.0 + 1.0 = 4.0$ kN/m². Live Load (LL) = $3.0$ kN/m². Ultimate Design Load $w_u = 1.5 \\times (DL + LL) = 1.5 \\times (4.0 + 3.0) = 1.5 \\times 7.0 = 10.5$ kN/m²."
+    },
+    {
+      "text": "For a simply supported prestressed concrete beam with a straight tendon at a constant eccentricity 'e', the stress distribution at the ends of the beam (at transfer, neglecting self-weight) would be:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniformly compressive across the section.",
+          "isCorrect": false
+        },
+        {
+          "text": "Triangular, with zero stress at the top and maximum compression at the bottom.",
+          "isCorrect": false
+        },
+        {
+          "text": "Non-uniform, with higher compression at the fiber on the same side as the tendon.",
+          "isCorrect": true
+        },
+        {
+          "text": "Zero, as there is no bending moment at the simple supports.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "At the ends of a simply supported beam, the moment from self-weight is zero. The stress is caused only by the prestressing force P. The stress distribution is given by $f = \\frac{P}{A} \\pm \\frac{Pe}{Z}$. This results in a non-uniform (trapezoidal) stress distribution, with maximum compression at the fiber where the tendon is located (due to the addition of direct and bending stress) and minimum compression at the opposite fiber."
+    },
+    {
+      "text": "A simply supported one-way slab spanning 3.6 m is to be designed. As per the IS 456:2000 span-to-effective-depth ratio for deflection control, what is the minimum overall depth required if the modification factor is 1.4 and an effective cover of 25 mm is used?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "120 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "135 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "155 mm",
+          "isCorrect": true
+        },
+        {
+          "text": "170 mm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "For a simply supported slab, the basic (span/effective depth) ratio is 20. The permissible ratio = Basic ratio × Modification Factor = $20 \\times 1.4 = 28$. The required effective depth, $d_{req} = \\frac{\\text{Span}}{\\text{Permissible Ratio}} = \\frac{3600 \\text{ mm}}{28} = 128.6$ mm. The minimum overall depth, $D = d_{req} + \\text{effective cover} = 128.6 + 25 = 153.6$ mm. The closest practical option is 155 mm."
+    },
+    {
+      "text": "In the analysis of prestressed concrete beams, 'loss of prestress' affects the stress calculations at the service stage. Which of the following is NOT a cause of long-term loss of prestress?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Creep of concrete",
+          "isCorrect": false
+        },
+        {
+          "text": "Shrinkage of concrete",
+          "isCorrect": false
+        },
+        {
+          "text": "Relaxation of steel",
+          "isCorrect": false
+        },
+        {
+          "text": "Friction between tendon and duct",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "Loss of prestress is categorized into immediate and long-term (time-dependent) losses. Creep, shrinkage, and relaxation are long-term losses that occur over time. Friction loss is an immediate loss that occurs during the tensioning process itself, primarily in post-tensioned members. It is not a time-dependent phenomenon."
+    },
+    {
+      "text": "Why is a larger eccentricity of the prestressing tendon generally preferred at the mid-span of a simply supported beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To reduce the required prestressing force (P).",
+          "isCorrect": false
+        },
+        {
+          "text": "To increase the shear capacity of the beam near the supports.",
+          "isCorrect": false
+        },
+        {
+          "text": "To create a larger upward bending moment (hogging) to more effectively counteract the downward bending moment (sagging) from service loads.",
+          "isCorrect": true
+        },
+        {
+          "text": "To simplify the post-tensioning and grouting process.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The prestressing force (P) at an eccentricity (e) induces a hogging moment equal to $P \\times e$. The service loads (dead and live) induce a sagging moment, which is maximum at the mid-span. By providing a larger eccentricity at mid-span, a larger counteracting hogging moment is generated, which more efficiently neutralizes the sagging moment, leading to a more uniform stress distribution and better load-carrying capacity."
+    },
+    {
+      "text": "A simply supported prestressed concrete beam of rectangular section 300 mm x 500 mm is subjected to a prestressing force of 1200 kN at an eccentricity of 100 mm below the neutral axis. What is the stress at the bottom fiber of the beam at the mid-span section at the time of transfer (ignoring self-weight moment)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "13.6 N/mm² (Tensile)",
+          "isCorrect": false
+        },
+        {
+          "text": "8.0 N/mm² (Compressive)",
+          "isCorrect": false
+        },
+        {
+          "text": "20.0 N/mm² (Tensile)",
+          "isCorrect": false
+        },
+        {
+          "text": "17.6 N/mm² (Compressive)",
+          "isCorrect": true
+        }
+      ],
+      "points": 3,
+      "explanation": "The stress at the bottom fiber due to prestressing force is the sum of direct stress and bending stress. Area A = 300 × 500 = 150000 mm². Section Modulus Z = bd²/6 = (300 × 500²)/6 = 12.5 × 10⁶ mm³. Stress at bottom fiber = P/A + (P ⋅ e)/Z = (1200 × 10³)/150000 + (1200 × 10³ × 100)/(12.5 × 10⁶) = 8.0 + 9.6 = 17.6 N/mm² (Compressive)."
+    },
+    {
+      "text": "For the same beam (300x500mm, P=1200kN, e=100mm), what is the stress at the top fiber at the time of transfer, considering only the prestressing force?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.6 N/mm² (Tensile)",
+          "isCorrect": true
+        },
+        {
+          "text": "1.6 N/mm² (Compressive)",
+          "isCorrect": false
+        },
+        {
+          "text": "8.0 N/mm² (Compressive)",
+          "isCorrect": false
+        },
+        {
+          "text": "9.6 N/mm² (Tensile)",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The stress at the top fiber is the direct stress minus the bending stress. Using the same section properties as before (A = 150000 mm², Z = 12.5 × 10⁶ mm³), the stress is calculated as: Stress at top fiber = P/A - (P ⋅ e)/Z = (1200 × 10³)/150000 - (1200 × 10³ × 100)/(12.5 × 10⁶) = 8.0 - 9.6 = -1.6 N/mm². The negative sign indicates tensile stress."
+    },
+    {
+      "text": "What is a key difference in the state of loading and prestress between the 'transfer' stage and the 'service' stage for a prestressed concrete beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "At transfer, only live load is considered; at service, only dead load is considered.",
+          "isCorrect": false
+        },
+        {
+          "text": "At transfer, prestress force is maximum and external load is minimum; at service, prestress is reduced by losses and external load is maximum.",
+          "isCorrect": true
+        },
+        {
+          "text": "The concrete strength is lower at service stage than at transfer stage.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tensile stresses are permitted at transfer but not at service.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The 'transfer' stage is immediately after prestressing. At this point, the prestressing force is at its maximum (before long-term losses), and the only external load is typically the beam's self-weight. The 'service' stage is during the structure's life, where the prestress force has decreased due to losses (creep, shrinkage, etc.), and the beam carries its full design load (dead load + live load)."
+    },
+    {
+      "text": "As per IS 456:2000, a rectangular slab panel supported on all four edges with effective spans of 3.5m x 8.0m is classified as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A two-way slab, because the aspect ratio is less than 2.",
+          "isCorrect": false
+        },
+        {
+          "text": "A one-way slab, because the aspect ratio is greater than 2.",
+          "isCorrect": true
+        },
+        {
+          "text": "A two-way slab, because it is supported on all four sides.",
+          "isCorrect": false
+        },
+        {
+          "text": "A flat slab, due to the large span.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The classification of a slab supported on all four sides depends on its aspect ratio: the ratio of the longer span (Ly) to the shorter span (Lx). Here, Ly/Lx = 8.0 / 3.5 = 2.29. According to IS 456:2000, if Ly/Lx > 2, the slab predominantly bends in the shorter direction and is designed as a one-way slab."
+    },
+    {
+      "text": "In the analysis of a prestressed concrete beam at service loads, what is the primary purpose of the initial compressive stress induced by prestressing at the bottom fiber?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To increase the shear capacity of the beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "To reduce the overall weight of the structure.",
+          "isCorrect": false
+        },
+        {
+          "text": "To counteract the tensile stress developed due to dead and live loads.",
+          "isCorrect": true
+        },
+        {
+          "text": "To prevent buckling of the prestressing tendons.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In a simply supported beam, service loads cause sagging, which induces compressive stress at the top and tensile stress at the bottom. Since concrete is weak in tension, prestressing introduces an initial compressive stress in the zone that will become tensile. This pre-compression counteracts the load-induced tensile stress, ensuring the net stress remains compressive or within permissible tensile limits."
+    },
+    {
+      "text": "For a two-way restrained slab panel, the bending moment coefficient (α_x) for positive moment at mid-span in the short direction is 0.035. If the slab has a short span (l_x) of 4.0m and is subjected to a total design load (w) of 12 kN/m², what is the design positive bending moment per unit width in that direction?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "6.72 kN-m",
+          "isCorrect": true
+        },
+        {
+          "text": "5.60 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "1.68 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "16.8 kN-m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The design bending moment per unit width in a two-way slab is calculated using the formula M_x = α_x ⋅ w ⋅ l_x². Given: α_x = 0.035, w = 12 kN/m², and l_x = 4.0m. Substituting the values: M_x = 0.035 × 12 × (4.0)² = 0.035 × 12 × 16 = 6.72 kN-m/m."
+    },
+    {
+      "text": "What is the primary reason for providing torsional reinforcement at the corners of a two-way slab where the corners are held down (restrained)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To resist punching shear from concentrated column loads.",
+          "isCorrect": false
+        },
+        {
+          "text": "To prevent the slab corners from lifting up and to resist the resulting twisting moments.",
+          "isCorrect": true
+        },
+        {
+          "text": "To increase the one-way shear capacity along the slab edges.",
+          "isCorrect": false
+        },
+        {
+          "text": "To distribute the negative bending moment from the supports to the mid-span.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "When a restrained two-way slab deflects, the corners tend to lift off the supports. Since the corners are held down, this lifting is prevented, which induces twisting moments (torsion) in the corner regions. Torsional reinforcement is provided to resist these moments and prevent cracking."
+    },
+    {
+      "text": "A post-tensioned beam with an initial prestressing force of 2000 kN experiences a 15% loss of prestress over time. The beam has a cross-sectional area of 250,000 mm². What is the final direct stress in the concrete at the service stage due to the effective prestressing force?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "8.0 N/mm²",
+          "isCorrect": false
+        },
+        {
+          "text": "1.2 N/mm²",
+          "isCorrect": false
+        },
+        {
+          "text": "6.8 N/mm²",
+          "isCorrect": true
+        },
+        {
+          "text": "9.2 N/mm²",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "First, calculate the loss of prestress: Loss = 15% of 2000 kN = 0.15 * 2000 = 300 kN. The effective prestressing force (P_eff) at the service stage is the initial force minus the loss: P_eff = 2000 - 300 = 1700 kN. The final direct stress is P_eff / A = (1700 × 10³ N) / (250,000 mm²) = 6.8 N/mm²."
+    },
+    {
+      "text": "In a prestressed concrete beam, the 'pressure line' or 'thrust line' represents the locus of:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The centroid of the prestressing steel.",
+          "isCorrect": false
+        },
+        {
+          "text": "The neutral axis of the beam section under service loads.",
+          "isCorrect": false
+        },
+        {
+          "text": "The point of application of the resultant compressive force in the concrete.",
+          "isCorrect": true
+        },
+        {
+          "text": "The maximum compressive stress in the concrete section.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The pressure line (or C-line) represents the path of the resultant compressive force acting on the concrete cross-section along the length of the beam. It results from the combined effect of the direct prestressing force and the moment induced by both prestress eccentricity and external loads."
+    },
+    {
+      "text": "A prestressed concrete beam of section 300mm x 500mm has an effective prestressing force of 1200 kN at an eccentricity of 100 mm. At service, it is subjected to a total sagging moment of 70 kN-m. What is the resultant stress at the top fiber of the beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "5.6 N/mm² (Tension)",
+          "isCorrect": false
+        },
+        {
+          "text": "1.6 N/mm² (Tension)",
+          "isCorrect": false
+        },
+        {
+          "text": "4.0 N/mm² (Compression)",
+          "isCorrect": true
+        },
+        {
+          "text": "2.4 N/mm² (Compression)",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Resultant stress = (Direct Stress) + (Bending Stress). Sign convention: Compression (+), Tension (-). Area A = 150,000 mm². Section Modulus Z = 12.5 × 10⁶ mm³. Stress at top fiber f_top = (+P/A) - (P⋅e/Z) + (M_service/Z). Direct stress = +1200×10³/150000 = +8.0 N/mm². Stress due to eccentricity = -(1200×10³×100)/(12.5×10⁶) = -9.6 N/mm². Stress due to service moment = +(70×10⁶)/(12.5×10⁶) = +5.6 N/mm². Total stress = 8.0 - 9.6 + 5.6 = +4.0 N/mm² (Compression)."
+    },
+    {
+      "text": "The load-balancing concept in prestressed concrete design is a technique where:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The tendon profile is shaped to apply an upward force that counteracts a portion of the downward gravity loads.",
+          "isCorrect": true
+        },
+        {
+          "text": "The prestressing force is adjusted to be equal to the total compressive force from service loads.",
+          "isCorrect": false
+        },
+        {
+          "text": "The concrete section is designed to have its neutral axis at the same location as the prestressing tendon.",
+          "isCorrect": false
+        },
+        {
+          "text": "The dead load of the beam is balanced by an equal amount of live load.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Load balancing is a design philosophy where the prestressing tendon is given a specific profile (e.g., parabolic for a UDL) to produce an upward transverse force on the beam. This upward force is designed to counteract a certain portion of the permanent downward loads, theoretically resulting in zero deflection and uniform stress under that balanced load."
+    },
+    {
+      "text": "If the prestressing tendon in a simply supported beam is placed concentrically (zero eccentricity), what will be the stress distribution at the time of transfer due to prestress alone?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniform tension across the section.",
+          "isCorrect": false
+        },
+        {
+          "text": "Zero stress at the top and maximum compression at the bottom.",
+          "isCorrect": false
+        },
+        {
+          "text": "Uniform compression across the section.",
+          "isCorrect": true
+        },
+        {
+          "text": "Maximum compression at the top and zero stress at the bottom.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "When the prestressing force (P) is applied concentrically (e=0), there is no bending moment induced by prestressing (M = P ⋅ e = 0). Therefore, the only stress component is the direct axial stress, calculated as P/A, which is distributed uniformly as compression across the entire cross-section."
+    },
+    {
+      "text": "In the design of a two-way slab, the spacing of the main reinforcement bars should NOT exceed:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "3d or 300 mm, whichever is smaller.",
+          "isCorrect": true
+        },
+        {
+          "text": "5d or 450 mm, whichever is smaller.",
+          "isCorrect": false
+        },
+        {
+          "text": "2d or 250 mm, whichever is smaller.",
+          "isCorrect": false
+        },
+        {
+          "text": "d or 150 mm, whichever is smaller.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "According to IS 456:2000, Clause 26.3.3(b), the horizontal distance between parallel main reinforcement bars in a slab shall not be more than three times the effective depth of the slab (3d) or 300 mm, whichever is smaller. This rule is for crack control."
+    },
+    {
+      "text": "The kern of a rectangular section (depth 'd') is a central area. If a compressive load is applied anywhere within this kern, what is the resulting stress state in the section?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The entire section will be under compression, with no tensile stress.",
+          "isCorrect": true
+        },
+        {
+          "text": "The section will have both compressive and tensile stresses.",
+          "isCorrect": false
+        },
+        {
+          "text": "The neutral axis will lie outside the section.",
+          "isCorrect": false
+        },
+        {
+          "text": "The entire section will be under tension.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The kern is the region of a cross-section within which a compressive force can be applied without producing any tensile stress. For a rectangular section, the kern boundaries are at d/6 above and below the centroidal axis. Applying the force inside this zone ensures the combined direct and bending stresses result in compression everywhere."
+    },
+    {
+      "text": "As per IS 456, for a two-way slab continuous over its supports, what percentage of the positive moment (mid-span) reinforcement should be extended into the support region to act as bottom steel?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "25% of the bars",
+          "isCorrect": false
+        },
+        {
+          "text": "100% of the bars",
+          "isCorrect": false
+        },
+        {
+          "text": "75% of the bars",
+          "isCorrect": false
+        },
+        {
+          "text": "50% of the bars",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "IS 456:2000, Clause D-1.4 of Annex D, specifies reinforcement detailing rules. It states that 50 percent of the tension reinforcement provided at mid-span should extend to the supports. The remaining 50 percent may be curtailed where no longer needed."
+    },
+    {
+      "text": "The moment coefficients provided in IS 456 (Table 26) for the analysis of two-way slabs are based on which of the following key assumptions?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The slab corners are free to lift from the supports.",
+          "isCorrect": false
+        },
+        {
+          "text": "The slab behaves as a wide beam spanning in the shorter direction only.",
+          "isCorrect": false
+        },
+        {
+          "text": "The slab is subjected to concentrated point loads.",
+          "isCorrect": false
+        },
+        {
+          "text": "The slab corners are prevented from lifting and adequate torsion reinforcement is provided.",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The bending moment coefficients (α_x and α_y) in IS 456 are derived from analyses that assume the slab panels are restrained. This restraint implies that the corners are held down and not free to lift, which in turn necessitates the provision of torsional reinforcement to handle the twisting moments that develop."
+    },
+    {
+      "text": "Which of the following is a primary serviceability limit state checked for prestressed concrete beams and two-way slabs at service loads?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Flexural strength capacity",
+          "isCorrect": false
+        },
+        {
+          "text": "Shear failure",
+          "isCorrect": false
+        },
+        {
+          "text": "Deflection and Crack Width",
+          "isCorrect": true
+        },
+        {
+          "text": "Bond and Anchorage failure",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Serviceability limit states relate to the performance of the structure under normal service conditions. For beams and slabs, the primary concerns are ensuring that deflections are not excessive (which could damage finishes or be aesthetically unpleasing) and that crack widths are controlled to prevent corrosion and maintain durability. Strength and failure modes are checked under the ultimate limit state."
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 51,
+    "topics": [
+      "Basic elements of pre-stressed concrete — RCC Structures",
+      "analysis of beam sections at transfer and service loads, one-way slab— RCC Structures",
+      "analysis of beam sections at transfer and service loads two-way slab — RCC Structures"
+    ],
+    "questionsPerTopic": 17,
+    "examType": "JKSSB Junior Engineer Civil Recruitment",
+    "difficulty": "Undergraduate/Medium Level",
+    "processedAt": "2025-10-06T08:43:17.040Z"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "title": "UPSC CSE Pro: Advanced Indian Polity & Governance Simulation Test",
+  "description": "This comprehensive practice test is meticulously designed to mirror the standards and intellectual demands of the UPSC Civil Services Examination (CSE) for the Indian Polity and Governance section. Moving beyond theoretical knowledge, this test emphasizes an administrative and governance-centric approach, with questions framed to assess your understanding of the Constitution's practical application in public administration. It seamlessly integrates contemporary issues, requiring you to connect static constitutional provisions with recent landmark judicial pronouncements, significant legislative changes, and ongoing debates. The test is structured to foster critical thinking and policy analysis skills, challenging you to evaluate governmental actions and form well-reasoned arguments, making it an essential tool for aspirants aiming to excel in both the Preliminary and Main examinations.",
+  "questions": [
+    {
+      "text": "In the context of the Tenth Schedule of the Indian Constitution (Anti-Defection Law), the role of the Presiding Officer has often been controversial. Which of the following statements most accurately captures the critical governance issue arising from the Supreme Court's judgment in Kihoto Hollohan v. Zachillhu (1992) and subsequent judicial observations?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The judgment made the Presiding Officer's decision final and immune from any form of judicial review, thereby concentrating absolute power.",
+          "isCorrect": false
+        },
+        {
+          "text": "The judgment transferred the power of disqualification from the Speaker to the Election Commission of India to ensure impartiality.",
+          "isCorrect": false
+        },
+        {
+          "text": "The judgment, while upholding the Speaker's quasi-judicial authority, subjected it to judicial review, but the absence of a stipulated timeframe for decisions has created a potent loophole for political manipulation.",
+          "isCorrect": true
+        },
+        {
+          "text": "The judgment held that a merger of political parties requires the approval of the President, in addition to the Speaker, to be considered valid under the Tenth Schedule.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This question tests the analytical understanding of the Anti-Defection Law's implementation. Option (c) is correct because the core governance challenge lies in the Speaker's delay in deciding disqualification petitions. While the Kihoto Hollohan case established the Speaker's role as a tribunal and made the decision subject to judicial review (on grounds of perversity, mala fides, etc.), it did not set a time limit. This lacuna is frequently exploited by ruling parties to manage their numbers in the legislature, as Speakers (who often retain their party affiliation) can delay decisions on defecting members to suit political exigencies. The Supreme Court, in recent cases like the one involving the Manipur legislative assembly, has strongly urged Parliament to amend the Constitution to create an independent tribunal or vest this power in a body other than the Speaker to preserve the integrity of the democratic process. This highlights a critical friction point between a constitutional provision and its practical, often political, application in governance."
+    },
+    {
+      "text": "With reference to the evolving dynamics of fiscal federalism in India, which of the following represents the most significant contemporary challenge to the principles of resource sharing between the Union and the States as envisaged by the Constitution?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The consistent reduction in the vertical devolution percentage recommended by successive Finance Commissions.",
+          "isCorrect": false
+        },
+        {
+          "text": "The increasing reliance by the Union Government on cesses and surcharges, the revenue from which is not part of the divisible pool of taxes.",
+          "isCorrect": true
+        },
+        {
+          "text": "The replacement of the Planning Commission with NITI Aayog, which has completely taken over the grant-making functions of the Finance Commission.",
+          "isCorrect": false
+        },
+        {
+          "text": "The mandatory implementation of GST, which has deprived states of their autonomy in levying local taxes without providing any compensation mechanism.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This question requires a nuanced understanding of current trends in fiscal federalism. Option (b) is the correct answer. While Finance Commissions (like the 15th FC) have recommended a substantial share (41%) for states, the Union government's increasing use of cesses and surcharges (e.g., Health and Education Cess) effectively reduces the size of the net divisible pool of taxes. According to Article 270 of the Constitution, the revenue from cesses and surcharges need not be shared with the states. This practice undermines the spirit of fiscal federalism, as it allows the Centre to raise revenue for specific purposes while keeping it outside the shareable pool, thereby impacting the fiscal autonomy and resources of state governments. This has been a major point of contention raised by several states, highlighting a structural issue in Centre-State financial relations."
+    },
+    {
+      "text": "The 'Basic Structure Doctrine', an innovation of the Indian judiciary, has profound implications for the balance of power. Which of the following scenarios best illustrates the doctrine's application as a check on Parliament's constituent power and the complex questions it raises about separation of powers?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The Supreme Court interpreting Article 21 to include the 'Right to Privacy' as a fundamental right.",
+          "isCorrect": false
+        },
+        {
+          "text": "The Supreme Court striking down the 99th Constitutional Amendment Act and the NJAC Act on the grounds that they violated the 'independence of the judiciary'.",
+          "isCorrect": true
+        },
+        {
+          "text": "Parliament enacting a law under Article 3 to alter the boundaries of a state, which was subsequently challenged for violating federal principles.",
+          "isCorrect": false
+        },
+        {
+          "text": "The judiciary issuing guidelines in the Vishakha case to address workplace harassment, thereby entering the domain of legislation.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This question tests the precise application of the Basic Structure Doctrine. Option (b) is the most accurate example. The doctrine, established in the Kesavananda Bharati case, holds that while Parliament has the power to amend the Constitution (Article 368), it cannot alter its 'basic structure'. The striking down of the 99th Amendment, which established the National Judicial Appointments Commission (NJAC), is a classic and contemporary application of this doctrine. The Court held that the 'independence of the judiciary' is part of the basic structure, and the NJAC, with its proposed composition, compromised this independence. This decision reignited the debate on parliamentary sovereignty versus judicial supremacy, with critics arguing it amounts to judicial overreach, while proponents see it as a necessary safeguard for constitutionalism. Options (a) and (d) are examples of judicial activism or interpretation, not the application of the Basic Structure Doctrine to strike down a constitutional amendment."
+    },
+    {
+      "text": "Consider the implementation of the 73rd Constitutional Amendment Act. From a practical governance perspective, which of the following is the most critical impediment to the functional autonomy of Panchayati Raj Institutions (PRIs) in India?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The absence of a constitutional mandate for the creation of State Election Commissions to conduct PRI elections.",
+          "isCorrect": false
+        },
+        {
+          "text": "The reluctance of state governments to devolve substantive 'Functions, Funds, and Functionaries', effectively retaining control through their own line departments and bureaucracy.",
+          "isCorrect": true
+        },
+        {
+          "text": "The mandatory reservation for women and Scheduled Castes/Tribes, which politicizes local administration and hinders development.",
+          "isCorrect": false
+        },
+        {
+          "text": "The direct election of members to all levels of the panchayat, which undermines the authority of the Sarpanch.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This question analyzes the gap between the constitutional ideal and the ground reality of local self-governance. Option (b) correctly identifies the core problem. The 73rd Amendment provided the constitutional framework for PRIs, but the actual devolution of power rests with the state legislatures. The most significant challenge to the autonomy of PRIs is the unwillingness of state governments and their bureaucracies to transfer meaningful power. This is often referred to as the problem of the '3 Fs': Functions (clear delineation of responsibilities), Funds (financial autonomy and adequate resources, often hampered by tied grants), and Functionaries (control over local administrative staff). State governments frequently create parallel bodies or run schemes through their own departments, bypassing PRIs and reducing them to mere implementing agencies rather than vibrant institutions of self-government. Option (a) is factually incorrect as Article 243K mandates State Election Commissions. Option (c) is a biased and unsubstantiated claim; reservations are a tool for social justice and political empowerment."
+    },
+    {
+      "text": "The President of India is vested with executive, legislative, and judicial powers. In the context of practical governance and constitutional propriety, which of the following actions by the President would be the most constitutionally contentious?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Returning a Money Bill passed by the Parliament for reconsideration.",
+          "isCorrect": false
+        },
+        {
+          "text": "Promulgating an ordinance under Article 123 on a subject in the State List when a state is under President's Rule.",
+          "isCorrect": false
+        },
+        {
+          "text": "Withholding assent to a non-Money Bill passed by Parliament without seeking the advice of the Council of Ministers, thereby exercising an absolute veto.",
+          "isCorrect": true
+        },
+        {
+          "text": "Granting a pardon under Article 72 to a convict whose mercy petition was earlier rejected by the Governor of a state.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This question tests the critical understanding of the President's powers within the framework of a parliamentary democracy. Option (c) is the most constitutionally contentious action. Under Article 74, the President is bound by the aid and advice of the Council of Ministers. While the President can use a suspensive veto (return a non-Money Bill once for reconsideration), the exercise of an absolute veto (withholding assent) on a bill passed by Parliament, against the advice of the government, would be a major constitutional crisis. It would violate the fundamental principle of the parliamentary system where the elected government holds the real executive power. Option (a) is incorrect because the President cannot return a Money Bill. Option (b) is a valid exercise of power as Parliament (and by extension, the President during ordinances) can legislate on state subjects during President's Rule (Article 356). Option (d) is also a valid exercise of the President's wider pardoning power, which is independent of the Governor's."
+    }
+  ],
+  "timeLimit": 30,
+  "passingScore": 70,
+  "quizType": "Topic Test",
+  "maxAttempts": 0,
+  "category": "",
+  "tags": [
+    "indian_polity"
+  ],
+  "difficulty": "Advanced/Administrative Level",
+  "allowReview": true,
+  "showCorrectAnswers": true,
+  "randomizeQuestions": false,
+  "isPublished": false,
+  "metadata": {
+    "totalQuestions": 5,
+    "topics": [
+      "Indian polity"
+    ],
+    "questionsPerTopic": 5,
+    "examType": "UPSC Civil Services Examination",
+    "difficulty": "Advanced/Administrative Level",
+    "processedAt": "2025-10-06T10:36:27.539Z",
+    "questionTypes": {
+      "multiple_choice": 5
+    }
+  }
+}

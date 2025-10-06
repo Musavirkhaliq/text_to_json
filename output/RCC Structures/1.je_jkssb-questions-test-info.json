@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB Junior Engineer (Civil): Focused Assessment on Concrete Technology & RCC Structures",
+  "description": "This professional academic assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) Recruitment Exam. The test focuses exclusively on core concepts within Concrete Technology and Reinforced Cement Concrete (RCC) Structures. It features a curated blend of conceptual and practical questions of undergraduate difficulty, mirroring the standards and scope of the official JKSSB examination. Topics covered include a deep dive into the ingredients of concrete, their properties, the critical role of the water-cement ratio ($w/c$) in determining strength and workability, and fundamental principles of RCC structures. This assessment provides a rigorous platform to evaluate your foundational knowledge and problem-solving skills in these essential civil engineering domains.",
+  "totalQuestions": 30,
+  "topics": [
+    "Concrete technology — RCC Structures",
+    "Ingredients of concrete — RCC Structures",
+    "water cement ratio - — RCC Structures"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T06:53:18.914Z",
+  "questionTypes": {
+    "multiple_choice": 30
+  }
+}

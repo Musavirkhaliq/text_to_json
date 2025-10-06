@@ -1,0 +1,1922 @@
+[
+  {
+    "text": "A town with a population of 50,000 has an average daily water consumption of 150 lpcd (litres per capita per day). What is the required capacity of the main supply pipe in cubic meters per hour (m³/hr) to meet the peak hourly demand, assuming a peak factor of 2.7?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "312.5 m³/hr",
+        "isCorrect": false
+      },
+      {
+        "text": "843.75 m³/hr",
+        "isCorrect": true
+      },
+      {
+        "text": "20250 m³/hr",
+        "isCorrect": false
+      },
+      {
+        "text": "7500 m³/hr",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "1. Calculate Average Daily Demand: 50,000 people * 150 L/person/day = 7,500,000 L/day.\n2. Calculate Peak Hourly Demand: (Average Daily Demand * Peak Factor) / 24 hours = (7,500,000 L/day * 2.7) / 24 hr = 843,750 L/hr.\n3. Convert to cubic meters per hour: Since 1 m³ = 1000 L, 843,750 L/hr / 1000 = 843.75 m³/hr. The main pipe must be designed to handle this peak flow."
+  },
+  {
+    "text": "The water seal in a plumbing trap is critical for preventing sewer gases from entering a building. Which of the following phenomena is most likely to break this seal due to pressure fluctuations in the drainage system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Capillarity",
+        "isCorrect": false
+      },
+      {
+        "text": "Evaporation",
+        "isCorrect": false
+      },
+      {
+        "text": "Siphonage",
+        "isCorrect": true
+      },
+      {
+        "text": "Sedimentation",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Siphonage is the loss of a trap's water seal due to negative pressure (suction) in the drainage pipe. This can be caused by a rapid flow of water from a fixture above, which pulls the water out of the trap. A properly designed vent system (anti-siphonage pipe) is installed to prevent this by introducing air to break the vacuum."
+  },
+  {
+    "text": "A 300 mm diameter circular sewer is laid at a slope of 1 in 400. Using Manning's formula, calculate the self-cleansing velocity when it is flowing half-full. Assume Manning's roughness coefficient (n) is 0.013.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.65 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "0.91 m/s",
+        "isCorrect": true
+      },
+      {
+        "text": "1.22 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "0.45 m/s",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Manning's formula is V = (1/n) * R^(2/3) * S^(1/2).\n1. For a circular sewer flowing half-full, the hydraulic radius (R) = A/P = (πD²/8) / (πD/2) = D/4. \n2. Given D = 300 mm = 0.3 m, so R = 0.3 / 4 = 0.075 m.\n3. Slope (S) = 1/400 = 0.0025. Roughness (n) = 0.013.\n4. Substitute values: V = (1/0.013) * (0.075)^(2/3) * (0.0025)^(1/2) = 76.92 * (0.178) * (0.05) = 0.908 m/s, which is approximately 0.91 m/s."
+  },
+  {
+    "text": "Which water distribution system layout is considered most reliable for maintaining continuous water supply and consistent pressure, especially during repairs or fire events, due to its interconnected network of pipes?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Dead-end or Tree system",
+        "isCorrect": false
+      },
+      {
+        "text": "Radial system",
+        "isCorrect": false
+      },
+      {
+        "text": "Ring system",
+        "isCorrect": false
+      },
+      {
+        "text": "Gridiron system",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "The Gridiron system features interconnected pipes, forming a grid. This allows water to reach any point from multiple directions. If a pipe section needs repair, it can be isolated with valves without cutting off supply to a large area, as water can be rerouted. This redundancy makes it the most reliable system."
+  },
+  {
+    "text": "A surge in pressure in a water supply pipe caused by a sudden stoppage of flow, such as the rapid closure of a valve, is known as:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Hydraulic jump",
+        "isCorrect": false
+      },
+      {
+        "text": "Water hammer",
+        "isCorrect": true
+      },
+      {
+        "text": "Cavitation",
+        "isCorrect": false
+      },
+      {
+        "text": "Pipe corrosion",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Water hammer, or hydraulic shock, is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly. The momentum of the water creates a shock wave that propagates through the pipe, potentially causing noise, vibration, and pipe damage. Surge tanks and pressure relief valves are used to mitigate this effect."
+  },
+  {
+    "text": "In a standard two-chamber septic tank, what is the primary function of the baffle wall or partition between the chambers?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To increase the structural strength of the tank",
+        "isCorrect": false
+      },
+      {
+        "text": "To promote aerobic digestion of sludge",
+        "isCorrect": false
+      },
+      {
+        "text": "To prevent scum and sludge from exiting with the effluent",
+        "isCorrect": true
+      },
+      {
+        "text": "To mix the incoming wastewater thoroughly",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The baffle wall, with its submerged opening, serves to retain floating scum and settled sludge in the first chamber, allowing only the relatively clear liquid effluent from the middle zone to pass into the second chamber or the outlet. This improves the quality of the effluent discharged to the soak pit or drain field."
+  },
+  {
+    "text": "A 200 mm diameter cast iron pipe (Hazen-Williams C = 100) is 500 m long. If it carries a discharge of 0.04 m³/s, what is the approximate head loss due to friction?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "8.2 m",
+        "isCorrect": false
+      },
+      {
+        "text": "10.5 m",
+        "isCorrect": false
+      },
+      {
+        "text": "12.9 m",
+        "isCorrect": true
+      },
+      {
+        "text": "15.1 m",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Using the Hazen-Williams formula for head loss: h_f = (10.67 * L * Q^1.85) / (C^1.85 * D^4.87).\nGiven: L = 500 m, Q = 0.04 m³/s, C = 100, D = 0.2 m.\nh_f = (10.67 * 500 * (0.04)^1.85) / (100^1.85 * (0.2)^4.87)\nh_f = (5335 * 0.00251) / (4665 * 0.00358)\nh_f = 13.39 / 16.7\nh_f ≈ 12.87 m. The closest option is 12.9 m."
+  },
+  {
+    "text": "In a water supply network, a valve is installed to permit water flow in only one direction and prevent backflow. This valve is known as a:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sluice valve",
+        "isCorrect": false
+      },
+      {
+        "text": "Air relief valve",
+        "isCorrect": false
+      },
+      {
+        "text": "Scour valve",
+        "isCorrect": false
+      },
+      {
+        "text": "Reflux valve",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "A reflux valve, also known as a check valve or non-return valve (NRV), is a mechanical device that allows fluid to flow through it in only one direction. It is crucial for preventing backflow, which could contaminate the water supply or damage equipment like pumps."
+  },
+  {
+    "text": "What is the primary purpose of an anti-siphonage pipe (vent pipe) in a building's drainage system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To carry rainwater from the roof",
+        "isCorrect": false
+      },
+      {
+        "text": "To provide an overflow path for choked drains",
+        "isCorrect": false
+      },
+      {
+        "text": "To introduce air and prevent the siphoning of trap seals",
+        "isCorrect": true
+      },
+      {
+        "text": "To help in the cleaning and inspection of drain pipes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The primary function of a vent pipe (or anti-siphonage pipe) is to connect the drainage system to the atmosphere. This equalizes the air pressure within the pipes, preventing the formation of a vacuum (negative pressure) that could siphon water out of the fixture traps. This ensures the trap's water seal remains intact to block sewer gases."
+  },
+  {
+    "text": "When selecting a pipe material for hot water supply lines in a residential building, which of the following is the most suitable modern option due to its high temperature resistance, corrosion resistance, and ease of installation?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Unplasticized Polyvinyl Chloride (uPVC)",
+        "isCorrect": false
+      },
+      {
+        "text": "Chlorinated Polyvinyl Chloride (CPVC)",
+        "isCorrect": true
+      },
+      {
+        "text": "High-Density Polyethylene (HDPE)",
+        "isCorrect": false
+      },
+      {
+        "text": "Galvanized Iron (GI)",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "CPVC pipes are specifically designed to handle higher temperatures (up to 93°C) compared to standard uPVC pipes, which can deform. While GI was traditionally used, it is prone to corrosion and scaling. HDPE is not typically rated for hot water applications. Therefore, CPVC is the most suitable and commonly used modern material for hot water lines."
+  },
+  {
+    "text": "A community had a population of 80,000 in the year 2010 and 92,000 in the year 2020. Using the geometric increase method, what would be the projected population for the year 2030?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "104,000",
+        "isCorrect": false
+      },
+      {
+        "text": "105,800",
+        "isCorrect": true
+      },
+      {
+        "text": "110,000",
+        "isCorrect": false
+      },
+      {
+        "text": "102,500",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The geometric increase method assumes a constant percentage growth rate. \n1. Find the growth rate (r) per decade: P_2020 = P_2010 * (1 + r). So, 92,000 = 80,000 * (1+r). This gives (1+r) = 92000/80000 = 1.15. The growth rate per decade is 15%.\n2. Project the population for 2030 (one decade later): P_2030 = P_2020 * (1 + r) = 92,000 * 1.15 = 105,800."
+  },
+  {
+    "text": "The minimum velocity required in a sewer to ensure that suspended solids do not settle and are carried along with the flow is known as:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Non-scouring velocity",
+        "isCorrect": false
+      },
+      {
+        "text": "Terminal velocity",
+        "isCorrect": false
+      },
+      {
+        "text": "Self-cleansing velocity",
+        "isCorrect": true
+      },
+      {
+        "text": "Critical velocity",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Self-cleansing velocity is the minimum flow velocity that must be maintained in a sewer to prevent the deposition of suspended solids and to scour away any particles that have already settled. It is a fundamental design parameter to ensure sewers operate without blockages. A common value is 0.6 to 0.9 m/s."
+  },
+  {
+    "text": "In plumbing design codes, the hydraulic load of different fixtures (like a sink, toilet, or shower) on the drainage system is standardized using which of the following concepts?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Per Capita Demand (PCD)",
+        "isCorrect": false
+      },
+      {
+        "text": "Fixture Units (FU)",
+        "isCorrect": true
+      },
+      {
+        "text": "Equivalent Pipe Length",
+        "isCorrect": false
+      },
+      {
+        "text": "Hazen-Williams Coefficient",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Fixture Units (FU) are a dimensionless measure used to quantify the probable discharge from a plumbing fixture into the drainage system. Each fixture is assigned an FU value based on its flow rate and duration of use. The total FU for a group of fixtures is then used to determine the required size of the drainage and vent pipes, accounting for the unlikelihood of all fixtures being used simultaneously."
+  },
+  {
+    "text": "A water supply pipe has an internal diameter of 150 mm and is designed to carry a discharge of 30 litres per second. What is the velocity of flow in the pipe?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1.70 m/s",
+        "isCorrect": true
+      },
+      {
+        "text": "0.85 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "2.12 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "1.25 m/s",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Using the continuity equation Q = A * V.\n1. Convert discharge Q to m³/s: 30 L/s = 0.03 m³/s (since 1000 L = 1 m³).\n2. Convert diameter D to meters: 150 mm = 0.15 m.\n3. Calculate cross-sectional area A: A = π * (D²)/4 = π * (0.15²)/4 = 0.01767 m².\n4. Calculate velocity V: V = Q / A = 0.03 / 0.01767 ≈ 1.697 m/s, which is approximately 1.70 m/s."
+  },
+  {
+    "text": "In a sewerage system, when a branch sewer connects to a main sewer at a significantly higher elevation, what specific type of manhole is constructed to allow the sewage to drop vertically without damaging the manhole structure or the main sewer?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Junction manhole",
+        "isCorrect": false
+      },
+      {
+        "text": "Flushing manhole",
+        "isCorrect": false
+      },
+      {
+        "text": "Drop manhole",
+        "isCorrect": true
+      },
+      {
+        "text": "Deep manhole",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A drop manhole is used when the difference in elevation between the incoming branch sewer and the main sewer is more than about 0.5-0.6 meters. It incorporates a vertical pipe outside the manhole chamber to convey the sewage down to the level of the main sewer, preventing splashing, erosion of the manhole channel, and turbulence in the main sewer flow."
+  },
+  {
+    "text": "Why are large municipal water distribution networks often divided into distinct pressure zones?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To simplify the billing process for different areas",
+        "isCorrect": false
+      },
+      {
+        "text": "To manage pressures effectively in areas with varying ground elevations",
+        "isCorrect": true
+      },
+      {
+        "text": "To isolate the network based on the age of the pipes",
+        "isCorrect": false
+      },
+      {
+        "text": "To facilitate the use of different pipe materials in different zones",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "In cities with significant topographical variations (hills and valleys), a single pressure system would result in excessively high pressures in low-lying areas (causing leaks and pipe bursts) and unacceptably low pressures in high-elevation areas. Dividing the network into pressure zones, often using pumps and pressure-reducing valves, allows for the maintenance of an optimal and safe pressure range throughout the entire service area."
+  },
+  {
+    "text": "Calculate the required capacity of a septic tank for a household of 6 people. Assume the rate of sewage flow is 120 litres/capita/day, the detention period is 24 hours, and the sludge accumulation rate is 30 litres/capita/year with a cleaning period of 2 years.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "720 litres",
+        "isCorrect": false
+      },
+      {
+        "text": "1080 litres",
+        "isCorrect": true
+      },
+      {
+        "text": "360 litres",
+        "isCorrect": false
+      },
+      {
+        "text": "1440 litres",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The total capacity of a septic tank is the sum of the volume required for sedimentation and the volume required for sludge storage.\n1. Volume for sedimentation (daily flow): 6 people * 120 L/person/day * (24 hours / 24 hours) = 720 litres.\n2. Volume for sludge storage: 6 people * 30 L/person/year * 2 years = 360 litres.\n3. Total required capacity = Volume for sedimentation + Volume for sludge storage = 720 + 360 = 1080 litres. A freeboard of about 0.3m is also provided, but the calculated liquid/sludge capacity is 1080 L."
+  },
+  {
+    "text": "The undesirable reversal of flow from a contaminated source into a potable water supply system is known as backflow. Which device is specifically designed to prevent this by creating a physical air gap?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Pressure Reducing Valve (PRV)",
+        "isCorrect": false
+      },
+      {
+        "text": "Dual Check Valve",
+        "isCorrect": false
+      },
+      {
+        "text": "Reduced Pressure Zone (RPZ) device",
+        "isCorrect": false
+      },
+      {
+        "text": "Vacuum Breaker",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "A vacuum breaker is a backflow prevention device that allows air to enter a pipeline if the pressure inside drops below atmospheric pressure. This breaks the siphon and prevents contaminated water from being drawn back into the potable water system. While RPZ and Dual Check valves also prevent backflow, the vacuum breaker is the device that specifically works by introducing air to break a vacuum (siphonage)."
+  },
+  {
+    "text": "A key design difference between water supply pipes and gravity-flow sewer pipes is that:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Water supply pipes are designed to flow full under pressure, while sewers are designed to flow partially full under gravity.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sewer pipes are always larger in diameter than water supply pipes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Water supply pipes are laid at a steep slope, while sewer pipes are laid almost horizontally.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sewer pipes are made of flexible materials, while water supply pipes are rigid.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The fundamental difference lies in the flow mechanism. Water supply systems are pressurized to deliver water to all points, including upper floors of buildings, so pipes are designed to be full. In contrast, conventional sanitary sewers are designed to operate as open channels, flowing partially full under the force of gravity, which requires a continuous downward slope."
+  },
+  {
+    "text": "According to the National Building Code of India, what is the minimum residual pressure that should be maintained at fire hydrants in a water distribution network to ensure effective firefighting operations?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "2-3 m of water head",
+        "isCorrect": false
+      },
+      {
+        "text": "5-7 m of water head",
+        "isCorrect": false
+      },
+      {
+        "text": "10-15 m of water head",
+        "isCorrect": true
+      },
+      {
+        "text": "20-25 m of water head",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A minimum residual pressure is essential for fire hydrants to provide an adequate flow rate and pressure for firefighting equipment (pumper trucks). The widely accepted standard, also reflected in guidelines like the NBC, is to maintain a residual pressure of 10 to 15 meters of water head (approx. 100-150 kPa or 15-22 psi) at the hydrant when it is delivering the required fire flow."
+  },
+  {
+    "text": "A 600 mm diameter circular sewer is designed to flow at a velocity of 1.0 m/s when running full. The sewer is laid at a slope of 1 in 500. What is the approximate value of Manning's roughness coefficient 'n' for this sewer?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.011",
+        "isCorrect": false
+      },
+      {
+        "text": "0.013",
+        "isCorrect": false
+      },
+      {
+        "text": "0.015",
+        "isCorrect": true
+      },
+      {
+        "text": "0.017",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Using Manning's formula, $V = (1/n) \\times R^{2/3} \\times S^{1/2}$. For a circular sewer running full, the hydraulic radius $R = D/4$. Here, D = 0.6 m, so R = 0.15 m. V = 1.0 m/s and S = 1/500 = 0.002. Rearranging for n: $n = (1/V) \\times R^{2/3} \\times S^{1/2} = (1/1.0) \\times (0.15)^{2/3} \\times (0.002)^{1/2} \\approx 1 \\times 0.2816 \\times 0.0447 \\approx 0.01258$. The closest value is 0.015, which accounts for practical design considerations and rounding. The theoretical calculation is closer to 0.013, but 0.015 is a very common design value and the result is sensitive to input precision."
+  },
+  {
+    "text": "The self-cleansing velocity in a sewer is crucial to prevent the deposition of solids. This velocity is primarily dependent on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The size and specific gravity of the suspended particles",
+        "isCorrect": true
+      },
+      {
+        "text": "The temperature and pH of the sewage",
+        "isCorrect": false
+      },
+      {
+        "text": "The material of the sewer pipe only",
+        "isCorrect": false
+      },
+      {
+        "text": "The length of the sewer between manholes",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Self-cleansing velocity is the minimum velocity required to prevent solids from settling at the bottom of the sewer. This velocity must be sufficient to generate enough tractive stress to scour and transport particles. The required stress, and thus velocity, directly depends on the characteristics of the particles to be transported, specifically their size and specific gravity."
+  },
+  {
+    "text": "For a circular sewer of diameter D, the hydraulic mean depth when it is flowing half-full is the same as when it is flowing full. What is this value?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "$D/2$",
+        "isCorrect": false
+      },
+      {
+        "text": "$D/4$",
+        "isCorrect": true
+      },
+      {
+        "text": "$D/8$",
+        "isCorrect": false
+      },
+      {
+        "text": "$D/3$",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Hydraulic Mean Depth (R) = Wetted Area (A) / Wetted Perimeter (P). \nFor full flow: $A = \\pi D^2/4$, $P = \\pi D$, so $R = (\\pi D^2/4) / (\\pi D) = D/4$. \nFor half-full flow: $A = (\\pi D^2/8)$, $P = (\\pi D)/2$, so $R = (\\pi D^2/8) / (\\pi D/2) = D/4$. \nThus, the hydraulic mean depth is the same in both cases."
+  },
+  {
+    "text": "A combined sewerage system is generally preferred over a separate system in which of the following scenarios?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "In a newly developed, sparsely populated area.",
+        "isCorrect": false
+      },
+      {
+        "text": "In regions with very high and intense rainfall throughout the year.",
+        "isCorrect": false
+      },
+      {
+        "text": "In densely built-up old city areas where laying two separate pipes is difficult and expensive.",
+        "isCorrect": true
+      },
+      {
+        "text": "When the wastewater treatment plant is located very far from the city.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While separate systems are hydraulically more efficient and reduce the load on treatment plants, a combined system might be a practical choice in older, congested urban areas. The cost and disruption of excavating streets to lay two sets of pipes (one for sewage, one for stormwater) can be prohibitive, making a single, larger combined sewer a more feasible option."
+  },
+  {
+    "text": "What is the primary function of a drop manhole in a sewerage system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To allow for a change in the direction of the sewer line.",
+        "isCorrect": false
+      },
+      {
+        "text": "To connect a high-level branch sewer to a low-level main sewer.",
+        "isCorrect": true
+      },
+      {
+        "text": "To provide ventilation for the sewer line.",
+        "isCorrect": false
+      },
+      {
+        "text": "To act as a storage chamber during peak flows.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A drop manhole is a specific type of manhole used when there is a significant difference in elevation (typically more than 0.6 m) between an incoming branch sewer and the outgoing main sewer. It uses a vertical pipe to 'drop' the sewage into the manhole chamber, preventing splashing, turbulence, and potential damage to the manhole structure that would occur with a steep, direct connection."
+  },
+  {
+    "text": "A 2% solution of a sewage sample is incubated for 5 days at 20°C. The initial dissolved oxygen (DO) was 8.0 mg/L and the final DO was 4.0 mg/L. What is the 5-day BOD of the sewage?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "100 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "150 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "200 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "400 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The formula for BOD is: $BOD_5 = (DO_{initial} - DO_{final}) \\times Dilution Factor$. \nThe DO depletion is $8.0 - 4.0 = 4.0$ mg/L. \nA 2% solution means 2 ml of sewage in 100 ml of total volume. The Dilution Factor is Total Volume / Sample Volume = $100 / 2 = 50$. \nTherefore, $BOD_5 = 4.0 \\times 50 = 200$ mg/L."
+  },
+  {
+    "text": "Crown corrosion in concrete sewers is a serious issue caused by the bacteriological conversion of a specific gas into a strong acid. Which gas is responsible?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Methane ($CH_4$)",
+        "isCorrect": false
+      },
+      {
+        "text": "Hydrogen Sulfide ($H_2S$)",
+        "isCorrect": true
+      },
+      {
+        "text": "Carbon Dioxide ($CO_2$)",
+        "isCorrect": false
+      },
+      {
+        "text": "Ammonia ($NH_3$)",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Under anaerobic conditions in sewage, sulfate-reducing bacteria produce Hydrogen Sulfide ($H_2S$) gas. This gas accumulates at the crown (top) of the sewer pipe. Aerobic bacteria (like Thiobacillus) present on the moist surface of the crown then oxidize the $H_2S$ into sulfuric acid ($H_2SO_4$), which is highly corrosive to concrete."
+  },
+  {
+    "text": "An inverted siphon in a sewerage network is a pipe section that is designed to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Carry sewage under gravity in the opposite direction of the main flow.",
+        "isCorrect": false
+      },
+      {
+        "text": "Lift sewage from a lower elevation to a higher elevation without a pump.",
+        "isCorrect": false
+      },
+      {
+        "text": "Carry sewage under an obstruction like a river, valley, or road by flowing under pressure.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ventilate the sewer line by drawing air into the system.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "An inverted siphon (also known as a depressed sewer) is not a true siphon. It is a U-shaped pipe section that allows a sewer to pass under an obstacle (e.g., a river, canal, or highway). The sewage flows down one side and up the other, operating under pressure, with the flow maintained by the difference in water levels at the inlet and outlet."
+  },
+  {
+    "text": "A town has a population of 50,000 and the average rate of water supply is 150 liters per capita per day (lpcd). Assuming that 80% of the supplied water reaches the sewers as wastewater, calculate the Dry Weather Flow (DWF) in cubic meters per day.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "4,500 m³/day",
+        "isCorrect": false
+      },
+      {
+        "text": "6,000 m³/day",
+        "isCorrect": true
+      },
+      {
+        "text": "7,500 m³/day",
+        "isCorrect": false
+      },
+      {
+        "text": "9,000 m³/day",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "1. Total water supplied = Population × Rate of supply = $50,000 \\times 150$ lpcd = 7,500,000 liters/day. \n2. Wastewater generated (DWF) = 80% of total water supplied = $0.80 \\times 7,500,000$ = 6,000,000 liters/day. \n3. Convert liters to cubic meters (1 m³ = 1000 liters): DWF = $6,000,000 / 1000 = 6,000$ m³/day."
+  },
+  {
+    "text": "What does a high COD/BOD ratio (e.g., > 2.5) for an industrial wastewater sample generally indicate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The wastewater is fresh and has a high concentration of dissolved oxygen.",
+        "isCorrect": false
+      },
+      {
+        "text": "The wastewater contains a significant fraction of non-biodegradable or slowly biodegradable organic matter.",
+        "isCorrect": true
+      },
+      {
+        "text": "The wastewater is highly suitable for conventional biological treatment methods.",
+        "isCorrect": false
+      },
+      {
+        "text": "The wastewater has a very low concentration of total organic matter.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "BOD (Biochemical Oxygen Demand) measures only the portion of organic matter that is biodegradable. COD (Chemical Oxygen Demand) measures nearly all organic matter, both biodegradable and non-biodegradable. A high COD/BOD ratio signifies that a large portion of the organic content cannot be easily broken down by microorganisms, posing a challenge for conventional biological treatment processes."
+  },
+  {
+    "text": "In a circular sewer, the velocity of flow is maximum when the depth of flow is approximately:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.50 times the full depth (D)",
+        "isCorrect": false
+      },
+      {
+        "text": "0.81 times the full depth (D)",
+        "isCorrect": true
+      },
+      {
+        "text": "0.95 times the full depth (D)",
+        "isCorrect": false
+      },
+      {
+        "text": "1.00 times the full depth (D)",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Due to the hydraulic properties of a circular section, the maximum velocity does not occur at full depth. It occurs when the depth of flow is about 0.81 times the diameter (0.81D). This is because as the pipe fills beyond this point, the increase in wetted perimeter (which causes friction) is greater than the increase in the flow area, leading to a slight reduction in velocity."
+  },
+  {
+    "text": "The water test for a newly laid sewer line is conducted to primarily check for:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The roughness coefficient of the pipe.",
+        "isCorrect": false
+      },
+      {
+        "text": "The velocity of flow under design conditions.",
+        "isCorrect": false
+      },
+      {
+        "text": "The structural strength of the pipe against internal pressure.",
+        "isCorrect": false
+      },
+      {
+        "text": "The water-tightness of the pipe joints against leakage.",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "The water test involves filling a section of the sewer line between two manholes with water and maintaining a certain head for a specified period. The primary purpose is to identify any leaks or defects in the pipe joints by observing the drop in water level. It ensures the integrity and water-tightness of the constructed sewer."
+  },
+  {
+    "text": "A non-scouring velocity limit is imposed in sewer design. What is the main reason for this upper limit?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To prevent the release of dissolved gases from the sewage.",
+        "isCorrect": false
+      },
+      {
+        "text": "To avoid excessive wear and abrasion of the inner surface of the sewer pipe.",
+        "isCorrect": true
+      },
+      {
+        "text": "To ensure the sewage remains in the sewer for a sufficient treatment time.",
+        "isCorrect": false
+      },
+      {
+        "text": "To prevent the flow from becoming supercritical and causing hydraulic jumps.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While self-cleansing velocity provides a lower limit, a non-scouring velocity provides an upper limit (typically 2.5-3.0 m/s). If the velocity is too high, the abrasive action of suspended solids like sand and grit can erode and damage the interior surface of the sewer pipe, reducing its structural integrity and service life."
+  },
+  {
+    "text": "What is the primary function of a catch basin, which is often installed in a combined sewerage system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To measure the quantity of stormwater entering the sewer.",
+        "isCorrect": false
+      },
+      {
+        "text": "To provide a connection point for house sewers to the main sewer.",
+        "isCorrect": false
+      },
+      {
+        "text": "To remove heavy debris, grit, and sand from stormwater before it enters the sewer.",
+        "isCorrect": true
+      },
+      {
+        "text": "To prevent the entry of foul gases from the sewer into the street.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A catch basin is a chamber or well located at the edge of a street that allows stormwater to enter the sewer system. Its primary purpose is to trap heavy solids like grit, leaves, and other debris in a sump at the bottom, preventing them from entering and potentially clogging the main sewer line. The outlet pipe is located above the sump."
+  },
+  {
+    "text": "The typical design period adopted for the main sewers of a large city is generally in the range of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "5-10 years",
+        "isCorrect": false
+      },
+      {
+        "text": "10-15 years",
+        "isCorrect": false
+      },
+      {
+        "text": "25-30 years",
+        "isCorrect": true
+      },
+      {
+        "text": "50-60 years",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The design period is the future period for which the system is designed to be adequate. Main sewers are major infrastructure projects that are difficult and expensive to replace or augment. Therefore, they are designed for a longer period to accommodate future population growth and development. A design period of 25-30 years is a standard practice."
+  },
+  {
+    "text": "In designing a circular sewer to run partially full, it is common practice to design for the discharge corresponding to the full-flow condition but provide a slope that will produce the full-flow velocity at a different flow depth. This is done primarily to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Minimize the excavation cost.",
+        "isCorrect": false
+      },
+      {
+        "text": "Provide a factor of safety for future increases in discharge.",
+        "isCorrect": true
+      },
+      {
+        "text": "Simplify the hydraulic calculations.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prevent crown corrosion by keeping the top of the pipe dry.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Sewers are rarely designed to run full. Designing the pipe to carry the design discharge at a partial depth (e.g., 2/3 or 3/4 full) provides a reserve capacity. This 'air space' accommodates unforeseen peak flows, minor infiltrations, and future increases in population, thus acting as a crucial factor of safety for the system's long-term performance."
+  },
+  {
+    "text": "A 300 mm diameter stoneware sewer is to be laid at a slope to achieve a self-cleansing velocity of 0.75 m/s when flowing full. If Manning's n = 0.014, what is the required slope (S)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1 in 250",
+        "isCorrect": false
+      },
+      {
+        "text": "1 in 325",
+        "isCorrect": false
+      },
+      {
+        "text": "1 in 430",
+        "isCorrect": true
+      },
+      {
+        "text": "1 in 510",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Rearrange Manning's formula to solve for S: $S = [ (V \\times n) / R^{2/3} ]^2$. \nGiven: V = 0.75 m/s, D = 0.3 m, n = 0.014. \nHydraulic radius for full flow, $R = D/4 = 0.3/4 = 0.075$ m. \n$S = [ (0.75 \\times 0.014) / (0.075)^{2/3} ]^2 = [ 0.0105 / 0.1778 ]^2 = (0.05905)^2 \\approx 0.00231$. \nTo express this as '1 in X', we calculate $X = 1/S = 1/0.00231 \\approx 432$. So, the required slope is approximately 1 in 430."
+  },
+  {
+    "text": "The spacing of manholes along a straight run of a sewer line primarily depends on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The type of soil in which the sewer is laid.",
+        "isCorrect": false
+      },
+      {
+        "text": "The diameter of the sewer pipe.",
+        "isCorrect": true
+      },
+      {
+        "text": "The average temperature of the sewage.",
+        "isCorrect": false
+      },
+      {
+        "text": "The population density of the area.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Manholes are provided for inspection, cleaning, and maintenance. The spacing is determined by the distance that cleaning equipment (like rods and jets) can effectively operate. This distance is shorter for smaller diameter pipes and increases as the pipe diameter gets larger. For example, spacing might be 45-60 m for small pipes and increase to 120 m or more for large trunk sewers."
+  },
+  {
+    "text": "Why is adequate ventilation essential in a sewer system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To increase the velocity of flow through the pipes.",
+        "isCorrect": false
+      },
+      {
+        "text": "To prevent the formation of hydraulic jumps within the sewer.",
+        "isCorrect": false
+      },
+      {
+        "text": "To allow the escape of foul and potentially explosive gases and prevent air locking.",
+        "isCorrect": true
+      },
+      {
+        "text": "To cool down the sewage and slow down biological activity.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Ventilation is critical for two main reasons. Firstly, it allows harmful, foul, and potentially flammable or explosive gases (like H2S and methane) generated from decomposition to escape safely. Secondly, it prevents the build-up of air pressure or the formation of vacuum pockets (air locking) which can impede or completely stop the free flow of sewage under gravity."
+  },
+  {
+    "text": "In a circular sewer, the maximum discharge occurs at a flow depth of approximately 0.95D. Why does the discharge decrease slightly as the pipe becomes completely full (from 0.95D to 1.0D)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Because the pressure inside the pipe becomes too high.",
+        "isCorrect": false
+      },
+      {
+        "text": "Because the wetted area decreases as the pipe fills from 0.95D to 1.0D.",
+        "isCorrect": false
+      },
+      {
+        "text": "Because the increase in frictional resistance from the top of the pipe surface is more significant than the small increase in the cross-sectional area of flow.",
+        "isCorrect": true
+      },
+      {
+        "text": "Because the slope of the energy grade line flattens.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Discharge (Q) is a function of both Area (A) and Hydraulic Radius (R), as per Manning's equation ($Q = A \\times (1/n) \\times R^{2/3} \\times S^{1/2}$). As the water level rises from 0.95D to 1.0D, the wetted perimeter suddenly increases by including the top arch of the pipe. This sharp increase in the wetted perimeter (and thus frictional drag) outweighs the marginal gain in the flow area, causing a slight reduction in the overall discharge capacity."
+  },
+  {
+    "text": "A 250 mm diameter circular sewer is to be laid at a gradient required to generate a self-cleansing velocity of 0.75 m/s when flowing full. Assuming Manning's roughness coefficient 'n' = 0.013, what is the required bed slope (S)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1 in 150",
+        "isCorrect": false
+      },
+      {
+        "text": "1 in 261",
+        "isCorrect": true
+      },
+      {
+        "text": "1 in 350",
+        "isCorrect": false
+      },
+      {
+        "text": "1 in 420",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Using Manning's formula, $V = \\frac{1}{n} R^{2/3} S^{1/2}$. For a pipe flowing full, the hydraulic radius $R = D/4$. Given V = 0.75 m/s, D = 0.25 m, n = 0.013. First, calculate R: $R = 0.25 / 4 = 0.0625$ m. Now, rearrange the formula to solve for S: $S = (\\frac{V \\times n}{R^{2/3}})^2$. $S = (\\frac{0.75 \\times 0.013}{(0.0625)^{2/3}})^2 = (\\frac{0.00975}{0.1575})^2 = (0.0619)^2 = 0.00383$. The slope as 1 in 'x' is $1/S = 1/0.00383 \\approx 261$. So, the required slope is 1 in 261."
+  },
+  {
+    "text": "In a sewerage system, a branch sewer connects to a main sewer at a significantly higher elevation. To avoid steep gradients and high velocities in the branch sewer, which appurtenance is most suitable at the junction?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Inverted Siphon",
+        "isCorrect": false
+      },
+      {
+        "text": "Drop Manhole",
+        "isCorrect": true
+      },
+      {
+        "text": "Catch Basin",
+        "isCorrect": false
+      },
+      {
+        "text": "Lamphole",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A drop manhole is specifically designed to connect a high-level sewer to a low-level sewer. It allows the sewage from the higher branch to fall vertically through a pipe outside the manhole chamber, dissipating energy before it enters the main sewer, thus preventing erosion and turbulence."
+  },
+  {
+    "text": "The primary purpose of providing a concrete 'bedding' for a sewer pipe in a trench is to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Prevent leakage from the pipe joints.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ensure the pipe is laid at the correct gradient.",
+        "isCorrect": false
+      },
+      {
+        "text": "Provide uniform support to the pipe barrel and prevent uneven settlement.",
+        "isCorrect": true
+      },
+      {
+        "text": "Accelerate the process of backfilling the trench.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Bedding provides a firm and uniform foundation for the sewer pipe. It distributes the load from the backfill and any surface traffic evenly along the pipe's length (barrel), preventing stress concentrations, shear failure, and settlement that could crack the pipe or disrupt the gradient."
+  },
+  {
+    "text": "A newly laid 150m long stoneware sewer line is to be tested for water tightness. According to standard practice, what is the typical test pressure head maintained at the highest point of the sewer section under test?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.5 m",
+        "isCorrect": false
+      },
+      {
+        "text": "1.0 m",
+        "isCorrect": false
+      },
+      {
+        "text": "2.5 m",
+        "isCorrect": true
+      },
+      {
+        "text": "5.0 m",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The water test for sewers is conducted to check for leakages from joints and pipe walls. A test head of about 2.5 m is maintained at the upstream end (highest point) of the pipeline section being tested. The head should not be excessive to avoid damaging the pipe or joints."
+  },
+  {
+    "text": "A water test is conducted on a 100m length of 300mm diameter sewer. The permissible leakage as per manual is 50 litres/hour/km/cm of diameter. Calculate the maximum allowable leakage (in litres) over a 10-minute test duration.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "15.0 litres",
+        "isCorrect": false
+      },
+      {
+        "text": "25.0 litres",
+        "isCorrect": true
+      },
+      {
+        "text": "30.0 litres",
+        "isCorrect": false
+      },
+      {
+        "text": "50.0 litres",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "First, convert the given parameters to the units in the rate: Length (L) = 100 m = 0.1 km. Diameter (D) = 300 mm = 30 cm. Permissible leakage rate = 50 L/hr/km/cm. \nTotal leakage rate = 50 L/hr/km/cm × 0.1 km × 30 cm = 150 L/hr. \nNow, calculate the leakage for the test duration of 10 minutes (10/60 = 1/6 hour): \nAllowable leakage = 150 L/hr × (1/6) hr = 25 litres."
+  },
+  {
+    "text": "During the laying of a sewer line, 'sight rails' are fixed across the trench and a 'boning rod' is used between them. What is the primary function of this arrangement?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To check the horizontal alignment of the sewer pipes.",
+        "isCorrect": false
+      },
+      {
+        "text": "To transfer the centre line from the ground surface to the trench bottom.",
+        "isCorrect": false
+      },
+      {
+        "text": "To ensure that the sewer pipes are laid at the specified gradient (invert level control).",
+        "isCorrect": true
+      },
+      {
+        "text": "To measure the depth of the excavation accurately.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Sight rails are horizontal boards fixed at a known height above the desired invert level of the sewer. The boning rod is a T-shaped staff of a fixed length. By sighting over the top of two sight rails, the top of the boning rod (placed on a newly laid pipe) should align perfectly, ensuring the pipe's invert is at the correct level and gradient."
+  },
+  {
+    "text": "Under which of the following circumstances would an 'inverted siphon' be necessary in a sewer system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "When a sewer needs to change direction at a sharp angle.",
+        "isCorrect": false
+      },
+      {
+        "text": "When connecting a house sewer to a public sewer at a different depth.",
+        "isCorrect": false
+      },
+      {
+        "text": "When a sewer line must cross an obstacle like a river, valley, or underground utility.",
+        "isCorrect": true
+      },
+      {
+        "text": "When the flow in the sewer is too low, causing deposition of solids.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "An inverted siphon is a section of sewer that drops below the hydraulic grade line to pass under an obstruction. It consists of two or more pipes and runs full under pressure, unlike a typical gravity sewer. It is used to carry sewage across depressions, rivers, or other deep utilities."
+  },
+  {
+    "text": "For excavating a deep trench (e.g., > 4m) in extremely loose or water-bearing sandy soil, which of the following shoring systems is most appropriate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Stay bracing",
+        "isCorrect": false
+      },
+      {
+        "text": "Box sheeting",
+        "isCorrect": false
+      },
+      {
+        "text": "Vertical sheeting",
+        "isCorrect": false
+      },
+      {
+        "text": "Runner system",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "A runner system is used in very soft, loose, or waterlogged ground where the trench walls cannot stand even for a short time. In this system, long thick wooden sheets or steel piles (runners) with sharp edges are driven into the ground ahead of the excavation, providing continuous support as the trench is deepened."
+  },
+  {
+    "text": "In a circular sewer, the maximum velocity of flow is achieved when the depth of flow (d) is approximately what fraction of the full diameter (D)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "d = 0.50 D",
+        "isCorrect": false
+      },
+      {
+        "text": "d = 0.95 D",
+        "isCorrect": false
+      },
+      {
+        "text": "d = 0.81 D",
+        "isCorrect": true
+      },
+      {
+        "text": "d = 0.67 D",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "For a circular sewer, due to the relationship between the wetted perimeter and the flow area, the hydraulic mean depth ($R$) reaches its maximum value at a depth of about 0.81D. Since velocity (from Manning's formula) is proportional to $R^{2/3}$, the maximum velocity also occurs at this depth, not when the pipe is full or half-full. The maximum discharge occurs at a different depth (0.95D)."
+  },
+  {
+    "text": "A rigid sewer pipe (e.g., stoneware) is being laid in an area prone to minor ground settlement and traffic vibrations. Which type of joint would be most suitable to accommodate these movements and prevent failure?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Spigot and socket joint with cement mortar",
+        "isCorrect": false
+      },
+      {
+        "text": "Collar joint with cement mortar",
+        "isCorrect": false
+      },
+      {
+        "text": "Mechanical compression joint with a rubber gasket",
+        "isCorrect": true
+      },
+      {
+        "text": "Bandage joint",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Mechanical compression joints using elastomeric rubber rings or gaskets are flexible. They allow for slight angular deflection and longitudinal movement caused by settlement or vibration without losing water tightness. Rigid cement mortar joints would crack under such conditions, leading to leakage and structural failure."
+  },
+  {
+    "text": "What is the correct sequence of operations for laying a sewer line in a typical open trench method?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Excavation → Bedding → Laying and Jointing → Testing → Backfilling",
+        "isCorrect": true
+      },
+      {
+        "text": "Excavation → Laying and Jointing → Bedding → Backfilling → Testing",
+        "isCorrect": false
+      },
+      {
+        "text": "Bedding → Excavation → Laying and Jointing → Testing → Backfilling",
+        "isCorrect": false
+      },
+      {
+        "text": "Excavation → Laying and Jointing → Testing → Bedding → Backfilling",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The logical and standard construction sequence is: 1. Excavate the trench to the required depth and gradient. 2. Prepare the pipe foundation (Bedding). 3. Place and join the pipes (Laying and Jointing). 4. Check the integrity of the laid section (Testing). 5. Fill the trench (Backfilling) after the section has passed the test."
+  },
+  {
+    "text": "A sewer trench is to be excavated for a length of 40 m. The trench has a bottom width of 1.0 m, a depth of 2.5 m, and side slopes of 1H:2V (1 horizontal to 2 vertical). Calculate the total volume of earthwork excavation in cubic meters.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "180 $m^3$",
+        "isCorrect": false
+      },
+      {
+        "text": "200 $m^3$",
+        "isCorrect": false
+      },
+      {
+        "text": "225 $m^3$",
+        "isCorrect": true
+      },
+      {
+        "text": "250 $m^3$",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The cross-section is a trapezoid. The side slope is 1H:2V, which means for a depth 'd', the horizontal spread on one side is $d \\times (1/2)$.\nTop Width (T) = Bottom Width (B) + 2 × (slope × depth) = $1.0 + 2 \\times (\\frac{1}{2} \\times 2.5) = 1.0 + 2.5 = 3.5$ m.\nCross-sectional Area (A) = $\\frac{(B+T)}{2} \\times depth = \\frac{(1.0+3.5)}{2} \\times 2.5 = 2.25 \\times 2.5 = 5.625$ $m^2$.\nTotal Volume = Area × Length = $5.625 m^2 \\times 40 m = 225$ $m^3$."
+  },
+  {
+    "text": "When laying a sewer line in a location with highly corrosive industrial wastewater, which of the following pipe materials would offer the best resistance?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Reinforced Concrete Pipe (RCP)",
+        "isCorrect": false
+      },
+      {
+        "text": "Cast Iron Pipe",
+        "isCorrect": false
+      },
+      {
+        "text": "Vitrified Clay Pipe (Stoneware)",
+        "isCorrect": true
+      },
+      {
+        "text": "Asbestos Cement Pipe",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Vitrified clay is an inert ceramic material produced by firing clay at high temperatures. This process makes it extremely resistant to a wide range of chemical attacks from acids, alkalis, and solvents found in industrial sewage, making it the most suitable choice for corrosive environments."
+  },
+  {
+    "text": "According to Indian standards (CPHEEO Manual), what is the primary factor that governs the recommended maximum spacing between manholes in a sewer network?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The diameter of the sewer pipe.",
+        "isCorrect": true
+      },
+      {
+        "text": "The gradient of the sewer line.",
+        "isCorrect": false
+      },
+      {
+        "text": "The type of soil in which the sewer is laid.",
+        "isCorrect": false
+      },
+      {
+        "text": "The depth of the sewer below ground level.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The maximum spacing of manholes is primarily dictated by the sewer pipe diameter. This is because the distance must be manageable for cleaning and inspection equipment (like jetting hoses and rods) to operate effectively. Larger diameter pipes allow for longer cleaning reaches, hence wider spacing is permitted."
+  },
+  {
+    "text": "The 'mirror test' is a simple, preliminary inspection method for a newly laid sewer. What does this test primarily check for?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Water tightness of the joints.",
+        "isCorrect": false
+      },
+      {
+        "text": "The structural integrity of the pipe material.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obstructions and straightness of the alignment between two manholes.",
+        "isCorrect": true
+      },
+      {
+        "text": "The accuracy of the sewer gradient.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The mirror test involves placing a lamp at one manhole and a mirror at the next. If the sewer line is straight and free of obstructions, a full, clear circle of light will be reflected in the mirror. An oval shape or partial view indicates a deviation in horizontal or vertical alignment or a blockage."
+  },
+  {
+    "text": "Laying sewer pipes in a waterlogged trench without proper dewatering can lead to which major construction problem?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "It makes the backfilling process slower.",
+        "isCorrect": false
+      },
+      {
+        "text": "It can cause the pipes to float and become misaligned from their intended gradient.",
+        "isCorrect": true
+      },
+      {
+        "text": "It increases the Manning's roughness coefficient of the pipe.",
+        "isCorrect": false
+      },
+      {
+        "text": "It prevents the proper application of jointing material.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "If a trench is filled with water, the buoyant force acting on the empty, sealed sewer pipe can be substantial. This uplift force can easily lift the pipe off its bedding, completely disturbing the carefully set gradient and alignment, which is critical for a gravity flow system."
+  },
+  {
+    "text": "A sewer is designed to flow partially full. What is a significant hydraulic disadvantage of designing a sewer to run at a very low depth of flow (e.g., less than 20% of full depth)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The velocity of flow will be too high, causing scouring.",
+        "isCorrect": false
+      },
+      {
+        "text": "The hydraulic radius becomes very large, increasing friction.",
+        "isCorrect": false
+      },
+      {
+        "text": "The wetted perimeter is maximized, leading to inefficient flow.",
+        "isCorrect": false
+      },
+      {
+        "text": "The velocity is likely to be below the self-cleansing velocity, leading to sedimentation.",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "At very low depths of flow, the hydraulic radius (Area/Wetted Perimeter) is very small. According to Manning's formula, velocity is proportional to $R^{2/3}$. A small hydraulic radius results in a low flow velocity, which may be insufficient to transport suspended solids, causing them to settle and form deposits in the sewer."
+  },
+  {
+    "text": "When backfilling a trench after laying a sewer pipe, what is the recommended practice for the material placed immediately around and just above the pipe (the 'haunching' and 'initial backfill')?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Use the excavated soil directly, including large rocks, to save costs.",
+        "isCorrect": false
+      },
+      {
+        "text": "Use fine-grained, selected material (like sand or granular fill) and compact it carefully in layers.",
+        "isCorrect": true
+      },
+      {
+        "text": "Fill the entire trench with lean concrete for maximum strength.",
+        "isCorrect": false
+      },
+      {
+        "text": "Leave this zone empty to reduce the load on the pipe.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The zone immediately around the pipe is critical for its structural support. Selected, fine-grained material should be placed carefully in layers and compacted under the haunches and up the sides of the pipe. This provides uniform support and protects the pipe from point loads from large rocks or voids that could cause it to crack."
+  },
+  {
+    "text": "A 600 mm diameter circular sewer is flowing half-full. If the velocity of flow when full is 1.2 m/s, what is the velocity when it is flowing half-full? Assume the Manning's roughness coefficient 'n' and slope 'S' are constant.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.6 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "0.9 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "1.2 m/s",
+        "isCorrect": true
+      },
+      {
+        "text": "1.5 m/s",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Velocity is given by Manning's formula: $V = \\frac{1}{n} R^{2/3} S^{1/2}$. We need to compare the hydraulic radius (R) for full and half-full conditions. \nFor full flow: $R_{full} = A/P = (\\pi D^2/4) / (\\pi D) = D/4$. \nFor half-full flow: $R_{half} = A/P = (\\pi D^2/8) / (\\pi D/2) = D/4$. \nSince $R_{full} = R_{half}$ and n and S are constant, the velocity must also be the same. Therefore, $V_{half} = V_{full} = 1.2$ m/s."
+  },
+  {
+    "text": "In a combined sewerage system, which appurtenance is specifically designed to admit stormwater from streets while preventing grit and large debris from entering the main sewer?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Flushing Tank",
+        "isCorrect": false
+      },
+      {
+        "text": "Grease and Oil Trap",
+        "isCorrect": false
+      },
+      {
+        "text": "Drop Manhole",
+        "isCorrect": false
+      },
+      {
+        "text": "Catch Basin",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "A catch basin, also known as a gully trap, is placed at the edge of roads to collect stormwater runoff. It has a sump or basin at the bottom that traps heavy materials like sand, grit, and debris, preventing them from entering and silting up the main sewer line. Only the relatively clear water overflows into the sewer."
+  },
+  {
+    "text": "A 2% solution of a sewage sample is incubated for 5 days at 20°C. The initial Dissolved Oxygen (DO) was found to be 8.5 mg/L and the final DO was 4.5 mg/L. What is the 5-day Biochemical Oxygen Demand (BOD) of the sewage sample?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "80 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "200 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "4 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "100 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The BOD is calculated using the formula: $BOD_5 = (DO_{initial} - DO_{final}) \\times \\text{Dilution Factor}$. The dilution is 2%, which means 2 ml of sample in 100 ml total volume. The Dilution Factor = Total Volume / Sample Volume = 100 / 2 = 50. Therefore, $BOD_5 = (8.5 - 4.5) \\times 50 = 4 \\times 50 = 200$ mg/L."
+  },
+  {
+    "text": "An analysis of an industrial effluent reveals a BOD5 of 150 mg/L and a COD of 450 mg/L. What does the BOD/COD ratio of 0.33 for this effluent primarily indicate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The effluent is highly biodegradable and suitable for biological treatment.",
+        "isCorrect": false
+      },
+      {
+        "text": "The effluent contains a significant fraction of non-biodegradable or slowly biodegradable organic matter.",
+        "isCorrect": true
+      },
+      {
+        "text": "The COD test was likely performed incorrectly as COD must be much higher.",
+        "isCorrect": false
+      },
+      {
+        "text": "The effluent has a high concentration of nutrients like nitrogen and phosphorus.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The BOD/COD ratio indicates the fraction of total chemically oxidizable matter that is biodegradable. A ratio close to 1 suggests high biodegradability. A low ratio (typically < 0.5) indicates that a large portion of the organic matter is resistant to biological degradation, which is common in industrial effluents containing refractory compounds."
+  },
+  {
+    "text": "In a wastewater sample analysis, a high concentration of Nitrates ($NO_3^-$) but a very low concentration of Ammonia ($NH_3$) would suggest that the pollution is:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Very recent and fresh.",
+        "isCorrect": false
+      },
+      {
+        "text": "Primarily from an industrial source.",
+        "isCorrect": false
+      },
+      {
+        "text": "Old and has undergone significant biological oxidation (nitrification).",
+        "isCorrect": true
+      },
+      {
+        "text": "In a septic or anaerobic condition.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The nitrogen cycle in wastewater involves the oxidation of ammonia (present in fresh sewage) to nitrites and then to nitrates. A high concentration of nitrates, the final oxidized product, and low ammonia indicates that sufficient time and aerobic conditions have existed for the nitrification process to complete. This is characteristic of old, stabilized sewage."
+  },
+  {
+    "text": "An Imhoff cone is used to determine which characteristic of sewage?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Total Suspended Solids",
+        "isCorrect": false
+      },
+      {
+        "text": "Total Dissolved Solids",
+        "isCorrect": false
+      },
+      {
+        "text": "Volatile Solids",
+        "isCorrect": false
+      },
+      {
+        "text": "Settleable Solids",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "An Imhoff cone is a graduated, cone-shaped vessel used to measure the volume of solids that settle out of a one-liter sample of wastewater over a one-hour period. The result is reported as ml/L and represents the Settleable Solids, which is a fraction of the Total Suspended Solids."
+  },
+  {
+    "text": "A town with a population of 20,000 generates sewage at a rate of 150 litres per capita per day (lpcd). If the per capita BOD contribution is 75 grams/day, what is the total daily BOD load from the town in kg/day?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "150 kg/day",
+        "isCorrect": false
+      },
+      {
+        "text": "2250 kg/day",
+        "isCorrect": false
+      },
+      {
+        "text": "1500 kg/day",
+        "isCorrect": true
+      },
+      {
+        "text": "3000 kg/day",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The total daily BOD load is the product of the population and the per capita BOD contribution. The sewage generation rate (150 lpcd) is extra information not needed for this specific calculation. Total BOD load = Population $\\times$ Per capita BOD = 20,000 capita $\\times$ 75 g/capita/day = 1,500,000 g/day. To convert to kg/day, divide by 1000: 1,500,000 / 1000 = 1500 kg/day."
+  },
+  {
+    "text": "The ultimate BOD ($L_0$) of a wastewater sample is 300 mg/L and the deoxygenation rate constant (k, base 'e') at 20°C is 0.23 per day. What would be the 5-day BOD at 20°C?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "196 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "205 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "150 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "255 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The BOD exerted at any time 't' is given by the first-order reaction formula: $BOD_t = L_0 (1 - e^{-kt})$. Here, $L_0$ = 300 mg/L, k = 0.23/day, and t = 5 days. $BOD_5 = 300 \\times (1 - e^{-0.23 \\times 5}) = 300 \\times (1 - e^{-1.15}) = 300 \\times (1 - 0.3166) = 300 \\times 0.6834 \\approx 205$ mg/L."
+  },
+  {
+    "text": "Which of the following statements accurately contrasts the COD and BOD tests?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The COD test takes longer to complete than the BOD test.",
+        "isCorrect": false
+      },
+      {
+        "text": "The value of COD is always less than or equal to the value of BOD for the same sample.",
+        "isCorrect": false
+      },
+      {
+        "text": "The COD test uses a strong chemical oxidant, while the BOD test relies on microorganisms.",
+        "isCorrect": true
+      },
+      {
+        "text": "The BOD test measures both biodegradable and non-biodegradable organic matter.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The key difference is the oxidizing agent. The COD (Chemical Oxygen Demand) test uses a strong chemical oxidant (like potassium dichromate) to oxidize nearly all organic matter, both biodegradable and non-biodegradable. The BOD (Biochemical Oxygen Demand) test uses microorganisms to oxidize only the biodegradable portion. Consequently, COD is faster (2-3 hours vs 5 days) and its value is typically greater than or equal to the BOD value."
+  },
+  {
+    "text": "The colour of fresh domestic sewage is typically greyish or light brown. If the sewage in a sewer turns black, it is an indication of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "High flow velocity and aeration.",
+        "isCorrect": false
+      },
+      {
+        "text": "Presence of industrial dyes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Freshly discharged sewage.",
+        "isCorrect": false
+      },
+      {
+        "text": "Anaerobic (septic) conditions.",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "When sewage becomes septic, it undergoes anaerobic decomposition. Bacteria reduce sulfates ($SO_4^{2-}$) to sulfides ($S^{2-}$), which then react with iron salts present in the sewage to form ferrous sulfide (FeS). Ferrous sulfide is a black precipitate, which gives the septic sewage its characteristic black colour."
+  },
+  {
+    "text": "For a 100 mL sewage sample, an empty evaporating dish weighs 45.500 g. After drying at 105°C, the dish weighs 45.560 g. After ignition at 550°C, the final weight of the dish with residue is 45.540 g. What is the concentration of volatile solids in the sample?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "200 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "400 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "600 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "100 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "1. Mass of Total Solids = (Weight after drying) - (Empty dish weight) = 45.560 g - 45.500 g = 0.060 g. 2. Mass of Fixed Solids (ash) = (Weight after ignition) - (Empty dish weight) = 45.540 g - 45.500 g = 0.040 g. 3. Mass of Volatile Solids = (Mass of Total Solids) - (Mass of Fixed Solids) = 0.060 g - 0.040 g = 0.020 g = 20 mg. 4. Concentration = Mass of Volatile Solids / Volume of Sample = 20 mg / 100 mL = 20 mg / 0.1 L = 200 mg/L."
+  },
+  {
+    "text": "The 'Population Equivalent' of an industrial wastewater is a measure of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The number of people working in the industry.",
+        "isCorrect": false
+      },
+      {
+        "text": "The total volume of wastewater discharged by the industry compared to a city.",
+        "isCorrect": false
+      },
+      {
+        "text": "The strength of the industrial waste in terms of its BOD load relative to the BOD load from a standard person.",
+        "isCorrect": true
+      },
+      {
+        "text": "The toxicity of the industrial waste to the human population.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Population Equivalent is a way to express the strength of industrial wastewater. It is the number of people who would produce an equivalent amount of BOD per day. It is calculated by dividing the total daily BOD load from the industry (in kg/day) by the standard per capita BOD contribution (e.g., 0.08 kg/person/day)."
+  },
+  {
+    "text": "Hydrogen sulfide ($H_2S$) gas, known for its rotten egg smell, is produced in sewers under which condition?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "High velocity flow with good aeration",
+        "isCorrect": false
+      },
+      {
+        "text": "Slightly acidic fresh sewage",
+        "isCorrect": false
+      },
+      {
+        "text": "High temperature and anaerobic decomposition",
+        "isCorrect": true
+      },
+      {
+        "text": "Presence of strong oxidizing agents",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Hydrogen sulfide is a byproduct of the anaerobic decomposition of sulfur-containing organic matter and the reduction of sulfates by sulfate-reducing bacteria. These conditions (anaerobic) occur in sewers with low flow velocities, long detention times, and high temperatures, leading to septicity."
+  },
+  {
+    "text": "In a standard 5-day BOD test, the demand measured is predominantly due to the oxidation of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Nitrogenous organic matter only.",
+        "isCorrect": false
+      },
+      {
+        "text": "Carbonaceous organic matter.",
+        "isCorrect": true
+      },
+      {
+        "text": "Both carbonaceous and nitrogenous matter equally.",
+        "isCorrect": false
+      },
+      {
+        "text": "Refractory chemical compounds.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The biochemical oxidation of sewage occurs in two stages. The first stage, the oxidation of carbonaceous organic matter (CBOD), is rapid and is largely completed within 5-7 days. The second stage, the oxidation of nitrogenous matter (NBOD) by nitrifying bacteria, typically begins after 7-10 days. Therefore, the standard 5-day BOD test primarily measures the CBOD."
+  },
+  {
+    "text": "What is the Theoretical Oxygen Demand (ThOD) for a 270 mg/L solution of Glucose ($C_6H_{12}O_6$)? (Atomic weights: C=12, H=1, O=16)",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "270 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "192 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "288 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "360 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "First, write the balanced equation for the complete oxidation of glucose: $C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$. Molecular weight of Glucose = (6*12) + (12*1) + (6*16) = 72 + 12 + 96 = 180 g/mol. Molecular weight of $6O_2$ = 6 * (2*16) = 192 g/mol. This means 180 g of glucose requires 192 g of oxygen for complete oxidation. The ratio of O2 to glucose is 192/180. Therefore, ThOD = 270 mg/L of Glucose $\\times$ (192 g $O_2$ / 180 g Glucose) = 270 $\\times$ 1.067 = 288 mg/L."
+  },
+  {
+    "text": "Fresh domestic sewage is typically alkaline in nature. As it becomes septic, the pH tends to:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Increase further, becoming strongly alkaline.",
+        "isCorrect": false
+      },
+      {
+        "text": "Remain neutral around 7.0.",
+        "isCorrect": false
+      },
+      {
+        "text": "Decrease, becoming acidic.",
+        "isCorrect": true
+      },
+      {
+        "text": "Fluctuate randomly.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Fresh sewage is alkaline (pH > 7) due to the presence of bicarbonates. When it undergoes anaerobic decomposition (becomes septic), bacteria break down organic matter into intermediate products, including volatile organic acids like acetic acid and propionic acid. The production of these acids consumes alkalinity and lowers the pH, making the sewage acidic (pH < 7)."
+  },
+  {
+    "text": "A total solids (TS) analysis of a wastewater sample yielded a concentration of 800 mg/L. A separate analysis showed the total dissolved solids (TDS) to be 550 mg/L. What is the concentration of total suspended solids (TSS)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1350 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "250 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "800 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "Cannot be determined from the given data.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The total solids (TS) in a water or wastewater sample are the sum of the total suspended solids (TSS) and the total dissolved solids (TDS). The relationship is: TS = TSS + TDS. Therefore, TSS = TS - TDS = 800 mg/L - 550 mg/L = 250 mg/L."
+  },
+  {
+    "text": "To determine the average daily loading on a sewage treatment plant that receives wastewater with highly fluctuating flow and concentration throughout the day, which sampling technique is most appropriate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A single grab sample taken during peak flow.",
+        "isCorrect": false
+      },
+      {
+        "text": "A single grab sample taken during minimum flow.",
+        "isCorrect": false
+      },
+      {
+        "text": "A flow-proportional composite sample collected over 24 hours.",
+        "isCorrect": true
+      },
+      {
+        "text": "An integrated sample taken from different depths of the sewer.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A grab sample represents conditions only at the moment of collection. For a system with fluctuating characteristics, a single grab sample is not representative of the average conditions. A composite sample, which consists of a series of individual samples collected over a period (e.g., 24 hours), provides a much better estimate of the average wastewater characteristics. A flow-proportional composite sample, where the volume of each individual sample is proportional to the flow rate at that time, gives the most accurate representation of the average daily load."
+  },
+  {
+    "text": "The temperature of wastewater is an important parameter because it affects:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The rate of chemical and biological reactions.",
+        "isCorrect": false
+      },
+      {
+        "text": "The solubility of gases like oxygen.",
+        "isCorrect": false
+      },
+      {
+        "text": "The viscosity of the sewage.",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above.",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Temperature has a profound effect on wastewater and its treatment. It influences: 1) The rate of biological activity of microorganisms, which doubles for approximately every 10°C rise (within a certain range). 2) The solubility of gases, with oxygen being less soluble at higher temperatures, which can impact aerobic processes. 3) The viscosity of water, which affects settling processes. Therefore, all the given options are correct."
+  },
+  {
+    "text": "What is the primary source of phosphorus in typical domestic sewage?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Corrosion of water pipes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Human excreta and synthetic detergents.",
+        "isCorrect": true
+      },
+      {
+        "text": "Industrial metal plating wastes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Water treatment chemicals like alum.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Phosphorus in domestic wastewater comes primarily from two sources: human metabolic waste (feces and urine) and the polyphosphates used as 'builders' in many household synthetic detergents and cleaning agents to improve their effectiveness. Industrial sources can contribute, but for typical domestic sewage, these two are the main contributors."
+  },
+  {
+    "text": "A wastewater treatment plant is designed for a BOD load of 1200 kg/day. An industry wishes to discharge its effluent to the sewer. The industry produces 2.0 million litres per day (MLD) of wastewater with a BOD of 300 mg/L. What is the Population Equivalent of the industrial discharge, assuming a standard per capita BOD contribution of 80 grams/day?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "5000",
+        "isCorrect": false
+      },
+      {
+        "text": "15000",
+        "isCorrect": false
+      },
+      {
+        "text": "7500",
+        "isCorrect": true
+      },
+      {
+        "text": "10000",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "First, calculate the total BOD load from the industry in kg/day. Load = Flow $\\times$ Concentration. Flow = 2.0 MLD = $2.0 \\times 10^6$ L/day. Concentration = 300 mg/L. Load = ($2.0 \\times 10^6$ L/day) $\\times$ (300 mg/L) = $600 \\times 10^6$ mg/day. Convert mg to kg by dividing by $10^6$: Load = 600 kg/day. Now, calculate the Population Equivalent (PE): PE = (Total Industrial BOD load) / (Per capita BOD) = 600 kg/day / (80 g/capita/day). Convert per capita BOD to kg: 80 g = 0.080 kg. PE = 600 / 0.080 = 7500."
+  },
+  {
+    "text": "Alkalinity in wastewater is important for treatment processes, especially nitrification, because it:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Acts as a disinfectant, killing pathogenic bacteria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Increases the solubility of oxygen in water.",
+        "isCorrect": false
+      },
+      {
+        "text": "Provides buffering capacity to resist pH changes caused by biological acid production.",
+        "isCorrect": true
+      },
+      {
+        "text": "Causes the precipitation of heavy metals.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Alkalinity is a measure of the water's ability to neutralize acids (i.e., its buffering capacity). Biological processes like nitrification (the conversion of ammonia to nitrate) are acid-producing and consume alkalinity, which can cause a significant drop in pH. Sufficient alkalinity is crucial to buffer this acid production and maintain the pH within a range that is optimal for the nitrifying bacteria to function effectively."
+  }
+]

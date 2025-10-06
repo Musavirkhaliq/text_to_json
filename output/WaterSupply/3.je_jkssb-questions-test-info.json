@@ -1,0 +1,17 @@
+{
+  "title": "JKSSB JE (Civil) Sectional Test: Water Supply & Waste Water Engineering (Sewerage & Plumbing Systems)",
+  "description": "This specialized sectional assessment is meticulously crafted for aspirants of the JKSSB Junior Engineer (Civil) recruitment examination. It focuses exclusively on key topics within Water Supply & Waste Water Engineering, including Plumbing, Sewerage Systems, Laying and Construction of Sewers, and Sewage Characteristics. The test features a balanced mix of practical application and conceptual questions, designed to mirror the undergraduate-level difficulty and question patterns of the official JKSSB standards. Evaluate your preparedness and deepen your understanding of critical civil engineering principles with this professional academic assessment.",
+  "totalQuestions": 80,
+  "topics": [
+    "Plumbing — Water Supply and Waste Water Engineering",
+    "Sewerage system — Water Supply and Waste Water Engineering",
+    "Laying and construction of sewers — Water Supply and Waste Water Engineering",
+    "Sewage characteristics — Water Supply and Waste Water Engineering"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T12:55:40.783Z",
+  "questionTypes": {
+    "multiple_choice": 80
+  }
+}

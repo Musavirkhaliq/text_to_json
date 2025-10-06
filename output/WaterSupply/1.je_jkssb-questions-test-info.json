@@ -1,0 +1,17 @@
+{
+  "title": "JKSSB JE (Civil) Sectional Test: Water Supply & Waste Water Engineering (Part 1 - Water Supply Fundamentals)",
+  "description": "This professional assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) examination. It provides a focused evaluation of core concepts within Water Supply and Waste Water Engineering, specifically covering: Introduction, Quantity of Water, Quality of Water, and Water Treatment methods. The questions are curated to reflect undergraduate-level difficulty and adhere strictly to the latest JKSSB examination standards and patterns. This test features a balanced mix of practical, numerical, and conceptual questions to rigorously assess your theoretical knowledge and problem-solving abilities, ensuring comprehensive preparation for the actual exam.",
+  "totalQuestions": 60,
+  "topics": [
+    "Introduction — Water Supply and Waste Water Engineering",
+    "Quantity of water — Water Supply and Waste Water Engineering",
+    "Quality of water — Water Supply and Waste Water Engineering",
+    "Water treatment — Water Supply and Waste Water Engineering"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T12:09:11.268Z",
+  "questionTypes": {
+    "multiple_choice": 60
+  }
+}

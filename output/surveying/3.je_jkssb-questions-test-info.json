@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB JE (Civil) Focused Practice Assessment: Theodolite, Traversing, and Tachometric Surveying",
+  "description": "This professional academic assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) Recruitment Exam. Focusing on core Surveying principles, this test evaluates your proficiency in Theodolite operations, Traversing computations, and Tachometric surveying techniques. The questions are curated to reflect the undergraduate civil engineering curriculum and align with JKSSB examination standards, featuring a blend of conceptual inquiries and practical problem-solving scenarios. This assessment will test your understanding of instrument handling, error analysis, coordinate geometry, and the application of fundamental formulas such as the tacheometric distance equation ($D = ks + C$). It serves as an ideal tool to gauge your preparation and identify areas for improvement in these critical surveying topics.",
+  "totalQuestions": 45,
+  "topics": [
+    "achometer — Surveying",
+    "Theodolite — Surveying",
+    "Traversing — Surveying"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T06:36:20.891Z",
+  "questionTypes": {
+    "multiple_choice": 45
+  }
+}

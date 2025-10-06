@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB JE (Civil) Sectional Test: Surveying - Principles, Measurements, and Classification",
+  "description": "This professional practice test is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) Recruitment Exam. The assessment rigorously evaluates core competencies in fundamental surveying topics at an undergraduate engineering level, strictly adhering to JKSSB examination standards. It features a comprehensive blend of practical and conceptual questions covering the Importance of Surveying, its Principles and Classifications, and the fundamental Measurements of Distance and Directions. Utilize this test to benchmark your knowledge, identify areas for improvement, and simulate the academic rigor of the actual examination.",
+  "totalQuestions": 45,
+  "topics": [
+    "Importance of surveying — Surveying",
+    "Principles and classifications — Surveying",
+    "Measurements of distance and directions — Surveying"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T06:10:41.451Z",
+  "questionTypes": {
+    "multiple_choice": 45
+  }
+}

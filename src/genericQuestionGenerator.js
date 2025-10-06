@@ -72,18 +72,36 @@ class GenericQuestionGenerator {
 
             const questionsFileName = `${examPrefix}_${topicPrefix}_questions_${timestamp}.json`;
             const testInfoFileName = `${examPrefix}_${topicPrefix}_test-info_${timestamp}.json`;
+            const fullDataFileName = `${examPrefix}_${topicPrefix}_full-data_${timestamp}.json`;
 
-            const questionsData = {
+            // Create the full_data structure that matches quiz expectations
+            const full_data = {
+                title: titleAndDescription.title,
+                description: titleAndDescription.description,
                 questions: allQuestions,
+                timeLimit: 30, // Default time limit
+                passingScore: 70, // Default passing score
+                quizType: this.examConfig.quizType || "Topic Test",
+                maxAttempts: 0, // Unlimited attempts by default
+                category: this.examConfig.category || '',
+                tags: topics.map(topic => topic.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase()),
+                difficulty: this.examConfig.difficulty || 'medium',
+                allowReview: true,
+                showCorrectAnswers: true,
+                randomizeQuestions: false,
+                isPublished: false,
                 metadata: {
                     totalQuestions: allQuestions.length,
                     topics: topics,
                     questionsPerTopic: questionsPerTopic,
                     examType: this.examConfig.name,
                     difficulty: this.examConfig.difficulty,
-                    processedAt: new Date().toISOString()
+                    processedAt: new Date().toISOString(),
+                    questionTypes: this.getQuestionTypesSummary(allQuestions)
                 }
             };
+
+            const questionsData = allQuestions
 
             const testInfo = {
                 title: titleAndDescription.title,
@@ -99,25 +117,100 @@ class GenericQuestionGenerator {
             // Create output directory if it doesn't exist
             await fs.ensureDir(outputDir);
 
-            // Save files
+            // Save all files
             await fs.writeFile(path.join(outputDir, questionsFileName), JSON.stringify(questionsData, null, 2));
             await fs.writeFile(path.join(outputDir, testInfoFileName), JSON.stringify(testInfo, null, 2));
+            await fs.writeFile(path.join(outputDir, fullDataFileName), JSON.stringify(full_data, null, 2));
 
             console.log(`\nGeneration complete!`);
             console.log(`Questions saved to: ${outputDir}/${questionsFileName}`);
             console.log(`Test info saved to: ${outputDir}/${testInfoFileName}`);
+            console.log(`Full quiz data saved to: ${outputDir}/${fullDataFileName}`);
             console.log(`Total questions generated: ${allQuestions.length}`);
 
             return {
                 success: true,
                 questionsFile: path.join(outputDir, questionsFileName),
                 testInfoFile: path.join(outputDir, testInfoFileName),
+                fullDataFile: path.join(outputDir, fullDataFileName),
+                full_data: full_data, // Also return the full_data object
                 totalQuestions: allQuestions.length,
                 topics: topics,
                 examType: this.examConfig.name
             };
         } catch (error) {
             console.error(`Error generating ${this.examConfig.name} questions:`, error);
+            return {
+                success: false,
+                error: error.message
+            };
+        }
+    }
+
+    /**
+     * Generate complete quiz data with full_data structure (alternative method)
+     * @param {Array<string>} topics - Array of topics
+     * @param {number} questionsPerTopic - Number of questions per topic
+     * @returns {Promise<Object>} - Complete quiz data with full_data
+     */
+    async generateCompleteQuizData(topics, questionsPerTopic = 5) {
+        try {
+            const allQuestions = [];
+            
+            // Generate questions for each topic
+            for (let i = 0; i < topics.length; i++) {
+                const topic = topics[i];
+                console.log(`Generating questions for topic ${i + 1}/${topics.length}: ${topic}`);
+                const topicQuestions = await this.generateQuestionsForTopic(topic, questionsPerTopic);
+                allQuestions.push(...topicQuestions);
+
+                // Add delay between API calls to avoid rate limiting
+                if (i < topics.length - 1) {
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                }
+            }
+
+            // Generate title and description
+            const titleAndDescription = await this.generateTitleAndDescription(topics);
+
+            // Create the full_data structure that matches quiz expectations
+            const full_data = {
+                title: titleAndDescription.title,
+                description: titleAndDescription.description,
+                questions: allQuestions,
+                timeLimit: 30,
+                passingScore: 70,
+                quizType: this.examConfig.quizType || "Topic Test",
+                maxAttempts: 0,
+                category: this.examConfig.category || '',
+                tags: topics.map(topic => topic.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase()),
+                difficulty: this.examConfig.difficulty || 'medium',
+                allowReview: true,
+                showCorrectAnswers: true,
+                randomizeQuestions: false,
+                isPublished: false,
+                metadata: {
+                    totalQuestions: allQuestions.length,
+                    topics: topics,
+                    questionsPerTopic: questionsPerTopic,
+                    examType: this.examConfig.name,
+                    difficulty: this.examConfig.difficulty,
+                    processedAt: new Date().toISOString(),
+                    questionTypes: this.getQuestionTypesSummary(allQuestions)
+                }
+            };
+
+            return {
+                success: true,
+                full_data: full_data,
+                questions: allQuestions,
+                totalQuestions: allQuestions.length,
+                title: titleAndDescription.title,
+                description: titleAndDescription.description,
+                topics: topics
+            };
+        } catch (error) {
+            console.error(`Error generating complete quiz data:`, error);
             return {
                 success: false,
                 error: error.message

@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB Junior Engineer (Civil) Practice Assessment: Surveying I - Chain, Compass, and Levelling",
+  "description": "This professional practice assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment examination. It provides a focused evaluation of core competencies in fundamental surveying techniques, specifically covering Chain Surveying, Compass Surveying, and Levelling. The questions are benchmarked against undergraduate-level civil engineering curricula and are structured to reflect the latest JKSSB examination standards. This assessment includes a balanced mix of conceptual and practical application-based problems, challenging your understanding of principles, instrumentation, error correction, and calculations for local attraction, included angles, and reduction of levels (e.g., Height of Instrument method, Rise and Fall method). Successfully completing this test will help gauge your preparation level and identify areas for improvement in these critical foundational topics.",
+  "totalQuestions": 45,
+  "topics": [
+    "Chain surveying",
+    "Compass surveying",
+    "Levelling"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T06:24:24.724Z",
+  "questionTypes": {
+    "multiple_choice": 45
+  }
+}

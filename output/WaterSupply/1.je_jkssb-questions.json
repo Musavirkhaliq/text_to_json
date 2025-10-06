@@ -1,0 +1,1442 @@
+[
+  {
+    "text": "The population of a town was 50,000 in 2010 and 58,000 in 2020. What is the difference in the projected population for the year 2030 when calculated using the Arithmetic Increase method versus the Geometrical Increase method?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1,000",
+        "isCorrect": false
+      },
+      {
+        "text": "1,280",
+        "isCorrect": true
+      },
+      {
+        "text": "1,540",
+        "isCorrect": false
+      },
+      {
+        "text": "800",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Arithmetic Increase (AI): Increase per decade = 58,000 - 50,000 = 8,000. Population in 2030 = 58,000 + 8,000 = 66,000. Geometrical Increase (GI): Growth rate (r) = ((P2 - P1) / P1) = (8,000 / 50,000) = 0.16 per decade. Population in 2030 = P2 * (1 + r) = 58,000 * (1 + 0.16) = 67,280. The difference is 67,280 - 66,000 = 1,280."
+  },
+  {
+    "text": "Which of the following factors generally has the LEAST direct impact on the per capita water demand (LPCD) of a city?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Climate conditions and season of the year",
+        "isCorrect": false
+      },
+      {
+        "text": "Economic status of consumers and cost of water",
+        "isCorrect": false
+      },
+      {
+        "text": "Quality of water supplied and pressure in the distribution system",
+        "isCorrect": false
+      },
+      {
+        "text": "Method of wastewater disposal (e.g., septic tank vs. sewer)",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Climate, economic status, water quality, and pressure are well-established factors directly influencing how much water people use. The method of wastewater disposal, while related to the overall sanitation system, has a much less direct impact on a consumer's daily water consumption habits compared to the other three."
+  },
+  {
+    "text": "For a city with a population of 1,21,000, calculate the required fire demand in litres per minute using Kuichling's formula, which is given by $Q = 3182 \\sqrt{P}$, where P is the population in thousands.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "31,820 L/min",
+        "isCorrect": false
+      },
+      {
+        "text": "35,002 L/min",
+        "isCorrect": true
+      },
+      {
+        "text": "38,250 L/min",
+        "isCorrect": false
+      },
+      {
+        "text": "33,182 L/min",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "First, convert the population to thousands: P = 1,21,000 / 1,000 = 121. Then, substitute this value into Kuichling's formula: $Q = 3182 \\times \\sqrt{121} = 3182 \\times 11 = 35,002$ litres per minute."
+  },
+  {
+    "text": "A town has a population of 80,000. The average per capita water demand is 150 LPCD. The industrial and commercial demand is 2.5 million litres per day (MLD). If unaccounted-for water (losses) is 15% of the total water produced, what is the total required daily water production for the town in MLD?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "14.50 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "16.67 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "17.06 MLD",
+        "isCorrect": true
+      },
+      {
+        "text": "19.30 MLD",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "1. Domestic Demand = 80,000 persons * 150 L/person = 12,000,000 L/day = 12 MLD. 2. Total consumption = Domestic + Industrial/Commercial = 12 MLD + 2.5 MLD = 14.5 MLD. 3. This consumption is the amount after losses, so it represents 100% - 15% = 85% of the total production. 4. Total Production = Total Consumption / (1 - Loss Percentage) = 14.5 MLD / 0.85 ≈ 17.06 MLD."
+  },
+  {
+    "text": "The logistic curve method for population forecasting results in an S-shaped curve. The upper asymptote of this curve, where the population growth rate approaches zero, physically represents the:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The population at the inflection point",
+        "isCorrect": false
+      },
+      {
+        "text": "The initial population of the community",
+        "isCorrect": false
+      },
+      {
+        "text": "The saturation population or carrying capacity of the city",
+        "isCorrect": true
+      },
+      {
+        "text": "The geometrically projected population",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The logistic model assumes that population growth is limited by factors like space, resources, and infrastructure. The growth rate slows as the population increases, eventually reaching a maximum stable level known as the saturation population or carrying capacity, which is represented by the upper horizontal asymptote of the S-curve."
+  },
+  {
+    "text": "In a water supply scheme, the term 'design period' is crucial. Which of the following components is typically designed for the longest period?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Distribution system pipelines",
+        "isCorrect": false
+      },
+      {
+        "text": "Water treatment units (e.g., filters, clarifiers)",
+        "isCorrect": false
+      },
+      {
+        "text": "Service reservoirs (balancing tanks)",
+        "isCorrect": false
+      },
+      {
+        "text": "Large storage reservoir created by a dam",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Large storage reservoirs and dams are designed for the longest periods (typically 50 years or more) because they involve massive capital investment and are extremely difficult, expensive, or even impossible to augment or expand in the future. Other components are more modular and can be expanded more easily."
+  },
+  {
+    "text": "Dry Weather Flow (DWF) in a sewer system is the flow during periods of no rainfall. It primarily consists of domestic sewage and industrial wastewater. What is the key additional component that transforms DWF into Wet Weather Flow (WWF)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Groundwater infiltration into sewer pipes",
+        "isCorrect": false
+      },
+      {
+        "text": "Stormwater runoff from surfaces like roads and roofs",
+        "isCorrect": true
+      },
+      {
+        "text": "Leakage from water supply mains into the sewer",
+        "isCorrect": false
+      },
+      {
+        "text": "Increased per capita water usage during rainy days",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The defining difference between DWF and WWF is the addition of stormwater. During rainfall, runoff from impervious and pervious surfaces enters the sewer system (especially in combined systems), dramatically increasing the flow. While infiltration may also increase, stormwater runoff is the primary and most significant additional component."
+  },
+  {
+    "text": "An engineer must choose a water source for a small, remote hilly community with a scattered population and steep terrain. Which of the following sources would likely be the most technically and economically feasible solution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A large canal system from a distant river",
+        "isCorrect": false
+      },
+      {
+        "text": "A network of deep tube wells",
+        "isCorrect": false
+      },
+      {
+        "text": "Tapping a local perennial spring using gravity flow",
+        "isCorrect": true
+      },
+      {
+        "text": "A reverse osmosis desalination plant",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "For hilly, remote areas, a local perennial spring is often ideal. It provides a reliable source of water that can often be supplied via gravity, eliminating the high costs of pumping, extensive pipelines from distant sources, or drilling deep wells in difficult geological formations. It is the most sustainable and cost-effective option in such a scenario."
+  },
+  {
+    "text": "The peak hourly demand factor is most critical for the design of which component of a water supply system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Intake structure and raw water mains",
+        "isCorrect": false
+      },
+      {
+        "text": "Water treatment plant",
+        "isCorrect": false
+      },
+      {
+        "text": "Distribution system pipelines",
+        "isCorrect": true
+      },
+      {
+        "text": "Storage reservoir",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The distribution system pipes must be sized to handle the maximum instantaneous demand, which occurs during peak hours of the day (e.g., morning). This is to ensure that adequate water pressure and flow are maintained for all consumers even during times of highest usage. Other components like treatment plants and raw water mains are typically designed based on maximum daily demand, with storage/balancing reservoirs handling hourly fluctuations."
+  },
+  {
+    "text": "The population data for a town is: Year 2000: 40,000; Year 2010: 48,000; Year 2020: 57,000. Using the Incremental Increase method, what is the projected population for the year 2030?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "65,500",
+        "isCorrect": false
+      },
+      {
+        "text": "66,000",
+        "isCorrect": false
+      },
+      {
+        "text": "66,500",
+        "isCorrect": true
+      },
+      {
+        "text": "67,000",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "1. Increase from 2000 to 2010 = 48,000 - 40,000 = 8,000. 2. Increase from 2010 to 2020 = 57,000 - 48,000 = 9,000. 3. The incremental increase is 9,000 - 8,000 = 1,000. 4. Average increase (x) = (8,000 + 9,000) / 2 = 8,500. 5. Average incremental increase (y) = 1,000 / 1 = 1,000. 6. Projected population for 2030 = P_2020 + x + y = 57,000 + 8,500 + 1,000 = 66,500."
+  },
+  {
+    "text": "From a public health engineering standpoint, what is considered the single most important and primary objective of a modern water supply scheme?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Supplying a sufficient quantity of water to meet all demands.",
+        "isCorrect": false
+      },
+      {
+        "text": "Supplying wholesome, potable water free from pathogenic organisms.",
+        "isCorrect": true
+      },
+      {
+        "text": "Supplying water at an adequate pressure to all consumers.",
+        "isCorrect": false
+      },
+      {
+        "text": "Making water available to all at an affordable cost.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "While quantity, pressure, and cost are all important objectives, the fundamental and primary goal of public water supply engineering is to protect public health by providing water that is safe to drink (potable) and free from disease-causing pathogens. This was the historical driver for the development of water treatment and distribution systems."
+  },
+  {
+    "text": "A city has an average daily water demand of 15 MLD. The maximum daily demand is 1.8 times the average, and the peak hourly demand is 2.7 times the average. The fire demand for a major incident is calculated to be 40 MLD. What is the total design capacity for the distribution system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "40.5 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "55.0 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "67.0 MLD",
+        "isCorrect": true
+      },
+      {
+        "text": "82.5 MLD",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The design capacity for a distribution system is the maximum of two conditions: 1) Peak Hourly Demand, and 2) Coincident Draft (Maximum Daily Demand + Fire Demand).  1. Peak Hourly Demand = 2.7 * 15 MLD = 40.5 MLD.  2. Maximum Daily Demand = 1.8 * 15 MLD = 27 MLD.  3. Coincident Draft = 27 MLD + 40 MLD = 67 MLD. The design capacity is the greater of these two values, which is max(40.5 MLD, 67 MLD) = 67 MLD."
+  },
+  {
+    "text": "Infiltration galleries are horizontal, porous pipes constructed to tap which source of water?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A deep, confined aquifer",
+        "isCorrect": false
+      },
+      {
+        "text": "A shallow, unconfined aquifer",
+        "isCorrect": false
+      },
+      {
+        "text": "Water from a lake or reservoir",
+        "isCorrect": false
+      },
+      {
+        "text": "Naturally filtered water from the bed of a river",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Infiltration galleries are laid horizontally or with a gentle slope within the permeable sand and gravel beds of a river. They intercept river water that has percolated through the riverbed, which provides a form of natural filtration. This makes them an effective subsurface source adjacent to surface water bodies."
+  },
+  {
+    "text": "In a typical municipal area without significant water loss to irrigation or industry, the quantity of sewage generated (Dry Weather Flow) is generally assumed to be what percentage of the total water supplied to that area?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "20 - 30%",
+        "isCorrect": false
+      },
+      {
+        "text": "50 - 60%",
+        "isCorrect": false
+      },
+      {
+        "text": "80 - 90%",
+        "isCorrect": true
+      },
+      {
+        "text": "110 - 120%",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Not all water supplied to a community reaches the sewer system. A portion is consumed, used for gardening, evaporates, or is lost through other means. A standard engineering assumption is that about 80% to 90% of the supplied water becomes wastewater and contributes to the Dry Weather Flow."
+  },
+  {
+    "text": "A new water treatment plant is being designed. The engineer has two choices for a clear water reservoir (which stores treated water): an underground reservoir (UGR) and an elevated service reservoir (ESR). What is the primary function of the ESR that the UGR cannot fulfill?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To store a large volume of water for emergencies",
+        "isCorrect": false
+      },
+      {
+        "text": "To provide sufficient head (pressure) for water distribution by gravity",
+        "isCorrect": true
+      },
+      {
+        "text": "To allow for easier cleaning and maintenance",
+        "isCorrect": false
+      },
+      {
+        "text": "To protect the treated water from contamination",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While both UGRs and ESRs store water, the unique and primary function of an Elevated Service Reservoir (ESR) is to provide gravitational head. By storing water at a significant height, it ensures adequate and consistent pressure in the distribution network without the need for continuous pumping, which is energy-intensive. A UGR requires pumps to supply water to the distribution system."
+  },
+  {
+    "text": "A town had a population of 50,000 in 2001 and 56,000 in 2011. Using the Arithmetic Increase method, what is the projected population for the year 2031?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "62,000",
+        "isCorrect": false
+      },
+      {
+        "text": "68,000",
+        "isCorrect": true
+      },
+      {
+        "text": "72,000",
+        "isCorrect": false
+      },
+      {
+        "text": "74,500",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Arithmetic Increase method assumes a constant absolute increase in population per decade. \n1. Calculate the increase per decade: $I_a = 56,000 - 50,000 = 6,000$. \n2. Determine the number of future decades from the last census: $n = (2031 - 2011) / 10 = 2$ decades. \n3. Apply the formula $P_n = P_0 + n \\times I_a$, where $P_0$ is the last known population. \n$P_{2031} = 56,000 + 2 \\times 6,000 = 56,000 + 12,000 = 68,000$."
+  },
+  {
+    "text": "Among the following factors, which administrative measure generally has the most significant and direct impact on reducing the per capita water demand (LPCD) in a city?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Quality of water supplied",
+        "isCorrect": false
+      },
+      {
+        "text": "Climatic conditions",
+        "isCorrect": false
+      },
+      {
+        "text": "Installation of a universal water metering system",
+        "isCorrect": true
+      },
+      {
+        "text": "Size of the city",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While climate, water quality, and city size influence demand, the implementation of a metering system and charging based on consumption is the most effective administrative measure to control wastage and reduce per capita demand. It creates a direct financial incentive for consumers to conserve water, often leading to a reduction of 15-30% in water use."
+  },
+  {
+    "text": "Which component of a water supply scheme is primarily designed to handle the Maximum Hourly Demand (Peak Hourly Demand)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Source of water (e.g., river intake or dam)",
+        "isCorrect": false
+      },
+      {
+        "text": "Water treatment plant",
+        "isCorrect": false
+      },
+      {
+        "text": "Distribution system (mains, pipes, and service reservoirs)",
+        "isCorrect": true
+      },
+      {
+        "text": "Raw water conveyance pipeline",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The distribution system, including the network of pipes and service reservoirs, must be sized to meet the instantaneous demand of the population, which is highest during peak hours (e.g., morning). The source and treatment plant are typically designed for Maximum Daily Demand, and the service reservoirs balance the flow to handle hourly fluctuations."
+  },
+  {
+    "text": "For a town with a population of 81,000, calculate the required fire demand in litres per minute using Kucheling's formula, $Q = 3182 \\sqrt{P}$, where P is the population in thousands.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "25,774 l/min",
+        "isCorrect": false
+      },
+      {
+        "text": "90,000 l/min",
+        "isCorrect": false
+      },
+      {
+        "text": "28,638 l/min",
+        "isCorrect": true
+      },
+      {
+        "text": "31,820 l/min",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Kucheling's formula is an empirical formula for estimating fire demand. \n1. Convert the population to thousands: $P = 81,000 / 1,000 = 81$. \n2. Take the square root of P: $\\sqrt{P} = \\sqrt{81} = 9$. \n3. Apply the formula: $Q = 3182 \\times \\sqrt{P} = 3182 \\times 9 = 28,638$ litres/minute."
+  },
+  {
+    "text": "The Geometric Increase method of population forecasting is generally most suitable for which type of community?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "An old, large, and saturated city with limited space for expansion.",
+        "isCorrect": false
+      },
+      {
+        "text": "A new, rapidly developing industrial town or city.",
+        "isCorrect": true
+      },
+      {
+        "text": "A community where the population has remained stable for several decades.",
+        "isCorrect": false
+      },
+      {
+        "text": "A city whose population is showing a declining trend.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Geometric Increase method assumes that the percentage rate of growth is constant. This model is analogous to compound interest and is best suited for new, young cities that are expanding rapidly and have ample scope for future development. For old, saturated cities, the Arithmetic Increase method is more appropriate."
+  },
+  {
+    "text": "A city has an average daily water demand of 30 MLD. The maximum daily demand is 1.8 times the average, and the fire demand for a major incident is 50 MLD. What is the Coincident Draft for which the distribution mains should be designed?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "54 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "80 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "81 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "104 MLD",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "The Coincident Draft is the greater of (Maximum Daily Demand + Fire Demand) or Maximum Hourly Demand. \n1. Calculate Maximum Daily Demand: $1.8 \\times 30 \\text{ MLD} = 54 \\text{ MLD}$. \n2. Calculate the first criterion: Maximum Daily Demand + Fire Demand = $54 \\text{ MLD} + 50 \\text{ MLD} = 104 \\text{ MLD}$. \n3. Calculate Maximum Hourly Demand (typically $2.7 \\times$ Average Daily Demand): $2.7 \\times 30 \\text{ MLD} = 81 \\text{ MLD}$. \n4. The Coincident Draft is the greater value, which is 104 MLD."
+  },
+  {
+    "text": "When planning a water supply scheme, which of the following components is typically assigned the longest design period (e.g., 50 years) due to its high cost and difficulty in future augmentation?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Water treatment units like filters and clarifiers",
+        "isCorrect": false
+      },
+      {
+        "text": "Distribution pipe network",
+        "isCorrect": false
+      },
+      {
+        "text": "Impounding reservoir or storage dam",
+        "isCorrect": true
+      },
+      {
+        "text": "Pumping station and machinery",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The design period is chosen based on the useful life of a component, the difficulty of expansion, and financial considerations. An impounding reservoir or a dam is a massive, capital-intensive structure that is extremely difficult and expensive to expand later. Therefore, it is designed for the longest period, typically 50 years, to ensure long-term water security."
+  },
+  {
+    "text": "A distribution reservoir is supplied by a pump at a uniform rate of 0.4 m³/s for 24 hours. The peak demand from the town is 0.7 m³/s and lasts for 6 hours. What is the minimum storage capacity required in the reservoir to meet this peak demand?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "4320 m³",
+        "isCorrect": false
+      },
+      {
+        "text": "6480 m³",
+        "isCorrect": true
+      },
+      {
+        "text": "8640 m³",
+        "isCorrect": false
+      },
+      {
+        "text": "15120 m³",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The required storage is to balance the deficit when demand exceeds supply. \n1. Calculate the deficit rate during peak hours: Deficit = Peak Demand - Supply Rate = $0.7 \\text{ m³/s} - 0.4 \\text{ m³/s} = 0.3$ m³/s. \n2. This deficit must be supplied from the reservoir's storage for the duration of the peak period. \n3. Calculate the total volume required: Storage Volume = Deficit Rate $\\times$ Duration = $0.3 \\text{ m³/s} \\times (6 \\text{ hours} \\times 3600 \\text{ s/hour}) = 0.3 \\times 21600 = 6480$ m³."
+  },
+  {
+    "text": "In a water distribution system, \"Unaccounted For Water\" (UFW) is broadly categorized into 'apparent losses' and 'real losses'. Which of the following is a primary example of an 'apparent loss'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Leakage from pipe joints and fittings",
+        "isCorrect": false
+      },
+      {
+        "text": "Overflows from service reservoirs",
+        "isCorrect": false
+      },
+      {
+        "text": "Unauthorized water consumption (theft)",
+        "isCorrect": true
+      },
+      {
+        "text": "Background leakage from mains",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "UFW is the difference between water supplied and water billed. 'Real losses' are physical losses of water from the system (e.g., leakages, overflows). 'Apparent losses' occur when water is consumed but not properly measured or billed, due to factors like customer meter inaccuracies, data errors, and unauthorized consumption (theft)."
+  },
+  {
+    "text": "The population of a town was 60,000 in 2011 and 75,000 in 2021. Using the Geometric Increase method, what is the projected population for the year 2031?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "90,000",
+        "isCorrect": false
+      },
+      {
+        "text": "93,750",
+        "isCorrect": true
+      },
+      {
+        "text": "92,500",
+        "isCorrect": false
+      },
+      {
+        "text": "95,000",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Geometric Increase method assumes a constant percentage growth rate per decade. \n1. Calculate the growth rate ($r_g$) for the known decade: $r_g = (P_{2021} - P_{2011}) / P_{2011} = (75,000 - 60,000) / 60,000 = 15,000 / 60,000 = 0.25$. \n2. Apply this rate to the last known population: $P_{2031} = P_{2021} \\times (1 + r_g) = 75,000 \\times (1 + 0.25) = 75,000 \\times 1.25 = 93,750$."
+  },
+  {
+    "text": "The total annual water demand for a city is 10950 million litres. What is the Maximum Hourly Demand expressed in MLD (Million Litres per Day), assuming the peak factor is 2.5?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "30 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "54 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "75 MLD",
+        "isCorrect": true
+      },
+      {
+        "text": "60 MLD",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "1. First, find the average daily demand: Average Daily Demand = Total Annual Demand / 365 = $10950 \\text{ ML} / 365 \\text{ days} = 30$ MLD. \n2. The Maximum Hourly Demand is the rate of consumption during the peak hour, expressed as a daily rate. It is found by multiplying the average daily demand by the peak factor. \nMaximum Hourly Demand = Average Daily Demand $\\times$ Peak Factor = $30 \\text{ MLD} \\times 2.5 = 75$ MLD."
+  },
+  {
+    "text": "What is the primary engineering rationale for forecasting the population for a future design period (e.g., 30 years) when planning a water supply scheme?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To satisfy legal requirements for project approval.",
+        "isCorrect": false
+      },
+      {
+        "text": "To ensure the designed infrastructure has adequate capacity for its entire service life, preventing costly premature upgrades.",
+        "isCorrect": true
+      },
+      {
+        "text": "To calculate the immediate construction cost with high precision.",
+        "isCorrect": false
+      },
+      {
+        "text": "To determine the number of operators required for the treatment plant.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Water supply schemes are capital-intensive infrastructure projects with a long intended service life. The primary reason for population forecasting is to design a system with sufficient capacity to meet the growing demands over its entire design period. This approach ensures long-term sustainability and avoids the premature obsolescence of components, which would require expensive and disruptive augmentations."
+  },
+  {
+    "text": "The population data for a city over three decades is: 1991 - 80,000; 2001 - 1,00,000; 2011 - 1,30,000. Using the Incremental Increase method, what is the projected population for the year 2021?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1,55,000",
+        "isCorrect": false
+      },
+      {
+        "text": "1,60,000",
+        "isCorrect": false
+      },
+      {
+        "text": "1,65,000",
+        "isCorrect": true
+      },
+      {
+        "text": "1,70,000",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The Incremental Increase method accounts for the trend in the rate of increase. \n1. Increase from 1991 to 2001: $I_1 = 1,00,000 - 80,000 = 20,000$. \n2. Increase from 2001 to 2011: $I_2 = 1,30,000 - 1,00,000 = 30,000$. \n3. Average increase: $I_a = (I_1 + I_2) / 2 = (20,000 + 30,000) / 2 = 25,000$. \n4. Incremental increase: $I_i = I_2 - I_1 = 30,000 - 20,000 = 10,000$. \n5. Projected population for 2021: $P_{2021} = P_{2011} + I_a + I_i = 1,30,000 + 25,000 + 10,000 = 1,65,000$."
+  },
+  {
+    "text": "A town with a design population of 60,000 has an average domestic water consumption of 135 LPCD. If industrial and commercial demands are collectively estimated to be 25% of the total water demand, what is the required total water demand for the town in Million Litres per Day (MLD)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "8.1 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "10.1 MLD",
+        "isCorrect": false
+      },
+      {
+        "text": "10.8 MLD",
+        "isCorrect": true
+      },
+      {
+        "text": "12.4 MLD",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "1. Calculate the total domestic demand: Domestic Demand = Population $\\times$ LPCD = $60,000 \\times 135 = 8,100,000$ litres/day = 8.1 MLD. \n2. The domestic demand represents (100% - 25%) = 75% of the total demand. \n3. Let 'X' be the total demand. Therefore, $0.75 \\times X = 8.1$ MLD. \n4. Calculate the total demand: $X = 8.1 / 0.75 = 10.8$ MLD."
+  },
+  {
+    "text": "The design discharge of a water treatment plant is typically based on:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Average Daily Demand",
+        "isCorrect": false
+      },
+      {
+        "text": "Maximum Daily Demand",
+        "isCorrect": true
+      },
+      {
+        "text": "Maximum Hourly Demand",
+        "isCorrect": false
+      },
+      {
+        "text": "Coincident Draft",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "A water treatment plant is designed to operate continuously over 24 hours. Its capacity must be sufficient to meet the demand on the day of highest consumption during the year, which is the Maximum Daily Demand. Hourly fluctuations are balanced by clean water storage in service reservoirs located after the treatment plant."
+  },
+  {
+    "text": "A water sample analysis shows the following ion concentrations: $Ca^{2+} = 80 \\, mg/L$, $Mg^{2+} = 24 \\, mg/L$, and $HCO_3^- = 305 \\, mg/L$. Given the atomic weights: Ca=40, Mg=24, H=1, C=12, O=16. What are the Carbonate Hardness (CH) and Non-Carbonate Hardness (NCH) of the sample, respectively, in mg/L as $CaCO_3$?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "CH = 300 mg/L, NCH = 0 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "CH = 250 mg/L, NCH = 50 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "CH = 300 mg/L, NCH = 50 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "CH = 250 mg/L, NCH = 0 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Step 1: Convert ion concentrations to mg/L as $CaCO_3$. Equivalent weight of $CaCO_3$ is 50. Equivalent weight of $Ca^{2+}$ is 20. Equivalent weight of $Mg^{2+}$ is 12. Equivalent weight of $HCO_3^-$ is 61.\\nStep 2: $[Ca^{2+}] \\text{ as } CaCO_3 = 80 \\times \\frac{50}{20} = 200 \\, mg/L$. \\nStep 3: $[Mg^{2+}] \\text{ as } CaCO_3 = 24 \\times \\frac{50}{12} = 100 \\, mg/L$. \\nStep 4: Total Hardness (TH) = $[Ca^{2+}] + [Mg^{2+}] = 200 + 100 = 300 \\, mg/L \\text{ as } CaCO_3$. \\nStep 5: Alkalinity (Alk) = $[HCO_3^-] \\text{ as } CaCO_3 = 305 \\times \\frac{50}{61} = 250 \\, mg/L$. \\nStep 6: Carbonate Hardness (CH) is the minimum of TH and Alkalinity. CH = min(300, 250) = 250 mg/L. \\nStep 7: Non-Carbonate Hardness (NCH) = TH - CH = 300 - 250 = 50 mg/L."
+  },
+  {
+    "text": "The 5-day BOD of a wastewater sample is 180 mg/L at 20°C. The deoxygenation rate constant (k) to the base 'e' is 0.23 per day. What is the ultimate BOD ($L_0$) of the sample?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "210.5 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "240.0 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "263.6 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "312.8 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The formula for BOD at any time 't' is $BOD_t = L_0(1 - e^{-kt})$. We are given $BOD_5 = 180 \\, mg/L$, $t = 5$ days, and $k = 0.23 \\, /day$. \\nSubstituting the values: $180 = L_0(1 - e^{-0.23 \\times 5}) = L_0(1 - e^{-1.15})$. \\n$180 = L_0(1 - 0.3166) = L_0(0.6834)$. \\nTherefore, Ultimate BOD, $L_0 = \\frac{180}{0.6834} \\approx 263.6 \\, mg/L$."
+  },
+  {
+    "text": "In the process of breakpoint chlorination, after reaching the 'breakpoint', any further addition of chlorine primarily results in:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A rapid increase in combined chlorine residual.",
+        "isCorrect": false
+      },
+      {
+        "text": "A proportional increase in free chlorine residual.",
+        "isCorrect": true
+      },
+      {
+        "text": "The formation of dichloramines and nitrogen trichloride.",
+        "isCorrect": false
+      },
+      {
+        "text": "A decrease in the total chlorine residual due to oxidation.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The breakpoint chlorination curve shows that up to the breakpoint, chlorine reacts with ammonia to form chloramines (combined chlorine) and oxidizes them. The breakpoint is the point where the chlorine demand has been fully satisfied. Beyond this point, any added chlorine remains as free residual chlorine (HOCl, OCl⁻), and the residual increases proportionally to the dose added, typically at a 45-degree slope on the graph."
+  },
+  {
+    "text": "A groundwater source for a new rural water supply scheme is found to have a nitrate concentration of 60 mg/L. According to IS 10500:2012, what is the most appropriate recommendation regarding its use for drinking?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The water is perfectly safe for all age groups.",
+        "isCorrect": false
+      },
+      {
+        "text": "The water should be rejected as a source as the value exceeds the acceptable limit and has no relaxation.",
+        "isCorrect": false
+      },
+      {
+        "text": "The water can be used, but is unsuitable for infant feeding due to the risk of Methemoglobinemia.",
+        "isCorrect": true
+      },
+      {
+        "text": "The water requires boiling to reduce the nitrate concentration to safe levels.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "As per IS 10500:2012, the acceptable limit for nitrates in drinking water is 45 mg/L. There is no permissible limit in the absence of an alternate source mentioned, but high nitrate is a significant health risk. Concentrations above 45-50 mg/L can cause Methemoglobinemia (Blue Baby Syndrome) in infants. Therefore, while the source might be considered if no alternative exists for the general population, it is critically unsuitable for infants. Boiling does not remove nitrates; it increases their concentration."
+  },
+  {
+    "text": "When treating water with low natural alkalinity using alum as a coagulant, it is often necessary to add lime or soda ash. What is the primary reason for this practice?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To increase the hardness of the water.",
+        "isCorrect": false
+      },
+      {
+        "text": "To disinfect the water by raising the pH.",
+        "isCorrect": false
+      },
+      {
+        "text": "To provide the necessary alkalinity for the hydrolysis of alum and to maintain pH in the optimal range.",
+        "isCorrect": true
+      },
+      {
+        "text": "To reduce the amount of alum required for coagulation.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Alum ($Al_2(SO_4)_3 \\cdot 18H_2O$) reacts with natural bicarbonate alkalinity in water to form aluminum hydroxide ($Al(OH)_3$), which is the gelatinous precipitate responsible for coagulation. The reaction consumes alkalinity and produces $H^+$ ions, lowering the pH. If the raw water has low alkalinity, there isn't enough to react with the alum, and the pH can drop below the optimal range (6.5-8.5) for coagulation. Adding lime ($Ca(OH)_2$) or soda ash ($Na_2CO_3$) provides the necessary artificial alkalinity for the reaction to proceed effectively."
+  },
+  {
+    "text": "In a laboratory test for wastewater solids, a 100 mL sample was filtered. The empty filter paper weighed 1.500 g. After drying at 105°C, the filter paper with residue weighed 1.530 g. After ignition at 550°C, the filter paper with ash weighed 1.510 g. What are the Total Suspended Solids (TSS) and Volatile Suspended Solids (VSS) concentrations?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "TSS = 30 mg/L, VSS = 10 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "TSS = 300 mg/L, VSS = 200 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "TSS = 300 mg/L, VSS = 100 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "TSS = 1530 mg/L, VSS = 1510 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Step 1: Calculate the weight of suspended solids (residue). Weight of dry solids = (Weight after drying at 105°C) - (Weight of empty filter) = 1.530 g - 1.500 g = 0.030 g = 30 mg.\\nStep 2: Calculate TSS concentration. TSS = (Weight of dry solids) / (Sample volume in L) = 30 mg / 0.1 L = 300 mg/L.\\nStep 3: Calculate the weight of volatile solids. This is the weight lost on ignition. Weight of volatile solids = (Weight after drying at 105°C) - (Weight after ignition at 550°C) = 1.530 g - 1.510 g = 0.020 g = 20 mg.\\nStep 4: Calculate VSS concentration. VSS = (Weight of volatile solids) / (Sample volume in L) = 20 mg / 0.1 L = 200 mg/L."
+  },
+  {
+    "text": "For a domestic wastewater sample containing both biodegradable organic pollutants and stable, non-biodegradable organic compounds, which statement about its BOD and COD is most accurate?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "BOD will always be equal to COD.",
+        "isCorrect": false
+      },
+      {
+        "text": "BOD will be greater than COD because microbial action is more efficient.",
+        "isCorrect": false
+      },
+      {
+        "text": "COD will be greater than BOD because COD measures both biodegradable and non-biodegradable organics.",
+        "isCorrect": true
+      },
+      {
+        "text": "BOD and COD are unrelated and cannot be compared.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Biochemical Oxygen Demand (BOD) measures the amount of oxygen consumed by microorganisms to decompose only the biodegradable organic matter. Chemical Oxygen Demand (COD) measures the oxygen equivalent of all organic matter (both biodegradable and non-biodegradable) that can be chemically oxidized by a strong oxidizing agent. Therefore, for any wastewater containing non-biodegradable organics, the COD value will always be greater than the BOD value."
+  },
+  {
+    "text": "At the critical point on the oxygen sag curve in a river downstream of a wastewater discharge, which of the following conditions exists?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The rate of deoxygenation is zero.",
+        "isCorrect": false
+      },
+      {
+        "text": "The rate of reaeration is maximum.",
+        "isCorrect": false
+      },
+      {
+        "text": "The dissolved oxygen concentration is at its saturation value.",
+        "isCorrect": false
+      },
+      {
+        "text": "The rate of deoxygenation is equal to the rate of reaeration.",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "The oxygen sag curve models the change in dissolved oxygen (DO) in a stream. The critical point is the location of the minimum DO level. At this point, the curve is at its lowest, meaning the rate of change of the oxygen deficit is zero. This occurs when the rate at which oxygen is being consumed by microbial activity (deoxygenation) is exactly balanced by the rate at which oxygen is being replenished from the atmosphere (reaeration)."
+  },
+  {
+    "text": "A method used to remove hardness caused by calcium sulphate ($CaSO_4$) from water is:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Boiling the water",
+        "isCorrect": false
+      },
+      {
+        "text": "Adding slaked lime ($Ca(OH)_2$)",
+        "isCorrect": false
+      },
+      {
+        "text": "Using the Lime-Soda process",
+        "isCorrect": true
+      },
+      {
+        "text": "Aeration",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Calcium sulphate ($CaSO_4$) causes permanent (non-carbonate) hardness. Boiling only removes temporary (carbonate) hardness. Adding only lime is used to remove temporary hardness and magnesium carbonate hardness. Aeration is used for removing gases and oxidizing iron/manganese. The Lime-Soda process is a chemical precipitation method specifically designed to remove both temporary and permanent hardness. Soda ash ($Na_2CO_3$) is added to precipitate non-carbonate hardness like $CaSO_4$ as insoluble $CaCO_3$."
+  },
+  {
+    "text": "During a water quality test, 4.0 mg of chlorine was added to a 1-liter water sample. After a contact time of 30 minutes, the residual chlorine was measured to be 0.4 mg/L. What is the chlorine demand of the water sample?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "4.4 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "4.0 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "0.4 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "3.6 mg/L",
+        "isCorrect": true
+      }
+    ],
+    "points": 1,
+    "explanation": "Chlorine demand is the difference between the amount of chlorine added to the water (chlorine dose) and the amount of chlorine remaining after a specific contact time (chlorine residual). \\nChlorine Demand = Chlorine Dose - Chlorine Residual. \\nGiven: Chlorine Dose = 4.0 mg/L, Chlorine Residual = 0.4 mg/L. \\nChlorine Demand = 4.0 - 0.4 = 3.6 mg/L."
+  },
+  {
+    "text": "The presence of excessive fluoride in drinking water, typically above 1.5 mg/L, leads to a health condition known as:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Dental caries",
+        "isCorrect": false
+      },
+      {
+        "text": "Dental fluorosis",
+        "isCorrect": true
+      },
+      {
+        "text": "Cyanosis",
+        "isCorrect": false
+      },
+      {
+        "text": "Goitre",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Fluoride has a dual effect. In small concentrations (around 1.0 mg/L), it helps prevent dental caries (tooth decay). However, excessive concentration of fluoride (above 1.5 mg/L) causes dental fluorosis, which involves mottling and discolouration of teeth. Very high concentrations can lead to skeletal fluorosis."
+  },
+  {
+    "text": "A raw water sample from a river after monsoon has a turbidity of 80 NTU. To make this water potable, which of the following treatment sequences is most essential and effective?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Screening and Disinfection only",
+        "isCorrect": false
+      },
+      {
+        "text": "Coagulation, Flocculation, and Sedimentation",
+        "isCorrect": true
+      },
+      {
+        "text": "Softening and Aeration",
+        "isCorrect": false
+      },
+      {
+        "text": "Activated Carbon Adsorption only",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A turbidity of 80 NTU indicates a significant amount of suspended and colloidal particles that cannot be removed by plain sedimentation or simple screening. The most effective method to remove such fine particles is to destabilize them through coagulation (adding chemicals like alum), encourage them to clump together through flocculation (slow mixing), and then allow them to settle out in a sedimentation tank. This process is a cornerstone of conventional surface water treatment."
+  },
+  {
+    "text": "During an alkalinity titration of a 100 mL water sample, it took 0 mL of 0.02 N $H_2SO_4$ to reach the phenolphthalein endpoint (pH 8.3), and a total of 12 mL to reach the methyl orange endpoint (pH 4.5). What can be concluded about the alkalinity in the sample?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Only hydroxide and carbonate alkalinity are present.",
+        "isCorrect": false
+      },
+      {
+        "text": "Only carbonate and bicarbonate alkalinity are present.",
+        "isCorrect": false
+      },
+      {
+        "text": "Only bicarbonate alkalinity is present.",
+        "isCorrect": true
+      },
+      {
+        "text": "Only hydroxide alkalinity is present.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Alkalinity titration has two key endpoints. The phenolphthalein endpoint (P) at pH 8.3 measures all hydroxide and half the carbonate alkalinity. The methyl orange endpoint (T) at pH 4.5 measures the total alkalinity (hydroxide + carbonate + bicarbonate). \\nGiven, P = 0 mL. The condition P=0 means there is no hydroxide ($OH^−$) or carbonate ($CO_3^{2−}$) alkalinity present, because both would require acid to titrate down to pH 8.3. Therefore, the entire alkalinity measured up to the methyl orange endpoint is due to bicarbonates ($HCO_3^−$) only."
+  },
+  {
+    "text": "What is the Theoretical Oxygen Demand (ThOD) for a 300 mg/L solution of glucose ($C_6H_{12}O_6$)? (Atomic weights: C=12, H=1, O=16)",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "300 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "320 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "450 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "180 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Step 1: Write the balanced chemical equation for the complete oxidation of glucose.\\n$C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O$.\\nStep 2: Determine the molar masses.\\nMolar mass of glucose ($C_6H_{12}O_6$) = (6*12) + (12*1) + (6*16) = 72 + 12 + 96 = 180 g/mol.\\nMolar mass of oxygen ($O_2$) = 2*16 = 32 g/mol. From the equation, 6 moles of $O_2$ are needed, so the mass is 6 * 32 = 192 g.\\nStep 3: Find the mass ratio. The equation shows that 180 g of glucose requires 192 g of oxygen for complete oxidation.\\nStep 4: Calculate the ThOD for the given concentration. \\nThOD = (Concentration of Glucose) $\\times$ (Ratio of mass of $O_2$ to mass of Glucose) \\nThOD = 300 mg/L $\\times \\frac{192}{180} = 300 \\times 1.067 = 320 \\, mg/L$."
+  },
+  {
+    "text": "The Most Probable Number (MPN) index is a measure of which water quality parameter?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Concentration of total dissolved solids.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concentration of disease-causing viruses.",
+        "isCorrect": false
+      },
+      {
+        "text": "Concentration of coliform bacteria, which are indicator organisms for pathogenic contamination.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hardness of water caused by calcium and magnesium ions.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The MPN test is a statistical method used to estimate the concentration of viable coliform bacteria in a water sample. Coliforms themselves are not typically pathogenic, but their presence indicates that the water has been contaminated with fecal matter and thus may contain dangerous disease-causing pathogens. It serves as a crucial indicator of the sanitary quality of water."
+  },
+  {
+    "text": "A water treatment plant treats 20 MLD of water. A jar test indicates that an alum dose of 15 mg/L is required for effective coagulation. If the commercial alum available is 85% pure, what is the total quantity of commercial alum (in kg) required per day?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "300 kg",
+        "isCorrect": false
+      },
+      {
+        "text": "255 kg",
+        "isCorrect": false
+      },
+      {
+        "text": "353 kg",
+        "isCorrect": true
+      },
+      {
+        "text": "415 kg",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "First, calculate the amount of pure alum required. Total water treated = 20 MLD = 20 x 10^6 L/day. Pure alum required = (15 mg/L) * (20 x 10^6 L/day) = 300 x 10^6 mg/day = 300 kg/day. Since the commercial alum is only 85% pure, a larger quantity is needed. Quantity of commercial alum = (Pure alum required) / (Purity) = 300 kg / 0.85 ≈ 352.94 kg. The closest option is 353 kg."
+  },
+  {
+    "text": "In a sedimentation tank, the settling velocity ($V_s$) of a discrete spherical particle is governed by Stoke's Law. Which of the following operational changes would be most effective in increasing the removal efficiency of fine particles, assuming the tank dimensions and flow rate remain constant?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Increasing the temperature of the raw water",
+        "isCorrect": true
+      },
+      {
+        "text": "Decreasing the temperature of the raw water",
+        "isCorrect": false
+      },
+      {
+        "text": "Using a coagulant that produces flocs of lower specific gravity",
+        "isCorrect": false
+      },
+      {
+        "text": "Increasing the turbulence at the tank inlet",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "According to Stoke's Law, $V_s = \\frac{g}{18} \\frac{(\\rho_s - \\rho_w)}{\\mu} d^2$. The settling velocity ($V_s$) is inversely proportional to the dynamic viscosity of water ($\\mu$). Increasing the water temperature decreases its viscosity. A lower viscosity results in a higher settling velocity for the same particle, thereby increasing the removal efficiency within the given detention time of the tank."
+  },
+  {
+    "text": "A municipal engineer is choosing between a Slow Sand Filter (SSF) and a Rapid Sand Filter (RSF). The key constraints are limited available land and the need for a high filtration rate. Which statement accurately reflects the design and operational trade-offs?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "SSF is ideal due to its high filtration rate and small footprint.",
+        "isCorrect": false
+      },
+      {
+        "text": "RSF is suitable for the high rate and small area, but will require coagulation-flocculation as a pre-treatment to achieve high bacterial removal.",
+        "isCorrect": true
+      },
+      {
+        "text": "SSF is the only option that can achieve high bacterial removal, so the land constraint is a secondary concern.",
+        "isCorrect": false
+      },
+      {
+        "text": "RSF can achieve high bacterial removal without any pre-treatment, making it superior in all aspects.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "RSF operates at a much higher filtration rate (3000-6000 L/hr/m²) compared to SSF (100-200 L/hr/m²), hence requiring significantly less land. However, RSF's physical filtration mechanism is less effective at removing bacteria (around 80-90%). To achieve high bacterial removal efficiency (98-99%), RSF must be preceded by effective coagulation, flocculation, and sedimentation units."
+  },
+  {
+    "text": "A town with a population of 50,000 is supplied with water at a rate of 150 litres per capita per day (lpcd). The chlorine demand of the water is 0.8 mg/L. To maintain a residual chlorine of 0.2 mg/L, what is the amount of bleaching powder (containing 25% available chlorine) required annually?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "2,737.5 kg",
+        "isCorrect": false
+      },
+      {
+        "text": "7,500 kg",
+        "isCorrect": false
+      },
+      {
+        "text": "10,950 kg",
+        "isCorrect": true
+      },
+      {
+        "text": "43,800 kg",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "1. Total water supplied per day = 50,000 persons * 150 L/person = 7.5 x 10^6 L/day. 2. Required Chlorine Dose = Chlorine Demand + Desired Residual = 0.8 mg/L + 0.2 mg/L = 1.0 mg/L. 3. Amount of pure chlorine required per day = (1.0 mg/L) * (7.5 x 10^6 L) = 7.5 x 10^6 mg = 7.5 kg. 4. Bleaching powder required per day (at 25% purity) = 7.5 kg / 0.25 = 30 kg. 5. Annual requirement = 30 kg/day * 365 days/year = 10,950 kg."
+  },
+  {
+    "text": "A water sample analysis shows a calcium ($Ca^{2+}$) concentration of 60 mg/L and a magnesium ($Mg^{2+}$) concentration of 24 mg/L. What is the total hardness of the water sample, expressed as mg/L of $CaCO_3$? (Atomic weights: Ca=40, Mg=24.3, C=12, O=16)",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "84 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "200 mg/L",
+        "isCorrect": false
+      },
+      {
+        "text": "250 mg/L",
+        "isCorrect": true
+      },
+      {
+        "text": "350 mg/L",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Total hardness is calculated by converting the concentrations of multivalent cations to an equivalent concentration of $CaCO_3$. The conversion factor is (Equivalent weight of $CaCO_3$) / (Equivalent weight of ion). Eq. wt. of $CaCO_3$ = 100/2 = 50. Eq. wt. of $Ca^{2+}$ = 40/2 = 20. Eq. wt. of $Mg^{2+}$ = 24.3/2 ≈ 12.15. Hardness from $Ca^{2+}$ = 60 * (50/20) = 150 mg/L. Hardness from $Mg^{2+}$ = 24 * (50/12.15) ≈ 98.7 mg/L. (Using Mg=24 gives 100 mg/L). Total Hardness = 150 + 100 = 250 mg/L as $CaCO_3$."
+  },
+  {
+    "text": "The graph of residual chlorine versus applied chlorine dose in break-point chlorination shows a distinct dip and rise. The region of the curve immediately after the 'break point' signifies that:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "All chlorine added is being consumed by reducing agents.",
+        "isCorrect": false
+      },
+      {
+        "text": "Combined chlorine residuals (chloramines) are being formed.",
+        "isCorrect": false
+      },
+      {
+        "text": "Combined chlorine residuals are being destroyed.",
+        "isCorrect": false
+      },
+      {
+        "text": "Further chlorine addition results in a proportional increase in free available chlorine.",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Break-point chlorination is a process where chlorine is added until the chlorine demand is fully satisfied. After this point, known as the 'break point', any additional chlorine added remains in the water as free available chlorine (HOCl and OCl⁻). This results in a linear, 1:1 increase in residual chlorine with the applied dose."
+  },
+  {
+    "text": "For a typical domestic wastewater sample, the Chemical Oxygen Demand (COD) is found to be significantly higher than the 5-day Biochemical Oxygen Demand ($BOD_5$). What is the primary reason for this difference?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The BOD test measures only the carbonaceous oxygen demand, while COD measures both carbonaceous and nitrogenous demand.",
+        "isCorrect": false
+      },
+      {
+        "text": "The wastewater contains organic substances that are chemically oxidizable but are not biodegradable or are very slowly biodegradable.",
+        "isCorrect": true
+      },
+      {
+        "text": "The COD test is performed at a higher temperature, leading to an inflated reading.",
+        "isCorrect": false
+      },
+      {
+        "text": "The $BOD_5$ test only runs for 5 days, while the COD test measures the ultimate oxygen demand.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "COD measures the oxygen required to chemically oxidize nearly all organic compounds, both biodegradable and non-biodegradable. BOD, on the other hand, measures the oxygen consumed by microorganisms to biodegrade organic matter. The difference between COD and BOD values indicates the fraction of organic matter that cannot be broken down by bacteria, known as refractory or non-biodegradable organics."
+  },
+  {
+    "text": "In the operation of an Activated Sludge Process (ASP), maintaining a low Food to Microorganism (F/M) ratio typically results in:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "A short sludge age and a high rate of sludge production.",
+        "isCorrect": false
+      },
+      {
+        "text": "A system that is underloaded, leading to poor floc formation.",
+        "isCorrect": false
+      },
+      {
+        "text": "A long sludge age (MCRT) and a higher degree of treatment efficiency.",
+        "isCorrect": true
+      },
+      {
+        "text": "A high concentration of substrate (food) in the effluent.",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The F/M ratio is the daily BOD load per unit of microbial mass (MLVSS). A low F/M ratio means there's less food for a large population of microbes. This forces the microorganisms into the endogenous respiration phase, where they consume their own cell mass. This leads to a longer Mean Cell Residence Time (MCRT or sludge age), lower net sludge production, and more complete oxidation of BOD, resulting in a high-quality, stable effluent."
+  },
+  {
+    "text": "A 600 mm diameter circular sewer is to be laid at a slope of 1 in 400. Using Manning's formula and a roughness coefficient 'n' of 0.013, calculate the velocity of flow when the sewer is running half full.",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "0.75 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "1.09 m/s",
+        "isCorrect": true
+      },
+      {
+        "text": "1.52 m/s",
+        "isCorrect": false
+      },
+      {
+        "text": "2.18 m/s",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Manning's formula is $V = \\frac{1}{n} R^{2/3} S^{1/2}$. For a circular sewer running half full: Diameter D = 0.6 m. The hydraulic radius R = A/P. Area A = $\\frac{1}{2} \\frac{\\pi D^2}{4} = \\frac{\\pi (0.6)^2}{8}$. Wetted perimeter P = $\\frac{1}{2} \\pi D = \\frac{\\pi (0.6)}{2}$. Thus, $R = \\frac{A}{P} = \\frac{D}{4} = \\frac{0.6}{4} = 0.15$ m. Slope S = 1/400 = 0.0025. Plugging into the formula: $V = \\frac{1}{0.013} (0.15)^{2/3} (0.0025)^{1/2} = \\frac{1}{0.013} \\times (0.282) \\times (0.05) \\approx 1.09$ m/s."
+  },
+  {
+    "text": "The primary settling tank (PST) in a wastewater treatment plant is designed to achieve which of the following?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Removal of dissolved organic matter through biological action.",
+        "isCorrect": false
+      },
+      {
+        "text": "Removal of grit and coarse floating materials like plastics.",
+        "isCorrect": false
+      },
+      {
+        "text": "Removal of a substantial portion of settleable suspended solids and associated BOD by gravity.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disinfection of wastewater before it enters secondary treatment.",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The main purpose of a primary settling tank is to slow down the flow of wastewater to allow heavy organic solids (suspended solids) to settle to the bottom by gravity, and lighter materials like grease and oil to float to the top. A well-functioning PST can remove 50-70% of suspended solids and 30-40% of the Biochemical Oxygen Demand (BOD)."
+  },
+  {
+    "text": "When comparing a standard-rate trickling filter with a high-rate trickling filter, a key feature of the high-rate filter is the use of recirculation. What is the primary purpose of this recirculation?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "To increase the contact time between wastewater and the biomass to improve nitrification.",
+        "isCorrect": false
+      },
+      {
+        "text": "To increase the hydraulic loading rate, which helps to flush out excess biomass and prevent ponding (clogging).",
+        "isCorrect": true
+      },
+      {
+        "text": "To reduce the organic loading rate on the filter.",
+        "isCorrect": false
+      },
+      {
+        "text": "To ensure anaerobic conditions are maintained within the filter media.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Recirculation in a high-rate trickling filter involves pumping a portion of the treated effluent back to the filter inlet. This increases the total flow (hydraulic load) through the filter, which creates a higher shearing velocity that continuously sloughs off the biofilm. This self-cleaning action prevents the filter from clogging (ponding) and controls the nuisance of psychoda flies, allowing it to handle higher organic loads than a standard-rate filter."
+  },
+  {
+    "text": "The primary objective of anaerobic digestion of sewage sludge is to stabilize it. A major valuable byproduct of this process is biogas, which is predominantly composed of:",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Carbon dioxide and Hydrogen sulfide",
+        "isCorrect": false
+      },
+      {
+        "text": "Methane and Carbon dioxide",
+        "isCorrect": true
+      },
+      {
+        "text": "Nitrogen gas and Methane",
+        "isCorrect": false
+      },
+      {
+        "text": "Oxygen and Carbon dioxide",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Anaerobic digestion is the breakdown of organic matter by microorganisms in the absence of oxygen. The process produces biogas, which typically consists of about 60-70% Methane ($CH_4$) and 30-40% Carbon Dioxide ($CO_2$), with trace amounts of other gases like $H_2S$. Methane is a potent fuel and can be captured to produce heat or electricity, making it a valuable byproduct."
+  },
+  {
+    "text": "In a water distribution main, a pump is used to lift water to an elevated service reservoir. To protect the pump from damage caused by backflow and water hammer when it is shut down, which valve must be installed on the delivery side of the pump?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sluice Valve",
+        "isCorrect": false
+      },
+      {
+        "text": "Air Relief Valve",
+        "isCorrect": false
+      },
+      {
+        "text": "Reflux Valve",
+        "isCorrect": true
+      },
+      {
+        "text": "Pressure Relief Valve",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A Reflux Valve, also known as a Check Valve or Non-Return Valve, allows water to flow in only one direction. It is installed on the discharge side of the pump to automatically close and prevent water from the reservoir flowing back through the pump when it is turned off. This prevents reverse rotation of the pump impeller and helps mitigate water hammer effects."
+  },
+  {
+    "text": "The census data for a town shows the population for 1991, 2001, and 2011 as 45,000, 52,000, and 59,000 respectively. Using the arithmetic increase method, what is the projected population for the year 2021?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "65,000",
+        "isCorrect": false
+      },
+      {
+        "text": "66,000",
+        "isCorrect": true
+      },
+      {
+        "text": "67,500",
+        "isCorrect": false
+      },
+      {
+        "text": "70,000",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The arithmetic increase method assumes a constant rate of population increase per decade. Increase from 1991 to 2001 = 52,000 - 45,000 = 7,000. Increase from 2001 to 2011 = 59,000 - 52,000 = 7,000. The average increase per decade (k) is 7,000. The projected population for 2021 ($P_{2021}$) is calculated as $P_{2011} + k = 59,000 + 7,000 = 66,000$."
+  },
+  {
+    "text": "Which of the following design considerations is essential for the dual function of a septic tank, which involves both sedimentation and anaerobic digestion of sludge?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Providing a short detention time of less than 6 hours for rapid separation.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ensuring aerobic conditions by introducing air into the tank.",
+        "isCorrect": false
+      },
+      {
+        "text": "Designing for a hydraulic detention period of 24-48 hours and providing sufficient volume for sludge and scum accumulation over months.",
+        "isCorrect": true
+      },
+      {
+        "text": "Using a very high flow-through velocity to keep solids in suspension.",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "A septic tank must perform two main functions. First, it acts as a sedimentation tank, for which a hydraulic detention time of 24-48 hours is needed to allow solids to settle. Second, it acts as a sludge digester. Sufficient additional volume must be provided below the settling zone to store the accumulated sludge and scum for a long period (6-12 months), during which anaerobic digestion stabilizes the organic matter. This dual-volume consideration is a key design principle."
+  }
+]

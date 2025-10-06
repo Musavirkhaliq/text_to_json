@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB JE (Civil) Sectional Assessment: RCC Structures & Pre-stressed Concrete",
+  "description": "This professional practice test is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) Recruitment Exam. It provides a focused assessment on critical topics, including the basic elements of pre-stressed concrete, the analysis and design of one-way and two-way RCC slabs, and the detailed analysis of beam sections under transfer and service loads. Curated to an undergraduate engineering level, the test aligns with JKSSB examination standards and features a balanced mix of practical and conceptual questions. This assessment serves as a vital tool to evaluate your mastery of fundamental structural analysis and design principles.",
+  "totalQuestions": 51,
+  "topics": [
+    "Basic elements of pre-stressed concrete — RCC Structures",
+    "analysis of beam sections at transfer and service loads, one-way slab— RCC Structures",
+    "analysis of beam sections at transfer and service loads two-way slab — RCC Structures"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T08:43:17.040Z",
+  "questionTypes": {
+    "multiple_choice": 51
+  }
+}

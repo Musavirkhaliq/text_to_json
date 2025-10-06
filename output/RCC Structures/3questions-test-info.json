@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB JE (Civil): Mastery Test in RCC Design (WSM & LSM)",
+  "description": "This professional assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) Recruitment Exam. The test evaluates core competencies in Reinforced Cement Concrete (RCC) Structures at an undergraduate level, strictly adhering to JKSSB examination standards. It features a comprehensive blend of practical and conceptual questions covering fundamental topics including: Concrete Design principles, the Basic Working Stress Method (WSM), and the Limit State Design (LSM) philosophy as per IS 456:2000. This practice test will challenge your understanding of material behavior, load analysis, and the design of essential structural elements, preparing you thoroughly for the rigors of the official examination.",
+  "totalQuestions": 51,
+  "topics": [
+    "Concrete design — RCC Structures",
+    "Basic working stress— RCC Structures",
+    "limit state design concepts — RCC Structures"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T08:03:00.191Z",
+  "questionTypes": {
+    "multiple_choice": 51
+  }
+}

@@ -1,0 +1,1082 @@
+[
+    {
+      "text": "The fundamental principle of surveying, 'to work from the whole to the part', is primarily adopted to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Simplify the survey calculations and plotting work.",
+          "isCorrect": false
+        },
+        {
+          "text": "Prevent the accumulation of errors and localize minor errors.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ensure that the survey can be completed by different teams simultaneously.",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduce the number of instrument stations required for the survey.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Working from the whole to the part involves establishing a framework of high-precision control points (the 'whole') first, and then filling in the details (the 'part') within this framework. This method ensures that small errors made in measuring the details are confined to local areas and do not accumulate to affect the overall accuracy of the survey."
+    },
+    {
+      "text": "A property line was measured on a map with an original scale of 1 cm = 20 m. The map has shrunk such that a line originally 10 cm long now measures 9.5 cm. If the length of the property line on the shrunk map is measured as 15 cm, what is the actual ground length of the line?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "285.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "300.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "315.79 m",
+          "isCorrect": true
+        },
+        {
+          "text": "270.75 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "First, find the shrinkage factor (SF) = Shrunk length / Original length = 9.5 cm / 10 cm = 0.95. The original scale was 1 cm = 20 m. The correct map length of the property line (if the map had not shrunk) would be: Measured length / SF = 15 cm / 0.95 = 15.789 cm. The true ground length = Correct map length × Scale = 15.789 cm × (20 m/cm) = 315.79 m."
+    },
+    {
+      "text": "For a civil engineering project involving the construction of a long highway spanning over 250 km, which of the following statements is most accurate regarding the type of survey required?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Plane surveying is sufficient as the errors due to Earth's curvature are negligible for linear projects.",
+          "isCorrect": false
+        },
+        {
+          "text": "Geodetic surveying must be used for the primary control network due to the large area and the need to account for the Earth's curvature.",
+          "isCorrect": true
+        },
+        {
+          "text": "Only topographical surveying is required to understand the terrain features along the alignment.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cadastral surveying is the primary requirement to establish property boundaries along the route.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Plane surveying assumes the Earth is flat and is generally suitable for areas up to 250 sq km. For a project spanning 250 km in length, the effect of the Earth's curvature is significant. Therefore, Geodetic surveying, which considers the true shape of the Earth, is essential for establishing the primary control points and ensuring overall accuracy. Topographical and cadastral surveys will also be required for details, but the main framework must be geodetic."
+    },
+    {
+      "text": "An area of 0.45 hectares on the ground is represented by an area of 5 cm² on a survey plan. What is the Representative Fraction (R.F.) of the scale for this plan?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1/3000",
+          "isCorrect": true
+        },
+        {
+          "text": "1/9000",
+          "isCorrect": false
+        },
+        {
+          "text": "1/300",
+          "isCorrect": false
+        },
+        {
+          "text": "1/900000",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Ground Area = 0.45 hectares = 0.45 × 10,000 m² = 4,500 m². Map Area = 5 cm². To find the scale, we need consistent units. Ground Area in cm² = 4,500 × (100 cm/m)² = 4,500 × 10,000 cm² = 45,000,000 cm². The Area Scale = Map Area / Ground Area = 5 cm² / 45,000,000 cm² = 1 / 9,000,000. The linear scale (R.F.) is the square root of the area scale. R.F. = \\sqrt{1 / 9,000,000} = 1 / 3000."
+    },
+    {
+      "text": "During a levelling operation, a surveyor consistently reads the staff by holding it tilted away from the instrument. This will introduce which type of error in the measurements?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A random error that can be minimized by taking multiple readings.",
+          "isCorrect": false
+        },
+        {
+          "text": "A systematic positive error, making the readings higher than actual.",
+          "isCorrect": true
+        },
+        {
+          "text": "A gross error or blunder, requiring the measurement to be discarded.",
+          "isCorrect": false
+        },
+        {
+          "text": "A systematic negative error, making the readings lower than actual.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "When a levelling staff is not held perfectly vertical (plumb), the reading observed through the instrument will be greater than the true vertical height. Since the staff is consistently tilted in the same manner, this error is systematic (it follows a physical law). It is a positive error because the observed reading is always higher than the correct reading. Waving the rod is a technique to ensure the minimum (and therefore correct vertical) reading is taken."
+    },
+    {
+      "text": "Which of the following represents the correct sequence of surveys undertaken for a major highway alignment project?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Topographical Survey → Location Survey → Reconnaissance Survey → Preliminary Survey",
+          "isCorrect": false
+        },
+        {
+          "text": "Reconnaissance Survey → Preliminary Survey → Location Survey → Construction Survey",
+          "isCorrect": true
+        },
+        {
+          "text": "Cadastral Survey → Reconnaissance Survey → Construction Survey → Location Survey",
+          "isCorrect": false
+        },
+        {
+          "text": "Preliminary Survey → Construction Survey → Reconnaissance Survey → Topographical Survey",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The logical sequence for a major project like a highway is: 1. Reconnaissance Survey: A broad examination of a large area to identify feasible routes. 2. Preliminary Survey: A more detailed survey of the feasible routes to collect data for design and cost estimation. 3. Location Survey: The final staking out of the selected alignment on the ground. 4. Construction Survey: Surveys conducted during construction to ensure the project is built according to the design plans."
+    },
+    {
+      "text": "The combined correction for Earth's curvature and atmospheric refraction for a distance 'D' is approximately C = -0.0673 * D². In this formula, what are the units of C and D?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "C is in meters, D is in meters",
+          "isCorrect": false
+        },
+        {
+          "text": "C is in cm, D is in kilometers",
+          "isCorrect": false
+        },
+        {
+          "text": "C is in meters, D is in kilometers",
+          "isCorrect": true
+        },
+        {
+          "text": "C is in km, D is in km",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The standard formula for combined correction for curvature and refraction is C = -0.0673 D², where C is the correction in meters and D is the horizontal distance in kilometers. This formula simplifies the calculation for practical field applications."
+    },
+    {
+      "text": "Three measurements of an angle are recorded as 62°36'35'', 62°36'36'', and 62°36'38''. If the measurements are assigned weights of 2, 3, and 1 respectively, what is the most probable value of the angle?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "62°36'35.5''",
+          "isCorrect": false
+        },
+        {
+          "text": "62°36'36.0''",
+          "isCorrect": true
+        },
+        {
+          "text": "62°36'36.5''",
+          "isCorrect": false
+        },
+        {
+          "text": "62°36'37.0''",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The most probable value is the weighted arithmetic mean, calculated as (Σ(wᵢ × xᵢ)) / (Σwᵢ). Using only the seconds for simplicity: Weighted sum = (2 × 35) + (3 × 36) + (1 × 38) = 70 + 108 + 38 = 216. Sum of weights = 2 + 3 + 1 = 6. The weighted average of seconds = 216 / 6 = 36''. Therefore, the most probable value of the angle is 62°36'36''."
+    },
+    {
+      "text": "The distinction between accuracy and precision is fundamental in surveying. If a series of length measurements are all very close to each other, but their average is far from the true length, the measurements are said to be:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Accurate but not precise",
+          "isCorrect": false
+        },
+        {
+          "text": "Both accurate and precise",
+          "isCorrect": false
+        },
+        {
+          "text": "Precise but not accurate",
+          "isCorrect": true
+        },
+        {
+          "text": "Neither accurate nor precise",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Precision refers to the degree of closeness of repeated measurements to each other (reproducibility). Accuracy refers to the closeness of a measured value to the true or accepted value. In this case, the measurements are close to each other, indicating high precision. However, their average is far from the true value, indicating low accuracy, likely due to a systematic error."
+    },
+    {
+      "text": "In a direct vernier scale, 50 divisions on the vernier scale coincide with 49 divisions on the main scale. If one main scale division is 0.5 mm, what is the least count of the instrument?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.01 mm",
+          "isCorrect": true
+        },
+        {
+          "text": "0.02 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "0.05 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "0.10 mm",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The least count (LC) of a direct vernier is the value of the smallest division on the main scale (s) divided by the number of divisions on the vernier scale (n). Here, s = 0.5 mm and n = 50. Therefore, the least count LC = s / n = 0.5 mm / 50 = 0.01 mm. Alternatively, LC = s - v, where v = (49/50)s = 0.49 mm, so LC = 0.5 - 0.49 = 0.01 mm."
+    },
+    {
+      "text": "A contour map provides crucial information for civil engineering projects. Which of the following design decisions is most directly influenced by the information from a contour map?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Determining the chemical composition of the soil for foundation design.",
+          "isCorrect": false
+        },
+        {
+          "text": "Selecting the type of concrete mix for pavement construction.",
+          "isCorrect": false
+        },
+        {
+          "text": "Calculating quantities of earthwork for a proposed road to minimize cut and fill.",
+          "isCorrect": true
+        },
+        {
+          "text": "Estimating the traffic volume for designing the width of the road.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "A contour map represents the topography of the land, showing elevations and the steepness of slopes. This information is essential for aligning infrastructure like roads, canals, or railways. By analyzing the contours, engineers can select an alignment that balances the amount of earth to be excavated (cut) and the amount of earth needed for embankments (fill), thereby minimizing construction costs and environmental impact."
+    },
+    {
+      "text": "While measuring a line AB of 300 m length with a 30 m chain, the forward end of the chain was placed 1.2 m offline at the end of the first chain length. If the rest of the line was measured along the correct alignment, what is the error introduced in this first 30 m segment?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "+0.012 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+0.048 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+0.024 m",
+          "isCorrect": true
+        },
+        {
+          "text": "+1.200 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "This is an error due to bad ranging. The measured length along the hypotenuse (L_measured) and the true horizontal length (L_true = 30m) form a right-angled triangle with the offline distance (e = 1.2m). The measured length is L_measured = \\sqrt{L_true² + e²} = \\sqrt{30² + 1.2²} = \\sqrt{900 + 1.44} = \\sqrt{901.44} ≈ 30.024 m. The error is the difference between the measured length and the true length: Error = L_measured - L_true = 30.024 - 30 = +0.024 m. The error is positive because the measured length is longer than the true length."
+    },
+    {
+      "text": "The purpose of a cadastral survey is primarily to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Determine the topography of a region for engineering design.",
+          "isCorrect": false
+        },
+        {
+          "text": "Establish and re-establish property boundaries for legal purposes.",
+          "isCorrect": true
+        },
+        {
+          "text": "Map large-scale geological features of the Earth's surface.",
+          "isCorrect": false
+        },
+        {
+          "text": "Provide navigational information for marine or aeronautical charts.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Cadastral surveying is a specific branch of surveying focused on determining and defining land ownership and property boundaries. The outputs, such as plans or maps, are typically used for legal purposes, including land registration, taxation, and property transfer. It is distinct from topographical (for terrain), geological, or hydrographic surveys."
+    },
+    {
+      "text": "Which of the following scales would be most appropriate for preparing a detailed site plan of a small residential building for submission to a municipal authority?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1:50,000",
+          "isCorrect": false
+        },
+        {
+          "text": "1:5,000",
+          "isCorrect": false
+        },
+        {
+          "text": "1:100",
+          "isCorrect": true
+        },
+        {
+          "text": "1:100,000",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The choice of scale depends on the purpose of the map and the level of detail required. A scale of 1:50,000 or 1:100,000 is used for topographical maps of large areas. A scale of 1:5,000 might be used for a town planning scheme. For a detailed site plan of a single building, a much larger scale is needed to show features like dimensions, setbacks, and services clearly. A scale of 1:100 (1 cm on the map represents 1 m on the ground) is a common and appropriate choice for such architectural and building approval drawings."
+    },
+    {
+      "text": "For a survey line to be fixed, its position must be determined with respect to at least:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "One previously established point.",
+          "isCorrect": false
+        },
+        {
+          "text": "Two previously established points.",
+          "isCorrect": true
+        },
+        {
+          "text": "Three previously established points.",
+          "isCorrect": false
+        },
+        {
+          "text": "A single benchmark and the North direction.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This relates to the second fundamental principle of surveying: fixing a new point's position. To uniquely define the position of a new point (or the end of a new line) on a 2D plane, you need at least two independent measurements from two known reference points. This could be two distances (trilateration), two angles (intersection), or one angle and one distance (traversing). A single point only provides a reference for origin but not orientation or scale."
+    },
+    {
+      "text": "A surveyor follows the principle of 'working from the whole to the part' primarily to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Reduce the time and cost of the survey project.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ensure that minor errors in measurement are distributed and do not accumulate.",
+          "isCorrect": true
+        },
+        {
+          "text": "Simplify the plotting of details on the final map.",
+          "isCorrect": false
+        },
+        {
+          "text": "Allow for the use of less precise instruments for detail work.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The fundamental principle of 'working from the whole to the part' involves establishing a network of high-precision control points (the 'whole') first. The minor details (the 'parts') are then surveyed within this framework. This method localizes and confines errors within the smaller sections, preventing their accumulation and propagation throughout the entire survey."
+    },
+    {
+      "text": "A line on a map drawn to a scale of 1:500 was found to be 12.5 cm long. After some time, the map shrunk and the same line measured 12.2 cm. What is the corrected scale of the map?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1:488",
+          "isCorrect": false
+        },
+        {
+          "text": "1:500",
+          "isCorrect": false
+        },
+        {
+          "text": "1:512.3",
+          "isCorrect": true
+        },
+        {
+          "text": "1:492.6",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "First, calculate the shrinkage factor (SF). SF = Shrunk length / Original length = 12.2 cm / 12.5 cm = 0.976. The corrected scale is calculated by dividing the original scale by the shrinkage factor. Corrected Scale = Original Scale / SF = (1/500) / 0.976 = 1 / (500 / 0.976) ≈ 1:512.3. The denominator of the scale increases, indicating that the map now represents a larger area per unit length."
+    },
+    {
+      "text": "The effect of the Earth's curvature is generally considered and accounted for in geodetic surveying. For which of the following survey areas would plane surveying introduce a significant and generally unacceptable error?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A residential plot of 250 square meters.",
+          "isCorrect": false
+        },
+        {
+          "text": "A university campus of 1.5 square kilometers.",
+          "isCorrect": false
+        },
+        {
+          "text": "A small town survey covering 50 square kilometers.",
+          "isCorrect": false
+        },
+        {
+          "text": "A large reservoir project covering 300 square kilometers.",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "Plane surveying assumes the Earth is flat. This assumption is valid for small areas. Geodetic surveying considers the Earth's spheroidal shape. The generally accepted limit for treating a survey as 'plane' is when the area is less than 250 sq. km. For an area of 300 sq. km, the difference between a spherical arc and its subtended chord is significant, and neglecting curvature would lead to unacceptable errors."
+    },
+    {
+      "text": "To uniquely determine the position of a new station 'C' with reference to a known baseline AB, which of the following sets of measurements is sufficient according to the fundamental principles of surveying?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The distance AC only.",
+          "isCorrect": false
+        },
+        {
+          "text": "The angle ∠CAB only.",
+          "isCorrect": false
+        },
+        {
+          "text": "The distances AC and the angle ∠CAB.",
+          "isCorrect": true
+        },
+        {
+          "text": "The perpendicular distance from C to the line AB only.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The second fundamental principle of surveying states that the position of a new point can be fixed by at least two independent measurements from two known reference points. Option C (distance AC and angle ∠CAB) provides one distance and one angle from the known baseline AB, which uniquely fixes the position of point C. This is the basis of traversing."
+    },
+    {
+      "text": "Calculate the correction for the Earth's curvature for a distance of 2.5 km. Assume the radius of the Earth (R) is 6370 km.",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.245 m",
+          "isCorrect": false
+        },
+        {
+          "text": "0.490 m",
+          "isCorrect": true
+        },
+        {
+          "text": "0.067 m",
+          "isCorrect": false
+        },
+        {
+          "text": "0.980 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The correction for curvature (Cc) is the amount by which a level line departs from a horizontal line. It is always subtractive and is calculated by the formula: $C_c = D^2 / (2R)$, where D is the horizontal distance and R is the Earth's radius. \nGiven: D = 2.5 km = 2500 m, R = 6370 km = 6370000 m. \n$C_c = (2500)^2 / (2 * 6370000)$ = $6250000 / 12740000$ ≈ 0.490 m."
+    },
+    {
+      "text": "A municipal corporation plans to update its property tax records and resolve boundary disputes between landowners. Which type of survey would be most appropriate for this purpose?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Topographic Survey",
+          "isCorrect": false
+        },
+        {
+          "text": "Engineering Survey",
+          "isCorrect": false
+        },
+        {
+          "text": "Cadastral Survey",
+          "isCorrect": true
+        },
+        {
+          "text": "Hydrographic Survey",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Cadastral surveys are specifically conducted to determine and define land ownership and property boundaries. They are essential for legal purposes, such as creating land registry records and levying property taxes. Topographic surveys map natural/man-made features, engineering surveys are for design/construction, and hydrographic surveys map water bodies."
+    },
+    {
+      "text": "A set of four measurements of a length were recorded as 50.15 m, 50.16 m, 50.14 m, and 50.15 m. If the true length of the line is known to be 50.50 m, how would you describe these measurements?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Accurate but not precise",
+          "isCorrect": false
+        },
+        {
+          "text": "Precise but not accurate",
+          "isCorrect": true
+        },
+        {
+          "text": "Both accurate and precise",
+          "isCorrect": false
+        },
+        {
+          "text": "Neither accurate nor precise",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Precision refers to the closeness of repeated measurements to each other. The measurements (50.15, 50.16, 50.14, 50.15) are very close to each other (low scatter), so they are precise. Accuracy refers to the closeness of a measurement to the true value. The average of the measurements is approx. 50.15 m, which is far from the true value of 50.50 m, so they are not accurate. This indicates a systematic error."
+    },
+    {
+      "text": "On a direct vernier scale of a theodolite, 20 divisions of the vernier scale coincide with 19 main scale divisions. If one main scale division is 0.5 degrees, what is the least count of the instrument?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "30 seconds",
+          "isCorrect": false
+        },
+        {
+          "text": "60 seconds",
+          "isCorrect": false
+        },
+        {
+          "text": "90 seconds",
+          "isCorrect": true
+        },
+        {
+          "text": "20 seconds",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "For a direct vernier, the least count (LC) is the difference between the value of one main scale division (s) and one vernier scale division (v). Here, n=20 vernier divisions coincide with (n-1)=19 main scale divisions. \nValue of one main scale division, s = 0.5° = 30 minutes. \nValue of one vernier scale division, v = (n-1)s / n = (19 * 30') / 20 = 28.5 minutes. \nLC = s - v = 30' - 28.5' = 1.5 minutes. \nSince 1 minute = 60 seconds, LC = 1.5 * 60 = 90 seconds."
+    },
+    {
+      "text": "You are tasked with surveying a 150 km long oil pipeline route passing through varying terrain. Which classification of surveying must be adopted to ensure the required accuracy over such a long distance, and why?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Plane surveying, because local undulations can be managed easily.",
+          "isCorrect": false
+        },
+        {
+          "text": "Topographic surveying, because the terrain is varying.",
+          "isCorrect": false
+        },
+        {
+          "text": "Geodetic surveying, because the Earth's curvature will significantly affect measurements over this length.",
+          "isCorrect": true
+        },
+        {
+          "text": "Chain surveying, as it is the most economical method for linear projects.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For projects with large linear extent, like a 150 km pipeline, the cumulative effect of the Earth's curvature becomes significant. Plane surveying assumes a flat earth and would introduce large errors. Geodetic surveying accounts for the Earth's spheroidal shape, making it essential for maintaining accuracy in long-distance linear projects and large-area surveys."
+    },
+    {
+      "text": "The smallest dimension that can be reliably plotted on a map is 0.25 mm. What is the required ground measurement accuracy for a survey that will be plotted on a scale of 1:2000?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.25 m",
+          "isCorrect": false
+        },
+        {
+          "text": "0.50 m",
+          "isCorrect": true
+        },
+        {
+          "text": "1.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "0.05 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "This problem links plotting accuracy to required field accuracy. The scale is 1:2000, which means 1 mm on the map represents 2000 mm (or 2 m) on the ground. \nThe smallest plottable dimension is 0.25 mm. To find the corresponding ground distance, multiply this by the scale factor. \nGround Accuracy = Plotting Accuracy × Scale Factor = 0.25 mm × 2000 = 500 mm = 0.50 m. Therefore, field measurements must be accurate to at least 0.50 m to be representable on the map."
+    },
+    {
+      "text": "The combined correction for curvature and refraction for a distance D is given by the formula:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$+0.0785 D^2$",
+          "isCorrect": false
+        },
+        {
+          "text": "$-0.0785 D^2$",
+          "isCorrect": false
+        },
+        {
+          "text": "$+0.0673 D^2$",
+          "isCorrect": false
+        },
+        {
+          "text": "$-0.0673 D^2$",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "The correction for curvature is $C_c = -D^2 / (2R)$ and is always subtractive. The correction for refraction is $C_r = +(1/7) * (D^2 / (2R))$ and is always additive. \nThe combined correction $C = C_c + C_r = - (D^2 / (2R)) + (1/7) * (D^2 / (2R)) = -(6/7) * (D^2 / (2R))$. \nUsing R ≈ 6370 km and D in km, this simplifies to $C ≈ -0.0673 D^2$ meters. The negative sign indicates the combined effect reduces the staff reading (i.e., the correction is subtractive from the observation)."
+    },
+    {
+      "text": "An old city plan, originally drawn to a scale of 1 cm = 10 m, now has a line marked as 100 m that measures only 9.6 cm on the sheet. If a road on this plan measures 15 cm, what is the actual ground length of the road?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "150.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "144.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "156.25 m",
+          "isCorrect": true
+        },
+        {
+          "text": "162.50 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "First, find the original length of the 100 m line on the plan. Original Scale: 1 cm = 10 m. So, a 100 m line should be 100 m / 10 m/cm = 10 cm long. \nNow, calculate the Shrinkage Factor (SF) = Shrunk length / Original length = 9.6 cm / 10.0 cm = 0.96. \nThe shrunk scale is SF × Original Scale = 0.96 × (1/1000) = 1/1041.67. \nAlternatively, the ground length can be calculated as: Ground Length = (Measured length on map / SF) × Original Scale Denominator = (15 cm / 0.96) × 10 m/cm = 15.625 cm × 10 m/cm = 156.25 m."
+    },
+    {
+      "text": "Why are primary control points (e.g., in a triangulation network) established with a much higher degree of precision than the subsidiary points used for detailing?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Because they are fewer in number and easier to measure accurately.",
+          "isCorrect": false
+        },
+        {
+          "text": "To ensure that the overall framework of the survey is free from accumulated errors.",
+          "isCorrect": true
+        },
+        {
+          "text": "Because primary points are always located at higher elevations.",
+          "isCorrect": false
+        },
+        {
+          "text": "To comply with international surveying standards, which are not applicable to detail points.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This is a direct application of the 'working from whole to part' principle. The primary control points form the 'whole' or the main framework. If this framework contains significant errors, these errors will propagate and be magnified in all subsequent 'part' or detail surveys. By establishing the primary network with high precision, we create a reliable skeleton onto which less precise detail work can be fitted without accumulating large-scale errors."
+    },
+    {
+      "text": "Which of the following surveying classifications is based on the 'object' or 'purpose' of the survey?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Plane Surveying",
+          "isCorrect": false
+        },
+        {
+          "text": "Geodetic Surveying",
+          "isCorrect": false
+        },
+        {
+          "text": "Mine Surveying",
+          "isCorrect": true
+        },
+        {
+          "text": "Chain Surveying",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Surveys can be classified based on different criteria. \n1. Curvature of Earth: Plane and Geodetic Surveying. \n2. Instrument Used: Chain, Compass, Theodolite, Tacheometric, Photogrammetric Surveying. \n3. Purpose/Object: Engineering, Military, Geological, and Mine Surveying. Mine surveying is specifically for exploring mineral wealth and guiding underground works, hence it is classified by its purpose."
+    },
+    {
+      "text": "The difference in length between the arc and the subtended chord on the earth's surface for a distance of 18.5 km is approximately:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.5 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "15.2 mm",
+          "isCorrect": true
+        },
+        {
+          "text": "1.5 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "15.2 cm",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "A key threshold in deciding between plane and geodetic surveying is the error introduced by assuming a chord is equal to its arc. For a length of 18.5 km, the difference between the arc and the chord length is approximately 15.2 mm (or 1.52 cm). For a length of 12 km, this difference is about 1 cm. This value is often cited as a practical limit where the distinction becomes important for high-precision work."
+    },
+    {
+      "text": "A distance of 420 m was measured down a slope of 1 in 20. What is the horizontal distance equivalent?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "419.48 m",
+          "isCorrect": true
+        },
+        {
+          "text": "420.53 m",
+          "isCorrect": false
+        },
+        {
+          "text": "419.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "418.95 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Slope correction is required to find the horizontal equivalent of a distance measured on a slope. For a slope of 1 in 20, the vertical rise (h) for a horizontal distance of 20 m is 1 m. The sloping length (l) would be $\\sqrt{20^2 + 1^2} = \\sqrt{401}$. The correction is always negative. A more direct method is using trigonometry. The angle of slope $\\theta = \\arctan(1/20) = 2.8624°$. The horizontal distance H = L * cos($\\theta$) = 420 * cos(2.8624°) = 420 * 0.998748 = 419.47 m. Using the approximate formula, vertical difference h = 420/20 = 21 m. Correction $C_h = -h^2 / (2L) = -21^2 / (2 * 420) = -441 / 840 = -0.525$ m. True distance = 420 - 0.525 = 419.475 m. The closest answer is 419.48 m."
+    },
+    {
+      "text": "The true bearing of a line is N 30° W. If the magnetic declination is 7° East, what is the magnetic bearing of the line?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "N 23° W",
+          "isCorrect": false
+        },
+        {
+          "text": "N 37° W",
+          "isCorrect": true
+        },
+        {
+          "text": "S 23° E",
+          "isCorrect": false
+        },
+        {
+          "text": "S 37° E",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The relationship is: True Bearing (TB) = Magnetic Bearing (MB) ± Declination. For East declination, TB = MB + Dec. Therefore, MB = TB - Dec. First, convert the True Bearing to Whole Circle Bearing (WCB). N 30° W is in the fourth quadrant, so TB = 360° - 30° = 330°. Now apply the formula: MB (WCB) = 330° - 7° (East) = 323°. To convert 323° back to Quadrantal Bearing (QB), note it's in the NW quadrant. The angle from North is 360° - 323° = 37°. So, the magnetic bearing is N 37° W."
+    },
+    {
+      "text": "A 50 m steel tape, standardized at 20°C, is used to measure a line on a day when the temperature is 8°C. The measured length is 457.50 m. What is the correction due to temperature? (Coefficient of thermal expansion α = 1.16 x 10⁻⁵ /°C)",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "+0.064 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.064 m",
+          "isCorrect": true
+        },
+        {
+          "text": "+0.053 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.053 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The formula for temperature correction is $C_t = L \\times \\alpha \\times (T_m - T_s)$. Given: L = 457.50 m, $\\alpha = 1.16 \\times 10^{-5} /°C$, measurement temperature $T_m = 8°C$, and standard temperature $T_s = 20°C$. \n$C_t = 457.50 \\times (1.16 \\times 10^{-5}) \\times (8 - 20) = 457.50 \\times (1.16 \\times 10^{-5}) \\times (-12) = -0.063684$ m. Since the temperature during measurement is lower than standard, the tape has contracted, and the measured length is longer than the true length. Thus, the correction is negative (subtractive). The closest value is -0.064 m."
+    },
+    {
+      "text": "In a traverse, the fore bearing (FB) and back bearing (BB) of two lines were measured. For line AB, FB = 85° and BB = 265°. For line BC, FB = 145° and BB = 323°. Which station is affected by local attraction?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Station B",
+          "isCorrect": false
+        },
+        {
+          "text": "Station C",
+          "isCorrect": true
+        },
+        {
+          "text": "Both B and C",
+          "isCorrect": false
+        },
+        {
+          "text": "Both A and B",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "To check for local attraction, the difference between the fore bearing and back bearing of a line should be exactly 180°. \nFor line AB: |BB - FB| = |265° - 85°| = 180°. This means stations A and B are free from local attraction. \nFor line BC: |BB - FB| = |323° - 145°| = 178°. This difference is not 180°, so either B or C (or both) is affected. \nSince we established from line AB that station B is free from local attraction, the fore bearing of BC (145°), which was measured from B, must be correct. Consequently, the back bearing of BC (323°), measured from station C, must be incorrect. Therefore, station C is affected by local attraction."
+    },
+    {
+      "text": "In a Prismatic Compass, why are the graduations on the circular ring engraved in an inverted manner?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To account for magnetic declination automatically.",
+          "isCorrect": false
+        },
+        {
+          "text": "To be read correctly through a prism which erects the image.",
+          "isCorrect": true
+        },
+        {
+          "text": "Because the magnetic needle is fixed to the box.",
+          "isCorrect": false
+        },
+        {
+          "text": "To allow for direct measurement in the Quadrantal Bearing system.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "A prismatic compass uses a prism for taking readings. While the prism makes it possible to sight the object and read the bearing simultaneously, it also erects the inverted image of the numbers on the graduated ring. Therefore, the numbers are engraved in an inverted fashion so that they appear upright and readable when viewed through the prism."
+    },
+    {
+      "text": "A 30 m chain was found to be 10 cm too short before a measurement. If the measured distance of a line was 600 m, what is the true length of the line?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "602.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "598.0 m",
+          "isCorrect": true
+        },
+        {
+          "text": "600.1 m",
+          "isCorrect": false
+        },
+        {
+          "text": "599.9 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The formula to find the true length when the chain or tape has an incorrect length is: True Length = (Actual Length of Chain / Nominal Length of Chain) × Measured Length. \nHere, Nominal Length L = 30 m. The chain is 10 cm (0.10 m) too short, so its Actual Length L' = 30 - 0.10 = 29.9 m. The Measured Length = 600 m. \nTrue Length = (29.9 / 30) × 600 = 29.9 × 20 = 598.0 m."
+    },
+    {
+      "text": "The length and Whole Circle Bearing (WCB) of a traverse leg XY are 200 m and 210° respectively. Calculate its latitude and departure.",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Latitude = +173.2 m, Departure = -100.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitude = -100.0 m, Departure = -173.2 m",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitude = -173.2 m, Departure = -100.0 m",
+          "isCorrect": true
+        },
+        {
+          "text": "Latitude = -173.2 m, Departure = +100.0 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Latitude is the projection of a line on the North-South meridian, and Departure is its projection on the East-West line. \nLatitude = Length × cos(WCB) \nDeparture = Length × sin(WCB) \nGiven: Length = 200 m, WCB = 210°. \nLatitude = 200 × cos(210°) = 200 × (-0.866) = -173.2 m. (Negative indicates South). \nDeparture = 200 × sin(210°) = 200 × (-0.5) = -100.0 m. (Negative indicates West)."
+    },
+    {
+      "text": "When adjusting a closed traverse using Bowditch's rule (Compass Rule), the correction to the departure of a specific line is calculated as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "- Total Departure Misclosure × (Length of that line / Perimeter of traverse)",
+          "isCorrect": true
+        },
+        {
+          "text": "- Total Departure Misclosure × (Departure of that line / Arithmetic Sum of Departures)",
+          "isCorrect": false
+        },
+        {
+          "text": "- Total Latitude Misclosure × (Length of that line / Perimeter of traverse)",
+          "isCorrect": false
+        },
+        {
+          "text": "- Total Departure Misclosure × (Perimeter of traverse / Length of that line)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Bowditch's rule assumes that errors in linear and angular measurements are of comparable precision. It distributes the closing error by adjusting the latitude and departure of each line in proportion to its length. The formula for the correction to the departure of a line is: $C_{Dep} = -e_D \\times (L / P)$, where $e_D$ is the total misclosure in departure, L is the length of the line, and P is the perimeter of the traverse."
+    },
+    {
+      "text": "The area of a rectangular plot on a map is 50 cm². If the scale of the map is 1:1000, what is the actual area of the plot on the ground in hectares?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "5.0 ha",
+          "isCorrect": false
+        },
+        {
+          "text": "50 ha",
+          "isCorrect": false
+        },
+        {
+          "text": "0.05 ha",
+          "isCorrect": false
+        },
+        {
+          "text": "0.5 ha",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "First, determine the relationship between map distance and ground distance. The scale 1:1000 means 1 cm on the map represents 1000 cm (or 10 m) on the ground. For area calculations, the scale must be squared. \nArea Scale: (1 cm)² on map = (10 m)² on ground, which means 1 cm² = 100 m². \nGiven map area = 50 cm². \nGround Area = 50 cm² × (100 m²/cm²) = 5000 m². \nTo convert square meters to hectares, use the conversion 1 hectare = 10,000 m². \nArea in hectares = 5000 m² / 10,000 m²/ha = 0.5 ha."
+    },
+    {
+      "text": "For a 30 m tape suspended in catenary, the sag correction is found to be -0.072 m under a certain pull P. If all other conditions remain the same but the pull is doubled, what will be the new sag correction?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "-0.036 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.144 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.018 m",
+          "isCorrect": true
+        },
+        {
+          "text": "-0.072 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The formula for sag correction is $C_{sag} = -\\frac{W^2 L}{24 P^2}$, where W is the total weight, L is the length, and P is the applied pull. This shows that the sag correction is inversely proportional to the square of the pull ($C_{sag} \\propto 1/P^2$). If the pull P is doubled (2P), the new correction ($C'_{sag}$) will be proportional to $1/(2P)^2 = 1/(4P^2)$. Therefore, the new correction will be 1/4 of the original correction. \nNew Correction = Original Correction / 4 = -0.072 m / 4 = -0.018 m."
+    },
+    {
+      "text": "In a traverse ABC, the fore bearing of line AB is 40° and the fore bearing of line BC is 110°. What is the exterior angle ∠ABC?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "110°",
+          "isCorrect": false
+        },
+        {
+          "text": "70°",
+          "isCorrect": false
+        },
+        {
+          "text": "250°",
+          "isCorrect": true
+        },
+        {
+          "text": "140°",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The deflection angle at B is the Fore Bearing of the next line (BC) minus the Fore Bearing of the previous line (AB). Deflection Angle = FB(BC) - FB(AB) = 110° - 40° = 70° to the right. The interior angle ∠ABC = 180° - Deflection Angle = 180° - 70° = 110°. The exterior angle is 360° minus the interior angle. Exterior Angle = 360° - 110° = 250°. \nAlternatively, Exterior Angle = Back Bearing of AB - Fore Bearing of BC + 360 if negative. BB(AB) = 40° + 180° = 220°. Exterior Angle = FB(BC) - BB(AB) = 110° - 220° = -110°. Add 360° to find the clockwise angle: -110° + 360° = 250°."
+    },
+    {
+      "text": "If a surveyor consistently reads a levelling staff by looking at the top edge of the stadia mark instead of the center, this would result in what type of error?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Systematic error",
+          "isCorrect": true
+        },
+        {
+          "text": "Random error",
+          "isCorrect": false
+        },
+        {
+          "text": "Blunder",
+          "isCorrect": false
+        },
+        {
+          "text": "Compensating error",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "This is a systematic error. Systematic errors are those that occur due to a consistent issue with the instrument, the environment, or the observer's method. Because the surveyor *consistently* reads the staff in the same incorrect way, the error will have the same magnitude and sign for each reading, introducing a predictable bias. Random (or compensating) errors fluctuate and tend to cancel out, while a blunder is a significant, isolated mistake."
+    },
+    {
+      "text": "A traverse has a sum of latitudes ΣL = -0.80 m and sum of departures ΣD = +0.60 m. What is the length and Whole Circle Bearing (WCB) of the closing error (the line required to close the traverse)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.0 m, 143°08'",
+          "isCorrect": false
+        },
+        {
+          "text": "1.0 m, 323°08'",
+          "isCorrect": true
+        },
+        {
+          "text": "1.4 m, 306°52'",
+          "isCorrect": false
+        },
+        {
+          "text": "0.2 m, 45°00'",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The closing error is the vector from the final point of the traverse back to the starting point. Its components are the negative of the misclosures. \nLatitude of closing error = -ΣL = -(-0.80 m) = +0.80 m (North). \nDeparture of closing error = -ΣD = -(+0.60 m) = -0.60 m (West). \nLength of closing error = $\\sqrt{(0.80)^2 + (-0.60)^2} = \\sqrt{0.64 + 0.36} = \\sqrt{1.00} = 1.0$ m. \nFor the bearing, the latitude is positive (North) and departure is negative (West), so the line is in the NW quadrant. The angle from North is $\\alpha = \\arctan(|Departure| / |Latitude|) = \\arctan(0.60 / 0.80) = \\arctan(0.75) = 36.87°$. In WCB, this is 360° - 36.87° = 323.13°, or 323° 08'."
+    },
+    {
+      "text": "When applying the Transit Rule for traverse adjustment, the correction to the latitude of a side is proportional to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The length of that side.",
+          "isCorrect": false
+        },
+        {
+          "text": "The square root of the length of that side.",
+          "isCorrect": false
+        },
+        {
+          "text": "The numerical value (absolute value) of that side's latitude.",
+          "isCorrect": true
+        },
+        {
+          "text": "The inverse of the length of that side.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The Transit Rule is used when angular measurements are considered more precise than linear measurements. It distributes the error in latitude (or departure) by making the correction for a particular side proportional to the numerical value of that side's own latitude (or departure). The formula is: Correction = - (Total Misclosure) × (|Latitude of side| / Σ|All Latitudes|)."
+    },
+    {
+      "text": "An imaginary line on the Earth's surface connecting points of equal magnetic declination is known as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "An agonic line",
+          "isCorrect": false
+        },
+        {
+          "text": "An isogonic line",
+          "isCorrect": true
+        },
+        {
+          "text": "An isoclinic line",
+          "isCorrect": false
+        },
+        {
+          "text": "The magnetic equator",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "An isogonic line connects points that have the same magnetic declination. An agonic line is a specific type of isogonic line where the declination is zero. An isoclinic line connects points of equal magnetic dip, and the magnetic equator (or aclinic line) is where the magnetic dip is zero."
+    }
+  ]

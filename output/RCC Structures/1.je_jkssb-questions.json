@@ -1,0 +1,722 @@
+[
+    {
+      "text": "For a concrete mix, the required volume of dry sand is 1.5 m³. If the sand has a bulking of 20% due to moisture content, what is the volume of moist sand that must be measured at the site to achieve the required dry volume?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.25 m³",
+          "isCorrect": false
+        },
+        {
+          "text": "1.50 m³",
+          "isCorrect": false
+        },
+        {
+          "text": "1.80 m³",
+          "isCorrect": true
+        },
+        {
+          "text": "1.75 m³",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Bulking of sand is the increase in its volume due to the presence of moisture. The volume of moist sand is always greater than its dry volume. The formula is: Volume of Moist Sand = Volume of Dry Sand × (1 + Bulking Percentage). In this case, Volume = 1.5 m³ × (1 + 0.20) = 1.5 × 1.20 = 1.80 m³."
+    },
+    {
+      "text": "An RCC structure is to be constructed in a marine environment. Which Bogue's compound in the cement should be limited to enhance the structure's resistance to sulfate attack?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Tricalcium Silicate (C₃S)",
+          "isCorrect": false
+        },
+        {
+          "text": "Dicalcium Silicate (C₂S)",
+          "isCorrect": false
+        },
+        {
+          "text": "Tricalcium Aluminate (C₃A)",
+          "isCorrect": true
+        },
+        {
+          "text": "Tetracalcium Aluminoferrite (C₄AF)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Tricalcium Aluminate (C₃A) reacts with sulfates to form calcium sulfoaluminate, which has a larger volume, causing expansion and cracking. For structures in sulfate-rich environments, Sulphate Resisting Cement with a low C₃A content (typically < 5%) is used."
+    },
+    {
+      "text": "A contractor is placing a large concrete raft foundation during a hot summer day. To prevent premature stiffening and ensure adequate placement time, which type of admixture is most suitable?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Accelerator (e.g., Calcium Chloride)",
+          "isCorrect": false
+        },
+        {
+          "text": "Retarder (e.g., Gypsum or Sugar)",
+          "isCorrect": true
+        },
+        {
+          "text": "Air-entraining agent",
+          "isCorrect": false
+        },
+        {
+          "text": "Corrosion inhibitor",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In hot weather, cement hydration accelerates, reducing setting time. A retarder slows down this chemical reaction, increasing the time the concrete remains workable, which is essential for proper placement and avoiding 'cold joints' in hot conditions."
+    },
+    {
+      "text": "As per IS 456:2000, for a heavily reinforced concrete beam with a minimum clear cover of 25 mm, what is the nominal maximum size of coarse aggregate that can be used?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "25 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "20 mm",
+          "isCorrect": true
+        },
+        {
+          "text": "30 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "10 mm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "According to IS 456:2000, the nominal maximum size of aggregate should generally not be greater than 5 mm less than the minimum clear cover to the reinforcement. In this case, 25 mm (cover) - 5 mm = 20 mm. It should also be less than 1/4th of the minimum thickness of the member and the minimum clear spacing between bars."
+    },
+    {
+      "text": "Compared to Ordinary Portland Cement (OPC), Rapid Hardening Cement (RHC) achieves higher early strength primarily due to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Higher content of Dicalcium Silicate (C₂S) and lower fineness.",
+          "isCorrect": false
+        },
+        {
+          "text": "Higher content of Tricalcium Silicate (C₃S) and higher fineness.",
+          "isCorrect": true
+        },
+        {
+          "text": "A significantly lower water-cement ratio requirement.",
+          "isCorrect": false
+        },
+        {
+          "text": "Increased percentage of gypsum.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Rapid Hardening Cement gains strength quickly because it has a higher proportion of Tricalcium Silicate (C₃S), responsible for early strength development, and is ground to a higher fineness, which increases the surface area for hydration."
+    },
+    {
+      "text": "You are preparing M25 grade concrete using a water-cement (w/c) ratio of 0.45. If the required cement content for 1 m³ of concrete is 380 kg, calculate the mass of water required, assuming aggregates are in a saturated surface dry (SSD) condition.",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "190.0 kg",
+          "isCorrect": false
+        },
+        {
+          "text": "171.0 kg",
+          "isCorrect": true
+        },
+        {
+          "text": "152.0 kg",
+          "isCorrect": false
+        },
+        {
+          "text": "844.4 kg",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The water-cement ratio is Mass of Water / Mass of Cement. Rearranging, Mass of Water = w/c × Mass of Cement. Given w/c = 0.45 and Cement Mass = 380 kg, the Mass of Water = 0.45 × 380 kg = 171.0 kg. Since aggregates are SSD, no water correction is needed."
+    },
+    {
+      "text": "A sample of fine aggregate has a Fineness Modulus (FM) of 3.1. According to IS 383, this aggregate is best classified as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Fine sand (Zone IV)",
+          "isCorrect": false
+        },
+        {
+          "text": "Medium sand (Zone II)",
+          "isCorrect": false
+        },
+        {
+          "text": "Coarse sand (Zone I)",
+          "isCorrect": true
+        },
+        {
+          "text": "An all-in aggregate.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For fine aggregate, IS 383 classifies it into four zones. Zone I (Coarse sand) has a Fineness Modulus range of 2.9-3.2. Since the FM is 3.1, it falls into Zone I."
+    },
+    {
+      "text": "Using seawater for mixing and curing Reinforced Cement Concrete (RCC) is generally prohibited. What is the primary reason for this restriction?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It significantly reduces the initial setting time.",
+          "isCorrect": false
+        },
+        {
+          "text": "The high salt content reduces the 28-day compressive strength.",
+          "isCorrect": false
+        },
+        {
+          "text": "The presence of chlorides initiates and accelerates the corrosion of steel reinforcement.",
+          "isCorrect": true
+        },
+        {
+          "text": "It causes excessive efflorescence, which is aesthetically unacceptable.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The main danger of using seawater in RCC is its high chloride content. Chlorides penetrate the concrete and break down the passive protective layer on the steel reinforcement, leading to severe corrosion, expansion, cracking, and structural failure."
+    },
+    {
+      "text": "What is the primary consequence if gypsum is not added to the cement clinker during the final grinding process?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The cement will not gain sufficient ultimate strength.",
+          "isCorrect": false
+        },
+        {
+          "text": "The cement will exhibit excessive shrinkage.",
+          "isCorrect": false
+        },
+        {
+          "text": "The cement will set almost instantaneously upon contact with water.",
+          "isCorrect": true
+        },
+        {
+          "text": "The color of the cement will be dark grey.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Tricalcium Aluminate (C₃A) in cement clinker hydrates very rapidly, leading to 'flash set'. Gypsum is added to control this reaction by forming an insoluble layer on the C₃A particles, thus acting as a retarder and providing a controllable setting time."
+    },
+    {
+      "text": "The Le Chatelier's test is conducted on a cement sample to determine its soundness. This test primarily detects the potential for excessive expansion due to the presence of uncombined:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Magnesia (MgO)",
+          "isCorrect": false
+        },
+        {
+          "text": "Free Lime (CaO)",
+          "isCorrect": true
+        },
+        {
+          "text": "Sulfur Trioxide (SO₃)",
+          "isCorrect": false
+        },
+        {
+          "text": "Alkalis (Na₂O, K₂O)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Soundness refers to a cement's ability to not undergo significant volume change after setting. The Le Chatelier's test measures expansion caused by the delayed hydration of uncombined (free) Lime (CaO), which can cause cracking in hardened concrete."
+    },
+    {
+      "text": "For a concrete mix design, a coarse aggregate with a water absorption of 1.0% is found to have a total moisture content of 3.0%. For a batch requiring 600 kg of this aggregate, what adjustment must be made to the mixing water?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Add 12 kg of water",
+          "isCorrect": false
+        },
+        {
+          "text": "Subtract 18 kg of water",
+          "isCorrect": false
+        },
+        {
+          "text": "Add 6 kg of water",
+          "isCorrect": false
+        },
+        {
+          "text": "Subtract 12 kg of water",
+          "isCorrect": true
+        }
+      ],
+      "points": 3,
+      "explanation": "First, calculate the free surface moisture: Free Moisture (%) = Total Moisture (%) - Water Absorption (%) = 3.0% - 1.0% = 2.0%. This free moisture is excess water the aggregate will contribute to the mix. Water adjustment = 2.0% of 600 kg = 0.02 × 600 kg = 12 kg. This amount must be subtracted from the design mixing water."
+    },
+    {
+      "text": "For a given water-cement ratio, how does the use of angular aggregates compared to rounded aggregates typically affect the workability of fresh concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It increases workability due to better particle packing.",
+          "isCorrect": false
+        },
+        {
+          "text": "It decreases workability due to higher internal friction.",
+          "isCorrect": true
+        },
+        {
+          "text": "It has no significant effect on workability.",
+          "isCorrect": false
+        },
+        {
+          "text": "It significantly increases the air content.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Angular aggregates have irregular shapes and a larger surface area, leading to greater inter-particle friction. This requires more cement paste for lubrication, resulting in lower workability (e.g., lower slump) compared to a mix with smooth, rounded aggregates."
+    },
+    {
+      "text": "Which ingredient has the most significant influence on the drying shrinkage of concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The maximum size of the coarse aggregate.",
+          "isCorrect": false
+        },
+        {
+          "text": "The fineness of the cement.",
+          "isCorrect": false
+        },
+        {
+          "text": "The total water content per unit volume.",
+          "isCorrect": true
+        },
+        {
+          "text": "The type of chemical admixture used.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Drying shrinkage is caused by the loss of water from the cement paste. The single most important factor affecting shrinkage is the total water content per unit volume of the concrete. More water means a larger volume of evaporable water, resulting in greater shrinkage."
+    },
+    {
+      "text": "The primary benefit of using a superplasticizer is to achieve a significant reduction in water content while maintaining workability. What is the main positive consequence of this water reduction in the hardened concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It decreases the unit weight.",
+          "isCorrect": false
+        },
+        {
+          "text": "It significantly increases compressive strength and durability.",
+          "isCorrect": true
+        },
+        {
+          "text": "It accelerates the setting time.",
+          "isCorrect": false
+        },
+        {
+          "text": "It increases the risk of alkali-aggregate reaction.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "According to Abrams' Law, concrete strength is inversely proportional to the water-cement ratio. By reducing water content with a superplasticizer, the w/c ratio is lowered, leading to a denser, less porous cement paste, which dramatically increases strength and durability."
+    },
+    {
+      "text": "What is the primary advantage of using Portland Pozzolana Cement (PPC), which contains materials like fly ash, compared to Ordinary Portland Cement (OPC) for mass concrete pours like dams?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Higher rate of early strength gain.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lower heat of hydration and improved long-term durability.",
+          "isCorrect": true
+        },
+        {
+          "text": "Brighter color for architectural finishes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Reduced requirement for water during mixing.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Pozzolanic materials react slower than cement clinker, resulting in a lower and more gradual release of heat during hydration. This is crucial for mass concrete pours to prevent thermal cracking. PPC also offers improved long-term strength and resistance to chemical attack."
+    },
+    {
+      "text": "According to Abrams' Law, the strength of fully compacted concrete at a given age is primarily dependent on the water-cement ratio. The fundamental reason for this inverse relationship is that:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Excess water dilutes the cement paste, slowing down the hydration reaction.",
+          "isCorrect": false
+        },
+        {
+          "text": "A higher water content creates more capillary pores in the hardened cement paste after the excess water evaporates, reducing the overall density and strength.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lower water-cement ratios cause rapid evaporation, leading to a denser surface layer.",
+          "isCorrect": false
+        },
+        {
+          "text": "Water chemically reacts with aggregates at higher ratios, weakening the aggregate-paste bond.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The strength of concrete comes from the hydrated cement paste. Water is needed for hydration, but any water beyond what is required for the chemical reaction (and to provide workability) will eventually evaporate, leaving behind a network of fine capillary pores. A higher water-cement ratio results in a more porous, less dense, and consequently weaker hardened cement paste."
+    },
+    {
+      "text": "For an RCC structure to be constructed in a coastal area, which is classified as a 'Severe' exposure condition by IS 456:2000, what are the recommended maximum water-cement ratio and minimum grade of concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "w/c ratio = 0.50, Minimum Grade = M25",
+          "isCorrect": false
+        },
+        {
+          "text": "w/c ratio = 0.45, Minimum Grade = M30",
+          "isCorrect": true
+        },
+        {
+          "text": "w/c ratio = 0.55, Minimum Grade = M20",
+          "isCorrect": false
+        },
+        {
+          "text": "w/c ratio = 0.40, Minimum Grade = M35",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "As per Table 5 of IS 456:2000, for 'Severe' exposure conditions (like coastal environments), durability is a major concern. The code specifies a minimum concrete grade of M30 and a maximum free water-cement ratio of 0.45 to ensure a dense, impermeable concrete that can resist chloride ingress and protect the reinforcing steel from corrosion."
+    },
+    {
+      "text": "A concrete mix is designed with a cement content of 350 kg/m³ and a water content of 175 litres/m³. If the specific gravity of cement is 3.15, what is the volume of cement paste per cubic meter of concrete, assuming full hydration and no air voids?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.286 m³",
+          "isCorrect": true
+        },
+        {
+          "text": "0.525 m³",
+          "isCorrect": false
+        },
+        {
+          "text": "0.175 m³",
+          "isCorrect": false
+        },
+        {
+          "text": "0.111 m³",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The volume of cement paste is the sum of the absolute volume of cement and the volume of water. \\nVolume of water = 175 litres = 0.175 m³. \\nAbsolute volume of cement = Mass of cement / (Specific Gravity × Density of water) = 350 / (3.15 × 1000) = 0.111 m³. \\nTotal volume of paste = Volume of water + Volume of cement = 0.175 + 0.111 = 0.286 m³."
+    },
+    {
+      "text": "A site engineer notices that a worker is adding extra water to the concrete mix in the transit mixer to make it easier to pump. What is the most critical long-term consequence of this action for the RCC structure?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It will cause a flash set, making the concrete unusable.",
+          "isCorrect": false
+        },
+        {
+          "text": "It will significantly increase the permeability and reduce the durability of the structure.",
+          "isCorrect": true
+        },
+        {
+          "text": "It will improve the bond between concrete and steel reinforcement due to better flow.",
+          "isCorrect": false
+        },
+        {
+          "text": "It will increase the final compressive strength due to better compaction.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Adding unauthorized water increases the water-cement ratio. This directly leads to higher porosity in the hardened concrete, which significantly increases its permeability. In an RCC structure, higher permeability allows aggressive agents like chlorides and carbon dioxide to penetrate more easily, leading to the corrosion of reinforcement and severely compromising the structure's durability and service life."
+    },
+    {
+      "text": "Two concrete mixes, A and B, are designed for the same workability (slump). Mix A has a w/c ratio of 0.40 and uses a superplasticizer. Mix B has a w/c ratio of 0.55 and uses no admixture. Which of the following statements is most likely to be true regarding their properties?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Mix B will have higher compressive strength and better durability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mix A and Mix B will have nearly identical strength and durability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mix A will have higher compressive strength and superior durability.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mix A will have higher shrinkage cracks due to the superplasticizer.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Superplasticizers allow for a significant reduction in water content while maintaining workability. Therefore, Mix A, with its low w/c ratio of 0.40, will have a much denser and less porous microstructure compared to Mix B (w/c = 0.55). This results in significantly higher compressive strength and superior durability (lower permeability, better resistance to chemical attack) for Mix A."
+    },
+    {
+      "text": "The phenomenon where water from freshly placed concrete rises to the surface is known as bleeding. This phenomenon is more pronounced when the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Water-cement ratio is very low.",
+          "isCorrect": false
+        },
+        {
+          "text": "Aggregate size is uniformly graded.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cement is very finely ground.",
+          "isCorrect": false
+        },
+        {
+          "text": "Water-cement ratio is high and the mix lacks fines.",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "Bleeding is a form of segregation where free water in the mix, being the lightest component, migrates upwards. A high water-cement ratio means there is more free water available to bleed. A lack of fine particles (like fine sand or pozzolana) reduces the cohesiveness of the mix and its ability to hold water, thus exacerbating bleeding."
+    },
+    {
+      "text": "For a nominal mix concrete of proportion 1:1.5:3 (Cement:Fine Aggregate:Coarse Aggregate), what is the approximate quantity of water required per 50 kg bag of cement to achieve a water-cement ratio of 0.50?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "20 litres",
+          "isCorrect": false
+        },
+        {
+          "text": "25 litres",
+          "isCorrect": true
+        },
+        {
+          "text": "30 litres",
+          "isCorrect": false
+        },
+        {
+          "text": "35 litres",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This is a direct application of the water-cement ratio formula. \\nWater-Cement Ratio (w/c) = Mass of Water / Mass of Cement. \\nGiven: w/c = 0.50, Mass of Cement = 50 kg. \\nMass of Water = w/c × Mass of Cement = 0.50 × 50 kg = 25 kg. \\nSince the density of water is approximately 1 kg/litre, the volume of water required is 25 litres."
+    },
+    {
+      "text": "How does a low water-cement ratio enhance the protection of steel reinforcement in an RCC structure?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "By increasing the electrical conductivity of the concrete.",
+          "isCorrect": false
+        },
+        {
+          "text": "By making the concrete more acidic.",
+          "isCorrect": false
+        },
+        {
+          "text": "By reducing the permeability, which limits the ingress of oxygen, moisture, and chlorides to the steel surface.",
+          "isCorrect": true
+        },
+        {
+          "text": "By forming a weaker but more flexible layer around the steel.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The primary mechanism for protecting steel in concrete is the high alkalinity (pH > 12.5) which creates a passive protective layer. A low w/c ratio makes the concrete dense and impermeable. This impermeability acts as a physical barrier, significantly slowing down the penetration of corrosive agents like chlorides, carbon dioxide (which causes carbonation and lowers pH), oxygen, and moisture, thereby preserving the passive layer and preventing corrosion for a longer time."
+    },
+    {
+      "text": "The 'effective water-cement ratio' is a more accurate parameter than the nominal w/c ratio in mix design because it accounts for the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Water that evaporates during mixing.",
+          "isCorrect": false
+        },
+        {
+          "text": "Water absorbed by the aggregates to reach a saturated surface-dry (SSD) condition.",
+          "isCorrect": true
+        },
+        {
+          "text": "Water retained within the cement particles.",
+          "isCorrect": false
+        },
+        {
+          "text": "Water added to compensate for high ambient temperatures.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Aggregates, if not in a saturated surface-dry (SSD) state, will either absorb water from the mix (if they are dry) or contribute water to the mix (if they are wet). The 'effective water-cement ratio' considers only the water available for the hydration of cement and for providing workability, by adjusting for the water absorbed by or contributed by the aggregates. This gives a true picture of the water interacting with the cement."
+    },
+    {
+      "text": "If the characteristic compressive strength of a concrete mix is targeted to be 40 MPa, what would be the most appropriate water-cement ratio to start the mix design process with, based on standard empirical relationships (e.g., as per IS 10262)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.60",
+          "isCorrect": false
+        },
+        {
+          "text": "0.50",
+          "isCorrect": false
+        },
+        {
+          "text": "0.40",
+          "isCorrect": true
+        },
+        {
+          "text": "0.30",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Standard curves and guidelines (like those in IS 10262:2019, Fig. 1) show an inverse relationship between strength and w/c ratio. For ordinary Portland cement (OPC), a 28-day target strength of 40 MPa typically corresponds to a water-cement ratio in the range of 0.40 to 0.42. A w/c of 0.50 would yield a strength closer to 30 MPa, while 0.30 would be for very high-strength concrete."
+    },
+    {
+      "text": "In the context of RCC structures, a lower water-cement ratio generally leads to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Higher workability, higher strength, and higher permeability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lower workability, higher strength, and lower permeability.",
+          "isCorrect": true
+        },
+        {
+          "text": "Lower workability, lower strength, and higher permeability.",
+          "isCorrect": false
+        },
+        {
+          "text": "Higher workability, lower strength, and lower permeability.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Reducing the water-cement ratio makes the concrete mix stiffer, thus reducing its workability (unless admixtures are used). However, it results in a denser paste structure, which significantly increases the compressive strength and decreases the permeability, enhancing the overall durability of the RCC structure."
+    },
+    {
+      "text": "The minimum quantity of water required for complete chemical hydration of cement is approximately:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "10-15% by weight of cement",
+          "isCorrect": false
+        },
+        {
+          "text": "20-25% by weight of cement",
+          "isCorrect": true
+        },
+        {
+          "text": "35-40% by weight of cement",
+          "isCorrect": false
+        },
+        {
+          "text": "50-55% by weight of cement",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Complete hydration of cement requires about 23% water by weight for the chemical reactions (to form bound water). Additionally, about 15% water by weight is needed to fill the gel pores. Therefore, a total water-cement ratio of about 0.38 is needed for full hydration. The water for the chemical reaction itself is in the range of 20-25%."
+    },
+    {
+      "text": "IS 456 specifies both a maximum water-cement ratio and a minimum cement content for a given exposure condition. What is the primary reason for specifying a minimum cement content in addition to the w/c ratio?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To ensure the final colour of the concrete is uniform.",
+          "isCorrect": false
+        },
+        {
+          "text": "To ensure there is enough cement paste to coat the aggregates and provide a cohesive, workable mix.",
+          "isCorrect": true
+        },
+        {
+          "text": "To increase the weight of the structure for better stability.",
+          "isCorrect": false
+        },
+        {
+          "text": "To accelerate the curing process of the concrete.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "While the w/c ratio controls the quality (strength, durability) of the cement paste, the minimum cement content ensures there is a sufficient quantity of this quality paste. This is crucial to completely coat all aggregate particles, fill the voids between them, and provide good cohesion and workability to the mix, preventing defects like honeycombing and ensuring a dense, uniform final structure."
+    },
+    {
+      "text": "The water content for a concrete mix is increased from 180 kg/m³ to 198 kg/m³ while keeping the cement content constant at 360 kg/m³. What is the most likely approximate impact on the 28-day compressive strength of the concrete?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "An increase of 10-15%",
+          "isCorrect": false
+        },
+        {
+          "text": "A decrease of 5-8%",
+          "isCorrect": false
+        },
+        {
+          "text": "A decrease of 15-20%",
+          "isCorrect": true
+        },
+        {
+          "text": "No significant change",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Original w/c ratio = 180 / 360 = 0.50. \\nNew w/c ratio = 198 / 360 = 0.55. \\nThe increase in w/c ratio is 0.05. As a general rule of thumb, for w/c ratios in this range, every 0.05 increase in the w/c ratio can lead to a reduction in compressive strength of about 5-7 MPa, which often translates to a percentage decrease of 15-20% for medium-grade concrete. The increase in porosity directly leads to a significant strength loss."
+    },
+    {
+      "text": "For the construction of an RCC water-retaining structure like an underground tank, the most critical property of concrete governed by the water-cement ratio is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "High early strength",
+          "isCorrect": false
+        },
+        {
+          "text": "High slump and flowability",
+          "isCorrect": false
+        },
+        {
+          "text": "Low permeability or watertightness",
+          "isCorrect": true
+        },
+        {
+          "text": "Aesthetic surface finish",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The primary function of a water-retaining structure is to be watertight. The property that governs this is permeability. A low water-cement ratio is absolutely essential to produce a dense, low-permeability concrete that prevents water from seeping through the structure. While strength is important, impermeability is the most critical performance requirement for this type of RCC structure."
+    }
+  ]

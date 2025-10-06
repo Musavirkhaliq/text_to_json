@@ -1,0 +1,18 @@
+{
+  "title": "JKSSB JE (Civil) Focused Practice Test: Concrete Technology in RCC Structures",
+  "description": "This professional assessment is designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment examination, focusing on core concepts of Concrete Technology within RCC Structures. The test is benchmarked to an undergraduate engineering level and mirrors JKSSB examination standards. It features a curated mix of practical and conceptual questions to thoroughly evaluate your understanding of essential topics, including: workability properties of fresh concrete, the role and types of admixtures, applications of special concretes, principles of non-destructive tests (NDT), and the fundamentals of concrete mix design. This practice exam serves as a robust tool to gauge your preparedness and identify areas for improvement.",
+  "totalQuestions": 60,
+  "topics": [
+    "workability properties of concrete — RCC Structures",
+    "admixtures— RCC Structures",
+    "special concretes— RCC Structures",
+    "Non-destructive tests— RCC Structures",
+    "basics of mix design— RCC Structures"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T07:44:07.691Z",
+  "questionTypes": {
+    "multiple_choice": 60
+  }
+}

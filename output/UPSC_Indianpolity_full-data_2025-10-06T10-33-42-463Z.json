@@ -1,0 +1,29 @@
+{
+  "title": "UPSC Civil Services Practice Test",
+  "description": "Comprehensive UPSC Civil Services practice test covering 1 important topics. Features graduate-level MCQs designed for administrative services preparation with focus on analytical thinking, policy understanding, and current affairs integration.",
+  "questions": [],
+  "timeLimit": 30,
+  "passingScore": 70,
+  "quizType": "Topic Test",
+  "maxAttempts": 0,
+  "category": "",
+  "tags": [
+    "indian_polity"
+  ],
+  "difficulty": "Advanced/Administrative Level",
+  "allowReview": true,
+  "showCorrectAnswers": true,
+  "randomizeQuestions": false,
+  "isPublished": false,
+  "metadata": {
+    "totalQuestions": 0,
+    "topics": [
+      "Indian polity"
+    ],
+    "questionsPerTopic": 5,
+    "examType": "UPSC Civil Services Examination",
+    "difficulty": "Advanced/Administrative Level",
+    "processedAt": "2025-10-06T10:33:42.463Z",
+    "questionTypes": {}
+  }
+}

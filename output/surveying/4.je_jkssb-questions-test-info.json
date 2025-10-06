@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB JE (Civil) Professional Practice Assessment: Advanced Surveying",
+  "description": "This professional academic assessment is meticulously crafted for aspirants of the JKSSB Junior Engineer (Civil) examination. It provides a rigorous evaluation of key undergraduate-level Surveying topics, including Contouring, Plane Table Surveying, and the setting out of Curves. The test features a balanced mix of practical and conceptual questions, designed to align with the latest JKSSB examination standards and difficulty level. This practice test serves as an essential tool to benchmark your preparation and master critical surveying principles.",
+  "totalQuestions": 45,
+  "topics": [
+    "Contouring — Surveying",
+    "Plane table surveying — Surveying",
+    "Curves, etc. — Surveying"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T06:45:20.580Z",
+  "questionTypes": {
+    "multiple_choice": 45
+  }
+}

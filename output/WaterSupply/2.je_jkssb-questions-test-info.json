@@ -1,0 +1,17 @@
+{
+  "title": "JKSSB JE (Civil) Focused Assessment: Water Supply & Distribution Systems",
+  "description": "This professional practice test is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment examination. It provides a comprehensive assessment of key topics within Water Supply and Waste Water Engineering, specifically focusing on the Conveyance of Water, Laying out of Pipes, Building Water Supply, and Water Supply Fixtures & Installation. The questions are benchmarked to an undergraduate engineering level, reflecting the standards and patterns of the JKSSB exam. This assessment features a balanced mix of practical, application-based problems and core conceptual questions to thoroughly evaluate your understanding and readiness.",
+  "totalQuestions": 80,
+  "topics": [
+    "Conveyance of water — Water Supply and Waste Water Engineering",
+    "Laying out of pipes — Water Supply and Waste Water Engineering",
+    "Building water supply — Water Supply and Waste Water Engineering",
+    "Water supply fixtures and installation — Water Supply and Waste Water Engineering"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T12:22:02.332Z",
+  "questionTypes": {
+    "multiple_choice": 80
+  }
+}

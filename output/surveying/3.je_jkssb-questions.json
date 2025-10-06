@@ -1,0 +1,1082 @@
+[
+    {
+      "text": "A tachometer with constants k=100 and c=0.5 m was set up at station A. The readings on a staff held vertically at station B were 1.250 m, 1.850 m, and 2.450 m. If the line of sight was horizontal, what is the horizontal distance between A and B?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "121.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "125.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "120.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "120.5 m",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The formula for horizontal distance with a horizontal line of sight is D = ks + c. First, calculate the staff intercept, s = Upper reading - Lower reading = 2.450 m - 1.250 m = 1.20 m. Now, substitute the values into the formula: D = (100 * 1.20) + 0.5 = 120 + 0.5 = 120.5 m."
+    },
+    {
+      "text": "In tacheometry, the primary purpose of an anallactic lens fitted in the telescope is to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Make the multiplying constant (k) exactly 100.",
+          "isCorrect": false
+        },
+        {
+          "text": "Eliminate the need for measuring the vertical angle.",
+          "isCorrect": false
+        },
+        {
+          "text": "Make the additive constant (c) equal to zero.",
+          "isCorrect": true
+        },
+        {
+          "text": "Correct for errors due to atmospheric refraction.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "An anallactic lens is a special convex lens placed between the objective and eyepiece. Its function is to make the apex of the measuring angle coincide with the vertical axis of the instrument, thereby making the additive constant c = f + d equal to zero. This simplifies the distance calculation to D = ks for horizontal sights."
+    },
+    {
+      "text": "A tacheometer was used to find the distance to a point Q. The staff intercept was 2.20 m, and the vertical angle was +6°30'. If the tachometer is of the anallactic type (k=100, c=0) and the staff was held vertically, the horizontal distance is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "217.22 m",
+          "isCorrect": true
+        },
+        {
+          "text": "219.74 m",
+          "isCorrect": false
+        },
+        {
+          "text": "220.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "214.89 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For an inclined line of sight with the staff held vertically, the horizontal distance formula is D = ks cos²θ + c cosθ. Since it's an anallactic tachometer, c=0. The formula simplifies to D = ks cos²θ. Given s = 2.20 m, k = 100, and θ = 6°30' = 6.5°. So, D = 100 * 2.20 * (cos(6.5°))² = 220 * (0.99357)² = 220 * 0.98718 ≈ 217.18 m. The closest option is 217.22 m."
+    },
+    {
+      "text": "In the tangential method of tacheometry, the distance and elevation are calculated by observing:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The stadia hair intercepts on the staff.",
+          "isCorrect": false
+        },
+        {
+          "text": "Two different vertical angles to two targets of fixed distance apart on the staff.",
+          "isCorrect": true
+        },
+        {
+          "text": "The horizontal angle to a subtense bar of known length.",
+          "isCorrect": false
+        },
+        {
+          "text": "A single stadia hair intercept and the magnetic bearing.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The tangential method does not use stadia hairs. Instead, the instrument's horizontal cross-hair is sighted on two distinct points (targets) on the staff, and the vertical angles to these points (θ₁ and θ₂) are measured. The known vertical distance between these targets on the staff is then used with trigonometry to calculate the horizontal distance."
+    },
+    {
+      "text": "The tacheometric constants 'k' and 'c' are determined by making observations to a staff kept at two different known distances. If at a distance of 50 m, the staff intercept is 0.498 m, and at 100 m, the intercept is 0.998 m, what are the values of k and c?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "k = 100, c = 0.2",
+          "isCorrect": true
+        },
+        {
+          "text": "k = 100, c = 0",
+          "isCorrect": false
+        },
+        {
+          "text": "k = 99.8, c = 0.5",
+          "isCorrect": false
+        },
+        {
+          "text": "k = 100.2, c = -0.2",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "We use the formula D = ks + c. We have two equations: (1) 50 = k(0.498) + c and (2) 100 = k(0.998) + c. Subtracting (1) from (2): 100 - 50 = k(0.998 - 0.498) ==> 50 = k(0.500) ==> k = 100. Substitute k=100 into (1): 50 = 100(0.498) + c ==> 50 = 49.8 + c ==> c = 0.2 m."
+    },
+    {
+      "text": "While taking a tacheometric observation with the staff held vertically, the vertical angle of depression to the central cross-hair reading of 1.50 m was -8°. The staff intercept was 2.00 m. The instrument has k=100 and c=0. If the RL of the instrument station is 500.00 m and the height of the instrument (HI) is 1.45 m, what is the RL of the staff station?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "470.95 m",
+          "isCorrect": false
+        },
+        {
+          "text": "472.39 m",
+          "isCorrect": true
+        },
+        {
+          "text": "527.61 m",
+          "isCorrect": false
+        },
+        {
+          "text": "473.89 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "RL of instrument axis = RL of station + HI = 500.00 + 1.45 = 501.45 m. The vertical distance from the axis to the central hair is V = (ks * sin(2θ))/2. V = (100 * 2.00 * sin(16°))/2 = 100 * 0.2756 = 27.56 m. Since the angle is one of depression, the point on the staff is below the instrument axis. The RL of the ground at the staff station is RL(Axis) - V - central hair reading = 501.45 - 27.56 - 1.50 = 472.39 m."
+    },
+    {
+      "text": "The stadia method of tacheometry is based on the principle that the ratio of the intercept on a vertically held staff to its distance from the instrument's vertical axis is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Always constant",
+          "isCorrect": false
+        },
+        {
+          "text": "Constant only for horizontal sights",
+          "isCorrect": false
+        },
+        {
+          "text": "Proportional to the square of the distance",
+          "isCorrect": false
+        },
+        {
+          "text": "Substantially constant and established by the principle of similar triangles",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The principle of stadia tacheometry is based on two similar triangles. One triangle has its apex at the objective's outer focal point and its base as the staff intercept (s). The other has its apex at the same point and its base as the distance between the stadia hairs (i). This similarity gives the relationship D' / s = f / i, where D' is the distance from the focal point. This ratio f/i (the multiplying constant k) is substantially constant, forming the basis for distance calculation."
+    },
+    {
+      "text": "When using a tachometer, holding the staff normal (perpendicular) to the line of sight is generally less preferred than holding it vertically because:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The calculations for horizontal distance are more complex.",
+          "isCorrect": false
+        },
+        {
+          "text": "It requires a special type of staff which is not commonly available.",
+          "isCorrect": false
+        },
+        {
+          "text": "It is practically difficult to ensure the staff is held perfectly normal to the line of sight.",
+          "isCorrect": true
+        },
+        {
+          "text": "This method is only accurate for angles of depression.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "While the formulas for the 'staff normal' method are slightly different, the main practical disadvantage is the difficulty for the staff holder to keep the staff exactly perpendicular to an inclined line of sight. Any deviation from this normal position introduces significant error in the readings. Holding the staff vertically is much easier and more reliable with the help of a plumb bob or a bubble tube."
+    },
+    {
+      "text": "A tachometer observation gives a staff intercept of 2.5 m and a vertical angle of +5° 43'. If the instrument is anallactic (k=100, c=0), what is the ratio of the vertical component (V) to the horizontal component (D)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.05",
+          "isCorrect": false
+        },
+        {
+          "text": "0.10",
+          "isCorrect": true
+        },
+        {
+          "text": "0.15",
+          "isCorrect": false
+        },
+        {
+          "text": "0.20",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "For an anallactic tachometer with staff held vertical: Horizontal Distance D = ks cos²θ and Vertical Component V = ks cosθsinθ (or V = (1/2)ks sin(2θ)). The ratio V/D is: (ks cosθsinθ) / (ks cos²θ) = sinθ / cosθ = tanθ. Therefore, the ratio is simply the tangent of the vertical angle. Ratio = tan(5° 43') = tan(5.7167°) ≈ 0.100. This shows a direct relationship, independent of k and s."
+    },
+    {
+      "text": "The subtense bar method of tacheometry is used to determine horizontal distance. It involves:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Measuring a vertical staff intercept and a vertical angle.",
+          "isCorrect": false
+        },
+        {
+          "text": "Measuring a fixed vertical distance on a staff with two vertical angle readings.",
+          "isCorrect": false
+        },
+        {
+          "text": "Measuring a small horizontal angle subtended by a bar of fixed length.",
+          "isCorrect": true
+        },
+        {
+          "text": "Measuring the time of flight of a laser pulse to a target.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In the subtense bar method, a bar of a precisely known, fixed length (usually 2 m) is set up horizontally at the target station. The observer at the instrument station measures the small horizontal angle subtended by the two targets on the bar. The horizontal distance is then calculated using trigonometry: D = (b/2) / tan(α/2), where b is the bar length and α is the subtended angle. This method is more accurate than stadia for distance but is less common."
+    },
+    {
+      "text": "If the focal length of the objective glass is 25 cm, the distance from the objective to the vertical axis is 15 cm, and the spacing of the stadia hairs is 2.5 mm, the multiplying constant (k) is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50",
+          "isCorrect": false
+        },
+        {
+          "text": "100",
+          "isCorrect": true
+        },
+        {
+          "text": "150",
+          "isCorrect": false
+        },
+        {
+          "text": "200",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The multiplying constant, k, is given by the ratio of the focal length of the objective (f) to the stadia hair spacing (i). It's crucial to use consistent units. Focal length f = 25 cm = 250 mm. Stadia hair spacing i = 2.5 mm. Therefore, k = f/i = 250 / 2.5 = 100. The distance from the objective to the vertical axis (d) is used to calculate the additive constant (c = f + d), not k."
+    },
+    {
+      "text": "An error in measuring the vertical angle (θ) in tacheometry will have a more significant impact on the computed horizontal distance (D) when:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The line of sight is nearly horizontal (θ is small).",
+          "isCorrect": false
+        },
+        {
+          "text": "The staff intercept (s) is very small.",
+          "isCorrect": false
+        },
+        {
+          "text": "The line of sight is very steep (θ is large).",
+          "isCorrect": true
+        },
+        {
+          "text": "The instrument has a large additive constant (c).",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The formula for horizontal distance is D = ks cos²θ + c cosθ. To see the impact of an error in θ, we consider the derivative of D with respect to θ: dD/dθ = -2ks cosθsinθ - c sinθ = -ks sin(2θ) - c sinθ. The magnitude of this derivative, which represents the sensitivity of D to changes in θ, is larger for larger values of θ (approaching 45° for the sin(2θ) term), meaning a small error in θ produces a larger error in D when the slope is steep."
+    },
+    {
+      "text": "Tacheometry is considered most advantageous over other methods like chaining for surveying in which of the following scenarios?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A flat, open field for a small housing project.",
+          "isCorrect": false
+        },
+        {
+          "text": "Establishing high-precision primary control points.",
+          "isCorrect": false
+        },
+        {
+          "text": "A dense urban environment with many obstructions.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hilly, broken, and rugged terrain where direct measurement is difficult.",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "The primary advantage of tacheometry is its ability to measure horizontal distances and differences in elevation indirectly and rapidly. This makes it ideal for terrain that is difficult to access or traverse, such as hilly areas, ravines, or marshy ground, where traditional methods like chaining would be slow, inaccurate, or impossible."
+    },
+    {
+      "text": "The additive constant 'c' of a tacheometer is given by the formula c = f + d. What do 'f' and 'd' represent?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "f = field of view, d = diaphragm diameter",
+          "isCorrect": false
+        },
+        {
+          "text": "f = focal length of objective, d = distance from objective to instrument's vertical axis",
+          "isCorrect": true
+        },
+        {
+          "text": "f = focal length of eyepiece, d = stadia intercept distance",
+          "isCorrect": false
+        },
+        {
+          "text": "f = final reading, d = initial reading on the staff",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The additive constant 'c' is an instrumental constant derived from its optical and mechanical properties. In the formula c = f + d, 'f' represents the focal length of the objective lens, and 'd' represents the distance from the optical center of the objective lens to the vertical axis of the instrument."
+    },
+    {
+      "text": "A tachometer has a multiplying constant of 100 and an additive constant of 0. For a desired horizontal distance of 180 m on an inclined ground with an angle of elevation of 7°, what should be the required staff intercept (s) on a vertically held staff?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.77 m",
+          "isCorrect": false
+        },
+        {
+          "text": "1.80 m",
+          "isCorrect": false
+        },
+        {
+          "text": "1.83 m",
+          "isCorrect": true
+        },
+        {
+          "text": "2.05 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The formula for horizontal distance is D = ks cos²θ + c cosθ. Given D=180 m, k=100, c=0, and θ = 7°. We need to find 's'. The formula simplifies to D = ks cos²θ. Rearranging for s: s = D / (k cos²θ). s = 180 / (100 * (cos(7°))²) = 180 / (100 * (0.9925)²) = 180 / (100 * 0.9851) = 180 / 98.51 ≈ 1.827 m. The closest option is 1.83 m."
+    },
+    {
+      "text": "A theodolite was set up at station P and the angle of elevation to the top of a tower Q was measured as 15°. The horizontal distance between P and Q is 200 m. If the Reduced Level (RL) of the instrument axis at P is 150.00 m, what is the RL of the top of the tower Q?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "53.59 m",
+          "isCorrect": false
+        },
+        {
+          "text": "203.59 m",
+          "isCorrect": true
+        },
+        {
+          "text": "150.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "207.18 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This is a problem of trigonometric levelling. The vertical distance V (height of the tower top above the instrument axis) is calculated using the formula $V = D \\tan{\\alpha}$, where D is the horizontal distance and $\\alpha$ is the angle of elevation. \\nGiven: $D = 200$ m and $\\alpha = 15°$. \\n$V = 200 \\times \\tan(15°)$ \\n$\\tan(15°) \\approx 0.26795$ \\n$V = 200 \\times 0.26795 = 53.59$ m. \\nThe RL of the top of the tower is the RL of the instrument axis plus this vertical distance. \\nRL of tower top = RL of instrument axis + V = $150.00 + 53.59 = 203.59$ m."
+    },
+    {
+      "text": "The theoretical sum of interior angles for a closed traverse with 6 sides is 720°. If the measured sum is 719°54', what correction should be applied to the angle measured at the 4th station, assuming the error is distributed equally among all angles?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "-1'",
+          "isCorrect": false
+        },
+        {
+          "text": "+1'",
+          "isCorrect": true
+        },
+        {
+          "text": "+6'",
+          "isCorrect": false
+        },
+        {
+          "text": "-6'",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "First, calculate the angular misclosure. \\nTheoretical sum for a polygon = $(n-2) \\times 180° = (6-2) \\times 180° = 720°$. \\nMeasured sum = 719°54'. \\nAngular Misclosure = Measured Sum - Theoretical Sum = $719°54' - 720°00' = -06'$. \\nThe total correction required is the negative of the misclosure, which is $+06'$. \\nThis total correction is distributed equally among all the angles. Number of angles (n) = 6. \\nCorrection per angle = Total Correction / Number of angles = $+06' / 6 = +1'$. \\nTherefore, a correction of +1' should be applied to each angle, including the 4th station."
+    },
+    {
+      "text": "When measuring a horizontal angle using a theodolite by the method of repetition, the primary objective is to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Measure several different angles from the same station quickly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Obtain a more precise value of the angle by minimizing personal and instrumental errors.",
+          "isCorrect": true
+        },
+        {
+          "text": "Eliminate the error due to the line of sight not being perpendicular to the vertical axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "Check for errors in centering the instrument over the station.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The method of repetition involves measuring an angle multiple times, accumulating the reading on the horizontal circle, and then dividing the final reading by the number of repetitions. This process averages out several types of errors, including errors in reading the vernier and errors due to imperfect graduations on the horizontal circle. It provides a final value of the angle with a higher degree of precision than a single measurement."
+    },
+    {
+      "text": "In a closed traverse ABCDA, the closing error has components $\\Sigma L = +0.52$ m (latitude) and $\\Sigma D = -0.38$ m (departure). The perimeter of the traverse is 1200 m. If the length of the side AB is 240 m, what is the correction to be applied to the departure of side AB using Bowditch's Rule?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "+0.104 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.076 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+0.076 m",
+          "isCorrect": true
+        },
+        {
+          "text": "-0.104 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Bowditch's Rule (or Compass Rule) assumes that errors in measurement are accidental and adjusts the latitude and departure of each side in proportion to its length. \\nThe formula for correction in departure ($C_D$) for a line is: $C_D = -\\Sigma D \\times \\frac{\\text{length of the line}}{\\text{perimeter of traverse}}$ \\nGiven: \\nTotal error in departure, $\\Sigma D = -0.38$ m. \\nLength of side AB, $l_{AB} = 240$ m. \\nPerimeter of traverse, $P = 1200$ m. \\n\\nCorrection for departure of AB, $C_{D(AB)} = -(-0.38) \\times \\frac{240}{1200}$ \\n$C_{D(AB)} = +0.38 \\times \\frac{1}{5}$ \\n$C_{D(AB)} = +0.076$ m."
+    },
+    {
+      "text": "The procedure of revolving the telescope by 180° in a vertical plane about its horizontal axis is known as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Swinging the telescope",
+          "isCorrect": false
+        },
+        {
+          "text": "Transiting",
+          "isCorrect": true
+        },
+        {
+          "text": "Changing face",
+          "isCorrect": false
+        },
+        {
+          "text": "Reversing",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Transiting is the specific term for rotating the telescope 180° in the vertical plane about the horizontal (or trunnion) axis. A theodolite that allows this operation is called a transit theodolite. Swinging refers to rotating the telescope about the vertical axis in the horizontal plane. Changing face involves both transiting and swinging to take readings in both 'face left' and 'face right' positions."
+    },
+    {
+      "text": "A tacheometer with constants K=100 and C=0 is used to measure the horizontal distance to a vertically held staff. The staff intercepts are 1.255 m and 2.805 m, and the vertical angle is +6°. What is the horizontal distance between the instrument and the staff?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "153.3 m",
+          "isCorrect": true
+        },
+        {
+          "text": "155.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "16.2 m",
+          "isCorrect": false
+        },
+        {
+          "text": "154.2 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The formula for horizontal distance (D) in tacheometry with an inclined line of sight is $D = K s \\cos^2{\\theta} + C \\cos{\\theta}$. \\nFirst, calculate the staff intercept (s): \\n$s = \\text{Upper reading} - \\text{Lower reading} = 2.805 - 1.255 = 1.55$ m. \\nGiven: Multiplying constant $K=100$, Additive constant $C=0$, Vertical angle $\\theta = +6°$. \\nSubstitute the values into the formula: \\n$D = 100 \\times 1.55 \\times \\cos^2(6°) + 0 \\times \\cos(6°)$ \\n$\\cos(6°) \\approx 0.99452$ \\n$\\cos^2(6°) \\approx (0.99452)^2 \\approx 0.98907$ \\n$D = 155 \\times 0.98907$ \\n$D = 153.306$ m, which is approximately 153.3 m."
+    },
+    {
+      "text": "If the 'Face Left' horizontal angle reading for a line is 45°20'10\" and the 'Face Right' reading is 225°20'30\", the corrected horizontal angle is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "45°20'10\"",
+          "isCorrect": false
+        },
+        {
+          "text": "45°20'30\"",
+          "isCorrect": false
+        },
+        {
+          "text": "45°20'20\"",
+          "isCorrect": true
+        },
+        {
+          "text": "45°20'00\"",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Taking readings on both faces (Face Left and Face Right) helps to eliminate instrumental errors. The corrected angle is the average of the two readings. \\nFace Left reading = 45°20'10\". \\nFace Right reading should theoretically differ by 180°. To compare it with the Face Left reading, subtract 180°: \\nEquivalent Face Left reading from Face Right = 225°20'30\" - 180°00'00\" = 45°20'30\". \\nNow, average the two Face Left equivalent readings: \\nCorrected Angle = (45°20'10\" + 45°20'30\") / 2 = (90°40'40\") / 2 = 45°20'20\"."
+    },
+    {
+      "text": "The permanent adjustment test done to ensure the horizontal axis is perpendicular to the vertical axis is known as the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Spire Test",
+          "isCorrect": true
+        },
+        {
+          "text": "Plate Level Test",
+          "isCorrect": false
+        },
+        {
+          "text": "Cross-hair Ring Test",
+          "isCorrect": false
+        },
+        {
+          "text": "Bubble Tube Adjustment Test",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The Spire Test is performed to check and adjust the horizontal (trunnion) axis to be perfectly perpendicular to the vertical axis. In this test, the telescope is directed towards a high point (like a church spire), and then depressed to a low point. The instrument is then reversed (changed face) and the process is repeated. If the horizontal axis is not perpendicular to the vertical axis, the vertical crosshair will not trace a true vertical line, and the low point marks will not coincide."
+    },
+    {
+      "text": "In a theodolite traverse, the bearing of line AB is N 40° E and the bearing of line BC is S 70° E. What is the interior angle ∠ABC?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "30°",
+          "isCorrect": false
+        },
+        {
+          "text": "110°",
+          "isCorrect": true
+        },
+        {
+          "text": "150°",
+          "isCorrect": false
+        },
+        {
+          "text": "70°",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "To find the interior angle, it is best to use Whole Circle Bearings (WCB). \\nWCB of AB = 40°. \\nWCB of BC = 180° - 70° = 110°. \\nTo find the interior angle at B, we need the Back Bearing (BB) of the preceding line AB. \\nBB of AB = WCB of AB + 180° = 40° + 180° = 220°. \\nThe interior angle ∠ABC is given by the formula: BB of preceding line (AB) - FB of next line (BC). \\nInterior Angle = 220° - 110° = 110°."
+    },
+    {
+      "text": "Which of the following errors in theodolite work is NOT eliminated by the method of taking both face left and face right observations?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Error due to line of collimation not being perpendicular to the horizontal axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "Error due to eccentricity of the station mark.",
+          "isCorrect": true
+        },
+        {
+          "text": "Error due to the horizontal axis not being perpendicular to the vertical axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "Error due to non-parallelism of the line of collimation and the axis of the telescope bubble.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Taking the mean of face left and face right observations is a standard procedure that compensates for several instrumental errors related to the fundamental axes. However, it does not eliminate errors from external sources or setup mistakes. Error due to eccentricity of the station mark is a setup error where the theodolite is not centered exactly over the station point. This error cannot be eliminated by changing face."
+    },
+    {
+      "text": "The process of setting up the theodolite exactly over a station mark by using a plumb-bob or optical plummet is called:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Levelling",
+          "isCorrect": false
+        },
+        {
+          "text": "Focusing",
+          "isCorrect": false
+        },
+        {
+          "text": "Centering",
+          "isCorrect": true
+        },
+        {
+          "text": "Orienting",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Centering is one of the three temporary adjustments of a theodolite. It is the operation of placing the vertical axis of the instrument precisely over the ground station mark. Levelling is the process of making the vertical axis truly vertical using the foot screws and plate levels. Focusing is the process of adjusting the eyepiece and objective lens to get a clear image of the object and the crosshairs."
+    },
+    {
+      "text": "When setting out a simple circular curve using Rankine's method of tangential (or deflection) angles, the deflection angle for the first full chord (length C) from the point of tangency is given by (where R is the radius of the curve):",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$\\delta = \\frac{1718.9 \\times C}{R}$ degrees",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\delta = \\frac{90 \\times C}{\\pi R}$ degrees",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\delta = \\frac{C}{2R}$ radians",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\delta = \\frac{1718.9 \\times C}{R}$ minutes",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "In Rankine's method, the deflection angle ($\\delta$) for a chord of length C is related to the radius R. The angle subtended by the chord at the center is approximately C/R radians. The deflection angle is half of this, so $\\delta \\approx \\frac{C}{2R}$ radians. To convert radians to minutes, we multiply by $\\frac{180 \\times 60}{\\pi} \\approx 3437.7$. Therefore, $\\delta \\text{ (minutes)} \\approx \\frac{C}{2R} \\times 3437.7 = \\frac{1718.9 \\times C}{R}$. This is the standard approximation formula used."
+    },
+    {
+      "text": "The line passing through the optical center of the objective lens and the intersection of the crosshairs is known as the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Axis of the telescope",
+          "isCorrect": false
+        },
+        {
+          "text": "Line of collimation",
+          "isCorrect": true
+        },
+        {
+          "text": "Horizontal axis",
+          "isCorrect": false
+        },
+        {
+          "text": "Vertical axis",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The Line of Collimation (or Line of Sight) is a fundamental line in a theodolite. It is an imaginary line that connects the intersection of the crosshairs in the diaphragm to the optical center of the objective lens and its continuation. All angle and sighting measurements are made along this line. The Axis of the Telescope is the line joining the optical center of the objective to the center of the eyepiece."
+    },
+    {
+      "text": "In traversing, the Transit Rule is preferred over the Bowditch's Rule for adjusting the traverse when:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The survey is conducted in a magnetically disturbed area.",
+          "isCorrect": false
+        },
+        {
+          "text": "The lengths of the traverse legs are measured more precisely than the angles.",
+          "isCorrect": false
+        },
+        {
+          "text": "The angular measurements are more precise than the linear measurements.",
+          "isCorrect": true
+        },
+        {
+          "text": "The traverse is open instead of closed.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The Transit Rule is an empirical method for balancing a traverse that gives more weight to the precision of linear measurements. It assumes that angular measurements are more precise than linear measurements. The correction to latitude (or departure) of a side is proportional to its latitude (or departure), not its length. In contrast, Bowditch's Rule assumes equal precision in both angular and linear measurements, making corrections proportional to the length of the sides. Therefore, the Transit Rule is used when angle measurement is more reliable."
+    },
+    {
+      "text": "A surveyor observes a staff held vertically at a point using a tacheometer. The staff readings are 1.250 m, 2.000 m, and 2.750 m. If the vertical angle to the central hair reading is -10° (angle of depression), and the tacheometric constants are K=100, C=0, what is the magnitude of the vertical distance (V) from the instrument axis to the central hair reading on the staff?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "25.65 m",
+          "isCorrect": true
+        },
+        {
+          "text": "25.27 m",
+          "isCorrect": false
+        },
+        {
+          "text": "83.68 m",
+          "isCorrect": false
+        },
+        {
+          "text": "147.72 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The formula for the vertical distance (V) in tacheometry is $V = \\frac{1}{2} K s \\sin(2\\theta) + C \\sin(\\theta)$. \\nFirst, calculate the staff intercept (s): \\n$s = \\text{Upper reading} - \\text{Lower reading} = 2.750 - 1.250 = 1.50$ m. \\nGiven: $K=100$, $C=0$, $\\theta = -10°$. \\nSubstitute the values: \\n$V = \\frac{1}{2} \\times 100 \\times 1.50 \\times \\sin(2 \\times -10°) + 0 \\times \\sin(-10°)$ \\n$V = 75 \\times \\sin(-20°)$ \\n$\\sin(20°) \\approx 0.34202$. So, $\\sin(-20°) \\approx -0.34202$. \\n$V = 75 \\times (-0.34202) = -25.6515$ m. \\nThe magnitude of the vertical distance is 25.65 m. The negative sign indicates a depression."
+    },
+    {
+      "text": "In a closed traverse, the sum of latitudes was found to be +0.36 m and the sum of departures was -0.45 m. Calculate the bearing of the closing error line required to close the traverse.",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "51°20'",
+          "isCorrect": false
+        },
+        {
+          "text": "128°40'",
+          "isCorrect": true
+        },
+        {
+          "text": "141°20'",
+          "isCorrect": false
+        },
+        {
+          "text": "308°40'",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The closing error line is the line required to close the traverse from the actual end point back to the starting point. Its latitude and departure are equal in magnitude but opposite in sign to the sum of latitudes (ΣL) and sum of departures (ΣD) of the traverse.  \nCorrection in Latitude = -ΣL = -0.36 m (South)\nCorrection in Departure = -ΣD = -(-0.45) = +0.45 m (East)\nSince the latitude is negative (South) and departure is positive (East), the closing line lies in the South-East (SE) quadrant.  \nThe reduced bearing angle (α) is calculated as: $α = \\tan^{-1}(|\\frac{\\text{Departure}}{\\text{Latitude}}|) = \\tan^{-1}(|\\frac{+0.45}{-0.36}|) = \\tan^{-1}(1.25) = 51.34^\\circ = 51^\\circ20'$.  \nFor the SE quadrant, the Whole Circle Bearing (WCB) = $180^\\circ - α = 180^\\circ - 51^\\circ20' = 128^\\circ40'$."
+    },
+    {
+      "text": "A closed traverse ABCDA has a perimeter of 850 m. The sum of latitudes is ΣL = -0.52 m and the sum of departures is ΣD = +0.38 m. If the traverse is to be balanced using Bowditch's rule, what is the correction to the departure of a line BC having a length of 210 m?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "+0.129 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.129 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+0.094 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-0.094 m",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "Bowditch's rule (or Compass rule) assumes that errors in linear and angular measurements are proportional. The correction for the departure of a specific line is given by the formula: \n$C_D = -\\sum D \\times (\\frac{l}{\\sum l})$\nWhere:\n- $C_D$ = Correction in departure for the line\n- $\\sum D$ = Total error in departure = +0.38 m\n- $l$ = Length of the specific line = 210 m\n- $\\sum l$ = Perimeter of the traverse = 850 m\n\nSubstituting the values: \n$C_D = -0.38 \\times (\\frac{210}{850}) = -0.38 \\times 0.247 = -0.09388$ m.\nThus, the correction is approximately -0.094 m."
+    },
+    {
+      "text": "If a station in a closed compass traverse is affected by local attraction, which of the following statements is most accurate?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The included angle calculated at the affected station will be incorrect.",
+          "isCorrect": false
+        },
+        {
+          "text": "Both fore bearing and back bearing of all lines in the traverse will be incorrect.",
+          "isCorrect": false
+        },
+        {
+          "text": "The included angle calculated at the affected station from the observed bearings will be correct.",
+          "isCorrect": true
+        },
+        {
+          "text": "It is impossible to correct the traverse without astronomical observations.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Local attraction at a station causes an equal amount of error in all magnetic bearings measured from that station. The included angle at a station is the difference between the fore bearing of the next line and the back bearing of the preceding line. Since both these bearings are measured from the same affected station, they will have the same error. When the difference is calculated, this error cancels out. Therefore, the included angle calculated from the affected bearings remains correct."
+    },
+    {
+      "text": "The Transit rule for traverse adjustment is most suitable under which of the following conditions?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "When the angular measurements are more precise than the linear measurements.",
+          "isCorrect": true
+        },
+        {
+          "text": "When the linear measurements are more precise than the angular measurements.",
+          "isCorrect": false
+        },
+        {
+          "text": "When linear and angular measurements are of equal precision.",
+          "isCorrect": false
+        },
+        {
+          "text": "When the traverse is run through an area with significant local attraction.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The Transit rule gives more weight to the precision of angular measurements. It assumes that angular measurements are more accurate than linear measurements. The correction to latitude (or departure) of a side is proportional to the latitude (or departure) of that side itself, unlike Bowditch's rule where correction is proportional to the length of the side. This makes it suitable for theodolite traverses where angle measurement precision is typically high."
+    },
+    {
+      "text": "The fore bearing of a traverse line PQ is 125°30'. The deflection angle measured at station Q for the next line QR is 35°15' to the left. What is the fore bearing of the line QR?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "160°45'",
+          "isCorrect": false
+        },
+        {
+          "text": "19°45'",
+          "isCorrect": false
+        },
+        {
+          "text": "90°15'",
+          "isCorrect": true
+        },
+        {
+          "text": "279°45'",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The fore bearing (FB) of a line can be determined from the fore bearing of the preceding line and the deflection angle at the station. \nThe formula is: \nFB of Next Line = FB of Preceding Line ± Deflection Angle. \nUse '+' for a deflection to the right (clockwise) and '-' for a deflection to the left (anti-clockwise). \nGiven: \nFB of PQ = 125°30'\nDeflection Angle at Q = 35°15' (Left)\n\nFB of QR = FB of PQ - Deflection Angle (Left) \nFB of QR = 125°30' - 35°15' = 90°15'."
+    },
+    {
+      "text": "In a closed traverse, the arithmetical sum of latitudes is Σ|L| = 450.5 m and the algebraic sum is ΣL = -0.48 m. The traverse is adjusted by the Transit Rule. What is the correction to the latitude of a line whose latitude is -125.0 m?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "-0.133 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+0.133 m",
+          "isCorrect": true
+        },
+        {
+          "text": "-0.098 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+0.098 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The Transit Rule is used when angular measurements are considered more precise than linear measurements. The correction to the latitude of a specific line is calculated as: \n$C_L = -\\sum L \\times (\\frac{|L_i|}{\\sum |L|})$ \nWhere: \n- $C_L$ = Correction in latitude for the line\n- $\\sum L$ = Total error in latitude = -0.48 m\n- $|L_i|$ = Absolute value of the latitude of the specific line = |-125.0| = 125.0 m\n- $\\sum |L|$ = Arithmetical sum of all latitudes = 450.5 m\n\nSubstituting the values: \n$C_L = -(-0.48) \\times (\\frac{125.0}{450.5}) = +0.48 \\times 0.27747 = +0.13318$ m. \nThus, the correction is approximately +0.133 m."
+    },
+    {
+      "text": "In a closed compass traverse, the fore bearing of line AB was 45°30' and its back bearing was 225°30'. The fore bearing of the next line BC was 130°15' and its back bearing was 311°00'. From this data, what can be concluded?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Both stations A and B are free from local attraction.",
+          "isCorrect": false
+        },
+        {
+          "text": "Station B is free from local attraction, but station C is affected.",
+          "isCorrect": true
+        },
+        {
+          "text": "Station C is free from local attraction, but station B is affected.",
+          "isCorrect": false
+        },
+        {
+          "text": "Both stations B and C are affected by local attraction.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "To check for local attraction, we see if the difference between the Fore Bearing (FB) and Back Bearing (BB) of a line is exactly 180°. \n1. For line AB: BB - FB = 225°30' - 45°30' = 180°00'. This means stations A and B are free from local attraction. \n2. For line BC: BB - FB = 311°00' - 130°15' = 180°45'. This difference is not 180°, so at least one of the stations B or C is affected. \n3. Since we established from line AB that station B is free from local attraction, the error must be at station C. The observed FB of BC (130°15'), measured from station B, is correct. The correct BB of BC should be 130°15' + 180° = 310°15'. The observed BB is 311°00', indicating an error of +45' at station C."
+    },
+    {
+      "text": "A closed traverse has been plotted and the closing error is found to be significant. The check for the sum of interior angles, $(2n-4) \\times 90^\\circ$, shows that the angular error is negligible. What is the most probable source of the large closing error?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A large blunder in reading one of the angles.",
+          "isCorrect": false
+        },
+        {
+          "text": "Systematic error in the theodolite's horizontal circle.",
+          "isCorrect": false
+        },
+        {
+          "text": "A mistake in one or more of the measured lengths, such as a misread tape.",
+          "isCorrect": true
+        },
+        {
+          "text": "The presence of strong local attraction at several stations.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Traverse errors are broadly classified into angular and linear errors. The sum of interior angles check is used to verify the accuracy of angular measurements. If this check is satisfactory (angular error is negligible), it implies that the angles were measured correctly. A large closing error, which is a linear quantity ($e = \\sqrt{(\\sum L)^2 + (\\sum D)^2}$), must therefore originate from errors in the linear measurements (lengths of the sides). A mistake like misreading the tape, incorrect chain/tape length, or poor plumbing is the most probable cause."
+    },
+    {
+      "text": "The coordinates of the vertices of a closed traverse PQRSP are P(100, 200), Q(250, 250), R(200, 100), and S(50, 50). What is the area of the traverse in square units?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "17500",
+          "isCorrect": false
+        },
+        {
+          "text": "22500",
+          "isCorrect": false
+        },
+        {
+          "text": "20000",
+          "isCorrect": true
+        },
+        {
+          "text": "40000",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The area of a closed traverse can be calculated from the coordinates of its vertices using the coordinate method (or double meridian distance method). The formula is: \nArea = $\\frac{1}{2} | (x_1y_2 + x_2y_3 + ... + x_ny_1) - (y_1x_2 + y_2x_3 + ... + y_nx_1) |$ \nHere, (x1, y1) = (100, 200), (x2, y2) = (250, 250), (x3, y3) = (200, 100), (x4, y4) = (50, 50). \nTerm 1 = $(100 \\times 250) + (250 \\times 100) + (200 \\times 50) + (50 \\times 200) = 25000 + 25000 + 10000 + 10000 = 70000$. \nTerm 2 = $(200 \\times 250) + (250 \\times 200) + (100 \\times 50) + (50 \\times 100) = 50000 + 50000 + 5000 + 5000 = 110000$. \nArea = $\\frac{1}{2} | 70000 - 110000 | = \\frac{1}{2} |-40000| = 20000$ square units."
+    },
+    {
+      "text": "Which of the following checks is NOT applicable to an open traverse?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Comparing the calculated coordinates of the end point with its known coordinates.",
+          "isCorrect": false
+        },
+        {
+          "text": "Taking astronomical observations to determine the azimuth of lines.",
+          "isCorrect": false
+        },
+        {
+          "text": "Checking the sum of interior angles against the theoretical value.",
+          "isCorrect": true
+        },
+        {
+          "text": "Measuring angles and distances in both forward and backward directions.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "An open traverse starts at a known or unknown point and ends at a different, usually unknown, point without returning to the starting station. Because it does not form a closed loop, there is no geometric figure whose interior angles can be summed up and checked against a theoretical value like $(2n-4) \\times 90^\\circ$. This check is exclusively for closed traverses. Other methods, such as tying into known control points, astronomical observations, or redundant measurements, must be used to check an open traverse."
+    },
+    {
+      "text": "A traverse line has a length of 180.5 m and a Whole Circle Bearing of 210°. Its latitude and departure are respectively:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "-156.3 m, -90.25 m",
+          "isCorrect": true
+        },
+        {
+          "text": "-90.25 m, -156.3 m",
+          "isCorrect": false
+        },
+        {
+          "text": "+156.3 m, -90.25 m",
+          "isCorrect": false
+        },
+        {
+          "text": "-156.3 m, +90.25 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Latitude and Departure are the components of a traverse line along the North-South and East-West directions, respectively. \nLatitude ($L$) = $l \\cos \\theta$ \nDeparture ($D$) = $l \\sin \\theta$ \nWhere $l$ = length of the line = 180.5 m, and $\\theta$ = Whole Circle Bearing = 210°. \nThe bearing 210° is in the third quadrant (South-West), so both Latitude and Departure will be negative. \nLatitude = $180.5 \\times \\cos(210^\\circ) = 180.5 \\times (-0.866) = -156.31$ m. \nDeparture = $180.5 \\times \\sin(210^\\circ) = 180.5 \\times (-0.5) = -90.25$ m. \nThus, the latitude is -156.3 m and the departure is -90.25 m."
+    },
+    {
+      "text": "The primary purpose of preparing a Gale's Traverse Table during traverse computation is to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Graphically adjust the closing error of the traverse.",
+          "isCorrect": false
+        },
+        {
+          "text": "Determine the extent of local attraction at each station.",
+          "isCorrect": false
+        },
+        {
+          "text": "Provide a systematic method for calculating and adjusting coordinates and checking computations.",
+          "isCorrect": true
+        },
+        {
+          "text": "Measure the lengths and bearings of traverse sides with higher accuracy.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Gale's Traverse Table is a computational tool, not a measurement or graphical tool. It provides a structured and organized format to carry out all the necessary calculations for a traverse survey. This includes listing bearings, calculating consecutive coordinates (latitudes and departures), finding the closing error, computing corrections (using rules like Bowditch's or Transit), applying corrections to get adjusted coordinates, and calculating independent coordinates. It incorporates arithmetic checks at various stages to minimize calculation mistakes."
+    },
+    {
+      "text": "For a closed traverse of 'n' sides, the sum of the measured exterior angles should be equal to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$(2n - 4) \\times 90^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(2n + 4) \\times 90^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "text": "$(n - 2) \\times 180^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(n + 2) \\times 180^\\circ$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For any closed polygon with 'n' sides, the sum of the interior angles is given by $(2n - 4) \\times 90^\\circ$ or $(n - 2) \\times 180^\\circ$. At each vertex, the interior angle and the exterior angle sum to 360°. Therefore, for 'n' vertices, the sum of all interior and exterior angles is $n \\times 360^\\circ$. \nSum of Exterior Angles = (Sum of Interior + Exterior) - (Sum of Interior) \n= $n \\times 360^\\circ - (n - 2) \\times 180^\\circ$ \n= $2n \\times 180^\\circ - (n - 2) \\times 180^\\circ$ \n= $(2n - n + 2) \\times 180^\\circ$ \n= $(n + 2) \\times 180^\\circ$ \n= $(2n + 4) \\times 90^\\circ$."
+    },
+    {
+      "text": "Consecutive coordinates in a traverse are defined as the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Coordinates of a station with respect to the origin of the grid system.",
+          "isCorrect": false
+        },
+        {
+          "text": "Latitude and departure of a traverse side.",
+          "isCorrect": true
+        },
+        {
+          "text": "Coordinates of a station with respect to the preceding station.",
+          "isCorrect": false
+        },
+        {
+          "text": "Corrected coordinates after traverse adjustment.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Consecutive coordinates of a traverse side are its latitude and departure. They represent the coordinate difference between the start and end point of that specific side. In other words, they are the coordinates of the endpoint of a line relative to its starting point, with the starting point considered as a temporary origin (0,0). They are also known as dependent coordinates. Independent coordinates, on the other hand, are the coordinates of each station with respect to a common survey origin."
+    },
+    {
+      "text": "What is the primary difference between Bowditch's Rule and the Transit Rule for traverse adjustment?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bowditch's Rule adjusts angles while the Transit Rule adjusts lengths.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bowditch's Rule is graphical, while the Transit Rule is mathematical.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bowditch's Rule assumes equal precision in angles and lengths, while the Transit Rule assumes angles are more precise.",
+          "isCorrect": true
+        },
+        {
+          "text": "Bowditch's Rule is used for open traverses, while the Transit Rule is for closed traverses.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The fundamental assumption separating these two rules is the precision of measurements. Bowditch's Rule (Compass Rule) assumes that the precision of angular and linear measurements are comparable. Therefore, it distributes the error in proportion to the length of the traverse sides. The Transit Rule assumes that angular measurements are more precise than linear measurements (typical for a theodolite traverse). It thus gives more weight to the angles by making the correction to latitude/departure proportional to the latitude/departure of the side itself, rather than its length."
+    }
+  ]

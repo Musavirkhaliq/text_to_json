@@ -1,0 +1,17 @@
+{
+  "title": "JKSSB JE (Civil) Sectional Test: Ultimate Load Design of RCC Structures (Limit State Method)",
+  "description": "This sectional practice test is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment exam. It provides a focused, professional-grade assessment on the core principles of Reinforced Cement Concrete (RCC) design using the Limit State Method (LSM). The test comprehensively evaluates the analysis of ultimate load capacity and the design of members subjected to flexure, shear, compression, and torsion. Aligned with undergraduate engineering curriculum and the latest JKSSB examination standards, the questions are a balanced mix of conceptual inquiries and practical problem-solving to thoroughly test your knowledge. This is an essential tool for evaluating your preparation, identifying areas for improvement, and gaining confidence in a key area of the Civil Engineering syllabus.",
+  "totalQuestions": 51,
+  "topics": [
+    "Analysis of ultimate load capacity and design of members subjected to flexure by limit state methods — RCC Structures",
+    "Analysis of ultimate load capacity and design of members subjected to shear by limit state methods — RCC Structures",
+    "Analysis of ultimate load capacity and design of members subjected to compression by limit state methods — RCC Structures",
+    "Analysis of ultimate load capacity and design of members subjected to torsion by limit state methods — RCC Structures"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T08:19:54.990Z",
+  "questionTypes": {
+    "multiple_choice": 51
+  }
+}

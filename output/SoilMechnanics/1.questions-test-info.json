@@ -1,0 +1,17 @@
+{
+  "title": "JKSSB JE (Civil) Preparatory Assessment: Foundational Principles of Soil Mechanics",
+  "description": "This practice test is rigorously designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment examination, offering a professional academic assessment of foundational Soil Mechanics concepts. Aligned with undergraduate-level difficulty and JKSSB examination standards, this test provides a comprehensive evaluation of core topics including the origin of soils, fundamental physical and index properties, soil classification systems, and the principles of the three-phase system. The questions are a balanced mix of conceptual and practical problems, designed to test your understanding of key phase relationships (e.g., void ratio $e$, porosity $n$, degree of saturation $S_r$) and their application. This assessment is an essential tool for mastering the basics and gauging your readiness for the official examination.",
+  "totalQuestions": 80,
+  "topics": [
+    "Origin of soils — Soil Mechanics",
+    "Properties — Soil Mechanics",
+    "Soil classification — Soil Mechanics",
+    "Three-phase system — Soil Mechanic"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-06T09:32:27.340Z",
+  "questionTypes": {
+    "multiple_choice": 80
+  }
+}

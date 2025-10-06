@@ -1,0 +1,1082 @@
+[
+    {
+      "text": "A surveyor needs to find the location of the 152 m contour line between two ground points A and B. The reduced level (RL) of A is 150.5 m and the RL of B is 153.2 m. The horizontal distance between A and B is 54 m. At what horizontal distance from point A will the 152 m contour line be located?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "27.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "30.0 m",
+          "isCorrect": true
+        },
+        {
+          "text": "24.0 m",
+          "isCorrect": false
+        },
+        {
+          "text": "32.5 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This problem is solved by linear interpolation. The total difference in elevation is 153.2 - 150.5 = 2.7 m. The difference in elevation between point A and the required contour is 152.0 - 150.5 = 1.5 m. The distance from A is calculated by the ratio of elevation differences multiplied by the total horizontal distance: Distance = (1.5 / 2.7) * 54 m = 30.0 m."
+    },
+    {
+      "text": "On a contour map, a series of closed contour lines with decreasing values towards the center represents which of the following topographical features?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A hill or a knoll",
+          "isCorrect": false
+        },
+        {
+          "text": "A valley",
+          "isCorrect": false
+        },
+        {
+          "text": "A depression or a pond",
+          "isCorrect": true
+        },
+        {
+          "text": "A saddle",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Contour lines are lines of equal elevation. Closed contours with increasing values towards the center represent a hill. Conversely, closed contours with decreasing values towards the center indicate a depression, such as a pond, a pit, or an excavated area, where the ground level is lower than the surrounding area."
+    },
+    {
+      "text": "Under which of the following topographical conditions would two contour lines of different elevations intersect on a standard contour map?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A vertical cliff",
+          "isCorrect": false
+        },
+        {
+          "text": "An overhanging cliff",
+          "isCorrect": true
+        },
+        {
+          "text": "A very steep slope",
+          "isCorrect": false
+        },
+        {
+          "text": "They can never intersect",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Contour lines represent points of equal elevation and thus can never intersect or cross each other on the ground. However, on a map, they can appear to intersect in the rare case of an overhanging cliff. The lower elevation contour extends further out than the higher elevation contour above it, causing their representations to cross on the 2D map. For a vertical cliff, contour lines of different elevations merge to form a single line."
+    },
+    {
+      "text": "A road is to be constructed with a constant rising gradient of 1 in 40. If the contour interval of the map is 0.5 m, what would be the required horizontal spacing between the pegs set out at successive contour elevations on the ground?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "10 m",
+          "isCorrect": false
+        },
+        {
+          "text": "20 m",
+          "isCorrect": true
+        },
+        {
+          "text": "40 m",
+          "isCorrect": false
+        },
+        {
+          "text": "80 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The gradient is the ratio of vertical rise to horizontal distance. Gradient = (Vertical Interval) / (Horizontal Equivalent). Here, the gradient is 1/40 and the vertical interval is the contour interval, 0.5 m. Therefore, 1/40 = 0.5 m / (Horizontal Equivalent). Solving for the Horizontal Equivalent: Horizontal Equivalent = 0.5 * 40 = 20 m."
+    },
+    {
+      "text": "What does a series of V-shaped contours with the convexity or bend pointing towards higher ground indicate?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A ridge line",
+          "isCorrect": false
+        },
+        {
+          "text": "A valley line",
+          "isCorrect": true
+        },
+        {
+          "text": "A saddle point",
+          "isCorrect": false
+        },
+        {
+          "text": "An escarpment",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "When contour lines cross a valley or a stream, they form a V-shape. The apex or point of the 'V' always points upstream, or towards the higher elevation ground. Conversely, for a ridge line, the U-shaped or V-shaped contours point towards the lower ground."
+    },
+    {
+      "text": "The areas enclosed by the 100 m, 102 m, and 104 m contours for a proposed reservoir are 3000 m², 2150 m², and 850 m² respectively. What is the capacity of the reservoir between the 100 m and 104 m levels, calculated using the Prismoidal formula?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "6000 m³",
+          "isCorrect": false
+        },
+        {
+          "text": "8300 m³",
+          "isCorrect": true
+        },
+        {
+          "text": "8600 m³",
+          "isCorrect": false
+        },
+        {
+          "text": "12450 m³",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The Prismoidal formula for volume between three sections is V = (h/3) * [A_first + 4*A_middle + A_last]. Here, the contour interval (h) is 102 - 100 = 2 m. The areas are A₁ = 3000 m², A₂ = 2150 m², and A₃ = 850 m². V = (2/3) * [3000 + 4(2150) + 850] = (2/3) * [3000 + 8600 + 850] = (2/3) * [12450] = 8300 m³."
+    },
+    {
+      "text": "The horizontal equivalent for a given pair of contours is 25 m, and the contour interval is 0.5 m. What is the gradient of the ground?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1 in 25",
+          "isCorrect": false
+        },
+        {
+          "text": "1 in 50",
+          "isCorrect": true
+        },
+        {
+          "text": "1 in 12.5",
+          "isCorrect": false
+        },
+        {
+          "text": "1 in 5",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The gradient is defined as the ratio of the vertical interval to the horizontal equivalent. Here, the vertical interval is the contour interval (0.5 m) and the horizontal equivalent is 25 m. Gradient = Vertical Interval / Horizontal Equivalent = 0.5 / 25 = 1/50. This is expressed as a gradient of 1 in 50."
+    },
+    {
+      "text": "For a large-scale engineering project map, which of the following statements regarding the choice of contour interval is most accurate?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A larger contour interval is preferred to reduce map clutter and surveying costs.",
+          "isCorrect": false
+        },
+        {
+          "text": "A smaller contour interval is chosen for flat terrain, and a larger one for steep, mountainous terrain.",
+          "isCorrect": true
+        },
+        {
+          "text": "The contour interval is always kept constant at 1 m for all engineering projects.",
+          "isCorrect": false
+        },
+        {
+          "text": "A smaller contour interval is chosen for steep terrain, and a larger one for flat terrain.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The choice of contour interval depends on the terrain, map scale, and purpose. For flat terrain, a small interval (e.g., 0.5 m) is needed to show subtle elevation changes. In steep terrain, a larger interval (e.g., 5 m) is used because a small interval would make contour lines too close together, rendering the map unreadable."
+    },
+    {
+      "text": "The direct method of contouring is most suitable for which of the following scenarios?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Large-area surveys where speed is the primary concern.",
+          "isCorrect": false
+        },
+        {
+          "text": "Surveys in hilly or broken terrain.",
+          "isCorrect": false
+        },
+        {
+          "text": "Small-area surveys where a very high degree of accuracy is required.",
+          "isCorrect": true
+        },
+        {
+          "text": "Preliminary surveys for route alignment.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The direct method involves physically locating and tracing points of a required elevation. This process is slow but very accurate because the points on the contour line are directly established. It is therefore best suited for small areas where precision is paramount, such as for building sites or detailed earthwork calculations. Indirect methods are faster and better for large areas."
+    },
+    {
+      "text": "Which of the following is a fundamental characteristic of contour lines?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "They are always equally spaced horizontally.",
+          "isCorrect": false
+        },
+        {
+          "text": "They run parallel to the direction of the steepest slope.",
+          "isCorrect": false
+        },
+        {
+          "text": "A single contour line can split into two lines of the same elevation.",
+          "isCorrect": false
+        },
+        {
+          "text": "They are perpendicular to the direction of the steepest slope at every point.",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "A key property of contour lines is that the direction of the steepest slope at any point is always perpendicular to the contour line at that point. This is why water flows across contours at a right angle. Contours are unequally spaced (close on steep slopes, far on flat slopes) and never split or merge (except at cliffs)."
+    },
+    {
+      "text": "A contour map has been plotted to a scale of 1:1000. If an engineer measures the horizontal distance between two adjacent contours on the map as 0.8 cm, and the contour interval is 0.4 m, what is the average slope of the ground?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1 in 20",
+          "isCorrect": true
+        },
+        {
+          "text": "1 in 200",
+          "isCorrect": false
+        },
+        {
+          "text": "1 in 5",
+          "isCorrect": false
+        },
+        {
+          "text": "1 in 50",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Step 1: Calculate the horizontal ground distance. Map distance = 0.8 cm. Scale = 1:1000. Ground distance = 0.8 cm * 1000 = 800 cm = 8 m. Step 2: Identify the vertical distance (Contour Interval), which is 0.4 m. Step 3: Calculate the slope. Slope = Vertical Distance / Horizontal Distance = 0.4 m / 8 m = 4/80 = 1/20. The slope is 1 in 20."
+    },
+    {
+      "text": "Which of the following represents a key difference between a 'form line' and a 'contour line'?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Form lines are always shown in blue, while contour lines are brown.",
+          "isCorrect": false
+        },
+        {
+          "text": "Form lines represent depressions, while contour lines represent hills.",
+          "isCorrect": false
+        },
+        {
+          "text": "Form lines are estimated or sketched, while contour lines are drawn from accurately surveyed points.",
+          "isCorrect": true
+        },
+        {
+          "text": "Form lines have a much larger interval than contour lines on the same map.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The primary distinction is accuracy. Contour lines represent lines of constant elevation determined through precise surveying. Form lines are used to show the general shape of the terrain where precise data is unavailable. They are drawn based on estimation or sketching and are usually represented as dashed lines to indicate their lower accuracy."
+    },
+    {
+      "text": "In the indirect method of contouring, such as the grid method, the most critical part of the process for ensuring map accuracy is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Setting out a perfectly square grid on the ground.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using a highly sensitive leveling instrument.",
+          "isCorrect": false
+        },
+        {
+          "text": "Accurately interpolating the required contour points between the grid points.",
+          "isCorrect": true
+        },
+        {
+          "text": "Measuring the grid dimensions with a steel tape.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In the grid method, reduced levels (RLs) of grid corners are determined. The ground is assumed to have a uniform slope between any two adjacent grid points. The final contour map's accuracy heavily relies on the process of interpolation, where the positions of the required contour elevations are calculated or estimated along the grid lines. This step generates the contour lines from the raw grid data."
+    },
+    {
+      "text": "To determine if two points, A and B, on a contour map are intervisible, one must check if:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The elevation of point A is higher than the elevation of point B.",
+          "isCorrect": false
+        },
+        {
+          "text": "The line of sight between A and B is above the ground at all intermediate points.",
+          "isCorrect": true
+        },
+        {
+          "text": "There are no contour lines crossing the straight line drawn between A and B on the map.",
+          "isCorrect": false
+        },
+        {
+          "text": "Both points lie on the same contour line.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Intervisibility between two points means there is an unobstructed line of sight. To check this on a contour map, one must draw a section or profile along the line connecting the two points. If the elevation of the ground at any intermediate point rises above the straight line of sight drawn from A to B, the view is obstructed and the points are not intervisible."
+    },
+    {
+      "text": "A contour with a value of 250 m is being traced using the direct method. If the height of the instrument (HI) is 251.35 m, what should be the staff reading when a point on the desired contour is located?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "2.35 m",
+          "isCorrect": false
+        },
+        {
+          "text": "1.35 m",
+          "isCorrect": true
+        },
+        {
+          "text": "0.35 m",
+          "isCorrect": false
+        },
+        {
+          "text": "It depends on the benchmark elevation.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This question applies the fundamental leveling equation: RL = HI - Staff Reading. To find the required staff reading for a point with a known RL, we rearrange the formula: Staff Reading = HI - Required RL. Given HI = 251.35 m and Required RL = 250.00 m, the Staff Reading = 251.35 - 250.00 = 1.35 m."
+    },
+    {
+      "text": "In the two-point problem of plane table surveying, an auxiliary station is chosen to help orient the table at the required station. The primary purpose of this auxiliary station is to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Check the accuracy of the two known points A and B.",
+          "isCorrect": false
+        },
+        {
+          "text": "Establish a baseline on the drawing sheet whose length and orientation are initially unknown.",
+          "isCorrect": false
+        },
+        {
+          "text": "Create a geometric condition where the plane table can be oriented parallel to the line joining the two known points.",
+          "isCorrect": true
+        },
+        {
+          "text": "Measure the distance between the two inaccessible points directly.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The two-point problem is used when the surveyor cannot occupy the known points. An auxiliary station is chosen to first sight the two known points (say A and B). Then, the table is shifted to the required station. The lines drawn from the auxiliary station are used as reference rays to construct a similar triangle, which allows the table to be oriented parallel to the actual line AB on the ground, thereby solving the problem."
+    },
+    {
+      "text": "While solving the three-point problem by Lehmann's rules, you find that your plotted station 'p' lies inside the great triangle formed by the control points A, B, and C. Where will the true station 'P' be located relative to the triangle of error?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Outside the triangle of error.",
+          "isCorrect": false
+        },
+        {
+          "text": "On one of the vertices of the triangle of error.",
+          "isCorrect": false
+        },
+        {
+          "text": "Inside the triangle of error.",
+          "isCorrect": true
+        },
+        {
+          "text": "The position is indeterminate and cannot be found.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This is a direct application of Lehmann's first rule for solving the three-point problem. The rule states: 'The true position of the station is inside the triangle of error if the station is inside the great triangle, and outside the triangle of error if the station is outside the great triangle.' This is a fundamental concept for graphical resection."
+    },
+    {
+      "text": "A surveyor sets up a plane table at station 'O' and plots a point 'P' by radiation. The ground distance OP is 45 meters. The scale of the map is 1:1000. If the surveyor's plotting accuracy is limited to 0.25 mm, what is the maximum displacement error of point P on the ground that corresponds to this plotting error?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "12.5 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "25.0 cm",
+          "isCorrect": true
+        },
+        {
+          "text": "45.0 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "0.25 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The scale is 1:1000, meaning 1 mm on the plan represents 1000 mm (or 1 meter) on the ground. The plotting error is 0.25 mm. To find the corresponding error on the ground, we multiply the plotting error by the scale factor. Ground Error = Plotting Error × Scale Factor = 0.25 mm × 1000 = 250 mm. Converting this to centimeters: 250 mm = 25.0 cm."
+    },
+    {
+      "text": "The resection method in plane table surveying becomes indeterminate, leading to an unreliable or impossible fix, under which of the following geometric conditions?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "When the instrument station lies inside the great triangle formed by the three control points.",
+          "isCorrect": false
+        },
+        {
+          "text": "When the instrument station lies on the straight line joining any two of the control points.",
+          "isCorrect": false
+        },
+        {
+          "text": "When the instrument station lies on the circumference of the circle passing through the three control points.",
+          "isCorrect": true
+        },
+        {
+          "text": "When the angle subtended by two control points at the instrument station is exactly 90 degrees.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This is the classic 'danger circle' problem in the three-point resection method. If the instrument station and the three known control points all lie on the circumference of a single circle (the 'great circle'), any point on that circle will satisfy the geometric conditions, leading to an infinite number of solutions and making the fix indeterminate."
+    },
+    {
+      "text": "Which of the following plane table surveying methods is most suitable for locating the details of a winding river boundary where long, clear sights are not possible from a single station?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Radiation",
+          "isCorrect": false
+        },
+        {
+          "text": "Intersection",
+          "isCorrect": false
+        },
+        {
+          "text": "Traversing",
+          "isCorrect": true
+        },
+        {
+          "text": "Resection",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Traversing is the ideal method for surveying linear features like roads, railways, or river boundaries. The plane table is set up at successive stations along the feature's path. Details are plotted from each station. Radiation is for objects near a single station, intersection is for distant/inaccessible points visible from two stations, and resection is for finding the station's own position."
+    },
+    {
+      "text": "In a plane table survey, the operation of 'orientation' is performed to ensure that:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The plane table is perfectly level at every station.",
+          "isCorrect": false
+        },
+        {
+          "text": "The alidade is correctly centered over the plotted station point.",
+          "isCorrect": false
+        },
+        {
+          "text": "All lines plotted on the sheet are parallel to their corresponding lines on the ground.",
+          "isCorrect": true
+        },
+        {
+          "text": "The scale of the map remains consistent throughout the survey.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Orientation is the most critical operation in plane table surveying. It involves setting the table at a new station so that the board's orientation is parallel to what it was at the previous station. This ensures that all lines drawn from the new station are parallel to their corresponding ground lines, maintaining the directional consistency of the map."
+    },
+    {
+      "text": "The intersection method of plane tabling is generally preferred over the radiation method when:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The number of details to be surveyed is very large and they are close to the station.",
+          "isCorrect": false
+        },
+        {
+          "text": "The ground is perfectly flat and free of obstructions.",
+          "isCorrect": false
+        },
+        {
+          "text": "The points to be located are inaccessible or too far away for accurate taping.",
+          "isCorrect": true
+        },
+        {
+          "text": "The survey needs to be completed with maximum speed and minimum stations.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The key advantage of the intersection method is that it does not require linear measurements to the object being plotted. It relies on drawing rays from two known stations and finding the object at the intersection of these rays. This makes it ideal for plotting points that are inaccessible (e.g., across a river) or very far away."
+    },
+    {
+      "text": "The fiducial edge of an alidade is used for drawing rays. If this edge is not perfectly straight and is slightly convex, what kind of error will it introduce in the plotted position of a point?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The point will be plotted farther away from the station than its actual scaled distance.",
+          "isCorrect": false
+        },
+        {
+          "text": "The point will be plotted closer to the station than its actual scaled distance.",
+          "isCorrect": false
+        },
+        {
+          "text": "The ray drawn will be angularly displaced, causing a lateral shift in the point's position.",
+          "isCorrect": true
+        },
+        {
+          "text": "It will have no effect if the alidade is centered properly.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The fiducial edge acts as a straight line of sight when plotted. If it is not straight (e.g., convex or concave), the line drawn on the paper will not accurately represent the line of sight to the object. This introduces an angular error, causing the plotted ray to deviate and shifting the final position of the point laterally, not along the line of sight."
+    },
+    {
+      "text": "Which of the following is NOT a method of orienting a plane table?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Orientation by magnetic needle (trough compass).",
+          "isCorrect": false
+        },
+        {
+          "text": "Orientation by back-sighting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Orientation by solving the three-point problem.",
+          "isCorrect": false
+        },
+        {
+          "text": "Orientation by spirit leveling.",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "Spirit leveling is the process of making the plane table surface horizontal using the spirit level. It is a fundamental setup operation but is distinct from orientation. Orientation deals with setting the table's angular or directional position, which can be done using a trough compass, by back-sighting a known point, or by resection methods like the three-point problem."
+    },
+    {
+      "text": "A plane table survey is being conducted at a scale of 1:500. A building corner is located from station P by the radiation method. The measured distance is 37.5 m. What is the length of the corresponding line on the drawing sheet?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "7.5 cm",
+          "isCorrect": true
+        },
+        {
+          "text": "3.75 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "13.3 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "75.0 cm",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The relationship between ground distance and sheet distance is given by the scale. Sheet Distance = Ground Distance × Scale. First, convert the ground distance to a consistent unit, like cm: 37.5 m = 3750 cm. Now, apply the scale: Sheet Distance = $3750 \\text{ cm} \\times \\frac{1}{500} = 7.5 \\text{ cm}$. Alternatively, $37.5 \\text{ m} / 500 = 0.075 \\text{ m} = 7.5 \\text{ cm}$."
+    },
+    {
+      "text": "The primary advantage of the three-point problem over the two-point problem for resection is that it:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Requires less fieldwork and fewer sightings.",
+          "isCorrect": false
+        },
+        {
+          "text": "Can be solved even if the control points are not intervisible.",
+          "isCorrect": false
+        },
+        {
+          "text": "Provides a check on the plotted position and does not require an auxiliary station.",
+          "isCorrect": true
+        },
+        {
+          "text": "Is mathematically simpler and less prone to graphical errors.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The three-point problem uses three known points, which provides redundancy. The formation of the triangle of error offers a check on the accuracy of the work and a method for adjustment (Lehmann's rules). Unlike the two-point problem, it is a self-contained solution at a single station and does not require setting up a temporary auxiliary station, making it more efficient and robust."
+    },
+    {
+      "text": "In a plane table traverse, the procedure of setting up the table at a new station (say B), clamping the alidade along the previously drawn line BA, and then rotating the entire board until the ranging rod at the previous station A is bisected, is known as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Centering",
+          "isCorrect": false
+        },
+        {
+          "text": "Resection",
+          "isCorrect": false
+        },
+        {
+          "text": "Orientation by back-sighting",
+          "isCorrect": true
+        },
+        {
+          "text": "Intersection",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "This describes the standard and most accurate method of orientation in plane table traversing. By aligning the alidade with the plotted line representing the previous leg of the traverse (BA) and then sighting the previous station (A), the surveyor ensures the table at B is perfectly parallel to its orientation at A. This is called orientation by back-sighting."
+    },
+    {
+      "text": "Plane table surveying is often referred to as a form of 'graphical triangulation'. What does this term imply about the process?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Only triangular-shaped plots of land can be surveyed.",
+          "isCorrect": false
+        },
+        {
+          "text": "The process is less accurate than traditional theodolite triangulation.",
+          "isCorrect": false
+        },
+        {
+          "text": "The surveyor must graphically plot a triangulation network on the sheet.",
+          "isCorrect": false
+        },
+        {
+          "text": "Angles are not measured numerically but are directly plotted on the sheet as they are sighted.",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The term 'graphical triangulation' highlights the core principle of plane tabling. Unlike in theodolite surveying where angles are measured with a scale and recorded, in plane tabling, the alidade is used to sight a point and a ray is drawn immediately. The angle is thus graphically constructed on the paper without being numerically measured or recorded, and positions are found by the intersection of these graphical rays."
+    },
+    {
+      "text": "When using the 'trial and error' method for solving the three-point problem, a triangle of error is formed. According to Lehmann's rules, the true location of the station point is such that its distance from each of the three plotted rays is proportional to what?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The elevation of the corresponding control point.",
+          "isCorrect": false
+        },
+        {
+          "text": "The length of the respective rays from the station to the control points.",
+          "isCorrect": true
+        },
+        {
+          "text": "The square of the distance to the respective control points.",
+          "isCorrect": false
+        },
+        {
+          "text": "The angle between the other two rays.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Lehmann's third rule provides a precise method for locating the correct point 'p' within or outside the triangle of error. It states that the perpendicular distance of the true point 'p' from each of the three drawn rays (from the wrongly oriented station to the control points) is directly proportional to the distance of the respective control point from the station. This rule is crucial for an accurate graphical solution."
+    },
+    {
+      "text": "A survey team is using a plane table for contouring a small, hilly area. Which method would be most efficient for this task?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The direct method, by tracing the contour on the ground and then plotting it.",
+          "isCorrect": false
+        },
+        {
+          "text": "The intersection method, by sighting contour pegs from two stations.",
+          "isCorrect": false
+        },
+        {
+          "text": "The indirect method, by locating controlling points and interpolating contours.",
+          "isCorrect": true
+        },
+        {
+          "text": "The traversing method, by running a traverse along each contour line.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For contouring with a plane table, the indirect method is most common and efficient. The surveyor sets up the table at a commanding position and locates several 'controlling points' (like hilltops, saddles, changes in slope) using radiation (sighting with alidade and measuring distance). The elevations of these points are determined. Contours are then interpolated on the drawing sheet between these plotted points."
+    },
+    {
+      "text": "Two tangents intersect at a deflection angle of 40°. If a simple circular curve with a radius of 300 m is to be introduced, what is the tangent length?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "109.19 m",
+          "isCorrect": true
+        },
+        {
+          "text": "218.38 m",
+          "isCorrect": false
+        },
+        {
+          "text": "105.53 m",
+          "isCorrect": false
+        },
+        {
+          "text": "54.60 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The tangent length (T) for a simple circular curve is calculated using the formula $T = R \\tan(\\Delta/2)$, where R is the radius and Δ is the deflection angle. Here, R = 300 m and Δ = 40°. Therefore, $T = 300 \\times \\tan(40^\\circ/2) = 300 \\times \\tan(20^\\circ) = 300 \\times 0.36397 \\approx 109.19$ m."
+    },
+    {
+      "text": "When setting out a 2° curve using Rankine's method with a standard 30 m chord, what is the incremental deflection angle for each full chord?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$0^\\circ 30'$",
+          "isCorrect": false
+        },
+        {
+          "text": "$1^\\circ 00'$",
+          "isCorrect": true
+        },
+        {
+          "text": "$2^\\circ 00'$",
+          "isCorrect": false
+        },
+        {
+          "text": "$4^\\circ 00'$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In Rankine's method of setting out curves, the incremental deflection angle for a standard chord is always half the degree of the curve (D/2). For a 2° curve, the deflection angle is $2^\\circ / 2 = 1^\\circ$."
+    },
+    {
+      "text": "The primary characteristic of an ideal transition curve (e.g., a clothoid spiral) is that its radius of curvature at any point is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Constant throughout its length.",
+          "isCorrect": false
+        },
+        {
+          "text": "Directly proportional to the length measured along the curve from its beginning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Inversely proportional to the length measured along the curve from its beginning.",
+          "isCorrect": true
+        },
+        {
+          "text": "Directly proportional to the square of the length measured from its beginning.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "An ideal transition curve is designed to have a radius that changes from infinity at the tangent point to the radius of the circular curve (R) at its end. This is achieved by the property $L \\cdot r = \\text{constant}$, where L is the length along the spiral and r is the radius at that point. Thus, the radius is inversely proportional to the length."
+    },
+    {
+      "text": "A vertical summit curve connects a +3.0% grade with a -2.0% grade. What is the required length of the curve for a stopping sight distance (SSD) of 150 m? (Use the formula $L = NS^2/4.4$ for when L > S).",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "195.5 m",
+          "isCorrect": false
+        },
+        {
+          "text": "255.7 m",
+          "isCorrect": true
+        },
+        {
+          "text": "112.5 m",
+          "isCorrect": false
+        },
+        {
+          "text": "51.1 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "First, find the algebraic difference in grades, N. $N = |g_1 - g_2| = |3.0 - (-2.0)| = 5.0\\%$. The stopping sight distance S = 150 m. Using the formula for the case where the curve length (L) is greater than SSD (L > S): $L = \\frac{NS^2}{4.4} = \\frac{5 \\times 150^2}{4.4} = \\frac{5 \\times 22500}{4.4} = \\frac{112500}{4.4} = 25568 \\text{ cm} \\approx 255.7$ m. Since L (255.7 m) is greater than S (150 m), the assumption was correct."
+    },
+    {
+      "text": "In the geometry of a simple circular curve, the straight line connecting the point of curvature (T1) and the point of tangency (T2) is known as the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Back tangent",
+          "isCorrect": false
+        },
+        {
+          "text": "Forward tangent",
+          "isCorrect": false
+        },
+        {
+          "text": "Long Chord",
+          "isCorrect": true
+        },
+        {
+          "text": "Apex distance",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The Long Chord is the straight line that directly connects the starting point of the curve (Point of Curvature, T1 or PC) with the ending point of the curve (Point of Tangency, T2 or PT)."
+    },
+    {
+      "text": "A reverse curve, consisting of two arcs of opposite curvature, is most suitable for connecting:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Two intersecting straights at a large angle.",
+          "isCorrect": false
+        },
+        {
+          "text": "Two parallel or nearly parallel straights.",
+          "isCorrect": true
+        },
+        {
+          "text": "A straight with a compound curve.",
+          "isCorrect": false
+        },
+        {
+          "text": "The main line and a turnout on a railway track.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Reverse curves are specifically used to create a tangential shift in alignment, making them ideal for connecting two parallel or diverging (at a small angle) straight sections of a road or railway track, such as in crossovers."
+    },
+    {
+      "text": "For a simple circular curve with a radius (R) of 500 m and a deflection angle (Δ) of 36°, calculate the external distance (E).",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "15.83 m",
+          "isCorrect": false
+        },
+        {
+          "text": "25.76 m",
+          "isCorrect": true
+        },
+        {
+          "text": "51.52 m",
+          "isCorrect": false
+        },
+        {
+          "text": "162.25 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The external distance (E), also known as the apex distance, is the distance from the point of intersection (PI) to the midpoint of the curve. The formula is $E = R [\\sec(\\Delta/2) - 1]$. Here, R = 500 m and Δ/2 = 18°. So, $E = 500 [\\sec(18^\\circ) - 1] = 500 [\\frac{1}{\\cos(18^\\circ)} - 1] = 500 [\\frac{1}{0.95106} - 1] = 500 [1.05146 - 1] = 500 \\times 0.05146 \\approx 25.73$ m."
+    },
+    {
+      "text": "The mathematical form of a vertical curve is a second-degree parabola. This is chosen because it provides which essential property?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A constant radius of curvature.",
+          "isCorrect": false
+        },
+        {
+          "text": "The shortest possible curve length.",
+          "isCorrect": false
+        },
+        {
+          "text": "A constant rate of change of grade.",
+          "isCorrect": true
+        },
+        {
+          "text": "Ease of calculation using simple trigonometry.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "A key feature of a second-degree parabola ($y = ax^2 + bx + c$) is that its first derivative (the slope or grade) is a linear function ($dy/dx = 2ax + b$), and its second derivative (the rate of change of grade) is a constant ($d^2y/dx^2 = 2a$). This constant rate of change of grade provides a smooth and gradual transition for vehicles."
+    },
+    {
+      "text": "Super-elevation, or cant, is provided on a horizontal curve primarily to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Ensure proper drainage of the road surface.",
+          "isCorrect": false
+        },
+        {
+          "text": "Counteract the effect of centrifugal force.",
+          "isCorrect": true
+        },
+        {
+          "text": "Provide adequate stopping sight distance.",
+          "isCorrect": false
+        },
+        {
+          "text": "Visually guide the driver through the curve.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "When a vehicle travels on a curve, it is subject to centrifugal force acting outwards. Super-elevation (banking the road) uses a component of the vehicle's weight to counteract this force, improving stability, safety, and comfort, and reducing reliance on side friction between tires and the pavement."
+    },
+    {
+      "text": "The point of intersection (PI) of two tangents is at chainage 2050.00 m. The deflection angle is 30° and the radius of the curve is 350 m. What is the chainage of the point of curvature (T1)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "2143.78 m",
+          "isCorrect": false
+        },
+        {
+          "text": "2050.00 m",
+          "isCorrect": false
+        },
+        {
+          "text": "1956.22 m",
+          "isCorrect": true
+        },
+        {
+          "text": "1942.87 m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "First, calculate the tangent length (T): $T = R \\tan(\\Delta/2) = 350 \\times \\tan(30^\\circ/2) = 350 \\times \\tan(15^\\circ) = 350 \\times 0.26795 = 93.78$ m. The chainage of the point of curvature (T1) is found by subtracting the tangent length from the chainage of the PI: Chainage of T1 = Chainage of PI - T = $2050.00 - 93.78 = 1956.22$ m."
+    },
+    {
+      "text": "By the arc definition, what is the radius of a 1° curve for a standard arc length of 100 ft? (Use the exact relation or a close approximation).",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "100.00 ft",
+          "isCorrect": false
+        },
+        {
+          "text": "1718.87 ft",
+          "isCorrect": false
+        },
+        {
+          "text": "3600.00 ft",
+          "isCorrect": false
+        },
+        {
+          "text": "5729.58 ft",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The arc definition states that the Degree of Curve (D) is the central angle subtended by an arc of 100 ft. The relationship is derived from the circumference of a circle: $\\frac{D}{360^\\circ} = \\frac{100}{2\\pi R}$. Solving for R gives $R = \\frac{360 \\times 100}{2\\pi D} = \\frac{18000}{\\pi D}$. For D = 1°, $R = \\frac{18000}{\\pi} \\approx 5729.58$ ft."
+    },
+    {
+      "text": "A compound curve consists of two arcs with central angles $\\Delta_1 = 25^\\circ$ and $\\Delta_2 = 35^\\circ$. The two arcs join at the point of compound curvature (PCC). What is the total deflection angle (intersection angle) for the entire compound curve?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$10^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "text": "$30^\\circ$",
+          "isCorrect": false
+        },
+        {
+          "text": "$60^\\circ$",
+          "isCorrect": true
+        },
+        {
+          "text": "Cannot be determined from the given information.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a compound curve, the total deflection angle (Δ), which is the angle between the initial and final tangents, is simply the sum of the individual central angles of the component arcs. Therefore, $\\Delta = \\Delta_1 + \\Delta_2 = 25^\\circ + 35^\\circ = 60^\\circ$."
+    },
+    {
+      "text": "Which method of setting out a simple circular curve is most impeded by the presence of obstructions (like trees or buildings) within the area of the curve itself?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Rankine's method of deflection angles",
+          "isCorrect": false
+        },
+        {
+          "text": "Offsets from the long chord",
+          "isCorrect": true
+        },
+        {
+          "text": "Two-theodolite method",
+          "isCorrect": false
+        },
+        {
+          "text": "Offsets from the chords produced",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The method of offsets from the long chord requires a clear line of sight along the entire length of the long chord (from T1 to T2) and clear lines for measuring perpendicular offsets from the chord to the curve. Any obstruction within the curve's area can make these measurements impossible. Angular methods like Rankine's are more flexible in such terrain."
+    },
+    {
+      "text": "The length of a vertical valley curve is determined based on two criteria. What are they?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Stopping sight distance and overtaking sight distance",
+          "isCorrect": false
+        },
+        {
+          "text": "Aesthetic appearance and drainage requirements",
+          "isCorrect": false
+        },
+        {
+          "text": "Headlight sight distance and comfort condition",
+          "isCorrect": true
+        },
+        {
+          "text": "Centrifugal force and super-elevation",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Valley curves are designed based on two primary constraints: 1) Safety, which is governed by the headlight sight distance available for night driving, ensuring a driver can see an object illuminated by their headlights and stop in time. 2) Comfort, which limits the rate of change of vertical acceleration to avoid an unpleasant sensation for passengers."
+    },
+    {
+      "text": "The 'shift' (S) of a transition curve with length $L_s$ connecting to a circular curve of radius R is the distance the circular curve is moved inwards. What is the approximate formula for the shift?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$S = L_s^2 / (6R)$",
+          "isCorrect": false
+        },
+        {
+          "text": "$S = L_s / (24R)$",
+          "isCorrect": false
+        },
+        {
+          "text": "$S = L_s^2 / (24R)$",
+          "isCorrect": true
+        },
+        {
+          "text": "$S = L_s^3 / (48R^2)$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The shift is a crucial element in aligning a combined curve. It ensures the transition curve meets the circular curve tangentially at the correct shifted position. Its value is calculated using the standard approximate formula $S = L_s^2 / (24R)$, where $L_s$ is the length of the transition curve and R is the radius of the main circular curve."
+    }
+  ]
