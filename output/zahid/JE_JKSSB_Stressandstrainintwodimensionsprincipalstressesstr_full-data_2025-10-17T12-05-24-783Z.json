@@ -1,0 +1,1474 @@
+{
+  "title": "JKSSB JE (Civil) Mastery Assessment: Advanced Mechanics & Structural Analysis",
+  "description": "A comprehensive practice examination designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment. This professional academic assessment meticulously evaluates your understanding of complex stress and bending theories at an undergraduate level, mirroring the standards and question patterns of the JKSSB exam. The test features a balanced mix of practical application problems and conceptual questions to build a robust foundation in critical areas of structural analysis. Key topics covered include:\n\n- **Stress & Strain Analysis:** In-depth coverage of two-dimensional stress and strain, determination of principal stresses ($\\sigma_{1,2}$) and maximum shear stress, and stress transformation using Mohr's circle.\n- **Bending Theory:** Application of simple bending theory, calculation of flexural and shear stresses in beams, and analysis of stress distribution across various cross-sections.\n- **Advanced Bending Concepts:** Challenging questions on unsymmetrical bending and the determination of the shear centre for thin-walled sections.\n\nThis assessment is an essential tool for identifying strengths and weaknesses in core Mechanics and Structural Analysis subjects, ensuring you are thoroughly prepared for the competitive examination.",
+  "questions": [
+    {
+      "text": "At a point in a stressed body, the state of stress is given by $\\sigma_x = 80$ MPa, $\\sigma_y = 20$ MPa, and $\\tau_{xy} = 30$ MPa. What is the magnitude of the major principal stress ($\\sigma_1$)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "92.4 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "7.6 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "42.4 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The principal stresses are calculated using the formula: $\\sigma_{1,2} = \\frac{\\sigma_x + \\sigma_y}{2} \\pm \\sqrt{(\\frac{\\sigma_x - \\sigma_y}{2})^2 + \\tau_{xy}^2}$.  Center of Mohr's circle = $(80+20)/2 = 50$ MPa. Radius = $\\sqrt{((80-20)/2)^2 + 30^2} = \\sqrt{30^2 + 30^2} = \\sqrt{1800} = 42.4$ MPa. The major principal stress $\\sigma_1$ = Center + Radius = $50 + 42.4 = 92.4$ MPa."
+    },
+    {
+      "text": "Which of the following statements is the defining characteristic of a principal plane?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The normal stress is maximum on this plane.",
+          "isCorrect": false
+        },
+        {
+          "text": "The shear stress on the plane is zero.",
+          "isCorrect": true
+        },
+        {
+          "text": "The normal stress is zero on this plane.",
+          "isCorrect": false
+        },
+        {
+          "text": "The shear stress is maximum on this plane.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "By definition, principal planes are the planes on which the shear stress component is zero. The normal stresses on these planes are called principal stresses, which are the maximum and minimum normal stresses at that point."
+    },
+    {
+      "text": "In the graphical representation of a 2D state of stress using Mohr's Circle, what does the radius of the circle represent?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The average normal stress",
+          "isCorrect": false
+        },
+        {
+          "text": "The major principal stress",
+          "isCorrect": false
+        },
+        {
+          "text": "The maximum in-plane shear stress",
+          "isCorrect": true
+        },
+        {
+          "text": "The sum of the normal stresses",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The radius of Mohr's circle is equal to the maximum in-plane shear stress ($\\tau_{max}$). It is calculated as $R = \\sqrt{(\\frac{\\sigma_x - \\sigma_y}{2})^2 + \\tau_{xy}^2} = \\frac{\\sigma_1 - \\sigma_2}{2}$."
+    },
+    {
+      "text": "A steel bar is subjected to a simple uniaxial tensile stress of 100 MPa. What is the normal stress ($\\sigma_n$) on a plane inclined at 45 degrees to the axis of the bar?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "100 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "75 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "50 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "25 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For uniaxial tension, $\\sigma_x = 100$ MPa, $\\sigma_y = 0$, $\\tau_{xy} = 0$. The normal stress on a plane at angle $\\theta$ is given by $\\sigma_n = \\sigma_x \\cos^2\\theta$. For $\\theta=45^\\circ$, $\\sigma_n = 100 \\times (\\cos 45^\\circ)^2 = 100 \\times (1/\\sqrt{2})^2 = 100 \\times 1/2 = 50$ MPa."
+    },
+    {
+      "text": "The analysis of a thin plate subjected to forces acting only in its plane is a classic example of:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Plane Strain condition",
+          "isCorrect": false
+        },
+        {
+          "text": "Plane Stress condition",
+          "isCorrect": true
+        },
+        {
+          "text": "Uniaxial Stress condition",
+          "isCorrect": false
+        },
+        {
+          "text": "Hydrostatic Stress condition",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "In a plane stress condition, it is assumed that the stresses acting perpendicular to the plane of analysis are negligible. For a thin plate loaded in its plane, the stress component normal to the plate ($\\sigma_z$) is assumed to be zero."
+    },
+    {
+      "text": "The principal stresses at a point in a material are 120 MPa (tensile) and 40 MPa (compressive). What is the magnitude of the maximum in-plane shear stress at this point?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "40 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "60 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "80 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "160 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The maximum in-plane shear stress is half the difference between the principal stresses. Given $\\sigma_1 = 120$ MPa and $\\sigma_2 = -40$ MPa (compressive).  $\\tau_{max} = \\frac{\\sigma_1 - \\sigma_2}{2} = \\frac{120 - (-40)}{2} = \\frac{160}{2} = 80$ MPa."
+    },
+    {
+      "text": "For a 2D stress system, the normal stress acting on the plane of maximum in-plane shear stress is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Zero",
+          "isCorrect": false
+        },
+        {
+          "text": "The average of the principal stresses",
+          "isCorrect": true
+        },
+        {
+          "text": "Equal to the major principal stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Equal to the maximum shear stress",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The normal stress on the plane of maximum in-plane shear stress is the average of the principal stresses, $\\sigma_{avg} = \\frac{\\sigma_1 + \\sigma_2}{2}$. This value corresponds to the x-coordinate of the center of Mohr's circle."
+    },
+    {
+      "text": "The state of strain at a point is given by $\\epsilon_x = 400 \\mu\\epsilon$, $\\epsilon_y = -200 \\mu\\epsilon$, and $\\gamma_{xy} = 300 \\mu$rad. The major principal strain ($\\epsilon_1$) is approximately:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "100 $\\mu\\epsilon$",
+          "isCorrect": false
+        },
+        {
+          "text": "335 $\\mu\\epsilon$",
+          "isCorrect": false
+        },
+        {
+          "text": "435 $\\mu\\epsilon$",
+          "isCorrect": true
+        },
+        {
+          "text": "550 $\\mu\\epsilon$",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The principal strains are given by $\\epsilon_{1,2} = \\frac{\\epsilon_x + \\epsilon_y}{2} \\pm \\sqrt{(\\frac{\\epsilon_x - \\epsilon_y}{2})^2 + (\\frac{\\gamma_{xy}}{2})^2}$. Average strain = $(400 - 200)/2 = 100$. Radius = $\\sqrt{((400 - (-200))/2)^2 + (300/2)^2} = \\sqrt{300^2 + 150^2} = \\sqrt{112500} \\approx 335.4$. So, $\\epsilon_1 = 100 + 335.4 = 435.4 \\mu\\epsilon$."
+    },
+    {
+      "text": "The sum of normal stresses on any two mutually perpendicular planes ($\\sigma_x + \\sigma_y$) at a point in a stressed body is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Dependent on the orientation of the planes",
+          "isCorrect": false
+        },
+        {
+          "text": "Equal to the maximum shear stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Always zero",
+          "isCorrect": false
+        },
+        {
+          "text": "An invariant, equal to the sum of principal stresses",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The sum of normal stresses on any two mutually perpendicular planes is a stress invariant. This means its value is constant regardless of the orientation of the axes. It is always equal to the sum of the principal stresses: $\\sigma_x + \\sigma_y = \\sigma_1 + \\sigma_2$."
+    },
+    {
+      "text": "A circular shaft subjected to pure torsion will experience a state of stress at any point on its surface that can be best described as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniaxial tension",
+          "isCorrect": false
+        },
+        {
+          "text": "Pure shear",
+          "isCorrect": true
+        },
+        {
+          "text": "Biaxial tension",
+          "isCorrect": false
+        },
+        {
+          "text": "Hydrostatic pressure",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In pure torsion, an element on the surface of the shaft experiences only shear stresses, with no normal stresses on its faces parallel to the shaft's axis. This state of stress, where $\\sigma_x = \\sigma_y = 0$ and only $\\tau_{xy}$ exists, is known as pure shear."
+    },
+    {
+      "text": "For a state of stress given by $\\sigma_x = -50$ MPa and $\\sigma_y = 30$ MPa with no shear stress, what is the x-coordinate of the center of the Mohr's circle?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "-40 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "-20 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "-10 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "10 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The x-coordinate of the center of Mohr's circle represents the average normal stress. It is calculated as $C = \\frac{\\sigma_x + \\sigma_y}{2} = \\frac{-50 + 30}{2} = \\frac{-20}{2} = -10$ MPa."
+    },
+    {
+      "text": "If the principal stresses at a point in a 2D system are equal ($\\sigma_1 = \\sigma_2 = \\sigma$), the Mohr's circle reduces to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A circle with radius $\\sigma$",
+          "isCorrect": false
+        },
+        {
+          "text": "A point on the $\\sigma$-axis",
+          "isCorrect": true
+        },
+        {
+          "text": "A circle centered at the origin",
+          "isCorrect": false
+        },
+        {
+          "text": "A vertical line",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "When $\\sigma_1 = \\sigma_2$, the radius of the Mohr's circle, $R = (\\sigma_1 - \\sigma_2)/2$, becomes zero. The circle collapses to a single point on the normal stress ($\\sigma$) axis. This represents a hydrostatic or spherical state of stress, where shear stress is zero on all planes."
+    },
+    {
+      "text": "An element is subjected to normal stresses $\\sigma_x = 60$ MPa, $\\sigma_y = 60$ MPa, and a shear stress $\\tau_{xy} = 20$ MPa. The principal planes are oriented at an angle of:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0° and 90°",
+          "isCorrect": false
+        },
+        {
+          "text": "30° and 120°",
+          "isCorrect": false
+        },
+        {
+          "text": "45° and 135°",
+          "isCorrect": true
+        },
+        {
+          "text": "60° and 150°",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The orientation of the principal planes ($\\theta_p$) is found using $\\tan(2\\theta_p) = \\frac{2\\tau_{xy}}{\\sigma_x - \\sigma_y}$. Here, $\\tan(2\\theta_p) = \\frac{2 \\times 20}{60 - 60} = \\frac{40}{0} = \\infty$. This means $2\\theta_p = 90^\\circ$, so $\\theta_p = 45^\\circ$. The other principal plane is perpendicular, at $45^\\circ + 90^\\circ = 135^\\circ$."
+    },
+    {
+      "text": "The primary purpose of using a strain rosette (an arrangement of three strain gauges) is to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Measure the principal stresses directly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Determine the complete state of in-plane strain at a point.",
+          "isCorrect": true
+        },
+        {
+          "text": "Measure the modulus of elasticity of the material.",
+          "isCorrect": false
+        },
+        {
+          "text": "Find the maximum load a component can withstand.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "A single strain gauge can only measure normal strain in one direction. A strain rosette, with three gauges oriented at specific angles, measures three independent strains. These measurements can then be used with strain transformation equations to calculate the complete 2D state of strain: $\\epsilon_x$, $\\epsilon_y$, and $\\gamma_{xy}$."
+    },
+    {
+      "text": "If the principal strains at a point are $\\epsilon_1 = 800 \\mu\\epsilon$ and $\\epsilon_2 = 200 \\mu\\epsilon$, the maximum in-plane shear strain ($\\gamma_{max}$) is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1000 $\\mu$rad",
+          "isCorrect": false
+        },
+        {
+          "text": "500 $\\mu$rad",
+          "isCorrect": false
+        },
+        {
+          "text": "600 $\\mu$rad",
+          "isCorrect": true
+        },
+        {
+          "text": "300 $\\mu$rad",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The maximum in-plane shear strain is equal to the difference between the principal strains: $\\gamma_{max} = \\epsilon_1 - \\epsilon_2$. Therefore, $\\gamma_{max} = 800 - 200 = 600 \\mu$rad. This corresponds to the diameter of Mohr's circle for strain."
+    },
+    {
+      "text": "For a thin-walled cylindrical pressure vessel subjected to internal pressure, the state of stress on an element of the wall (away from the ends) can be approximated as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniaxial compression",
+          "isCorrect": false
+        },
+        {
+          "text": "Pure shear",
+          "isCorrect": false
+        },
+        {
+          "text": "Biaxial tension with zero shear stress",
+          "isCorrect": true
+        },
+        {
+          "text": "Biaxial stress with maximum shear stress",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The wall of a thin cylindrical pressure vessel experiences hoop stress ($\\sigma_h$) and longitudinal stress ($\\sigma_l$), both of which are tensile. Since the axes of these stresses are aligned with the principal directions, the shear stress on these planes is zero. This is a state of biaxial tension."
+    },
+    {
+      "text": "The principal axes of stress and the principal axes of strain coincide for a material that is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Anisotropic",
+          "isCorrect": false
+        },
+        {
+          "text": "Isotropic and linearly elastic",
+          "isCorrect": true
+        },
+        {
+          "text": "Non-homogeneous",
+          "isCorrect": false
+        },
+        {
+          "text": "Viscoelastic",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For isotropic materials, the mechanical properties are the same in all directions. As a result, the principal directions of strain align with the principal directions of stress. For anisotropic materials, this is not necessarily true."
+    },
+    {
+      "text": "At a point, the normal stress in the x-direction is 50 MPa. The principal stresses are $\\sigma_1 = 70$ MPa and $\\sigma_2 = 10$ MPa. What is the magnitude of the shear stress $\\tau_{xy}$?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "20.0 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "28.3 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "30.0 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "40.0 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "We use the stress invariant $\\sigma_x + \\sigma_y = \\sigma_1 + \\sigma_2$. So, $50 + \\sigma_y = 70 + 10 = 80$, which gives $\\sigma_y = 30$ MPa. The radius of Mohr's circle is $R = (\\sigma_1 - \\sigma_2)/2 = (70-10)/2 = 30$ MPa. Also, $R = \\sqrt{(\\frac{\\sigma_x - \\sigma_y}{2})^2 + \\tau_{xy}^2}$. So, $30 = \\sqrt{((50-30)/2)^2 + \\tau_{xy}^2} = \\sqrt{10^2 + \\tau_{xy}^2}$. Squaring both sides: $900 = 100 + \\tau_{xy}^2$, which gives $\\tau_{xy}^2 = 800$. Thus, $\\tau_{xy} = \\sqrt{800} \\approx 28.3$ MPa."
+    },
+    {
+      "text": "For a bar subjected to pure uniaxial tension $\\sigma$, the corresponding Mohr's circle has:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Center at ($\\sigma$, 0) and radius $\\sigma$",
+          "isCorrect": false
+        },
+        {
+          "text": "Center at ($\\sigma/2$, 0) and radius $\\sigma/2$",
+          "isCorrect": true
+        },
+        {
+          "text": "Center at (0, 0) and radius $\\sigma$",
+          "isCorrect": false
+        },
+        {
+          "text": "Center at ($\\sigma/2$, 0) and radius $\\sigma$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For uniaxial tension, the state of stress is $\\sigma_x = \\sigma$, $\\sigma_y = 0$, $\\tau_{xy} = 0$. The center of Mohr's circle is at $(\\sigma_x + \\sigma_y)/2 = (\\sigma + 0)/2 = \\sigma/2$. The radius is $\\sqrt{((\\sigma_x - \\sigma_y)/2)^2 + \\tau_{xy}^2} = \\sqrt{((\\sigma - 0)/2)^2 + 0^2} = \\sigma/2$."
+    },
+    {
+      "text": "In a state of pure shear, where the only non-zero stress component is $\\tau_{xy} = 50$ MPa, what is the shear stress on a plane inclined at 30° to the horizontal plane?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50.0 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "43.3 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "25.0 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "35.4 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The shear stress on an inclined plane is given by $\\tau_t = -\\frac{\\sigma_x - \\sigma_y}{2}\\sin(2\\theta) + \\tau_{xy}\\cos(2\\theta)$. In pure shear, $\\sigma_x = \\sigma_y = 0$. So, the formula simplifies to $\\tau_t = \\tau_{xy}\\cos(2\\theta)$. With $\\tau_{xy} = 50$ MPa and $\\theta = 30^\\circ$, we get $\\tau_t = 50 \\times \\cos(2 \\times 30^\\circ) = 50 \\times \\cos(60^\\circ) = 50 \\times 0.5 = 25.0$ MPa."
+    },
+    {
+      "text": "The structural analysis of a very long concrete dam or a wide retaining wall is often simplified by assuming which of the following conditions?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Plane Stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Plane Strain",
+          "isCorrect": true
+        },
+        {
+          "text": "Pure Shear",
+          "isCorrect": false
+        },
+        {
+          "text": "Uniaxial Stress",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For structures that are very long in one dimension (like a dam or retaining wall), the strain in that long direction ($\\epsilon_z$) is constrained and can be assumed to be zero. This is the definition of a plane strain condition, which simplifies the 3D problem to a 2D analysis."
+    },
+    {
+      "text": "A metal plate is subjected to biaxial stresses $\\sigma_x = 100$ MPa and $\\sigma_y = -100$ MPa, with no shear. What is the maximum in-plane shear stress?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "50 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "100 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "200 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Since there is no shear stress on the x-y planes, $\\sigma_x$ and $\\sigma_y$ are the principal stresses. So, $\\sigma_1 = 100$ MPa and $\\sigma_2 = -100$ MPa. The maximum in-plane shear stress is $\\tau_{max} = \\frac{\\sigma_1 - \\sigma_2}{2} = \\frac{100 - (-100)}{2} = \\frac{200}{2} = 100$ MPa."
+    },
+    {
+      "text": "If an angle on a physical stressed element is represented by $\\theta$, the corresponding angle on the Mohr's circle diagram is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$\\theta$, in the same rotational sense",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\theta$, in the opposite rotational sense",
+          "isCorrect": false
+        },
+        {
+          "text": "$2\\theta$, in the opposite rotational sense",
+          "isCorrect": false
+        },
+        {
+          "text": "$2\\theta$, in the same rotational sense",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "A fundamental property of Mohr's circle construction is that an angle of rotation $\\theta$ of a plane on the physical element corresponds to a rotation of $2\\theta$ on the circle, in the same direction (e.g., counter-clockwise on the element is counter-clockwise on the circle)."
+    },
+    {
+      "text": "In a 2D stress system, which of the following quantities remains constant regardless of the orientation of the coordinate system chosen at a point?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$\\sigma_x$",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\tau_{xy}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\sigma_x - \\sigma_y$",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\sigma_x + \\sigma_y$",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The quantity $\\sigma_x + \\sigma_y$ is the first stress invariant. Its value remains constant for any rotation of the coordinate axes at a given point. It is always equal to the sum of the principal stresses, $\\sigma_1 + \\sigma_2$."
+    },
+    {
+      "text": "The state of stress at a point is given by $\\sigma_x = 40$ MPa, $\\sigma_y = 100$ MPa, and $\\tau_{xy} = -40$ MPa. Calculate the minor principal stress ($\\sigma_2$).",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "120 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "70 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "50 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "20 MPa",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The principal stresses are calculated using $\\sigma_{1,2} = \\frac{\\sigma_x + \\sigma_y}{2} \\pm \\sqrt{(\\frac{\\sigma_x - \\sigma_y}{2})^2 + \\tau_{xy}^2}$. Center = $(40+100)/2 = 70$ MPa. Radius = $\\sqrt{((40-100)/2)^2 + (-40)^2} = \\sqrt{(-30)^2 + (-40)^2} = \\sqrt{900 + 1600} = \\sqrt{2500} = 50$ MPa. The minor principal stress $\\sigma_2$ = Center - Radius = $70 - 50 = 20$ MPa."
+    },
+    {
+      "text": "For a material element in a state of plane stress ($\\sigma_z = 0$), the normal strain in the z-direction ($\\epsilon_z$) is given by:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\nu(\\epsilon_x + \\epsilon_y)$",
+          "isCorrect": false
+        },
+        {
+          "text": "$-\\frac{\\nu}{E}(\\sigma_x + \\sigma_y)$",
+          "isCorrect": true
+        },
+        {
+          "text": "$\\frac{1}{E}(\\sigma_x + \\sigma_y)$",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Even if the stress in the z-direction is zero, strain can exist due to the Poisson's effect of stresses in the x and y directions. From the generalized Hooke's law, $\\epsilon_z = \\frac{1}{E}[\\sigma_z - \\nu(\\sigma_x + \\sigma_y)]$. Since $\\sigma_z = 0$ for plane stress, this simplifies to $\\epsilon_z = -\\frac{\\nu}{E}(\\sigma_x + \\sigma_y)$."
+    },
+    {
+      "text": "Given a stress state of $\\sigma_x = 100$ MPa, $\\sigma_y = 40$ MPa, and $\\tau_{xy} = 30$ MPa, what is the approximate normal stress on a plane whose normal is inclined at 30° to the x-axis?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "85 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "98 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "111 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "125 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The normal stress $\\sigma_n$ on an inclined plane is given by the stress transformation equation: $\\sigma_n = \\frac{\\sigma_x + \\sigma_y}{2} + \\frac{\\sigma_x - \\sigma_y}{2}\\cos(2\\theta) + \\tau_{xy}\\sin(2\\theta)$. Here, $\\theta=30^\\circ$. $\\sigma_n = \\frac{100+40}{2} + \\frac{100-40}{2}\\cos(60^\\circ) + 30\\sin(60^\\circ) = 70 + 30(0.5) + 30(\\frac{\\sqrt{3}}{2}) = 70 + 15 + 15(1.732) = 85 + 25.98 \\approx 110.98$ MPa."
+    },
+    {
+      "text": "What does the Mohr's circle for a state of pure shear (where $\\sigma_x=\\sigma_y=0$) look like on the $\\sigma-\\tau$ plane?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A circle passing through the origin",
+          "isCorrect": false
+        },
+        {
+          "text": "A circle centered at the origin",
+          "isCorrect": true
+        },
+        {
+          "text": "A point on the $\\tau$-axis",
+          "isCorrect": false
+        },
+        {
+          "text": "Two points on the $\\sigma$-axis",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For pure shear, $\\sigma_x=0$ and $\\sigma_y=0$. The center of the circle is at $C = (\\sigma_x + \\sigma_y)/2 = 0$. The radius is $R = \\sqrt{((0-0)/2)^2 + \\tau_{xy}^2} = |\\tau_{xy}|$. Therefore, the Mohr's circle is centered at the origin (0,0) of the $\\sigma-\\tau$ axes."
+    },
+    {
+      "text": "The planes of maximum in-plane shear stress are always oriented at what angle with respect to the principal planes?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0°",
+          "isCorrect": false
+        },
+        {
+          "text": "30°",
+          "isCorrect": false
+        },
+        {
+          "text": "45°",
+          "isCorrect": true
+        },
+        {
+          "text": "90°",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "A fundamental concept in stress transformation is that the planes on which the maximum shear stress occurs are always oriented at 45 degrees to the principal planes (where the normal stresses are maximum/minimum and shear stress is zero)."
+    },
+    {
+      "text": "Brittle materials, like cast iron, when subjected to torsion, tend to fail along a helical surface at 45° to the shaft's axis. This failure is primarily due to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Maximum shear stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Maximum principal tensile stress",
+          "isCorrect": true
+        },
+        {
+          "text": "Maximum principal compressive stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Maximum shear strain",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "In pure torsion, the state of stress is pure shear. The principal stresses are $\\sigma_1 = \\tau$ (tension) and $\\sigma_2 = -\\tau$ (compression), occurring on planes at 45° to the axis. Brittle materials are significantly weaker in tension than in shear or compression, so they fail along the plane of maximum tensile stress, which is the 45° helical plane."
+    },
+    {
+      "text": "A rectangular beam with a cross-section of 100 mm (width) x 200 mm (depth) is subjected to a maximum bending moment of 40 kNm. What is the maximum bending stress induced in the beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "30 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "45 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "60 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "75 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The bending stress formula is $ \\sigma = \\frac{M \\cdot y}{I} $. Here, $M = 40 \\times 10^6$ Nmm, $I = \\frac{bd^3}{12} = \\frac{100 \\times 200^3}{12} = 66.67 \\times 10^6$ mm⁴, and $y_{max} = \\frac{d}{2} = 100$ mm. So, $ \\sigma_{max} = \\frac{40 \\times 10^6 \\times 100}{66.67 \\times 10^6} = 60$ N/mm² or 60 MPa."
+    },
+    {
+      "text": "Which of the following is NOT a valid assumption in the theory of simple bending?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The material of the beam is homogeneous and isotropic.",
+          "isCorrect": false
+        },
+        {
+          "text": "The plane sections before bending remain plane after bending.",
+          "isCorrect": false
+        },
+        {
+          "text": "The radius of curvature is small compared to the dimensions of the cross-section.",
+          "isCorrect": true
+        },
+        {
+          "text": "The Young's Modulus (E) is the same in tension and compression.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The theory of simple bending assumes that the radius of curvature is large compared to the cross-sectional dimensions. The other three options are fundamental assumptions of this theory."
+    },
+    {
+      "text": "For a beam with a rectangular cross-section, what is the ratio of the maximum shear stress to the average shear stress?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.0",
+          "isCorrect": false
+        },
+        {
+          "text": "1.33",
+          "isCorrect": false
+        },
+        {
+          "text": "1.5",
+          "isCorrect": true
+        },
+        {
+          "text": "2.0",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "For a rectangular section, the shear stress distribution is parabolic, with the maximum stress at the neutral axis. The maximum shear stress ($ \\tau_{max} $) is 1.5 times the average shear stress ($ \\tau_{avg} = \\frac{V}{A} $)."
+    },
+    {
+      "text": "To prevent twisting in a beam with an unsymmetrical cross-section like a channel section, the transverse load should be applied through which point?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The centroid of the section",
+          "isCorrect": false
+        },
+        {
+          "text": "The shear centre of the section",
+          "isCorrect": true
+        },
+        {
+          "text": "The geometric center of the web",
+          "isCorrect": false
+        },
+        {
+          "text": "The top-most fiber of the section",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The shear centre is the point on the cross-section through which the resultant shear force must pass to ensure the beam bends without twisting. For sections that are not symmetric about the axis of loading, the shear centre and centroid do not coincide."
+    },
+    {
+      "text": "Unsymmetrical bending in a beam occurs when:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The beam cross-section is symmetrical but the load is eccentric.",
+          "isCorrect": false
+        },
+        {
+          "text": "The bending moment is zero at the ends.",
+          "isCorrect": false
+        },
+        {
+          "text": "The plane of loading does not pass through or is not parallel to a principal axis of the cross-section.",
+          "isCorrect": true
+        },
+        {
+          "text": "The shear force is constant along the beam's length.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Unsymmetrical bending is induced when the applied load or resulting bending moment acts in a plane that is not a plane of symmetry for the cross-section. This means the load plane is inclined to the principal axes of inertia of the section."
+    },
+    {
+      "text": "Two beams, one with a square cross-section and another with a circular cross-section, are made of the same material and have the same cross-sectional area. Which beam is more economical for resisting bending moment?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The circular beam",
+          "isCorrect": false
+        },
+        {
+          "text": "The square beam",
+          "isCorrect": true
+        },
+        {
+          "text": "Both are equally economical",
+          "isCorrect": false
+        },
+        {
+          "text": "Depends on the span of the beam",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Economy in bending is determined by the section modulus (Z). For a given cross-sectional area, a square section has a higher section modulus ($Z = \\frac{a^3}{6}$) compared to a circular section ($Z = \\frac{\\pi d^3}{32}$). A higher section modulus means lower stress for the same bending moment, making the square beam more efficient and economical."
+    },
+    {
+      "text": "In a symmetrical I-section beam subjected to a transverse shear force, the shear stress is maximum at the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Junction of the flange and the web",
+          "isCorrect": false
+        },
+        {
+          "text": "Outer edge of the top flange",
+          "isCorrect": false
+        },
+        {
+          "text": "Neutral axis",
+          "isCorrect": true
+        },
+        {
+          "text": "Mid-point of the flange",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The shear stress distribution in an I-section is parabolic in the web, with the maximum value occurring at the neutral axis. The flanges carry a very small portion of the shear force."
+    },
+    {
+      "text": "A steel beam (E = 200 GPa) has a moment of inertia I = 100 x 10⁶ mm⁴. If it is subjected to a pure bending moment that causes a curvature of 0.001 m⁻¹, what is the magnitude of the bending moment?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "10 kNm",
+          "isCorrect": false
+        },
+        {
+          "text": "20 kNm",
+          "isCorrect": true
+        },
+        {
+          "text": "25 kNm",
+          "isCorrect": false
+        },
+        {
+          "text": "50 kNm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "From the bending equation, $ \\frac{M}{I} = \\frac{E}{R} $. Curvature is $ \\frac{1}{R} $. Given $ \\frac{1}{R} = 0.001 \\text{ m}^{-1} = 0.001 \\times 10^{-3} \\text{ mm}^{-1} $. So, $ M = EI(\\frac{1}{R}) = (200 \\times 10^3 \\text{ N/mm}^2)(100 \\times 10^6 \\text{ mm}^4)(10^{-6} \\text{ mm}^{-1}) = 20 \\times 10^6 \\text{ Nmm} = 20$ kNm."
+    },
+    {
+      "text": "In the case of unsymmetrical bending, the neutral axis of the beam cross-section:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Is always perpendicular to the plane of loading.",
+          "isCorrect": false
+        },
+        {
+          "text": "Does not pass through the centroid.",
+          "isCorrect": false
+        },
+        {
+          "text": "Passes through the centroid but is not generally perpendicular to the plane of loading.",
+          "isCorrect": true
+        },
+        {
+          "text": "Coincides with the major principal axis.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The neutral axis, being the axis of zero stress, always passes through the centroid. However, in unsymmetrical bending, the resultant stress distribution causes the plane of bending to be different from the plane of loading. Therefore, the neutral axis is not perpendicular to the plane of loading."
+    },
+    {
+      "text": "For which of the following cross-sections does the shear centre coincide with the centroid?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "An equal-leg angle section",
+          "isCorrect": false
+        },
+        {
+          "text": "A channel section",
+          "isCorrect": false
+        },
+        {
+          "text": "A T-section",
+          "isCorrect": false
+        },
+        {
+          "text": "A Z-section with point symmetry",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The shear centre coincides with the centroid for any section having two or more axes of symmetry (e.g., I-section, rectangle) or for sections with point symmetry (e.g., a Z-section). For angle, channel, and T-sections, the shear centre and centroid are distinct points."
+    },
+    {
+      "text": "A rectangular beam 150 mm wide and 300 mm deep is subjected to a shear force of 60 kN. The shear stress at a layer 50 mm below the top fiber is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.11 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "1.48 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "1.67 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "2.0 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Use $ \\tau = \\frac{VQ}{Ib} $. $V = 60 \\times 10^3$ N, $I = \\frac{150 \\times 300^3}{12} = 3.375 \\times 10^8$ mm⁴, $b = 150$ mm. For a layer 50 mm from top, $y = 150 - 50 = 100$ mm from NA. $Q = A'\\bar{y}' = (150 \\times 50) \\times (150 - 25) = 7500 \\times 125 = 937500$ mm³. So, $ \\tau = \\frac{60000 \\times 937500}{3.375 \\times 10^8 \\times 150} = 1.48$ MPa."
+    },
+    {
+      "text": "The term 'Flexural Rigidity' of a beam is defined as the product of:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Young's Modulus and cross-sectional area",
+          "isCorrect": false
+        },
+        {
+          "text": "Young's Modulus and moment of inertia",
+          "isCorrect": true
+        },
+        {
+          "text": "Modulus of Rigidity and polar moment of inertia",
+          "isCorrect": false
+        },
+        {
+          "text": "Young's Modulus and section modulus",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Flexural rigidity, denoted as EI, is a measure of a beam's resistance to bending. It is the product of the Young's Modulus of the material (E) and the moment of inertia of the cross-section (I)."
+    },
+    {
+      "text": "In a flitched beam, two different materials are joined together. The analysis is based on the assumption that:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The stress in both materials is the same.",
+          "isCorrect": false
+        },
+        {
+          "text": "The strain at any level is the same for both materials.",
+          "isCorrect": true
+        },
+        {
+          "text": "The force carried by both materials is the same.",
+          "isCorrect": false
+        },
+        {
+          "text": "The Young's modulus of both materials is the same.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The fundamental assumption for composite beams like flitched beams is the compatibility of deformation. This means that the two materials are perfectly bonded and bend together, so the strain at any distance 'y' from the neutral axis is the same in both materials, ensuring 'plane sections remain plane'."
+    },
+    {
+      "text": "For a thin-walled channel section, where is the shear centre located?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "At the centroid of the section",
+          "isCorrect": false
+        },
+        {
+          "text": "Inside the web",
+          "isCorrect": false
+        },
+        {
+          "text": "On the axis of symmetry, but outside the web",
+          "isCorrect": true
+        },
+        {
+          "text": "At the junction of the web and top flange",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The shear forces in the flanges of a channel section create a couple. To counteract the twisting effect of this couple, the external shear force must be applied at the shear centre, which lies on the horizontal axis of symmetry but outside the section, away from the web."
+    },
+    {
+      "text": "A beam of uniform strength is one in which:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The bending moment is constant throughout the beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "The shear force is constant throughout the beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "The maximum bending stress at every section is the same.",
+          "isCorrect": true
+        },
+        {
+          "text": "The deflection is zero at the supports.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "A beam of uniform strength is designed such that the cross-section varies along the length in a way that the maximum bending stress ($ \\sigma_{max} = \\frac{M}{Z} $) remains constant at all sections. This is an efficient design approach that saves material."
+    },
+    {
+      "text": "A wooden plank of size 50 mm x 200 mm is to be used as a simply supported beam. For maximum bending strength, how should it be placed?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "With the 200 mm dimension as the width.",
+          "isCorrect": false
+        },
+        {
+          "text": "With the 200 mm dimension as the depth.",
+          "isCorrect": true
+        },
+        {
+          "text": "At a 45-degree angle.",
+          "isCorrect": false
+        },
+        {
+          "text": "The orientation does not affect bending strength.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Bending strength is proportional to the section modulus, $Z = \\frac{I}{y_{max}} = \\frac{bd^2}{6}$. To maximize Z, the depth 'd' should be maximized. Placing the 200 mm dimension as the depth gives a much larger section modulus and therefore greater strength compared to placing the 50 mm side as the depth."
+    },
+    {
+      "text": "In the shear stress distribution for a symmetrical I-section, why is there a sudden increase in stress at the junction of the flange and the web?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Because the bending moment is maximum there.",
+          "isCorrect": false
+        },
+        {
+          "text": "Because of a sudden decrease in the width 'b' from flange width to web thickness.",
+          "isCorrect": true
+        },
+        {
+          "text": "Because the material changes at the junction.",
+          "isCorrect": false
+        },
+        {
+          "text": "Because the first moment of area (Q) suddenly increases.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The shear stress is calculated using $ \\tau = \\frac{VQ}{Ib} $. At the junction between the flange and the web, the values of V, Q, and I are essentially constant, but the width 'b' abruptly decreases from the wide flange to the narrow web. This sudden drop in 'b' in the denominator causes a sharp increase in the calculated shear stress."
+    },
+    {
+      "text": "What is the primary role of the flanges in an I-section beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "To resist the majority of the shear force.",
+          "isCorrect": false
+        },
+        {
+          "text": "To resist the bending moment by providing a large moment of inertia.",
+          "isCorrect": true
+        },
+        {
+          "text": "To prevent twisting of the beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "To reduce the overall weight of the beam.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The flanges are positioned far from the neutral axis. This placement maximizes their contribution to the moment of inertia ($I = \\sum A y^2$). Since bending stress is highest at the extreme fibers, the flanges efficiently resist the tensile and compressive forces generated by the bending moment."
+    },
+    {
+      "text": "The 'product of inertia' ($I_{xy}$) for a cross-section is zero when:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The section is unsymmetrical.",
+          "isCorrect": false
+        },
+        {
+          "text": "The axes chosen are the principal axes of the section.",
+          "isCorrect": true
+        },
+        {
+          "text": "The load is applied at the centroid.",
+          "isCorrect": false
+        },
+        {
+          "text": "The cross-section is a hollow circle.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The principal axes of a cross-section are a unique pair of orthogonal axes passing through the centroid for which the product of inertia ($I_{xy}$) is zero. If a section has at least one axis of symmetry, that axis is a principal axis."
+    },
+    {
+      "text": "For a solid circular cross-section, the ratio of maximum shear stress to average shear stress is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "3/2 (or 1.5)",
+          "isCorrect": false
+        },
+        {
+          "text": "4/3 (or 1.33)",
+          "isCorrect": true
+        },
+        {
+          "text": "2/1 (or 2.0)",
+          "isCorrect": false
+        },
+        {
+          "text": "9/8 (or 1.125)",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "For a solid circular section, the shear stress distribution is parabolic, with the maximum value at the neutral axis. This maximum shear stress is $ \\frac{4}{3} $ times the average shear stress ($ \\tau_{avg} = \\frac{V}{A} $)."
+    },
+    {
+      "text": "The concept of 'shear flow' (q) is particularly useful in the analysis of:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Solid rectangular beams.",
+          "isCorrect": false
+        },
+        {
+          "text": "Prestressed concrete beams.",
+          "isCorrect": false
+        },
+        {
+          "text": "Thin-walled and built-up sections.",
+          "isCorrect": true
+        },
+        {
+          "text": "Reinforced concrete T-beams.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Shear flow, defined as $q = \\tau \\cdot t = \\frac{VQ}{I}$, represents the longitudinal shear force per unit length. It is crucial for designing the connections (like bolts or welds) in built-up sections and for analyzing shear stress distribution in thin-walled sections."
+    },
+    {
+      "text": "A simply supported beam of span L carries a uniformly distributed load 'w'. The maximum bending stress occurs at:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The supports, at the neutral axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mid-span, at the extreme fiber.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mid-span, at the neutral axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "The supports, at the extreme fiber.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a simply supported beam with a UDL, the bending moment is maximum at the mid-span ($M_{max} = \\frac{wL^2}{8}$). The bending stress is maximum where the bending moment is maximum and at the furthest point from the neutral axis, which is the extreme fiber."
+    },
+    {
+      "text": "The location of the shear centre for an equal-leg angle section is at:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "The centroid of the section.",
+          "isCorrect": false
+        },
+        {
+          "text": "The corner where the two legs meet.",
+          "isCorrect": true
+        },
+        {
+          "text": "The mid-point of the vertical leg.",
+          "isCorrect": false
+        },
+        {
+          "text": "The mid-point of the horizontal leg.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For any thin-walled section composed of plates that meet at a single point (like an angle section or a T-section), the shear forces in the plates are all directed towards that intersection point. As a result, their resultant also passes through that point, which becomes the shear centre."
+    },
+    {
+      "text": "The section modulus (Z) of a hollow circular section with outer diameter D and inner diameter d is given by:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "$ \\frac{\\pi}{64D}(D^4 - d^4) $",
+          "isCorrect": false
+        },
+        {
+          "text": "$ \\frac{\\pi}{32D}(D^4 - d^4) $",
+          "isCorrect": true
+        },
+        {
+          "text": "$ \\frac{\\pi}{32}(D^3 - d^3) $",
+          "isCorrect": false
+        },
+        {
+          "text": "$ \\frac{\\pi}{16D}(D^4 - d^4) $",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The section modulus is $Z = \\frac{I}{y_{max}}$. For a hollow circle, $I = \\frac{\\pi}{64}(D^4 - d^4)$ and $y_{max} = \\frac{D}{2}$. Therefore, $Z = \\frac{\\frac{\\pi}{64}(D^4 - d^4)}{\\frac{D}{2}} = \\frac{\\pi}{32D}(D^4 - d^4)$."
+    },
+    {
+      "text": "A condition of 'Pure Bending' exists in a beam when the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bending moment is constant and shear force is zero.",
+          "isCorrect": true
+        },
+        {
+          "text": "Shear force is constant and bending moment is zero.",
+          "isCorrect": false
+        },
+        {
+          "text": "Bending moment and shear force are both constant.",
+          "isCorrect": false
+        },
+        {
+          "text": "Load is a uniformly distributed load.",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Pure bending, or simple bending, is a state where a beam is subjected to a constant bending moment. According to the relationship $V = \\frac{dM}{dx}$, if the bending moment (M) is constant, the shear force (V) must be zero."
+    },
+    {
+      "text": "A cantilever beam of length L has a rectangular cross-section and carries a point load W at its free end. The maximum shear stress occurs:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "At the fixed end, on the neutral axis.",
+          "isCorrect": true
+        },
+        {
+          "text": "At the free end, on the neutral axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "At the fixed end, on the extreme fiber.",
+          "isCorrect": false
+        },
+        {
+          "text": "Throughout the beam's length, on the neutral axis.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The shear force in this case is constant and equal to W along the entire length of the beam. Shear stress is maximum at the neutral axis. Therefore, the maximum shear stress value is the same at the neutral axis of every cross-section along the beam's length, including the fixed end. Option A is the most complete correct statement, as the fixed end is part of the beam where this constant shear force exists."
+    },
+    {
+      "text": "The shear stress distribution across the web of a T-section is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniform",
+          "isCorrect": false
+        },
+        {
+          "text": "Triangular",
+          "isCorrect": false
+        },
+        {
+          "text": "Parabolic, with maximum at the neutral axis",
+          "isCorrect": true
+        },
+        {
+          "text": "Parabolic, with maximum at the flange-web junction",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Similar to rectangular and I-sections, the shear stress distribution in the web of a T-section follows a parabolic curve. The maximum value of this parabola occurs at the neutral axis of the T-section."
+    },
+    {
+      "text": "The theory of simple bending states that $ \\frac{M}{I} = \\frac{\\sigma}{y} = \\frac{E}{R} $. The term $ \\frac{E}{R} $ represents the relationship between:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Bending moment and curvature",
+          "isCorrect": false
+        },
+        {
+          "text": "Material stiffness and curvature",
+          "isCorrect": true
+        },
+        {
+          "text": "Bending stress and moment of inertia",
+          "isCorrect": false
+        },
+        {
+          "text": "Shear stress and radius of curvature",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The term $ \\frac{E}{R} $ directly relates the material property (E, Young's Modulus) to the geometric property of the bent beam (R, Radius of Curvature). It shows that for a given material, a higher curvature ($ \\frac{1}{R} $) is required to resist a higher stress."
+    },
+    {
+      "text": "A steel beam (E=210 GPa) is replaced by an aluminum beam (E=70 GPa) of identical cross-section and length, subjected to the same loading. The maximum bending stress in the aluminum beam will be:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Three times that of the steel beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "One-third that of the steel beam.",
+          "isCorrect": false
+        },
+        {
+          "text": "The same as that of the steel beam.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cannot be determined without load data.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Bending stress ($ \\sigma = \\frac{My}{I} $) depends only on the bending moment (M), cross-sectional geometry (I and y). Since the loading and cross-section are identical, M, y, and I are the same for both beams. The material property (E) affects deflection and curvature, but not the stress for a statically determinate beam."
+    },
+    {
+      "text": "If the product of inertia ($I_{uv}$) with respect to a set of u-v axes is NOT zero, and a load is applied along the v-axis, what will be the orientation of the neutral axis?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "It will be parallel to the u-axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "It will be parallel to the v-axis.",
+          "isCorrect": false
+        },
+        {
+          "text": "It will be inclined to the u-axis.",
+          "isCorrect": true
+        },
+        {
+          "text": "It will be located at the shear centre.",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "A non-zero product of inertia ($I_{uv}$) indicates that the u-v axes are not the principal axes. When a load is applied along an axis that is not a principal axis, unsymmetrical bending occurs. In this case, the neutral axis will be inclined to the loading axis. The angle of inclination depends on the moments of inertia $I_u, I_v$ and the product of inertia $I_{uv}$."
+    }
+  ],
+  "timeLimit": 30,
+  "passingScore": 70,
+  "quizType": "Topic Test",
+  "maxAttempts": 0,
+  "category": "",
+  "tags": [
+    "stress_and_strain_in_two_dimensions__principal_stresses__stress_transformation___mechanics_and_structural_analysis",
+    "simple_bending_theory__flexural_and_shear_stresses__unsymmetrical_bending__shear_centre___mechanics_and_structural_analysis"
+  ],
+  "difficulty": "Undergraduate/Medium Level",
+  "allowReview": true,
+  "showCorrectAnswers": true,
+  "randomizeQuestions": false,
+  "isPublished": false,
+  "metadata": {
+    "totalQuestions": 60,
+    "topics": [
+      "Stress and strain in two dimensions, principal stresses, stress transformation — Mechanics and Structural Analysis",
+      "Simple bending theory, flexural and shear stresses, unsymmetrical bending, shear centre — Mechanics and Structural Analysis"
+    ],
+    "questionsPerTopic": 30,
+    "examType": "JKSSB Junior Engineer Civil Recruitment",
+    "difficulty": "Undergraduate/Medium Level",
+    "processedAt": "2025-10-17T12:05:24.783Z",
+    "questionTypes": {
+      "multiple_choice": 60
+    }
+  }
+}

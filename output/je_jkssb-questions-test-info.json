@@ -1,0 +1,14 @@
+{
+  "title": "JKSSB Junior Engineer (Civil): Comprehensive Soil Mechanics Assessment",
+  "description": "Evaluate your preparation for the JKSSB Junior Engineer (Civil) recruitment examination with this focused assessment on Soil Mechanics. Designed to align with JKSSB examination standards and the undergraduate-level civil engineering curriculum, this practice test features a curated blend of practical and conceptual questions. Topics covered include soil properties and classification, effective stress ($\\sigma' = \\sigma - u$), permeability and seepage, consolidation, shear strength ($\\tau = c + \\sigma' \\tan\\phi$), and earth pressure theories. This professional academic assessment will help you gauge your proficiency, identify key strengths, and pinpoint areas requiring further study.",
+  "totalQuestions": 6,
+  "topics": [
+    "soil mechnaics"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-20T15:18:07.516Z",
+  "questionTypes": {
+    "multiple_choice": 6
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "JKSSB JE (Civil) Mastery Assessment: Advanced Mechanics & Structural Analysis",
+  "description": "A comprehensive practice examination designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment. This professional academic assessment meticulously evaluates your understanding of complex stress and bending theories at an undergraduate level, mirroring the standards and question patterns of the JKSSB exam. The test features a balanced mix of practical application problems and conceptual questions to build a robust foundation in critical areas of structural analysis. Key topics covered include:\n\n- **Stress & Strain Analysis:** In-depth coverage of two-dimensional stress and strain, determination of principal stresses ($\\sigma_{1,2}$) and maximum shear stress, and stress transformation using Mohr's circle.\n- **Bending Theory:** Application of simple bending theory, calculation of flexural and shear stresses in beams, and analysis of stress distribution across various cross-sections.\n- **Advanced Bending Concepts:** Challenging questions on unsymmetrical bending and the determination of the shear centre for thin-walled sections.\n\nThis assessment is an essential tool for identifying strengths and weaknesses in core Mechanics and Structural Analysis subjects, ensuring you are thoroughly prepared for the competitive examination.",
+  "totalQuestions": 60,
+  "topics": [
+    "Stress and strain in two dimensions, principal stresses, stress transformation — Mechanics and Structural Analysis",
+    "Simple bending theory, flexural and shear stresses, unsymmetrical bending, shear centre — Mechanics and Structural Analysis"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-17T12:05:24.783Z",
+  "questionTypes": {
+    "multiple_choice": 60
+  }
+}

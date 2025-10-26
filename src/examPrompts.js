@@ -4,6 +4,78 @@
  */
 
 const examPrompts = {
+
+    vas_jkpsc: {
+    name: "JKPSC Veterinary Assistant Surgeon Recruitment",
+    difficulty: "Undergraduate/Medium Level",
+    buildPrompt: (topic, count) => `You are an expert in creating questions for the JKPSC (Jammu & Kashmir Public Service Commission) Veterinary Assistant Surgeon Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+
+    IMPORTANT REQUIREMENTS:
+    1. Questions must be at UNDERGRADUATE (B.V.Sc & A.H. level) difficulty
+    2. Focus on CONCEPTUAL UNDERSTANDING and APPLICATION of topics
+    3. Avoid overly simple definition-based or direct memory recall questions
+    4. Test candidates' ability to SOLVE PRACTICAL PROBLEMS, APPLY FORMULAS, and UNDERSTAND THEORETICAL CONCEPTS
+    5. Each question should have 4 options with exactly ONE correct answer
+    6. Options should be plausible to avoid guesswork and obvious right answers
+    7. Provide clear, educational explanations for correct answers
+    8. Questions should test UNDERSTANDING of the subject
+
+    QUESTION TYPES TO INCLUDE:
+    - Numerical problems requiring 3-4 steps of calculation.
+    - Conceptual application of given topics.
+    - Comparison and contrast of related concepts.
+    - Integration of multiple concepts.
+    - Basic clinical or reasoning-based questions.
+    - Everyday veterinary situations requiring technical judgment.
+
+    FORMAT: Respond with a JSON array in this exact format:
+    \`\`\`json
+    [
+    {
+        "text": "Medium-level conceptual or numerical question",
+        "type": "multiple_choice",
+        "options": [
+        {"text": "Option A", "isCorrect": false},
+        {"text": "Option B", "isCorrect": true},
+        {"text": "Option C", "isCorrect": false},
+        {"text": "Option D", "isCorrect": false}
+        ],
+        "points": 1,
+        "explanation": "Simple yet clear explanation of why this is the correct answer, referencing the underlying concept or formula"
+    }
+    ]
+    \`\`\`
+
+    DIFFICULTY GUIDELINES:
+    - Points: 1 (reflecting JKPSC VAS exam marking)
+    - Questions should take 1-2 minutes of thinking time
+    - Emphasis on PRACTICAL and FUNDAMENTAL knowledge (not postgraduate depth)
+    - Coverage should reflect standard B.V.Sc & A.H. syllabus including Animal Husbandry, Veterinary Science, Dairy Science, and General Knowledge where applicable
+
+    Topic: ${topic}
+    Generate ${count} high-quality JKPSC-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+        titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKPSC Veterinary Assistant Surgeon Recruitment Exam practice test covering these topics:
+    Topics: ${topics.join(', ')}
+
+    The test should reflect:
+    - Undergraduate level difficulty
+    - JKPSC examination standards( objective type, with negative marking)
+    - Practical and conceptual questions on veterinary sciences
+    - Professional academic assessment
+
+    Respond with JSON:
+    \`\`\`json
+    {
+    "title": "Professional, exam-focused title",
+    "description": "Comprehensive description highlighting the undergraduate-level nature and JKPSC relevance"
+    }
+    \`\`\`
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+        fallbackTitle: "JKPSC Veterinary Assistant Surgeon Recruitment - Practice Test",
+        fallbackDescription: (topics) => `Comprehensive practice test for JKPSC Veterinary Assistant Surgeon Recruitment covering ${topics.length} key topics. Features undergraduate-level MCQs designed to test conceptual understanding, practical problem-solving, and application of knowledge as per JKPSC examination standards, including Animal Husbandry, Veterinary Science, and Dairy Science.`
+    },
     je_jkssb: {
     name: "JKSSB Junior Engineer Civil Recruitment",
     difficulty: "Undergraduate/Medium Level",

@@ -1,0 +1,15 @@
+{
+  "title": "JKSSB JE (Civil) Focused Assessment: Shear Force, Bending Moment, and Simple Stress-Strain Analysis",
+  "description": "This professional academic assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) examination. It provides a focused evaluation of core undergraduate-level concepts within Mechanics and Structural Analysis, specifically targeting Shear Force and Bending Moment diagrams for statically determinate beams, and the fundamental principles of Simple Stress and Strain relationships ($ \\sigma = E\\epsilon $). The test features a balanced mix of practical and conceptual questions that reflect the difficulty and standards of the JKSSB exam, enabling candidates to rigorously test their analytical skills and theoretical knowledge.",
+  "totalQuestions": 40,
+  "topics": [
+    "Bending moment and shear force in statically determinate beams — Mechanics and Structural Analysis",
+    "Simple stress and strain relationship — Mechanics and Structural Analysis"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-17T11:06:11.570Z",
+  "questionTypes": {
+    "multiple_choice": 40
+  }
+}

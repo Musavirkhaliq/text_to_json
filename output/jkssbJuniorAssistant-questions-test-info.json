@@ -1,0 +1,15 @@
+{
+  "title": "JKSSB JE (Civil) Exam: Core Engineering Mechanics & Structural Analysis Assessment",
+  "description": "This professional assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) recruitment examination. It provides a rigorous evaluation of core principles in Engineering Mechanics and Structural Analysis, aligning with undergraduate curriculum standards and the specific format of the JKSSB exam. The test features a blend of conceptual and practical questions covering essential topics, including: Laws of Force and equilibrium conditions ($\\sum F = 0$), principles of Moment ($\\sum M = 0$), concepts of static and kinetic Friction, and the calculation of Centre of Gravity. Successfully completing this test will strengthen your foundational knowledge and problem-solving skills, crucial for excelling in the competitive examination.",
+  "totalQuestions": 42,
+  "topics": [
+    "Laws of force, moment, friction — Mechanics and Structural Analysis",
+    "Centre of gravity — Mechanics and Structural Analysis"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-17T07:18:55.278Z",
+  "questionTypes": {
+    "multiple_choice": 42
+  }
+}

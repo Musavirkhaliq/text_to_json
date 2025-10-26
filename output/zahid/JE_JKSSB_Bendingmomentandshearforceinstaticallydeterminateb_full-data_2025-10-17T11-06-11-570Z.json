@@ -1,0 +1,994 @@
+{
+  "title": "JKSSB JE (Civil) Focused Assessment: Shear Force, Bending Moment, and Simple Stress-Strain Analysis",
+  "description": "This professional academic assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) examination. It provides a focused evaluation of core undergraduate-level concepts within Mechanics and Structural Analysis, specifically targeting Shear Force and Bending Moment diagrams for statically determinate beams, and the fundamental principles of Simple Stress and Strain relationships ($ \\sigma = E\\epsilon $). The test features a balanced mix of practical and conceptual questions that reflect the difficulty and standards of the JKSSB exam, enabling candidates to rigorously test their analytical skills and theoretical knowledge.",
+  "questions": [
+    {
+      "text": "A simply supported beam of span 'L' carries a uniformly distributed load (UDL) of 'w' per unit length. The shape of the Bending Moment Diagram (BMD) will be a:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Rectangle of height wL",
+          "isCorrect": false
+        },
+        {
+          "text": "Triangle with maximum ordinate wL/2",
+          "isCorrect": false
+        },
+        {
+          "text": "Parabolic curve with maximum ordinate $wL^2/8$",
+          "isCorrect": true
+        },
+        {
+          "text": "Cubic curve",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The relationship between load (w), shear force (V), and bending moment (M) is $dV/dx = -w$ and $dM/dx = V$. For a constant load (UDL), the shear force diagram is linear (1st degree). Integrating a linear function results in a bending moment diagram that is a parabolic curve (2nd degree)."
+    },
+    {
+      "text": "A cantilever beam of length 4 meters is subjected to a point load of 15 kN at its free end. What is the maximum bending moment in the beam?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "15 kN-m (Hogging)",
+          "isCorrect": false
+        },
+        {
+          "text": "60 kN-m (Sagging)",
+          "isCorrect": false
+        },
+        {
+          "text": "60 kN-m (Hogging)",
+          "isCorrect": true
+        },
+        {
+          "text": "30 kN-m (Hogging)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a cantilever beam, the maximum bending moment occurs at the fixed support. It is calculated as the product of the point load and the length. $M_{max} = P \\times L = 15 \\text{ kN} \\times 4 \\text{ m} = 60 \\text{ kN-m}$. In a cantilever, this load causes tension at the top fibers, which is defined as a hogging (negative) bending moment."
+    },
+    {
+      "text": "The point in a beam where the bending moment is zero after changing its sign from positive to negative or vice versa is known as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Point of maximum shear force",
+          "isCorrect": false
+        },
+        {
+          "text": "Point of inflection",
+          "isCorrect": false
+        },
+        {
+          "text": "Point of contraflexure",
+          "isCorrect": true
+        },
+        {
+          "text": "Point of zero shear",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "A point of contraflexure is a location on a beam where the bending moment is zero and changes its sign. This is where the curvature of the deflected beam changes from sagging to hogging or vice-versa. This phenomenon is common in overhanging and continuous beams."
+    },
+    {
+      "text": "A simply supported beam of span 8 m carries a point load of 40 kN at 2 m from the left support. Determine the reaction at the right support.",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "10 kN",
+          "isCorrect": true
+        },
+        {
+          "text": "20 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "30 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "40 kN",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Let the supports be A (left) and B (right), and reactions be $R_A$ and $R_B$. To find $R_B$, take moments about support A: $\\sum M_A = 0$. So, $(40 \\text{ kN} \\times 2 \\text{ m}) - (R_B \\times 8 \\text{ m}) = 0$. This gives $8 R_B = 80 \\text{ kN-m}$, and therefore $R_B = 10 \\text{ kN}$."
+    },
+    {
+      "text": "If the shear force diagram (SFD) for a section of a beam is an inclined straight line, the Bending Moment Diagram (BMD) for that section will be a:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Horizontal line",
+          "isCorrect": false
+        },
+        {
+          "text": "Inclined straight line",
+          "isCorrect": false
+        },
+        {
+          "text": "Parabolic curve",
+          "isCorrect": true
+        },
+        {
+          "text": "Cubic curve",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Since $dM/dx = V$, the shape of the BMD is one degree higher than the SFD. If the shear force V is a linear function (inclined straight line), then integrating it with respect to x will result in the bending moment M being a second-degree polynomial, which is a parabolic curve."
+    },
+    {
+      "text": "At the point where the shear force in a beam is zero or changes its sign, the bending moment is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Zero",
+          "isCorrect": false
+        },
+        {
+          "text": "Minimum",
+          "isCorrect": false
+        },
+        {
+          "text": "Maximum or Minimum (an extremum)",
+          "isCorrect": true
+        },
+        {
+          "text": "Constant",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "From the relation $V = dM/dx$, the condition for a local maximum or minimum bending moment is that its derivative is zero. Therefore, $dM/dx = V = 0$. The bending moment reaches a local maximum or minimum value where the shear force is zero or changes sign."
+    },
+    {
+      "text": "A sudden vertical drop or jump in the Shear Force Diagram at a point indicates the presence of a:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniformly distributed load",
+          "isCorrect": false
+        },
+        {
+          "text": "Concentrated point load",
+          "isCorrect": true
+        },
+        {
+          "text": "Concentrated moment",
+          "isCorrect": false
+        },
+        {
+          "text": "Point of contraflexure",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "A concentrated point load causes an instantaneous change in the shear force, which is represented by a vertical line (jump or drop) in the Shear Force Diagram. The magnitude of this jump is equal to the magnitude of the applied point load."
+    },
+    {
+      "text": "A simply supported beam of span 10 m carries a UDL of 5 kN/m. The maximum bending moment in the beam is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50.0 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "62.5 kN-m",
+          "isCorrect": true
+        },
+        {
+          "text": "125.0 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "25.0 kN-m",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The maximum bending moment for a simply supported beam with a UDL occurs at the center and is given by the formula $M_{max} = wL^2/8$. Here, w = 5 kN/m and L = 10 m. So, $M_{max} = (5 \\times 10^2) / 8 = (5 \\times 100) / 8 = 500 / 8 = 62.5 \\text{ kN-m}$."
+    },
+    {
+      "text": "A cantilever beam of length 'L' is subjected to a moment 'M' at its free end. What is the bending moment at the fixed end?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0",
+          "isCorrect": false
+        },
+        {
+          "text": "M/2",
+          "isCorrect": false
+        },
+        {
+          "text": "M",
+          "isCorrect": true
+        },
+        {
+          "text": "2M",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a beam subjected to a pure moment, the bending moment is constant along the section between the point of application and the reaction. The moment at the free end is M. Since there are no other loads, to maintain equilibrium, the fixed end must provide a reacting moment of equal magnitude and opposite direction. Thus, the bending moment at any point along the beam, including the fixed end, is M."
+    },
+    {
+      "text": "For a beam subjected to a uniformly varying load (triangular load), the Bending Moment Diagram is a:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Linear curve (1st degree)",
+          "isCorrect": false
+        },
+        {
+          "text": "Parabolic curve (2nd degree)",
+          "isCorrect": false
+        },
+        {
+          "text": "Cubic curve (3rd degree)",
+          "isCorrect": true
+        },
+        {
+          "text": "Constant (zero degree)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a uniformly varying load, the load intensity w(x) is linear (1st degree). The shear force V(x) is the integral of w(x), which makes it parabolic (2nd degree). The bending moment M(x) is the integral of V(x), which makes it a cubic curve (3rd degree)."
+    },
+    {
+      "text": "An overhanging beam ABC is supported at A and B, with BC being the overhang of 2 m. A point load of 10 kN is applied at the free end C. The bending moment at support B will be:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "20 kN-m (Sagging)",
+          "isCorrect": false
+        },
+        {
+          "text": "20 kN-m (Hogging)",
+          "isCorrect": true
+        },
+        {
+          "text": "10 kN-m (Hogging)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The bending moment at support B is caused by the load on the overhang BC. This part acts like a cantilever fixed at B. The moment at B is calculated as $M_B = -P \\times L_{overhang} = -10 \\text{ kN} \\times 2 \\text{ m} = -20 \\text{ kN-m}$. The negative sign signifies a hogging moment (tension at the top fibers)."
+    },
+    {
+      "text": "The rate of change of bending moment at any section of a beam is equal to the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Load intensity at that section",
+          "isCorrect": false
+        },
+        {
+          "text": "Shear force at that section",
+          "isCorrect": true
+        },
+        {
+          "text": "Slope of the elastic curve",
+          "isCorrect": false
+        },
+        {
+          "text": "Deflection of the beam",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "This is a fundamental relationship in beam theory derived from the equilibrium of a small element of the beam. The relationship is expressed as $dM/dx = V$, meaning the slope of the Bending Moment Diagram at any point is equal to the value of the Shear Force at that point."
+    },
+    {
+      "text": "A simply supported beam of length 10 m carries a point load of 50 kN at its center. What is the value of shear force at 2 m from the left support?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "25 kN",
+          "isCorrect": true
+        },
+        {
+          "text": "12.5 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "0 kN",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "First, calculate the support reactions. Due to symmetric loading, each support takes half the load: $R_A = R_B = 50 \\text{ kN} / 2 = 25 \\text{ kN}$. The shear force remains constant between the support and the point load. Therefore, the shear force at x = 2 m is equal to the reaction at the left support, $V = R_A = 25 \\text{ kN}$."
+    },
+    {
+      "text": "If the Bending Moment Diagram (BMD) for a section of a beam is a non-zero, constant horizontal line, it implies that the Shear Force in that section is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Also constant and non-zero",
+          "isCorrect": false
+        },
+        {
+          "text": "Linearly varying",
+          "isCorrect": false
+        },
+        {
+          "text": "Zero",
+          "isCorrect": true
+        },
+        {
+          "text": "Parabolic",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The relationship is $V = dM/dx$. If the bending moment M is a constant (represented by a horizontal line in the BMD), its derivative with respect to x, which is the shear force V, must be zero. This condition is known as pure bending."
+    },
+    {
+      "text": "A cantilever beam AB of length 5 m is fixed at A. It carries a UDL of 4 kN/m over its entire length. What is the shear force at the fixed end A?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "10 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "20 kN",
+          "isCorrect": true
+        },
+        {
+          "text": "25 kN",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For a cantilever beam with a UDL, the shear force is maximum at the fixed support. It is equal to the total load on the beam. Total Load = $w \\times L = 4 \\text{ kN/m} \\times 5 \\text{ m} = 20 \\text{ kN}$. This is the vertical reaction required at the fixed end to maintain equilibrium."
+    },
+    {
+      "text": "An overhanging beam ABC of length 8m is supported at A and B, where AB = 6m. It carries a UDL of 5 kN/m over the entire length. The value of the bending moment at support B is:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "-5 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "-10 kN-m",
+          "isCorrect": true
+        },
+        {
+          "text": "-15 kN-m",
+          "isCorrect": false
+        },
+        {
+          "text": "-20 kN-m",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The bending moment at support B is solely due to the UDL on the overhang portion BC. The length of the overhang BC is $8m - 6m = 2m$. This part behaves as a cantilever fixed at B. The moment at B is $M_B = - (w \\times L_{overhang}^2) / 2 = - (5 \\text{ kN/m} \\times (2m)^2) / 2 = - (5 \\times 4) / 2 = -10 \\text{ kN-m}$. The negative sign indicates a hogging moment."
+    },
+    {
+      "text": "For a simply supported beam with a central point load W and span L, the maximum bending moment is M. If the load is halved (to W/2) and the span is also halved (to L/2), what will be the new maximum bending moment?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "M/2",
+          "isCorrect": false
+        },
+        {
+          "text": "M",
+          "isCorrect": false
+        },
+        {
+          "text": "M/8",
+          "isCorrect": false
+        },
+        {
+          "text": "M/4",
+          "isCorrect": true
+        }
+      ],
+      "points": 3,
+      "explanation": "The original maximum bending moment is $M = WL/4$. The new load is $W' = W/2$ and the new span is $L' = L/2$. The new maximum bending moment $M'$ is $(W'L')/4 = [(W/2)(L/2)]/4 = (WL/8)/4 = WL/16$. Since the original $M = WL/4$, we can express $M'$ as $(1/4) \\times (WL/4) = M/4$."
+    },
+    {
+      "text": "A concentrated moment (couple) 'M' is applied at a point on a beam. At this point, the:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Shear force diagram will have a vertical jump",
+          "isCorrect": false
+        },
+        {
+          "text": "Bending moment diagram will have a vertical jump",
+          "isCorrect": true
+        },
+        {
+          "text": "Shear force diagram will be a triangle",
+          "isCorrect": false
+        },
+        {
+          "text": "Bending moment diagram will be a parabola",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "A concentrated moment causes an abrupt change in the bending moment at the point of application, resulting in a vertical jump or drop in the Bending Moment Diagram. The magnitude of this jump is equal to the magnitude of the applied moment. It does not affect the shear force."
+    },
+    {
+      "text": "A simply supported beam AB of length 6 m carries a point load of 24 kN at a distance of 2 m from the left support A. What is the shear force just to the right of the point load?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "+16 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "+8 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "-16 kN",
+          "isCorrect": false
+        },
+        {
+          "text": "-8 kN",
+          "isCorrect": true
+        }
+      ],
+      "points": 3,
+      "explanation": "1. Calculate reactions: Taking moments about A gives $R_B \\times 6 = 24 \\times 2$, so $R_B = 8 \\text{ kN}$. Summing vertical forces, $R_A + R_B = 24$, so $R_A = 24 - 8 = 16 \\text{ kN}$. 2. Calculate Shear Force (SF): The SF just to the left of the load is equal to $R_A = +16 \\text{ kN}$. At the load, the SF drops by 24 kN. Therefore, the SF just to the right of the load is $16 - 24 = -8 \\text{ kN}$."
+    },
+    {
+      "text": "The bending moment at the free end of a cantilever beam carrying any type of load is always:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Maximum",
+          "isCorrect": false
+        },
+        {
+          "text": "Equal to the load",
+          "isCorrect": false
+        },
+        {
+          "text": "Zero",
+          "isCorrect": true
+        },
+        {
+          "text": "Minimum (negative)",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "By definition, a free end of a beam is not subjected to any restraint or moment reaction. Unless an external concentrated moment is explicitly applied at the free end, the bending moment at this point must be zero to satisfy boundary conditions."
+    },
+    {
+      "text": "A steel rod with a cross-sectional area of 500 mm² is subjected to a tensile force of 100 kN. What is the normal stress in the rod?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "100 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "200 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "250 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Stress (σ) is defined as force (P) per unit area (A). σ = P/A. Given P = 100 kN = 100,000 N and A = 500 mm². So, σ = 100,000 N / 500 mm² = 200 N/mm² = 200 MPa."
+    },
+    {
+      "text": "A 2-meter-long bar elongates by 1 mm under a tensile load. What is the longitudinal strain in the bar?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.0005",
+          "isCorrect": true
+        },
+        {
+          "text": "0.001",
+          "isCorrect": false
+        },
+        {
+          "text": "0.002",
+          "isCorrect": false
+        },
+        {
+          "text": "0.5",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "Strain (ε) is the change in length (δ) divided by the original length (L). ε = δ/L. Given δ = 1 mm and L = 2 m = 2000 mm. So, ε = 1 mm / 2000 mm = 0.0005 (dimensionless)."
+    },
+    {
+      "text": "A material tested in a lab shows a stress of 150 MPa at a corresponding strain of 0.00075. Assuming the material is in its elastic region, what is its Young's Modulus (E)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "100 GPa",
+          "isCorrect": false
+        },
+        {
+          "text": "150 GPa",
+          "isCorrect": false
+        },
+        {
+          "text": "200 GPa",
+          "isCorrect": true
+        },
+        {
+          "text": "250 GPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "According to Hooke's Law, Young's Modulus (E) is the ratio of stress (σ) to strain (ε). E = σ/ε. E = 150 MPa / 0.00075 = 200,000 MPa = 200 GPa."
+    },
+    {
+      "text": "A cylindrical bar is subjected to a tensile force, causing its length to increase by 0.1% and its diameter to decrease by 0.03%. What is the Poisson's ratio (μ) of the material?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.25",
+          "isCorrect": false
+        },
+        {
+          "text": "0.30",
+          "isCorrect": true
+        },
+        {
+          "text": "0.33",
+          "isCorrect": false
+        },
+        {
+          "text": "0.50",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Poisson's ratio (μ) is the negative ratio of lateral strain to longitudinal strain. μ = - (Lateral Strain / Longitudinal Strain). Lateral strain = -0.03% = -0.0003. Longitudinal strain = +0.1% = +0.001. μ = -(-0.0003 / 0.001) = 0.3."
+    },
+    {
+      "text": "Calculate the total elongation of a 3-meter-long steel bar with a cross-section of 250 mm² under an axial tensile load of 50 kN. (E_steel = 200 GPa)",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "1.5 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "3.0 mm",
+          "isCorrect": true
+        },
+        {
+          "text": "4.5 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "6.0 mm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Elongation (δ) is calculated by the formula δ = PL/AE. Given P = 50 kN = 50,000 N, L = 3 m = 3000 mm, A = 250 mm², E = 200 GPa = 200,000 N/mm². δ = (50000 * 3000) / (250 * 200000) = 150,000,000 / 50,000,000 = 3.0 mm."
+    },
+    {
+      "text": "A composite bar made of a steel rod (A=400mm², E=210GPa) inside an aluminum tube (A=800mm², E=70GPa) is subjected to a compressive load of 200 kN. What is the stress in the aluminum tube?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "50 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "75 MPa",
+          "isCorrect": false
+        },
+        {
+          "text": "100 MPa",
+          "isCorrect": true
+        },
+        {
+          "text": "150 MPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "The strain is the same in both materials: ε_s = ε_a. So, σ_s/E_s = σ_a/E_a, which gives σ_s = σ_a * (E_s/E_a) = σ_a * (210/70) = 3σ_a. The total load P = P_s + P_a = σ_s*A_s + σ_a*A_a. Substituting: 200,000 N = (3σ_a)(400) + σ_a(800) = 1200σ_a + 800σ_a = 2000σ_a. Solving gives σ_a = 200,000 / 2000 = 100 N/mm² = 100 MPa."
+    },
+    {
+      "text": "A steel rail is fixed between two rigid supports at 20°C and is stress-free. If the temperature rises to 80°C, what is the nature and magnitude of the thermal stress developed? (α = 12 x 10⁻⁶ /°C, E = 200 GPa)",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "144 MPa (Tensile)",
+          "isCorrect": false
+        },
+        {
+          "text": "144 MPa (Compressive)",
+          "isCorrect": true
+        },
+        {
+          "text": "72 MPa (Tensile)",
+          "isCorrect": false
+        },
+        {
+          "text": "72 MPa (Compressive)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The temperature rise causes the rail to try to expand, but the rigid supports prevent this, inducing compressive stress. The thermal stress is given by σ = EαΔT. ΔT = 80°C - 20°C = 60°C. σ = (200 x 10⁹ Pa) * (12 x 10⁻⁶ /°C) * (60°C) = 144 x 10⁶ Pa = 144 MPa."
+    },
+    {
+      "text": "A block is subjected to a shear stress of 100 MPa. If the material's Modulus of Rigidity (G) is 75 GPa, what is the resulting shear strain (γ)?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.00075",
+          "isCorrect": false
+        },
+        {
+          "text": "0.00133",
+          "isCorrect": true
+        },
+        {
+          "text": "0.00750",
+          "isCorrect": false
+        },
+        {
+          "text": "0.01330",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The relationship for shear is τ = Gγ. Therefore, shear strain γ = τ/G. γ = (100 MPa) / (75 GPa) = (100 x 10⁶ Pa) / (75 x 10⁹ Pa) = 100 / 75000 ≈ 0.00133 (radians)."
+    },
+    {
+      "text": "For a given elastic material, the Young's Modulus (E) is 150 GPa and the Poisson's ratio (μ) is 0.25. What is the Bulk Modulus (K) of the material?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "75 GPa",
+          "isCorrect": false
+        },
+        {
+          "text": "100 GPa",
+          "isCorrect": true
+        },
+        {
+          "text": "125 GPa",
+          "isCorrect": false
+        },
+        {
+          "text": "150 GPa",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The relationship between E, K, and μ is E = 3K(1 - 2μ). Rearranging for K gives K = E / [3(1 - 2μ)]. K = 150 GPa / [3(1 - 2 * 0.25)] = 150 GPa / [3(0.5)] = 150 / 1.5 = 100 GPa."
+    },
+    {
+      "text": "Which of the following equations correctly relates Young's Modulus (E), Shear Modulus (G), and Bulk Modulus (K) for an isotropic material?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "E = 9KG / (3K + G)",
+          "isCorrect": true
+        },
+        {
+          "text": "E = 3KG / (9K + G)",
+          "isCorrect": false
+        },
+        {
+          "text": "E = 9KG / (K + 3G)",
+          "isCorrect": false
+        },
+        {
+          "text": "E = 3KG / (K + 9G)",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The relationship between the three elastic constants E, G, and K is derived by eliminating Poisson's ratio from the primary equations E=2G(1+μ) and E=3K(1-2μ). The resulting expression is E = 9KG / (3K + G)."
+    },
+    {
+      "text": "A material specimen with a volume of 1000 cm³ is subjected to a uniform tensile stress of 150 MPa. If E = 200 GPa, what is the total strain energy stored in the specimen?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "28.1 J",
+          "isCorrect": false
+        },
+        {
+          "text": "56.25 J",
+          "isCorrect": true
+        },
+        {
+          "text": "75.0 J",
+          "isCorrect": false
+        },
+        {
+          "text": "112.5 J",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Strain energy per unit volume (u) is given by u = σ² / (2E). The total strain energy (U) is u * Volume. U = [ (150 MPa)² / (2 * 200,000 MPa) ] * (1000 cm³). Convert volume to mm³: 1000 cm³ = 1,000,000 mm³. U = [22500 / 400000] N/mm² * 1,000,000 mm³ = 0.05625 N-mm/mm³ * 1,000,000 mm³ = 56,250 N-mm = 56.25 J."
+    },
+    {
+      "text": "A factor of safety is used in design to ensure safety against failure. For ductile materials, it is typically the ratio of:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Ultimate Stress to Working Stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Yield Stress to Working Stress",
+          "isCorrect": true
+        },
+        {
+          "text": "Breaking Stress to Ultimate Stress",
+          "isCorrect": false
+        },
+        {
+          "text": "Working Stress to Yield Stress",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "For ductile materials, failure is considered to begin at the onset of plastic deformation (yielding), as large deformations are typically unacceptable. Therefore, the factor of safety is based on the yield stress to prevent the component from permanently deforming under service loads."
+    },
+    {
+      "text": "On a stress-strain diagram for mild steel, what is the name of the point up to which stress is directly proportional to strain?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Elastic Limit",
+          "isCorrect": false
+        },
+        {
+          "text": "Upper Yield Point",
+          "isCorrect": false
+        },
+        {
+          "text": "Proportional Limit",
+          "isCorrect": true
+        },
+        {
+          "text": "Ultimate Stress Point",
+          "isCorrect": false
+        }
+      ],
+      "points": 1,
+      "explanation": "The Proportional Limit is the point on the stress-strain curve that marks the end of the linear, elastic behavior where Hooke's Law (stress is proportional to strain) is valid. The Elastic Limit, while often close, is the point beyond which permanent deformation occurs."
+    },
+    {
+      "text": "When comparing true stress and engineering stress for a ductile material after it has passed its ultimate strength point:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Both stresses decrease.",
+          "isCorrect": false
+        },
+        {
+          "text": "True stress decreases while engineering stress increases.",
+          "isCorrect": false
+        },
+        {
+          "text": "True stress increases while engineering stress decreases.",
+          "isCorrect": true
+        },
+        {
+          "text": "Both stresses increase.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Engineering stress (P/A₀) decreases after the ultimate strength point because the load (P) drops as the material necks. True stress (P/Aᵢ), which uses the instantaneous area (Aᵢ), continues to increase because the reduction in area due to necking is more significant than the drop in load."
+    },
+    {
+      "text": "A circular bar of length 500 mm tapers uniformly from a diameter of 60 mm to 30 mm. If an axial pull of 60 kN is applied, what is the approximate elongation? (E = 200 GPa)",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "0.106 mm",
+          "isCorrect": true
+        },
+        {
+          "text": "0.212 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "0.531 mm",
+          "isCorrect": false
+        },
+        {
+          "text": "1.062 mm",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Elongation (δL) of a tapering circular bar is given by δL = 4PL / (πEd₁d₂). δL = (4 * 60,000 N * 500 mm) / (π * 200,000 N/mm² * 60 mm * 30 mm) = (1.2 x 10⁸) / (3.6π x 10⁸) = 1 / (3π) ≈ 0.106 mm."
+    },
+    {
+      "text": "A prismatic bar ABC of total length L is fixed at end A and free at end C. An axial tensile force P is applied at its midpoint B. What is the total elongation of the bar?",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "PL / AE",
+          "isCorrect": false
+        },
+        {
+          "text": "PL / (2AE)",
+          "isCorrect": true
+        },
+        {
+          "text": "PL / (4AE)",
+          "isCorrect": false
+        },
+        {
+          "text": "Zero",
+          "isCorrect": false
+        }
+      ],
+      "points": 3,
+      "explanation": "Using the method of sections: The internal force in segment AB (from x=0 to x=L/2) is P (tensile). The internal force in segment BC (from x=L/2 to x=L) is zero. The total elongation is the sum of the elongations of the segments. δ = δ_AB + δ_BC = [P(L/2)/AE] + [0*(L/2)/AE] = PL / (2AE)."
+    },
+    {
+      "text": "The property of a material which enables it to absorb energy and deform plastically without fracturing is known as:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Hardness",
+          "isCorrect": false
+        },
+        {
+          "text": "Stiffness",
+          "isCorrect": false
+        },
+        {
+          "text": "Elasticity",
+          "isCorrect": false
+        },
+        {
+          "text": "Toughness",
+          "isCorrect": true
+        }
+      ],
+      "points": 1,
+      "explanation": "Toughness is a measure of a material's ability to absorb energy up to the point of fracture. It is represented by the total area under the stress-strain curve. Materials with high toughness can withstand shock and impact loads."
+    },
+    {
+      "text": "The 'Modulus of Resilience' is the strain energy per unit volume that a material can absorb or release:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Up to the point of fracture.",
+          "isCorrect": false
+        },
+        {
+          "text": "Without undergoing permanent deformation.",
+          "isCorrect": true
+        },
+        {
+          "text": "Only under compressive loads.",
+          "isCorrect": false
+        },
+        {
+          "text": "At its ultimate tensile strength.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "The Modulus of Resilience represents the energy a material can absorb while remaining in the elastic region. It is the area under the stress-strain curve up to the elastic limit. This energy can be fully recovered upon unloading."
+    },
+    {
+      "text": "For materials like aluminum alloys that do not exhibit a distinct yield point, a 'proof stress' is determined. This is the stress that corresponds to:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "A specific, small amount of permanent strain (e.g., 0.2%).",
+          "isCorrect": true
+        },
+        {
+          "text": "The onset of necking.",
+          "isCorrect": false
+        },
+        {
+          "text": "The fracture point of the material.",
+          "isCorrect": false
+        },
+        {
+          "text": "A 1% increase in the gauge length.",
+          "isCorrect": false
+        }
+      ],
+      "points": 2,
+      "explanation": "Proof stress, also known as offset yield stress, is a practical measure of the yield strength for materials without a sharp yield point. It is found by drawing a line parallel to the initial elastic portion of the stress-strain curve, offset by a specified amount of plastic strain, typically 0.2% (or 0.002)."
+    },
+    {
+      "text": "When a tensile load is applied to a flat plate with a circular hole in the center, the maximum stress occurs:",
+      "type": "multiple_choice",
+      "options": [
+        {
+          "text": "Uniformly across the net cross-section.",
+          "isCorrect": false
+        },
+        {
+          "text": "At the center of the hole.",
+          "isCorrect": false
+        },
+        {
+          "text": "At the edges of the plate, far from the hole.",
+          "isCorrect": false
+        },
+        {
+          "text": "At the edge of the hole, on the transverse diameter.",
+          "isCorrect": true
+        }
+      ],
+      "points": 2,
+      "explanation": "The hole acts as a stress concentrator. The lines of stress must flow around the discontinuity, causing them to crowd together at the edges of the hole perpendicular to the applied load. This results in a localized stress that is significantly higher than the average nominal stress."
+    }
+  ],
+  "timeLimit": 30,
+  "passingScore": 70,
+  "quizType": "Topic Test",
+  "maxAttempts": 0,
+  "category": "",
+  "tags": [
+    "bending_moment_and_shear_force_in_statically_determinate_beams___mechanics_and_structural_analysis",
+    "simple_stress_and_strain_relationship___mechanics_and_structural_analysis"
+  ],
+  "difficulty": "Undergraduate/Medium Level",
+  "allowReview": true,
+  "showCorrectAnswers": true,
+  "randomizeQuestions": false,
+  "isPublished": false,
+  "metadata": {
+    "totalQuestions": 40,
+    "topics": [
+      "Bending moment and shear force in statically determinate beams — Mechanics and Structural Analysis",
+      "Simple stress and strain relationship — Mechanics and Structural Analysis"
+    ],
+    "questionsPerTopic": 20,
+    "examType": "JKSSB Junior Engineer Civil Recruitment",
+    "difficulty": "Undergraduate/Medium Level",
+    "processedAt": "2025-10-17T11:06:11.570Z",
+    "questionTypes": {
+      "multiple_choice": 40
+    }
+  }
+}

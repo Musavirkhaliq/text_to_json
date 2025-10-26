@@ -1,0 +1,16 @@
+{
+  "title": "JKSSB JE (Civil) Sectional Test: Mechanics & Structural Analysis (Core Concepts)",
+  "description": "This professional assessment is meticulously designed for aspirants of the JKSSB Junior Engineer (Civil) examination. It provides a focused evaluation of fundamental concepts within Mechanics and Structural Analysis, specifically covering Simple Machines, Torsion, and Properties of Materials. The test features a curated blend of practical and conceptual questions, formulated to meet undergraduate-level (B.E./B.Tech) engineering standards and align with the rigorous JKSSB examination pattern. This practice module is an essential tool for gauging comprehension and problem-solving proficiency in these critical subject areas.",
+  "totalQuestions": 40,
+  "topics": [
+    "Simple machines — Mechanics and Structural Analysis",
+    "Torsion — Mechanics and Structural Analysis",
+    "Properties of material — Mechanics and Structural Analysis"
+  ],
+  "examType": "JKSSB Junior Engineer Civil Recruitment",
+  "difficulty": "Undergraduate/Medium Level",
+  "createdAt": "2025-10-17T07:34:17.006Z",
+  "questionTypes": {
+    "multiple_choice": 40
+  }
+}
