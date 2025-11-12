@@ -1,0 +1,722 @@
+[
+  {
+    "text": "Who was the chairman of the Drafting Committee of the Indian Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rajendra Prasad",
+        "isCorrect": false
+      },
+      {
+        "text": "Jawaharlal Nehru",
+        "isCorrect": false
+      },
+      {
+        "text": "Dr. B.R. Ambedkar",
+        "isCorrect": true
+      },
+      {
+        "text": "Sardar Patel",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Dr. B.R. Ambedkar, a renowned jurist and social reformer, was the chairman of the Drafting Committee of the Constituent Assembly. Rajendra Prasad was the President of the Constituent Assembly."
+  },
+  {
+    "text": "On which date was the Constitution of India adopted by the Constituent Assembly?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "15 August 1947",
+        "isCorrect": false
+      },
+      {
+        "text": "26 January 1950",
+        "isCorrect": false
+      },
+      {
+        "text": "26 November 1949",
+        "isCorrect": true
+      },
+      {
+        "text": "2 October 1948",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Constitution of India was adopted by the Constituent Assembly on 26 November 1949. It came into force on 26 January 1950, which is celebrated as Republic Day."
+  },
+  {
+    "text": "In which year did the Cabinet Mission come to India?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "1942",
+        "isCorrect": false
+      },
+      {
+        "text": "1945",
+        "isCorrect": false
+      },
+      {
+        "text": "1946",
+        "isCorrect": true
+      },
+      {
+        "text": "1947",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Cabinet Mission, a high-powered mission sent by the British government, arrived in India in 1946 to discuss the transfer of power and the formation of an interim government."
+  },
+  {
+    "text": "Who first proposed the idea of a Constituent Assembly for India?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Mahatma Gandhi",
+        "isCorrect": false
+      },
+      {
+        "text": "B.R. Ambedkar",
+        "isCorrect": false
+      },
+      {
+        "text": "M.N. Roy",
+        "isCorrect": true
+      },
+      {
+        "text": "Jawaharlal Nehru",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The idea of a Constituent Assembly to frame a constitution for India was first put forward by M.N. Roy, a pioneer of the communist movement in India, in 1934."
+  },
+  {
+    "text": "On which date did the Constitution of India come into force?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "26 November 1949",
+        "isCorrect": false
+      },
+      {
+        "text": "15 August 1947",
+        "isCorrect": false
+      },
+      {
+        "text": "26 January 1950",
+        "isCorrect": true
+      },
+      {
+        "text": "2 October 1950",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Constitution of India came into full effect on 26 January 1950. This date was chosen to commemorate the Purna Swaraj (complete independence) declaration of 1930."
+  },
+  {
+    "text": "According to the Preamble, how is India declared?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Sovereign, Socialist, Secular, Democratic Republic",
+        "isCorrect": true
+      },
+      {
+        "text": "Federal, Socialist, Secular, Democratic Republic",
+        "isCorrect": false
+      },
+      {
+        "text": "Sovereign, Democratic, Republic",
+        "isCorrect": false
+      },
+      {
+        "text": "Socialist, Secular, Democratic Republic",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Preamble declares India to be a Sovereign, Socialist, Secular, and Democratic Republic. The words 'Socialist' and 'Secular' were added by the 42nd Amendment in 1976."
+  },
+  {
+    "text": "Which constitutional amendment added the term 'Secular' to the Preamble?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "44th Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "42nd Amendment",
+        "isCorrect": true
+      },
+      {
+        "text": "52nd Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "61st Amendment",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The terms 'Socialist' and 'Secular' were added to the Preamble of the Indian Constitution by the 42nd Amendment Act of 1976."
+  },
+  {
+    "text": "How can the Indian Constitution be described in terms of its amendment process?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Rigid",
+        "isCorrect": false
+      },
+      {
+        "text": "Flexible",
+        "isCorrect": false
+      },
+      {
+        "text": "Both rigid and flexible",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Indian Constitution is a synthesis of rigidity and flexibility. Some provisions can be amended by a simple majority, while others require a special majority and ratification by states, making it partially rigid and partially flexible."
+  },
+  {
+    "text": "What is the legal status of the Preamble of the Indian Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Enforceable in court",
+        "isCorrect": false
+      },
+      {
+        "text": "Not enforceable in court",
+        "isCorrect": false
+      },
+      {
+        "text": "It is part of the Constitution",
+        "isCorrect": false
+      },
+      {
+        "text": "It is part of the Constitution but not enforceable in court",
+        "isCorrect": true
+      }
+    ],
+    "points": 3,
+    "explanation": "The Supreme Court has held that the Preamble is an integral part of the Constitution. However, it is non-justiciable, meaning its provisions cannot be enforced in a court of law."
+  },
+  {
+    "text": "The constitutional concept of a 'Republic' in India was inspired by which country's constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "American Constitution",
+        "isCorrect": false
+      },
+      {
+        "text": "French Constitution",
+        "isCorrect": true
+      },
+      {
+        "text": "Irish Constitution",
+        "isCorrect": false
+      },
+      {
+        "text": "British Constitution",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The ideals of Liberty, Equality, and Fraternity, and the concept of a 'Republic' mentioned in the Preamble of the Indian Constitution were borrowed from the French Constitution."
+  },
+  {
+    "text": "How does Article 1 of the Constitution describe India?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Union of States",
+        "isCorrect": true
+      },
+      {
+        "text": "Federation of States",
+        "isCorrect": false
+      },
+      {
+        "text": "Confederation",
+        "isCorrect": false
+      },
+      {
+        "text": "Republic",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 1(1) of the Indian Constitution states, 'India, that is Bharat, shall be a Union of States.' This implies that the Indian federation is indestructible and states have no right to secede."
+  },
+  {
+    "text": "Which part of the Indian Constitution deals with citizenship?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Part II",
+        "isCorrect": true
+      },
+      {
+        "text": "Part III",
+        "isCorrect": false
+      },
+      {
+        "text": "Part IV",
+        "isCorrect": false
+      },
+      {
+        "text": "Part I",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Part II of the Indian Constitution, which comprises Articles 5 to 11, contains the provisions related to citizenship in India."
+  },
+  {
+    "text": "Which article empowers the Parliament to regulate the right of citizenship by law?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 5",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 6",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 11",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 10",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Article 11 empowers the Parliament to make any provision with respect to the acquisition and termination of citizenship and all other matters relating to it. The Citizenship Act, 1955, was enacted under this provision."
+  },
+  {
+    "text": "The provision for Overseas Citizenship of India (OCI) was introduced by which act?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Citizenship Act 1955",
+        "isCorrect": false
+      },
+      {
+        "text": "Citizenship Amendment Act 2003",
+        "isCorrect": true
+      },
+      {
+        "text": "Citizenship Amendment Act 2019",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The concept of Overseas Citizenship of India (OCI) was introduced through the Citizenship (Amendment) Act of 2003 to grant certain rights to people of Indian origin living abroad."
+  },
+  {
+    "text": "Which body in India has the power to alter the boundaries of states?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "The President",
+        "isCorrect": false
+      },
+      {
+        "text": "The Parliament",
+        "isCorrect": true
+      },
+      {
+        "text": "The Supreme Court",
+        "isCorrect": false
+      },
+      {
+        "text": "The Election Commission",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "According to Article 3 of the Constitution, only the Parliament has the power to form new states and alter the areas, boundaries, or names of existing states."
+  },
+  {
+    "text": "The fundamental Right to Equality is primarily guaranteed under which article?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 14",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 32",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Right to Equality is covered in Articles 14 to 18. Article 14 is the foundational principle, guaranteeing equality before the law and equal protection of the laws to all persons."
+  },
+  {
+    "text": "Which Article of the Constitution provides protection against double jeopardy?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 20",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 22",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 20(2) protects individuals from double jeopardy, stating that no person shall be prosecuted and punished for the same offense more than once."
+  },
+  {
+    "text": "Under which article is the Right to Education established as a Fundamental Right?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21A",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 45",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 39",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Right to Education was made a Fundamental Right under Article 21A by the 86th Amendment Act, 2002. It mandates free and compulsory education for children aged 6 to 14."
+  },
+  {
+    "text": "Which article empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 32",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 226",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 136",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 142",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 32 provides the right to constitutional remedies, empowering the Supreme Court to issue writs to enforce Fundamental Rights. Article 226 grants similar powers to High Courts."
+  },
+  {
+    "text": "Which Fundamental Right was deleted by the 44th Amendment Act, 1978?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Right to Property",
+        "isCorrect": true
+      },
+      {
+        "text": "Right to Education",
+        "isCorrect": false
+      },
+      {
+        "text": "Right to Work",
+        "isCorrect": false
+      },
+      {
+        "text": "Right to Privacy",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Right to Property, originally under Article 31, was removed from the list of Fundamental Rights by the 44th Amendment Act, 1978. It is now a legal right under Article 300-A."
+  },
+  {
+    "text": "Which article of the Constitution guarantees the Right to Freedom of Religion?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 25",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 29",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Right to Freedom of Religion is covered in Articles 25-28. Article 25 is the primary article, guaranteeing all persons the freedom of conscience and the right to profess, practice, and propagate religion."
+  },
+  {
+    "text": "Which article of the Constitution provides for the abolition of untouchability?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 14",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 15",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 17",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 17 explicitly abolishes 'Untouchability' and forbids its practice in any form, making it a punishable offense."
+  },
+  {
+    "text": "Cultural and Educational Rights are enshrined in which articles of the Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Articles 29–30",
+        "isCorrect": true
+      },
+      {
+        "text": "Articles 32–33",
+        "isCorrect": false
+      },
+      {
+        "text": "Articles 19–20",
+        "isCorrect": false
+      },
+      {
+        "text": "Articles 21–22",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Cultural and Educational Rights, which primarily protect the interests of minorities, are guaranteed under Articles 29 and 30 of the Constitution."
+  },
+  {
+    "text": "Which article was described by Dr. B.R. Ambedkar as the 'Heart and Soul' of the Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 14",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 32",
+        "isCorrect": true
+      }
+    ],
+    "points": 2,
+    "explanation": "Dr. B.R. Ambedkar called Article 32 (Right to Constitutional Remedies) the 'heart and soul' of the Constitution because it provides a direct, guaranteed remedy in the Supreme Court for the violation of Fundamental Rights."
+  },
+  {
+    "text": "Which of the following Fundamental Rights is available only to citizens of India?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 21 (Protection of life and personal liberty)",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 22 (Protection against arrest and detention)",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 19 (Protection of certain rights regarding freedom of speech, etc.)",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 20 (Protection in respect of conviction for offenses)",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "Fundamental Rights under Articles 15, 16, 19, 29, and 30 are available only to citizens of India. Article 19, which guarantees six freedoms, is one of them. Rights under Articles 20, 21, and 22 are available to all persons."
+  },
+  {
+    "text": "Which article of the Constitution provides for the protection of life and personal liberty?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 14",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 19",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 22",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 21 is a cornerstone of the Fundamental Rights, stating that 'No person shall be deprived of his life or personal liberty except according to procedure established by law.'"
+  },
+  {
+    "text": "Which article prohibits discrimination by the state on grounds of religion, race, caste, sex, or place of birth?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 14",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 15",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 16",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 17",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 15(1) explicitly prohibits the state from discriminating against any citizen on grounds only of religion, race, caste, sex, place of birth, or any of them."
+  },
+  {
+    "text": "Which article specifically provides for the protection of the interests of minorities?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 29",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 30",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 31",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 28",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 29 protects the interests of minorities by guaranteeing any section of citizens with a distinct language, script, or culture the right to conserve it. Article 30 deals with the right of minorities to establish educational institutions."
+  },
+  {
+    "text": "What does the Right to Constitutional Remedies (Article 32) allow citizens to do?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Amend the Constitution",
+        "isCorrect": false
+      },
+      {
+        "text": "Approach the court for enforcement of their Fundamental Rights",
+        "isCorrect": true
+      },
+      {
+        "text": "Elect the President directly",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the above",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Right to Constitutional Remedies under Article 32 allows any citizen to move the Supreme Court directly if their Fundamental Rights are violated, making these rights enforceable."
+  },
+  {
+    "text": "Which article of the Constitution deals with protection against arrest and preventive detention?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 20",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 21",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 22",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 23",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 22 provides protection to individuals who are arrested or detained. It includes safeguards for both punitive detention (punishment after trial) and preventive detention (detention without trial)."
+  }
+]

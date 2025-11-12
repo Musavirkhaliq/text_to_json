@@ -1,0 +1,722 @@
+[
+  {
+    "text": "Which part of the Indian Constitution contains the Directive Principles of State Policy (DPSP)?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Part II",
+        "isCorrect": false
+      },
+      {
+        "text": "Part III",
+        "isCorrect": false
+      },
+      {
+        "text": "Part IV",
+        "isCorrect": true
+      },
+      {
+        "text": "Part V",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Part IV of the Indian Constitution, spanning from Article 36 to 51, contains the Directive Principles of State Policy. These principles are guidelines for the state to follow in framing laws and policies. Part III deals with Fundamental Rights."
+  },
+  {
+    "text": "Which Article of the Constitution directs the State to secure a uniform civil code for its citizens?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 44",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 45",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 46",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 47",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 44, under the Directive Principles of State Policy, states that 'The State shall endeavour to secure for the citizens a uniform civil code throughout the territory of India.'"
+  },
+  {
+    "text": "Which Article directs the state to promote the welfare of the people by securing a just social order?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 38",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 39",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 40",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 41",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 38 of the Constitution directs the State to promote the welfare of the people by securing and protecting a social order in which justice—social, economic, and political—informs all institutions of national life."
+  },
+  {
+    "text": "Which Article of the Constitution deals with the promotion of international peace and security?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 50",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 51",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 52",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 53",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 51, a Directive Principle of State Policy, obligates the State to promote international peace and security, maintain just relations between nations, and encourage the settlement of international disputes by arbitration."
+  },
+  {
+    "text": "Which Article, under the Directive Principles, directs the state to organize village panchayats?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 39",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 40",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 41",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 42",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 40 of the Constitution directs the State to take steps to organize village panchayats and provide them with the necessary powers and authority to function as units of self-government. This is a Gandhian principle."
+  },
+  {
+    "text": "In which part of the Indian Constitution are the Fundamental Duties enshrined?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Part III",
+        "isCorrect": false
+      },
+      {
+        "text": "Part IV",
+        "isCorrect": false
+      },
+      {
+        "text": "Part IVA",
+        "isCorrect": true
+      },
+      {
+        "text": "Part V",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Fundamental Duties were added to the Constitution by the 42nd Amendment in 1976. They are contained in a new part, Part IVA, which consists of a single article, Article 51A."
+  },
+  {
+    "text": "How many Fundamental Duties are currently listed in the Indian Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": true
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Initially, there were 10 Fundamental Duties. The 11th duty, which relates to providing opportunities for education to children between the ages of six and fourteen, was added by the 86th Constitutional Amendment Act in 2002."
+  },
+  {
+    "text": "Which Constitutional Amendment Act added the Fundamental Duties to the Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "40th Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "42nd Amendment",
+        "isCorrect": true
+      },
+      {
+        "text": "44th Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "52nd Amendment",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Fundamental Duties were added to the Constitution on the recommendation of the Swaran Singh Committee by the 42nd Constitutional Amendment Act of 1976, during the Internal Emergency."
+  },
+  {
+    "text": "Which Article of the Constitution contains the Fundamental Duties?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 51",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 51A",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 52",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 53",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Fundamental Duties of Indian citizens are listed in Article 51A, which is the sole article in Part IVA of the Constitution."
+  },
+  {
+    "text": "Which Article makes it a duty of the State to protect and improve the environment?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 48",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 48A",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 49",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 50",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 48A, a Directive Principle, states that 'The State shall endeavour to protect and improve the environment and to safeguard the forests and wild life of the country.' It was added by the 42nd Amendment. Article 51A(g) also makes it a fundamental duty of every citizen to protect the environment."
+  },
+  {
+    "text": "Which Article of the Indian Constitution outlines the procedure for its amendment?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 360",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 368",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 370",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 371",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 368 in Part XX of the Constitution grants power to the Parliament to amend the Constitution and lays down the procedure for it."
+  },
+  {
+    "text": "What was the primary subject of the First Constitutional Amendment Act of 1951?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Land reforms",
+        "isCorrect": true
+      },
+      {
+        "text": "Fundamental Duties",
+        "isCorrect": false
+      },
+      {
+        "text": "Emergency provisions",
+        "isCorrect": false
+      },
+      {
+        "text": "Panchayati Raj",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The First Amendment Act of 1951 was enacted to address certain difficulties that had arisen in the working of the Constitution. It primarily dealt with validating laws related to land reforms (zamindari abolition) and introduced the Ninth Schedule to protect these laws from judicial review."
+  },
+  {
+    "text": "Which amendment to the Constitution lowered the voting age from 21 to 18 years?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "42nd Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "44th Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "61st Amendment",
+        "isCorrect": true
+      },
+      {
+        "text": "73rd Amendment",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The 61st Constitutional Amendment Act of 1989 amended Article 326 of the Constitution to reduce the voting age for elections to the Lok Sabha and state legislative assemblies from 21 years to 18 years."
+  },
+  {
+    "text": "Which Constitutional Amendment is often referred to as the 'Mini-Constitution'?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "42nd Amendment",
+        "isCorrect": true
+      },
+      {
+        "text": "44th Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "52nd Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "86th Amendment",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The 42nd Amendment Act of 1976 is called the 'Mini-Constitution' due to the large number of widespread and significant changes it made to various parts of the Indian Constitution, including the Preamble, Fundamental Rights, and Directive Principles."
+  },
+  {
+    "text": "Which amendment largely restored the power of judicial review that was curtailed by the 42nd Amendment?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "42nd Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "44th Amendment",
+        "isCorrect": true
+      },
+      {
+        "text": "52nd Amendment",
+        "isCorrect": false
+      },
+      {
+        "text": "61st Amendment",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The 44th Amendment Act of 1978 was enacted to nullify many of the controversial provisions of the 42nd Amendment. It restored the power of judicial review to the Supreme Court and High Courts, reinforcing the principle of constitutional supremacy."
+  },
+  {
+    "text": "How many Schedules are currently in the Indian Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "10",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Indian Constitution originally had 8 Schedules. Through various amendments over the years, four more have been added, bringing the current total to 12 Schedules."
+  },
+  {
+    "text": "Which Schedule of the Constitution contains the anti-defection provisions?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Eighth Schedule",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninth Schedule",
+        "isCorrect": false
+      },
+      {
+        "text": "Tenth Schedule",
+        "isCorrect": true
+      },
+      {
+        "text": "Eleventh Schedule",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The Tenth Schedule, popularly known as the Anti-Defection Law, was added by the 52nd Amendment Act in 1985. It lays down the provisions for the disqualification of elected members on the grounds of defection to another political party."
+  },
+  {
+    "text": "Which Article of the Constitution deals with the proclamation of a National Emergency?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 352",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 356",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 360",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 365",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 352 empowers the President to declare a National Emergency if the security of India or a part of it is threatened by war, external aggression, or armed rebellion."
+  },
+  {
+    "text": "Which Article of the Constitution provides for the imposition of President's Rule in a state?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 352",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 356",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 360",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 365",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 356 deals with the failure of the constitutional machinery in a state. If the President is satisfied that a state's government cannot be carried on in accordance with the Constitution, they can impose President's Rule, also known as State Emergency."
+  },
+  {
+    "text": "Which Article of the Constitution deals with the proclamation of a Financial Emergency?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 360",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 356",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 352",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 365",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "Article 360 authorizes the President to proclaim a Financial Emergency if they are satisfied that a situation has arisen where the financial stability or credit of India or any part of its territory is threatened."
+  },
+  {
+    "text": "How is the political structure of India most accurately described?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Federal state",
+        "isCorrect": false
+      },
+      {
+        "text": "Quasi-federal state",
+        "isCorrect": true
+      },
+      {
+        "text": "Unitary state",
+        "isCorrect": false
+      },
+      {
+        "text": "Confederation",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "While the Constitution describes India as a 'Union of States' and has federal features like division of powers, it also has strong unitary (centralizing) features. Therefore, scholars often describe it as a 'quasi-federal' system, meaning it is federal in structure but unitary in spirit."
+  },
+  {
+    "text": "Which institution is considered the ultimate guardian and interpreter of the Indian Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Parliament",
+        "isCorrect": false
+      },
+      {
+        "text": "President",
+        "isCorrect": false
+      },
+      {
+        "text": "Supreme Court",
+        "isCorrect": true
+      },
+      {
+        "text": "Prime Minister",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Supreme Court of India is regarded as the guardian of the Constitution. It has the power of judicial review to interpret the Constitution and to declare any law or executive action void if it violates constitutional provisions."
+  },
+  {
+    "text": "The establishment of the Supreme Court and the appointment of its judges are covered under which Article?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 124",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 126",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 128",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 130",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 124 of the Constitution deals with the 'Establishment and constitution of Supreme Court,' including the process for the appointment of its judges."
+  },
+  {
+    "text": "Which Article grants original jurisdiction to the Supreme Court for disputes between the Centre and states?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 131",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 132",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 133",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 134",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 131 grants the Supreme Court exclusive original jurisdiction in disputes between the Government of India and one or more states, or between two or more states. This means such cases can only be initiated in the Supreme Court."
+  },
+  {
+    "text": "The constitutional feature of Judicial Review in India was inspired by the constitution of which country?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "UK",
+        "isCorrect": false
+      },
+      {
+        "text": "USA",
+        "isCorrect": true
+      },
+      {
+        "text": "Ireland",
+        "isCorrect": false
+      },
+      {
+        "text": "Canada",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The concept of Judicial Review, the power of the judiciary to examine the constitutionality of legislative and executive actions, was borrowed from the Constitution of the United States of America."
+  },
+  {
+    "text": "The principle of 'Rule of Law,' a fundamental feature of the Indian Constitution, was borrowed from which country's constitutional system?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "USA",
+        "isCorrect": false
+      },
+      {
+        "text": "UK",
+        "isCorrect": true
+      },
+      {
+        "text": "Ireland",
+        "isCorrect": false
+      },
+      {
+        "text": "Australia",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "The concept of 'Rule of Law,' which espouses the supremacy of law and equality before the law, is a key principle adopted from the British (UK) constitutional system."
+  },
+  {
+    "text": "The doctrine of 'Separation of Powers' is a prominent feature of which country's constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Indian Constitution",
+        "isCorrect": false
+      },
+      {
+        "text": "British Constitution",
+        "isCorrect": false
+      },
+      {
+        "text": "American Constitution",
+        "isCorrect": true
+      },
+      {
+        "text": "French Constitution",
+        "isCorrect": false
+      }
+    ],
+    "points": 3,
+    "explanation": "The American Constitution is the classic example of a system based on a strict doctrine of Separation of Powers, with clear divisions between the legislative, executive, and judicial branches. While India also follows this principle, its parliamentary system creates an overlap between the executive and legislature."
+  },
+  {
+    "text": "Which Article of the Indian Constitution provides for Universal Adult Franchise?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Article 324",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 325",
+        "isCorrect": false
+      },
+      {
+        "text": "Article 326",
+        "isCorrect": true
+      },
+      {
+        "text": "Article 327",
+        "isCorrect": false
+      }
+    ],
+    "points": 2,
+    "explanation": "Article 326 of the Constitution provides that elections to the Lok Sabha and state legislative assemblies shall be on the basis of universal adult suffrage, meaning all adult citizens have the right to vote without discrimination."
+  },
+  {
+    "text": "What type of legislature does India have at the national level?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Unicameral Legislature",
+        "isCorrect": false
+      },
+      {
+        "text": "Bicameral Legislature",
+        "isCorrect": true
+      },
+      {
+        "text": "Presidential System",
+        "isCorrect": false
+      },
+      {
+        "text": "Unitary System",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "India has a bicameral legislature at the Centre. The Parliament of India consists of two houses: the Rajya Sabha (Council of States) and the Lok Sabha (House of the People)."
+  },
+  {
+    "text": "What system of government is established by the Indian Constitution?",
+    "type": "multiple_choice",
+    "options": [
+      {
+        "text": "Presidential System",
+        "isCorrect": false
+      },
+      {
+        "text": "Federal System",
+        "isCorrect": false
+      },
+      {
+        "text": "Parliamentary System",
+        "isCorrect": true
+      },
+      {
+        "text": "Unitary System",
+        "isCorrect": false
+      }
+    ],
+    "points": 1,
+    "explanation": "The Indian Constitution establishes a Parliamentary System of government, both at the Centre and in the states. This system, modeled on the British pattern, features a close relationship between the executive and the legislature, with the executive being responsible to the legislature."
+  }
+]

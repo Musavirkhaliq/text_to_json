@@ -5,6 +5,78 @@
 
 const examPrompts = {
 
+    fmphw_jkssb: {
+    name: "JKSSB FMPHW-MMPHW Recruitment",
+    difficulty: "10th Level/Diploma Level",
+    buildPrompt: (topic, count) => `You are an expert in creating questions for the JKSSB (Jammu & Kashmir Services Selection Board) FMPHW-MMPHW Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+
+    IMPORTANT REQUIREMENTS:
+    1. Questions must be at 10TH LEVEL/DIPLOMA (FMPHW diploma level) difficulty
+    2. Focus on BASIC CONCEPTUAL UNDERSTANDING and SIMPLE APPLICATION of topics
+    3. Avoid advanced or overly complex questions; include basic definitions, procedures, and scenarios
+    4. Test candidates' ability to RECOGNIZE KEY CONCEPTS, APPLY BASIC PROCEDURES, and UNDERSTAND FUNDAMENTAL PRINCIPLES
+    5. Each question should have 4 options with exactly ONE correct answer
+    6. Options should be plausible to avoid guesswork and obvious right answers
+    7. Provide clear, educational explanations for correct answers
+    8. Questions should test BASIC UNDERSTANDING of the subject
+
+    QUESTION TYPES TO INCLUDE:
+    - Basic procedural questions (e.g., steps in nursing techniques or first aid).
+    - Simple conceptual application of given topics (e.g., hygiene practices).
+    - Recognition and identification of health issues or community health scenarios.
+    - Comparison of basic related concepts (e.g., communicable vs. non-communicable diseases).
+    - Integration of foundational knowledge from sciences and nursing.
+    - Everyday health situations requiring basic judgment (e.g., maternal or child care advice).
+
+    FORMAT: Respond with a JSON array in this exact format:
+    \`\`\`json
+    [
+    {
+        "text": "Basic-level conceptual or procedural question",
+        "type": "multiple_choice",
+        "options": [
+        {"text": "Option A", "isCorrect": false},
+        {"text": "Option B", "isCorrect": true},
+        {"text": "Option C", "isCorrect": false},
+        {"text": "Option D", "isCorrect": false}
+        ],
+        "points": 1,
+        "explanation": "Simple yet clear explanation of why this is the correct answer, referencing the underlying concept or procedure"
+    }
+    ]
+    \`\`\`
+
+    DIFFICULTY GUIDELINES:
+    - Points: 1 (reflecting JKSSB FMPHW exam marking)
+    - Questions should take less than 1 minutes of thinking time
+    - Emphasis on PRACTICAL and FUNDAMENTAL knowledge (not advanced)
+    - Coverage should reflect standard FMPHW syllabus including Basic Sciences (Anatomy, Physiology, Hygiene, Nutrition), Fundamentals of Nursing, and Community Health Nursing (Maternal/Child Health, Family Planning, Health Education)
+
+    Topic: ${topic}
+    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+        titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKSSB FMPHW-MMPHW Recruitment Exam practice test covering these topics:
+    Topics: ${topics.join(', ')}
+
+    The test should reflect:
+    - 10th level/diploma difficulty
+    - JKSSB examination standards (objective type, with negative marking)
+    - Basic and conceptual questions on nursing and community health
+    - Professional foundational assessment
+
+    Respond with JSON:
+    \`\`\`json
+    {
+    "title": "Professional, exam-focused title",
+    "description": "Comprehensive description highlighting the 10th level/diploma nature and JKSSB relevance"
+    }
+    \`\`\`
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+        fallbackTitle: "JKSSB FMPHW-MMPHW Recruitment - Practice Test",
+        fallbackDescription: (topics) => `Comprehensive practice test for JKSSB FMPHW-MMPHW Recruitment covering ${topics.length} key topics. Features 10th level/diploma MCQs designed to test basic conceptual understanding, practical procedures, and application of knowledge as per JKSSB examination standards, including Basic Sciences, Fundamentals of Nursing, and Community Health Nursing.`
+    },
+
     vas_jkpsc: {
     name: "JKPSC Veterinary Assistant Surgeon Recruitment",
     difficulty: "Undergraduate/Medium Level",
