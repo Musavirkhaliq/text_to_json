@@ -5,6 +5,77 @@
 
 const examPrompts = {
 
+    aaf_jkssb: {
+    name: "JKSSB Accounts Assistant (Finance) Recruitment",
+    difficulty: "Graduate Level",
+    buildPrompt: (topic, count) => `You are an expert in creating questions for the JKSSB (Jammu & Kashmir Services Selection Board) Accounts Assistant (Finance) Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+
+    IMPORTANT REQUIREMENTS:
+    1. Questions must be at UnderGRADUATE LEVEL difficulty, aligned with JKSSB syllabus for Accounts Assistant (Finance)
+    2. Focus on BASIC CONCEPTUAL UNDERSTANDING and SIMPLE APPLICATION of topics from Accountancy, Book Keeping, and related areas like PFMS/Taxation
+    3. Avoid advanced or overly complex questions; include definitions, basic entries, and scenarios from financial statements
+    4. Test candidates' ability to RECOGNIZE KEY CONCEPTS (e.g., double-entry principles), APPLY BASIC PROCEDURES (e.g., trial balance preparation), and UNDERSTAND FUNDAMENTAL PRINCIPLES (e.g., taxation basics)
+    5. Each question should have 4 options with exactly ONE correct answer
+    6. Options should be plausible to avoid guesswork and obvious right answers
+    7. Provide clear, educational explanations for correct answers
+    8. Questions should test BASIC UNDERSTANDING of the subject, reflecting previous year trends (e.g., 2020 paper on journal/BRS)
+
+    QUESTION TYPES TO INCLUDE:
+    - Basic procedural questions (e.g., steps in voucher accounting).
+    - Simple conceptual application (e.g., bank reconciliation scenarios).
+    - Recognition of financial terms (e.g., PFMS components).
+    - Comparison of concepts (e.g., direct vs. indirect taxes).
+    - Integration of foundational knowledge from accounting and economics.
+    - Everyday finance situations requiring basic judgment (e.g., profit/loss calculation).
+
+    FORMAT: Respond with a JSON array in this exact format:
+    \`\`\`json
+    [
+    {
+        "text": "Graduate-level conceptual or procedural question",
+        "type": "multiple_choice",
+        "options": [
+        {"text": "Option A", "isCorrect": false},
+        {"text": "Option B", "isCorrect": true},
+        {"text": "Option C", "isCorrect": false},
+        {"text": "Option D", "isCorrect": false}
+        ],
+        "points": 1,
+        "explanation": "Simple yet clear explanation of why this is the correct answer, referencing the underlying concept or procedure"
+    }
+    ]
+    \`\`\`
+
+    DIFFICULTY GUIDELINES:
+    - Points: 1 (reflecting JKSSB marking, with 0.25 negative for wrongs)
+    - Questions should take less than 1 minute of thinking time
+    - Emphasis on PRACTICAL and FUNDAMENTAL knowledge (not advanced auditing)
+    - Coverage should reflect standard syllabus: Financial Accounting, Book Keeping, Trial Balance, PFMS, Taxation, Budgetary Control, J&K-specific finance where relevant
+
+    Topic: ${topic}
+    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+    titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKSSB Accounts Assistant (Finance) Recruitment Exam practice test covering these topics:
+    Topics: ${topics.join(', ')}
+
+    The test should reflect:
+    - Graduate level difficulty
+    - JKSSB examination standards (objective type, with negative marking)
+    - Basic and conceptual questions on accountancy, finance, and GK with J&K focus
+    - Professional foundational assessment
+
+    Respond with JSON:
+    \`\`\`json
+    {
+    "title": "Professional, exam-focused title",
+    "description": "Comprehensive description highlighting the graduate nature and JKSSB relevance"
+    }
+    \`\`\`
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+    fallbackTitle: "JKSSB Accounts Assistant (Finance) Recruitment - Practice Test",
+    fallbackDescription: (topics) => `Comprehensive practice test for JKSSB Accounts Assistant (Finance) Recruitment covering ${topics.length} key topics. Features graduate-level MCQs designed to test basic conceptual understanding, practical procedures, and application of knowledge as per JKSSB examination standards (120 marks, 120 min), including Accountancy, Book Keeping, Taxation, PFMS, General Economics, and J&K-specific GK.`
+},
     fmphw_jkssb: {
     name: "JKSSB FMPHW-MMPHW Recruitment",
     difficulty: "10th Level/Diploma Level",
@@ -76,6 +147,150 @@ const examPrompts = {
         fallbackTitle: "JKSSB FMPHW-MMPHW Recruitment - Practice Test",
         fallbackDescription: (topics) => `Comprehensive practice test for JKSSB FMPHW-MMPHW Recruitment covering ${topics.length} key topics. Features 10th level/diploma MCQs designed to test basic conceptual understanding, practical procedures, and application of knowledge as per JKSSB examination standards, including Basic Sciences, Fundamentals of Nursing, and Community Health Nursing.`
     },
+
+    ar_jkssb: {
+    name: "JKSSB Assistant Registrar (COE) Recruitment",
+    difficulty: "Graduate Level",
+    buildPrompt: (topic, count) => `You are an expert in creating questions for the JKSSB (Jammu & Kashmir Services Selection Board) Assistant Registrar (COE) Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+
+    IMPORTANT REQUIREMENTS:
+    1. Questions must be at GRADUATE LEVEL difficulty, aligned with JKSSB syllabus for Assistant Registrar
+    2. Focus on BASIC CONCEPTUAL UNDERSTANDING and SIMPLE APPLICATION of topics from Educational Administration, NEP-2020, and regulatory bodies
+    3. Avoid advanced or overly complex questions; include definitions, key principles, and scenarios from higher education system
+    4. Test candidates' ability to RECOGNIZE KEY CONCEPTS (e.g., UGC roles), APPLY BASIC PROCEDURES (e.g., recruitment processes), and UNDERSTAND FUNDAMENTAL PRINCIPLES (e.g., educational leadership)
+    5. Each question should have 4 options with exactly ONE correct answer
+    6. Options should be plausible to avoid guesswork and obvious right answers
+    7. Provide clear, educational explanations for correct answers
+    8. Questions should test BASIC UNDERSTANDING of the subject, reflecting previous year trends (e.g., 2021 JKPSC paper)
+
+    QUESTION TYPES TO INCLUDE:
+    - Basic conceptual questions (e.g., components of educational administration).
+    - Simple application scenarios (e.g., ICT in university management).
+    - Recognition of policies (e.g., NEP-2020 objectives).
+    - Comparison of concepts (e.g., statutory councils vs. international bodies).
+    - Integration of foundational knowledge from education and governance.
+    - Everyday admin situations requiring basic judgment (e.g., quality control in teaching).
+
+    FORMAT: Respond with a JSON array in this exact format:
+    \`\`\`json
+    [
+    {
+        "text": "Graduate-level conceptual or procedural question",
+        "type": "multiple_choice",
+        "options": [
+        {"text": "Option A", "isCorrect": false},
+        {"text": "Option B", "isCorrect": true},
+        {"text": "Option C", "isCorrect": false},
+        {"text": "Option D", "isCorrect": false}
+        ],
+        "points": 1,
+        "explanation": "Simple yet clear explanation of why this is the correct answer, referencing the underlying concept or procedure"
+    }
+    ]
+    \`\`\`
+
+    DIFFICULTY GUIDELINES:
+    - Points: 1 (reflecting JKSSB marking, with 0.25 negative for wrongs)
+    - Questions should take less than 1 minute of thinking time
+    - Emphasis on PRACTICAL and FUNDAMENTAL knowledge (not advanced theory)
+    - Coverage should reflect standard syllabus: Higher Education System, NEP-2020, Educational Leadership, Statutory Bodies, ICT in Education, Personnel Admin
+
+    Topic: ${topic}
+    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+    titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKSSB Assistant Registrar (COE) Recruitment Exam practice test covering these topics:
+    Topics: ${topics.join(', ')}
+
+    The test should reflect:
+    - Graduate level difficulty
+    - JKSSB examination standards (objective type, with negative marking)
+    - Basic and conceptual questions on educational administration and governance
+    - Professional foundational assessment
+
+    Respond with JSON:
+    \`\`\`json
+    {
+    "title": "Professional, exam-focused title",
+    "description": "Comprehensive description highlighting the graduate nature and JKSSB relevance"
+    }
+    \`\`\`
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+    fallbackTitle: "JKSSB Assistant Registrar (COE) Recruitment - Practice Test",
+    fallbackDescription: (topics) => `Comprehensive practice test for JKSSB Assistant Registrar (COE) Recruitment covering ${topics.length} key topics. Features graduate-level MCQs designed to test basic conceptual understanding, practical applications, and knowledge of NEP-2020 as per JKSSB examination standards, including Educational Administration, Higher Education System, and Governance.`
+},
+
+ac_jkssb: {
+    name: "JKSSB Assistant Comptroller (COE) Recruitment",
+    difficulty: "Graduate Level",
+    buildPrompt: (topic, count) => `You are an expert in creating questions for the JKSSB (Jammu & Kashmir Services Selection Board) Assistant Comptroller (COE) Recruitment Exam. Generate ${count} Multiple Choice Questions (MCQs) on the topic: "${topic}"
+
+    IMPORTANT REQUIREMENTS:
+    1. Questions must be at GRADUATE LEVEL difficulty, aligned with JKSSB syllabus for Assistant Comptroller
+    2. Focus on BASIC CONCEPTUAL UNDERSTANDING and SIMPLE APPLICATION of topics from Accountancy, Book Keeping, and Financial Management
+    3. Avoid advanced or overly complex questions; include definitions, basic entries, and scenarios from financial statements
+    4. Test candidates' ability to RECOGNIZE KEY CONCEPTS (e.g., double-entry principles), APPLY BASIC PROCEDURES (e.g., trial balance preparation), and UNDERSTAND FUNDAMENTAL PRINCIPLES (e.g., taxation basics)
+    5. Each question should have 4 options with exactly ONE correct answer
+    6. Options should be plausible to avoid guesswork and obvious right answers
+    7. Provide clear, educational explanations for correct answers
+    8. Questions should test BASIC UNDERSTANDING of the subject, reflecting previous year trends (e.g., 2012–2024 finance papers)
+
+    QUESTION TYPES TO INCLUDE:
+    - Basic procedural questions (e.g., steps in journal vouching).
+    - Simple conceptual application (e.g., bank reconciliation scenarios).
+    - Recognition of financial terms (e.g., PFMS components).
+    - Comparison of concepts (e.g., direct vs. indirect taxes).
+    - Integration of foundational knowledge from accounting and ICT.
+    - Everyday finance situations requiring basic judgment (e.g., budget execution).
+
+    FORMAT: Respond with a JSON array in this exact format:
+    \`\`\`json
+    [
+    {
+        "text": "Graduate-level conceptual or procedural question",
+        "type": "multiple_choice",
+        "options": [
+        {"text": "Option A", "isCorrect": false},
+        {"text": "Option B", "isCorrect": true},
+        {"text": "Option C", "isCorrect": false},
+        {"text": "Option D", "isCorrect": false}
+        ],
+        "points": 1,
+        "explanation": "Simple yet clear explanation of why this is the correct answer, referencing the underlying concept or procedure"
+    }
+    ]
+    \`\`\`
+
+    DIFFICULTY GUIDELINES:
+    - Points: 1 (reflecting JKSSB marking, with 0.25 negative for wrongs)
+    - Questions should take less than 1 minute of thinking time
+    - Emphasis on PRACTICAL and FUNDAMENTAL knowledge (not advanced auditing)
+    - Coverage should reflect standard syllabus: Financial Accounting, Book Keeping, Trial Balance, PFMS, Taxation, Budgeting, Computerized Accounting
+
+    Topic: ${topic}
+    Generate ${count} high-quality JKSSB-level MCQs now. Respond only with the JSON array wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+    titleDescriptionPrompt: (topics) => `Generate a professional title and description for a JKSSB Assistant Comptroller (COE) Recruitment Exam practice test covering these topics:
+    Topics: ${topics.join(', ')}
+
+    The test should reflect:
+    - Graduate level difficulty
+    - JKSSB examination standards (objective type, with negative marking)
+    - Basic and conceptual questions on accountancy and financial management
+    - Professional foundational assessment
+
+    Respond with JSON:
+    \`\`\`json
+    {
+    "title": "Professional, exam-focused title",
+    "description": "Comprehensive description highlighting the graduate nature and JKSSB relevance"
+    }
+    \`\`\`
+    Respond only with the JSON object wrapped in \`\`\`json\`\`\` code blocks, if equations write in latex with enclosed in $.`,
+
+    fallbackTitle: "JKSSB Assistant Comptroller (COE) Recruitment - Practice Test",
+    fallbackDescription: (topics) => `Comprehensive practice test for JKSSB Assistant Comptroller (COE) Recruitment covering ${topics.length} key topics. Features graduate-level MCQs designed to test basic conceptual understanding, practical procedures, and application of knowledge as per JKSSB examination standards, including Accountancy, Book Keeping, Taxation, and Financial Management.`
+},
 
     vas_jkpsc: {
     name: "JKPSC Veterinary Assistant Surgeon Recruitment",
